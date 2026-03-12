@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guia do Professor — Aristóteles</title>
+  <meta name="description" content="Guia pedagógico para professores de filosofia que usam o sistema Aristóteles em sala de aula.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <style>
+    /* ── Variáveis locais ────────────────────────────────────────────── */
+    :root {
+      --lapis:      #2b4b7e;
+      --lapis-bg:   rgba(43, 75, 126, 0.07);
+      --lapis-bd:   rgba(43, 75, 126, 0.22);
+      --rust-bg:    rgba(139, 58, 42, 0.07);
+      --rust-bd:    rgba(139, 58, 42, 0.22);
+      --gold-bg:    rgba(201, 162, 39, 0.07);
+    }
+
+    /* ── Layout de dois painéis ──────────────────────────────────────── */
+    .page-wrapper {
+      display: flex;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 3.5rem;
+      gap: 1.5rem;
+      align-items: flex-start;
+    }
+
+    /* ── Sidebar ─────────────────────────────────────────────────────── */
+    .guia-sidebar {
+      width: 220px;
+      flex-shrink: 0;
+    }
+
+    .sidebar-panel {
+      position: sticky;
+      top: 1.5rem;
+      background: rgba(245, 239, 227, 0.92);
+      border: 1px solid var(--border-medium);
+      border-radius: var(--radius-md);
+      box-shadow: 1px 3px 10px var(--color-shadow);
+      padding: 1.1rem 0;
+    }
+
+    .sidebar-panel .sec-group {
+      font-family: var(--font-serif);
+      font-size: 0.75rem;
+      font-variant: small-caps;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+      padding: 0.9rem 1rem 0.3rem;
+    }
+
+    .sidebar-panel a {
+      display: block;
+      font-family: var(--font-serif);
+      font-size: 0.88rem;
+      color: var(--text-secondary);
+      text-decoration: none;
+      padding: 0.3rem 1rem 0.3rem 1.1rem;
+      border-left: 3px solid transparent;
+      transition: border-left-color 0.15s, color 0.15s;
+      line-height: 1.4;
+    }
+
+    .sidebar-panel a:hover {
+      border-left-color: var(--border-medium);
+      color: var(--text-primary);
+    }
+
+    /* ── Conteúdo principal ──────────────────────────────────────────── */
+    .guia-content {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .content-card {
+      background: rgba(245, 239, 227, 0.92);
+      border: 1px solid var(--border-medium);
+      border-radius: var(--radius-md);
+      box-shadow: 2px 4px 18px var(--color-shadow-strong);
+      padding: 2.5rem 2.8rem;
+    }
+
+    .content-card h1 {
+      font-family: var(--font-display);
+      font-size: var(--text-xl);
+      font-weight: 400;
+      color: var(--text-primary);
+      margin: 0 0 0.3rem;
+      letter-spacing: 0.02em;
+    }
+
+    .content-card .subtitulo {
+      font-family: var(--font-serif);
+      font-style: italic;
+      font-size: 1rem;
+      color: var(--text-secondary);
+      margin: 0 0 2rem;
+    }
+
+    .content-card h2 {
+      font-family: var(--font-display);
+      font-size: 1.1rem;
+      font-weight: 400;
+      font-variant: small-caps;
+      letter-spacing: 0.07em;
+      color: var(--color-rust);
+      border-bottom: 1px solid var(--border-light);
+      padding-bottom: 0.35rem;
+      margin: 2.2rem 0 1rem;
+      scroll-margin-top: 1.5rem;
+    }
+
+    .content-card h3 {
+      font-family: var(--font-display);
+      font-size: 1rem;
+      font-weight: 400;
+      color: var(--lapis);
+      margin: 1.5rem 0 0.5rem;
+      scroll-margin-top: 1.5rem;
+    }
+
+    .content-card p {
+      font-family: var(--font-serif);
+      font-size: 1rem;
+      line-height: 1.75;
+      color: var(--text-primary);
+      margin: 0 0 0.9rem;
+    }
+
+    .content-card ul, .content-card ol {
+      font-family: var(--font-serif);
+      font-size: 1rem;
+      line-height: 1.75;
+      color: var(--text-primary);
+      padding-left: 1.5rem;
+      margin: 0 0 0.9rem;
+    }
+
+    .content-card li { margin-bottom: 0.3rem; }
+
+    /* ── Callouts ────────────────────────────────────────────────────── */
+    .aviso {
+      background: var(--rust-bg);
+      border-left: 4px solid var(--color-rust);
+      padding: 0.8rem 1.2rem;
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+      margin: 1rem 0;
+    }
+
+    .nota {
+      background: var(--gold-bg);
+      border-left: 3px solid var(--color-gold);
+      padding: 0.8rem 1.2rem;
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+      margin: 1rem 0;
+    }
+
+    .info {
+      background: var(--lapis-bg);
+      border-left: 3px solid var(--lapis);
+      padding: 0.8rem 1.2rem;
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+      margin: 1rem 0;
+    }
+
+    .aviso p, .nota p, .info p { margin: 0; font-size: 0.95rem; }
+
+    /* ── Cards de atividade ──────────────────────────────────────────── */
+    .atividade {
+      border: 1px solid var(--border-medium);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      margin: 1.3rem 0;
+    }
+
+    .atividade-header {
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+      background: linear-gradient(90deg, rgba(139, 58, 42, 0.08), transparent);
+      padding: 0.7rem 1rem;
+      border-bottom: 1px solid var(--border-light);
+    }
+
+    .atividade-num {
+      background: var(--color-rust);
+      color: var(--bg-surface);
+      font-family: var(--font-serif);
+      font-variant: small-caps;
+      font-size: 0.82rem;
+      padding: 0.15rem 0.6rem;
+      border-radius: 2px;
+      white-space: nowrap;
+    }
+
+    .atividade-titulo {
+      font-family: var(--font-display);
+      font-size: 1rem;
+      font-weight: 400;
+      color: var(--text-primary);
+      letter-spacing: 0.02em;
+    }
+
+    .atividade-body {
+      padding: 1rem 1.2rem;
+      background: rgba(245, 239, 227, 0.5);
+    }
+
+    .atividade-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin-bottom: 0.9rem;
+    }
+
+    .meta-tag {
+      display: inline-block;
+      background: var(--lapis-bg);
+      border: 1px solid var(--lapis-bd);
+      border-radius: 2px;
+      padding: 0.12rem 0.5rem;
+      font-family: var(--font-serif);
+      font-size: 0.83rem;
+      color: var(--text-secondary);
+    }
+
+    .atividade-body p {
+      margin: 0 0 0.7rem;
+      font-size: 0.97rem;
+    }
+
+    .atividade-body ol, .atividade-body ul {
+      margin: 0 0 0.7rem;
+      font-size: 0.97rem;
+    }
+
+    /* Badges de nível */
+    .nivel-tag {
+      display: inline-block;
+      padding: 0.15rem 0.55rem;
+      border-radius: 2px;
+      font-family: var(--font-serif);
+      font-size: 0.78rem;
+      font-variant: small-caps;
+    }
+
+    .nivel-tag.em {
+      background: var(--lapis-bg);
+      color: var(--lapis);
+      border: 1px solid var(--lapis-bd);
+    }
+
+    .nivel-tag.ef {
+      background: rgba(46, 91, 62, 0.1);
+      color: #2e5b3e;
+      border: 1px solid rgba(46, 91, 62, 0.25);
+    }
+
+    /* ── Tabela ──────────────────────────────────────────────────────── */
+    table.nivel-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-family: var(--font-serif);
+      font-size: 0.93rem;
+      margin: 1rem 0;
+    }
+
+    table.nivel-table th {
+      text-align: left;
+      padding: 0.5rem 0.8rem;
+      background: rgba(139, 58, 42, 0.06);
+      border-bottom: 2px solid var(--border-medium);
+      font-variant: small-caps;
+      font-weight: 400;
+      letter-spacing: 0.05em;
+      color: var(--color-rust);
+    }
+
+    table.nivel-table td {
+      padding: 0.5rem 0.8rem;
+      border-bottom: 1px solid var(--border-light);
+      vertical-align: top;
+    }
+
+    table.nivel-table tr:last-child td { border-bottom: none; }
+
+    /* ── Responsive ──────────────────────────────────────────────────── */
+    @media (max-width: 900px) {
+      .page-wrapper {
+        flex-direction: column;
+      }
+      .guia-sidebar {
+        width: 100%;
+      }
+      .sidebar-panel {
+        position: static;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0;
+        padding: 0.5rem 0;
+      }
+      .sidebar-panel .sec-group { display: none; }
+      .sidebar-panel a {
+        padding: 0.4rem 0.8rem;
+        border-left: none;
+        border-bottom: 2px solid transparent;
+      }
+      .sidebar-panel a:hover { border-bottom-color: var(--border-medium); border-left: none; }
+    }
+
+    @media (max-width: 600px) {
+      .content-card { padding: 1.5rem 1.1rem; }
+      .atividade-meta { gap: 0.3rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Cabeçalho ======================================================= -->
+  <header class="site-header" role="banner">
+    <div class="header-inner">
+      <div class="header-brand">
+        <a href="index.html" class="header-title">Aristóteles</a>
+        <span class="header-subtitle">Sistema de Filosofia</span>
+      </div>
+      <nav class="header-nav" aria-label="Navegação principal">
+        <a href="index.html"             class="header-nav-link">Início</a>
+        <a href="guia-professor.html"    class="header-nav-link active">Guia do Professor</a>
+        <a href="plano-aula.html"        class="header-nav-link">Plano de Aula</a>
+        <a href="sobre.html"             class="header-nav-link">Sobre</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Layout principal ================================================ -->
+  <div class="page-wrapper">
+
+    <!-- Sidebar ======================================================= -->
+    <aside class="guia-sidebar" aria-label="Índice do guia">
+      <nav class="sidebar-panel">
+        <div class="sec-group">Início</div>
+        <a href="#o-que-e">O que é o Aristóteles?</a>
+        <a href="#como-usar">Como usar em sala</a>
+        <a href="#modos">Modos do sistema</a>
+        <div class="sec-group">Atividades</div>
+        <a href="#ativ-1">1 — O argumento escondido</a>
+        <a href="#ativ-2">2 — Tribunal socrático</a>
+        <a href="#ativ-3">3 — Leitura com anotações</a>
+        <a href="#ativ-4">4 — Debate entre escolas</a>
+        <a href="#ativ-5">5 — Dilema ético real</a>
+        <div class="sec-group">Referência</div>
+        <a href="#modulos">Mapa de módulos</a>
+        <a href="#limitacoes">Limitações</a>
+      </nav>
+    </aside>
+
+    <!-- Conteúdo ====================================================== -->
+    <main class="guia-content" id="main-content">
+      <div class="content-card">
+
+        <h1>Guia do Professor</h1>
+        <p class="subtitulo">Como usar o Aristóteles em sala de aula — orientações práticas e atividades prontas</p>
+
+        <!-- O que é ==================================================== -->
+        <h2 id="o-que-e">O que é o Aristóteles</h2>
+
+        <p>O Aristóteles é um sistema de ensino de filosofia que organiza 42 lições em 9 módulos progressivos, de «O que é filosofia?» até Wittgenstein e os jogos de linguagem. Cada lição inclui textos primários anotados, exercícios de reconstrução de argumentos e análise de posições filosóficas.</p>
+
+        <p>O diferencial do sistema é pedagógico: não é um repositório de informação sobre filósofos. É um ambiente de <em>prática filosófica activa</em>. Os alunos não lêem sobre Sócrates — reconstruem o elenchos socrático passo a passo. Não memorizam o imperativo categórico — testam se uma acção específica passa no teste de universalização.</p>
+
+        <div class="nota">
+          <p><strong>Nota para o primeiro uso:</strong> Reserve 10 minutos para que os alunos explorem o sistema sozinhos antes de qualquer atividade guiada. A orientação espontânea reduz a carga cognitiva de aprender a ferramenta ao mesmo tempo que se aprende filosofia.</p>
+        </div>
+
+        <!-- Como usar ================================================== -->
+        <h2 id="como-usar">Como usar em sala</h2>
+
+        <p>O sistema pode ser usado de três formas complementares:</p>
+
+        <p><strong>Exploração individual:</strong> cada aluno percorre as lições ao seu ritmo, lê os textos primários e responde os exercícios. O professor circula e debate as respostas. Funciona bem como trabalho de casa com discussão posterior.</p>
+
+        <p><strong>Projecção colectiva:</strong> o professor projecta o sistema e conduz a turma pela lição, pausando nos exercícios para debate. Especialmente eficaz nas lições com o tipo «reconstruct» — a turma decide colectivamente a ordem correcta dos passos do argumento.</p>
+
+        <p><strong>Actividade estruturada:</strong> as cinco atividades descritas abaixo usam o sistema como suporte, não como protagonista. O sistema fornece o texto ou o argumento; a actividade é a discussão e o debate.</p>
+
+        <!-- Modos ====================================================== -->
+        <h2 id="modos">Modos do sistema</h2>
+
+        <table class="nivel-table">
+          <thead>
+            <tr>
+              <th>Modo</th>
+              <th>Atalho</th>
+              <th>O que activa</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Modo Professor</strong></td>
+              <td><code>Alt+P</code></td>
+              <td>Revela objectivos da lição, dificuldades previstas, critério de resposta e sugestão de mediação em cada lição e exercício.</td>
+            </tr>
+            <tr>
+              <td><strong>Linha do Tempo</strong></td>
+              <td><code>Alt+T</code></td>
+              <td>56 entradas cronológicas da filosofia ocidental — útil para situar autores no contexto histórico.</td>
+            </tr>
+            <tr>
+              <td><strong>Glossário</strong></td>
+              <td><code>Alt+G</code></td>
+              <td>52 conceitos com etimologia, definição e exemplos — referência rápida durante a leitura.</td>
+            </tr>
+            <tr>
+              <td><strong>Fonte maior/menor</strong></td>
+              <td><code>Alt+±</code></td>
+              <td>Ajuste de tamanho de fonte — útil em projecção.</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!-- Atividade 1 ================================================ -->
+        <h2 id="ativ-1">Atividades para sala de aula</h2>
+
+        <div class="atividade">
+          <div class="atividade-header">
+            <span class="atividade-num">Ativ. 1</span>
+            <span class="atividade-titulo">O argumento escondido</span>
+          </div>
+          <div class="atividade-body">
+            <div class="atividade-meta">
+              <span class="meta-tag"><strong>Nível:</strong> <span class="nivel-tag em">EM</span></span>
+              <span class="meta-tag"><strong>Duração:</strong> 30–40 min</span>
+              <span class="meta-tag"><strong>Modo:</strong> Individual + discussão</span>
+              <span class="meta-tag"><strong>Módulo:</strong> Lógica ou qualquer</span>
+            </div>
+            <p><strong>Problema:</strong> alunos frequentemente confundem «ter uma opinião» com «ter um argumento». Esta actividade torna a distinção concreta.</p>
+            <p><strong>Procedimento:</strong></p>
+            <ol>
+              <li>Peça aos alunos que escrevam uma posição sobre um assunto controverso (qualquer — redes sociais, sistema escolar, política local).</li>
+              <li>Em pares, um aluno apresenta a posição e o outro pergunta: «Por que você acredita nisso?» até extrair as premissas implícitas.</li>
+              <li>Cada par tenta escrever o argumento em forma explícita: premissa 1, premissa 2, conclusão.</li>
+              <li>Discussão colectiva: quais premissas são factuais? Quais são julgamentos de valor? Qual premissa é a mais vulnerável?</li>
+            </ol>
+            <p><strong>Conexão com o sistema:</strong> Use a lição <em>O que é um argumento?</em> (módulo Introdução) como preparação. A secção «Identificando argumentos disfarçados» é directamente aplicável.</p>
+            <p><strong>Variante:</strong> Em vez de posições dos alunos, use manchetes de jornal. A turma identifica o argumento implícito em cada manchete e avalia a sua solidez.</p>
+          </div>
+        </div>
+
+        <!-- Atividade 2 ================================================ -->
+        <div class="atividade">
+          <div class="atividade-header">
+            <span class="atividade-num">Ativ. 2</span>
+            <span class="atividade-titulo">Tribunal socrático</span>
+          </div>
+          <div class="atividade-body">
+            <div class="atividade-meta">
+              <span class="meta-tag"><strong>Nível:</strong> <span class="nivel-tag em">EM</span></span>
+              <span class="meta-tag"><strong>Duração:</strong> 45–60 min</span>
+              <span class="meta-tag"><strong>Modo:</strong> Encenação em grupo</span>
+              <span class="meta-tag"><strong>Módulo:</strong> Os Três Gregos</span>
+            </div>
+            <p><strong>Problema:</strong> a vida e a morte de Sócrates é o melhor exemplo disponível de que ideias filosóficas têm consequências reais. Esta actividade torna isso visceral.</p>
+            <p><strong>Procedimento:</strong></p>
+            <ol>
+              <li>A turma lê a lição <em>O método socrático</em> e o excerto da <em>Apologia de Platão</em> disponível no sistema.</li>
+              <li>Dividir a turma: um terço são «juízes» atenienses (devem votar pela condenação ou absolvição), um terço são «acusadores» (Ânito, Meleto), um terço é a defesa de Sócrates.</li>
+              <li>Cada grupo tem 10 minutos para preparar os seus argumentos usando o material do sistema.</li>
+              <li>Julgamento: acusação (5 min), defesa (5 min), perguntas dos juízes (10 min), deliberação secreta, veredicto.</li>
+            </ol>
+            <p><strong>Debate após o veredicto:</strong> o veredicto histórico foi condenação por 280 a 220 votos. Se a turma absolveu — por que os atenienses condenaram? Se condenou — o argumento socrático é insuficiente, ou a democracia ateniense estava certa?</p>
+            <p><strong>Variante:</strong> substituir o julgamento de Sócrates pelo caso de Galileu (com ligação ao módulo Epistemologia) ou pelo julgamento de Joana D'Arc (com ligação ao módulo Medieval).</p>
+          </div>
+        </div>
+
+        <!-- Atividade 3 ================================================ -->
+        <div class="atividade">
+          <div class="atividade-header">
+            <span class="atividade-num">Ativ. 3</span>
+            <span class="atividade-titulo">Leitura com anotações</span>
+          </div>
+          <div class="atividade-body">
+            <div class="atividade-meta">
+              <span class="meta-tag"><strong>Nível:</strong> <span class="nivel-tag em">EM</span> <span class="nivel-tag ef">EF (9.º)</span></span>
+              <span class="meta-tag"><strong>Duração:</strong> 25–35 min</span>
+              <span class="meta-tag"><strong>Modo:</strong> Individual silencioso + debate</span>
+              <span class="meta-tag"><strong>Módulo:</strong> Qualquer com texto primário</span>
+            </div>
+            <p>O sistema inclui 37 excertos de textos filosóficos primários com anotações de termos técnicos activadas por hover. Esta actividade treina a leitura lenta e anotada.</p>
+            <p><strong>Procedimento:</strong></p>
+            <ol>
+              <li>Escolha um texto do sistema (sugestão para iniciantes: <em>Epicuro, Carta a Meneceu</em>; para avançados: <em>Kant, A boa vontade</em>).</li>
+              <li>Cada aluno lê o texto em silêncio e sublinha (no caderno ou numa cópia impressa): (a) a tese principal, (b) a razão mais forte, (c) a palavra ou frase que não entende.</li>
+              <li>Em grupos de 3, cada aluno apresenta o que sublinhou. O grupo tenta formular em uma frase o argumento principal do excerto.</li>
+              <li>Cada grupo apresenta a sua formulação. A turma decide qual é a mais precisa — e por quê.</li>
+            </ol>
+            <p><strong>Variante:</strong> use o «Modo de leitura lenta» do sistema (um parágrafo de cada vez) em projecção colectiva. Pause após cada parágrafo e pergunte: o que acabou de ser afirmado? Que palavra-chave precisa de explicação?</p>
+          </div>
+        </div>
+
+        <!-- Atividade 4 ================================================ -->
+        <div class="atividade">
+          <div class="atividade-header">
+            <span class="atividade-num">Ativ. 4</span>
+            <span class="atividade-titulo">Debate entre escolas</span>
+          </div>
+          <div class="atividade-body">
+            <div class="atividade-meta">
+              <span class="meta-tag"><strong>Nível:</strong> <span class="nivel-tag em">EM</span></span>
+              <span class="meta-tag"><strong>Duração:</strong> 50–70 min</span>
+              <span class="meta-tag"><strong>Modo:</strong> Debate estruturado</span>
+              <span class="meta-tag"><strong>Módulo:</strong> Ética ou Correntes Filosóficas</span>
+            </div>
+            <p>Uma questão ética concreta é apresentada à turma. Três grupos defendem cada uma das três grandes tradições éticas — virtude, deontologia, consequencialismo — usando os argumentos do sistema.</p>
+            <p><strong>Questão sugerida:</strong> «Um médico tem doses limitadas de um medicamento. Dois pacientes precisam urgentemente: um idoso sem família e um jovem pai de três filhos. Como distribuir?»</p>
+            <p><strong>Procedimento:</strong></p>
+            <ol>
+              <li>A turma lê as três lições de ética relevantes (ou o professor faz resumo de 10 minutos em projecção).</li>
+              <li>Três grupos de 4–6 alunos: grupo Aristóteles (virtude), grupo Kant (dever), grupo Mill (utilidade).</li>
+              <li>Cada grupo tem 15 minutos para preparar: (a) qual é a resposta da sua teoria para o dilema; (b) qual a justificação central; (c) qual a objecção mais forte que os outros grupos vão levantar.</li>
+              <li>Debate: cada grupo apresenta (3 min), grupos fazem objecções (2 min cada), réplicas (2 min cada).</li>
+              <li>Turma vota na posição mais convincente — não necessariamente a que concordam.</li>
+            </ol>
+            <p><strong>Variante:</strong> usar exercícios de «comparison» do sistema — o professor projecta e a turma atribui posições filosóficas aos autores correctos antes do debate, garantindo que todos partem da mesma base de compreensão.</p>
+          </div>
+        </div>
+
+        <!-- Atividade 5 ================================================ -->
+        <div class="atividade">
+          <div class="atividade-header">
+            <span class="atividade-num">Ativ. 5</span>
+            <span class="atividade-titulo">O dilema de Gettier</span>
+          </div>
+          <div class="atividade-body">
+            <div class="atividade-meta">
+              <span class="meta-tag"><strong>Nível:</strong> <span class="nivel-tag em">EM (2.º / 3.º)</span></span>
+              <span class="meta-tag"><strong>Duração:</strong> 40–50 min</span>
+              <span class="meta-tag"><strong>Modo:</strong> Resolução de problemas + escrita</span>
+              <span class="meta-tag"><strong>Módulo:</strong> Epistemologia</span>
+            </div>
+            <p>Os casos de Gettier são um exemplo raro na filosofia: um artigo de três páginas publicado em 1963 destruiu um consenso de dois mil anos sobre a definição de conhecimento. Esta actividade usa isso para mostrar que a filosofia é uma disciplina viva — não um arquivo de respostas estabelecidas.</p>
+            <p><strong>Procedimento:</strong></p>
+            <ol>
+              <li>O professor apresenta a definição tripartite clássica de conhecimento (crença + verdade + justificação) — 5 minutos.</li>
+              <li>O professor narra um caso de Gettier simples (ver lição <em>O que é conhecimento?</em>) sem revelar a conclusão.</li>
+              <li>Individualmente, cada aluno escreve: «Esse caso é ou não é conhecimento? Por quê?» — 5 minutos.</li>
+              <li>Em grupos de 3, os alunos tentam formular uma quarta condição que «conserte» a definição tripartite e bloqueie o caso de Gettier.</li>
+              <li>Cada grupo apresenta a sua quarta condição. A turma tenta construir um contra-exemplo que quebra cada proposta.</li>
+            </ol>
+            <p><strong>Ligação com a história da filosofia:</strong> após a actividade, mostrar que filósofos profissionais passaram cinquenta anos tentando fazer exatamente o que a turma tentou — e não chegaram a um consenso. O objectivo não é resolver o problema: é sentir o que é um problema filosófico genuíno.</p>
+          </div>
+        </div>
+
+        <!-- Mapa de módulos ============================================ -->
+        <h2 id="modulos">Mapa de módulos e sequência sugerida</h2>
+
+        <p>Os nove módulos têm dependências pedagógicas explícitas, mas não obrigatórias. Sugestão de sequência por nível:</p>
+
+        <table class="nivel-table">
+          <thead>
+            <tr><th>Percurso</th><th>Módulos</th><th>Duração</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Mínimo</strong></td>
+              <td>Introdução → Lógica → Os Três Gregos</td>
+              <td>20–25h</td>
+            </tr>
+            <tr>
+              <td><strong>Ética</strong></td>
+              <td>Introdução → Os Três Gregos → Ética → Correntes (parcial)</td>
+              <td>30–35h</td>
+            </tr>
+            <tr>
+              <td><strong>Epistemologia</strong></td>
+              <td>Introdução → Lógica → Epistemologia → Filosofia Moderna (Hume, Kant)</td>
+              <td>28–32h</td>
+            </tr>
+            <tr>
+              <td><strong>Completo</strong></td>
+              <td>Todos os 9 módulos na ordem apresentada</td>
+              <td>70–90h</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!-- Limitações ================================================= -->
+        <h2 id="limitacoes">Limitações — comunique aos alunos</h2>
+
+        <div class="aviso">
+          <p><strong>O sistema não dá a resposta certa</strong> para questões filosóficas abertas. Quando um aluno pergunta «mas quem está certo — Kant ou Mill?», a resposta honesta é que filósofos sérios continuam a discutir isso. Comunicar isso explicitamente é parte do aprendizado filosófico — e é diferente de dizer que «qualquer resposta vale».</p>
+        </div>
+
+        <p>O sistema cobre a filosofia ocidental. Pensamento africano, indiano, chinês e islâmico estão ausentes ou marginais — limite que o professor deve contextualizar. O conteúdo foi desenvolvido para o contexto educacional brasileiro mas usa fontes em tradução sem notas filológicas — para trabalho académico rigoroso, os alunos devem consultar edições críticas.</p>
+
+        <div class="nota">
+          <p>O progresso é local e não persiste entre sessões. Se um aluno responde exercícios numa sessão, o histórico não estará disponível na próxima. O sistema é ferramenta de prática, não de avaliação — a avaliação é responsabilidade do professor.</p>
+        </div>
+
+      </div><!-- /.content-card -->
+    </main>
+
+  </div><!-- /.page-wrapper -->
+
+  <!-- Rodapé =========================================================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <p class="footer-credits">Aristóteles &mdash; Sistema de Filosofia &mdash; v1.10.0</p>
+      <nav class="footer-ecosystem" aria-label="Ecossistema educacional">
+        <span style="color: var(--text-muted); font-size: var(--text-xs);">Ecossistema:</span>
+        <a href="https://luddevergard3n.github.io/humboldt/" class="footer-ecosystem-link" target="_blank" rel="noopener">Humboldt</a>
+        <a href="https://luddevergard3n.github.io/johnson-english/" class="footer-ecosystem-link" target="_blank" rel="noopener">Johnson</a>
+        <a href="#" class="footer-ecosystem-link">Heródoto</a>
+        <a href="#" class="footer-ecosystem-link">Euclides</a>
+        <a href="#" class="footer-ecosystem-link">Lavoisier</a>
+        <a href="#" class="footer-ecosystem-link">Archimedes</a>
+        <a href="#" class="footer-ecosystem-link">Darwin</a>
+      </nav>
+    </div>
+  </footer>
+
+</body>
+</html>

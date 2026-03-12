@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aristóteles — laboratório de pensamento filosófico. Aprenda a ler, analisar e argumentar em filosofia.">
+  <meta name="theme-color" content="#1a1410">
+
+  <title>Aristóteles — Filosofia</title>
+
+  <!-- Preconnect para Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/mobile.css">
+
+  <!-- PWA manifest (opcional) -->
+  <link rel="manifest" href="assets/manifest.json">
+</head>
+<body class="font-medium">
+
+  <!-- App shell -->
+  <div class="app" id="app">
+
+    <!-- Cabeçalho -->
+    <header class="site-header" role="banner">
+      <div class="header-inner">
+
+        <button
+          class="header-menu-toggle"
+          id="sidebar-toggle"
+          aria-label="Abrir menu lateral"
+          aria-controls="site-sidebar"
+          aria-expanded="false"
+        >☰</button>
+
+        <a href="#/" class="site-logo" aria-label="Aristóteles — início">
+          Aristóteles
+          <span class="site-logo-sub">Filosofia</span>
+        </a>
+
+        <nav class="header-nav" aria-label="Navegação principal">
+          <a href="#/"           class="header-nav-link">Início</a>
+          <a href="#/timeline"   class="header-nav-link">Linha do Tempo</a>
+          <a href="#/glossary"   class="header-nav-link">Glossário</a>
+          <a href="#/author/aristotle" class="header-nav-link">Autores</a>
+          <a href="#/school/platonismo" class="header-nav-link">Escolas</a>
+          <a href="guia-professor.html" class="header-nav-link">Guia do Professor</a>
+          <a href="plano-aula.html"     class="header-nav-link">Plano de Aula</a>
+          <a href="sobre.html"          class="header-nav-link">Sobre</a>
+        </nav>
+
+        <div class="header-controls">
+          <button
+            class="header-btn"
+            id="teacher-mode-btn"
+            aria-pressed="false"
+            title="Alternar modo professor (Alt+P)"
+          >Professor</button>
+
+          <button
+            class="header-btn"
+            id="font-increase-btn"
+            aria-label="Aumentar fonte (Alt++)"
+            title="Aumentar fonte"
+          >A+</button>
+
+          <button
+            class="header-btn"
+            id="font-decrease-btn"
+            aria-label="Diminuir fonte (Alt+-)"
+            title="Diminuir fonte"
+          >A−</button>
+
+          <button
+            class="header-btn"
+            id="contrast-btn"
+            aria-pressed="false"
+            title="Alternar alto contraste"
+          >Contraste</button>
+        </div>
+
+      </div>
+    </header>
+
+    <!-- Navegação lateral -->
+    <nav class="site-sidebar" id="site-sidebar" aria-label="Navegação lateral" role="navigation">
+
+      <div class="sidebar-section">
+        <h2 class="sidebar-section-title">Módulos</h2>
+        <ul class="sidebar-nav" id="sidebar-modules">
+          <li class="sidebar-nav-item">
+            <a href="#/module/intro"            class="sidebar-nav-link">Introdução à Filosofia</a>
+          </li>
+          <li class="sidebar-nav-item">
+            <a href="#/module/greek-philosophy" class="sidebar-nav-link">Os Três Gregos</a>
+          </li>
+          <li class="sidebar-nav-item">
+            <a href="#/module/schools"          class="sidebar-nav-link">Escolas Filosóficas</a>
+          </li>
+          <li class="sidebar-nav-item">
+            <a href="#/module/currents"         class="sidebar-nav-link">Correntes Filosóficas</a>
+          </li>
+          <li class="sidebar-nav-item">
+            <a href="#/module/modern"           class="sidebar-nav-link">Filosofia Moderna</a>
+          </li>
+        </ul>
+      </div>
+
+      <hr class="sidebar-divider">
+
+      <div class="sidebar-section">
+        <h2 class="sidebar-section-title">Explorar</h2>
+        <ul class="sidebar-nav">
+          <li class="sidebar-nav-item">
+            <a href="#/timeline" class="sidebar-nav-link">Linha do Tempo</a>
+          </li>
+          <li class="sidebar-nav-item">
+            <a href="#/glossary" class="sidebar-nav-link">Glossário</a>
+          </li>
+        </ul>
+      </div>
+
+      <hr class="sidebar-divider">
+
+      <div class="sidebar-section">
+        <h2 class="sidebar-section-title">Autores</h2>
+        <ul class="sidebar-nav">
+          <li class="sidebar-nav-item"><a href="#/author/socrates"       class="sidebar-nav-link">Sócrates</a></li>
+          <li class="sidebar-nav-item"><a href="#/author/plato"          class="sidebar-nav-link">Platão</a></li>
+          <li class="sidebar-nav-item"><a href="#/author/aristotle"      class="sidebar-nav-link">Aristóteles</a></li>
+          <li class="sidebar-nav-item"><a href="#/author/descartes"      class="sidebar-nav-link">Descartes</a></li>
+          <li class="sidebar-nav-item"><a href="#/author/hume"           class="sidebar-nav-link">Hume</a></li>
+          <li class="sidebar-nav-item"><a href="#/author/kant"           class="sidebar-nav-link">Kant</a></li>
+          <li class="sidebar-nav-item"><a href="#/author/thomas-aquinas" class="sidebar-nav-link">Tomás de Aquino</a></li>
+        </ul>
+      </div>
+
+    </nav>
+
+    <!-- Conteúdo principal -->
+    <main class="site-main" id="main-content" tabindex="-1">
+      <div id="breadcrumb" role="navigation"></div>
+      <!-- Conteúdo dinâmico injetado pelo router -->
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="site-footer" role="contentinfo">
+      <div class="footer-inner">
+        <p class="footer-credits">
+          Aristóteles &mdash; Sistema de Filosofia
+        </p>
+        <nav class="footer-ecosystem" aria-label="Ecossistema educacional">
+          <span style="color: var(--text-muted); font-size: var(--text-xs);">Ecossistema:</span>
+          <a href="https://luddevergard3n.github.io/humboldt/" class="footer-ecosystem-link" target="_blank" rel="noopener">Humboldt</a>
+          <a href="https://luddevergard3n.github.io/johnson-english/" class="footer-ecosystem-link" target="_blank" rel="noopener">Johnson</a>
+          <a href="#" class="footer-ecosystem-link">Heródoto</a>
+          <a href="#" class="footer-ecosystem-link">Euclides</a>
+          <a href="#" class="footer-ecosystem-link">Lavoisier</a>
+          <a href="#" class="footer-ecosystem-link">Archimedes</a>
+          <a href="#" class="footer-ecosystem-link">Darwin</a>
+        </nav>
+      </div>
+    </footer>
+
+  </div><!-- /#app -->
+
+  <!-- Controles de interface (ligados via main.js) -->
+  <script type="module">
+    import { State }         from './js/state.js';
+    import { UI }            from './js/ui.js';
+    import { Accessibility } from './js/accessibility.js';
+
+    // Sidebar toggle (mobile)
+    const sidebarToggle = document.getElementById('sidebar-toggle');
+    const sidebar       = document.getElementById('site-sidebar');
+
+    if (sidebarToggle && sidebar) {
+      sidebarToggle.addEventListener('click', () => {
+        const open = sidebar.classList.toggle('sidebar--open');
+        sidebarToggle.setAttribute('aria-expanded', String(open));
+        if (open) {
+          // Fecha ao clicar fora
+          const closeOnOutside = e => {
+            if (!sidebar.contains(e.target) && e.target !== sidebarToggle) {
+              sidebar.classList.remove('sidebar--open');
+              sidebarToggle.setAttribute('aria-expanded', 'false');
+              document.removeEventListener('click', closeOnOutside);
+            }
+          };
+          setTimeout(() => document.addEventListener('click', closeOnOutside), 10);
+        }
+      });
+    }
+
+    // Modo professor
+    const teacherBtn = document.getElementById('teacher-mode-btn');
+    if (teacherBtn) {
+      teacherBtn.addEventListener('click', () => {
+        const active = State.toggleTeacherMode();
+        teacherBtn.setAttribute('aria-pressed', String(active));
+        teacherBtn.classList.toggle('header-btn--active', active);
+        document.getElementById('app').dataset.teacherMode = String(active);
+        UI.notify(active ? 'Modo professor ativado.' : 'Modo professor desativado.');
+      });
+    }
+
+    // Fonte
+    const fontIncrease = document.getElementById('font-increase-btn');
+    const fontDecrease = document.getElementById('font-decrease-btn');
+    const sizes        = ['small', 'medium', 'large'];
+
+    function changeFontSize(delta) {
+      const current = State.get('ui.fontSize') || 'medium';
+      const idx     = sizes.indexOf(current);
+      const next    = sizes[Math.max(0, Math.min(sizes.length - 1, idx + delta))];
+      if (next !== current) {
+        State.set('ui.fontSize', next);
+        UI.setFontSize(next);
+      }
+    }
+
+    if (fontIncrease) fontIncrease.addEventListener('click', () => changeFontSize(1));
+    if (fontDecrease) fontDecrease.addEventListener('click', () => changeFontSize(-1));
+
+    // Alto contraste
+    const contrastBtn = document.getElementById('contrast-btn');
+    if (contrastBtn) {
+      contrastBtn.addEventListener('click', () => {
+        const current = State.get('ui.highContrast');
+        State.set('ui.highContrast', !current);
+        UI.setHighContrast(!current);
+        contrastBtn.setAttribute('aria-pressed', String(!current));
+        contrastBtn.classList.toggle('header-btn--active', !current);
+      });
+    }
+
+    // Atualiza link ativo na sidebar ao mudar rota
+    State.subscribe(({ value }) => {
+      document.querySelectorAll('.sidebar-nav-link, .header-nav-link').forEach(link => {
+        const hash = link.getAttribute('href');
+        link.classList.toggle('active', hash === '#' + window.location.hash.replace('#', ''));
+      });
+    }, 'currentView');
+  </script>
+
+  <!-- Entrada principal da aplicação -->
+  <script type="module" src="js/main.js"></script>
+
+</body>
+</html>

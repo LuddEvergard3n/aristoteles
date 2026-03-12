@@ -1,0 +1,236 @@
+/* ====================================================================
+ * mobile.css
+ * Responsividade: breakpoints e ajustes para tablet e celular.
+ * Mobile-first: este arquivo corrige o layout de desktop para telas menores.
+ * ==================================================================== */
+
+/* ------------------------------------------------------------------
+ * Tablet (≤ 900px)
+ * ------------------------------------------------------------------ */
+@media (max-width: 900px) {
+  .app {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "header"
+      "main"
+      "footer";
+  }
+
+  .site-sidebar {
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    width: min(320px, 90vw);
+    height: 100vh;
+    z-index: var(--z-modal);
+    box-shadow: var(--shadow-lg);
+    background: var(--bg-raised);
+    padding-top: var(--space-8);
+  }
+
+  .site-sidebar.sidebar--open {
+    display: block;
+    animation: slideIn 0.25s ease;
+  }
+
+  @keyframes slideIn {
+    from { transform: translateX(-100%); }
+    to   { transform: translateX(0); }
+  }
+
+  .header-menu-toggle {
+    display: block;
+  }
+
+  .site-main {
+    padding: var(--space-5) var(--space-5) var(--space-7);
+    max-width: 100%;
+  }
+
+  .header-nav { display: none; }
+
+  .modules-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ------------------------------------------------------------------
+ * Mobile (≤ 600px)
+ * ------------------------------------------------------------------ */
+@media (max-width: 600px) {
+  html { font-size: 16px; }
+
+  .site-main {
+    padding: var(--space-4) var(--space-4) var(--space-7);
+  }
+
+  .header-inner {
+    padding: var(--space-3) var(--space-4);
+    gap: var(--space-3);
+  }
+
+  .header-controls {
+    gap: var(--space-2);
+  }
+
+  .header-btn {
+    font-size: var(--text-xs);
+    padding: var(--space-1) var(--space-2);
+  }
+
+  .hero { padding: var(--space-6) 0 var(--space-5); }
+  .hero-title { font-size: 2rem; }
+  .hero-subtitle { font-size: var(--text-md); }
+  .hero-description { font-size: var(--text-base); }
+
+  .entry-grid { gap: var(--space-2); }
+  .entry-card { padding: var(--space-2) var(--space-3); }
+
+  .modules-grid { gap: var(--space-3); }
+
+  .module-card { padding: var(--space-4); }
+  .module-card-title { font-size: var(--text-md); }
+
+  .lesson-item {
+    flex-direction: column;
+    gap: var(--space-3);
+  }
+
+  .lesson-number { align-self: flex-start; }
+  .lesson-duration { align-self: flex-start; }
+
+  .lesson-question-block {
+    padding: var(--space-4);
+    border-left-width: 3px;
+  }
+
+  .lesson-question { font-size: var(--text-lg); }
+
+  .reading-text { padding: var(--space-4); }
+  .reading-paragraph { font-size: var(--text-base); }
+  .segment-text { font-size: var(--text-base); }
+
+  .exercise { padding: var(--space-4); }
+
+  .classify-options {
+    flex-direction: column;
+    gap: var(--space-2);
+  }
+
+  .mapping-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-2);
+  }
+
+  .mapping-symbol { min-width: auto; }
+  .mapping-arrow { display: none; }
+  .mapping-select { width: 100%; }
+
+  .comparison-container { overflow-x: auto; }
+
+  .comparison-table {
+    min-width: 480px;
+    font-size: var(--text-xs);
+  }
+
+  .timeline-era-row {
+    flex-direction: column;
+    gap: var(--space-3);
+  }
+
+  .timeline-era-label { min-width: auto; }
+
+  .timeline-entry { min-width: 100px; }
+
+  .lesson-nav {
+    flex-direction: column;
+  }
+
+  .lesson-nav-prev,
+  .lesson-nav-next {
+    max-width: 100%;
+  }
+
+  .lesson-nav-next { text-align: left; margin-left: 0; }
+
+  .teacher-notes {
+    grid-template-columns: 1fr;
+  }
+
+  .teacher-notes dt { padding-top: var(--space-2); }
+
+  .view-title { font-size: var(--text-2xl); }
+  .author-name { font-size: var(--text-2xl); }
+  .concept-term { font-size: var(--text-2xl); }
+  .school-name { font-size: var(--text-2xl); }
+
+  .footer-inner { flex-direction: column; align-items: flex-start; }
+
+  .glossary-search-input { max-width: 100%; }
+
+  .reconstruct-item {
+    flex-wrap: wrap;
+  }
+
+  .exercise-submit-bar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  blockquote {
+    padding: var(--space-4);
+    margin: var(--space-5) 0;
+  }
+
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.5rem; }
+  h3 { font-size: 1.25rem; }
+}
+
+/* ------------------------------------------------------------------
+ * Landscape mobile pequeno
+ * ------------------------------------------------------------------ */
+@media (max-width: 480px) and (orientation: landscape) {
+  .hero { padding: var(--space-4) 0; }
+  .hero-title { font-size: 1.75rem; }
+}
+
+/* ------------------------------------------------------------------
+ * Impressão
+ * ------------------------------------------------------------------ */
+@media print {
+  .site-header,
+  .site-sidebar,
+  .site-footer,
+  .reading-controls,
+  .exercise-submit-bar,
+  .lesson-nav,
+  .breadcrumb,
+  .btn { display: none !important; }
+
+  .app {
+    grid-template-columns: 1fr;
+    grid-template-areas: "main";
+  }
+
+  .site-main {
+    padding: 0;
+    max-width: 100%;
+  }
+
+  body {
+    font-size: 12pt;
+    color: #000;
+    background: #fff;
+  }
+
+  a { text-decoration: none; color: #000; }
+  a[href]::after { content: " (" attr(href) ")"; font-size: 0.8em; }
+
+  .reading-text, .exercise, .module-card, .lesson-item {
+    break-inside: avoid;
+    border: 1px solid #ccc;
+    box-shadow: none;
+  }
+}

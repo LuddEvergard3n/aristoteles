@@ -1,0 +1,13 @@
+{
+  "name": "aristoteles",
+  "version": "1.0.0",
+  "description": "Sistema educacional de Filosofia — laboratório de pensamento filosófico",
+  "type": "module",
+  "scripts": {
+    "test": "node tests/test-runner.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}

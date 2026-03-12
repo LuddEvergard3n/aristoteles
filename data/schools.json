@@ -1,0 +1,206 @@
+[
+  {
+    "id": "pre-socratica",
+    "name": "Pré-Socrática",
+    "period": "Séc. VII–V a.C.",
+    "era": "Antiga",
+    "summary": "Conjunto de pensadores que precederam Sócrates e se dedicaram à investigação da natureza (physis) como fundamento de tudo. Buscaram princípios racionais para explicar o cosmos sem recorrer ao mito.",
+    "context": "A filosofia pré-socrática surge nas colônias gregas da Jônia (costa da Ásia Menor) e da Magna Grécia (sul da Itália). É a transição do logos mítico para o logos racional.",
+    "core_questions": [
+      "Qual é o princípio (arché) de tudo?",
+      "O que está por trás da multiplicidade do mundo?",
+      "O que é o movimento e a mudança?"
+    ],
+    "thinkers": ["heraclitus", "parmenides", "thales", "anaximander", "pythagoras", "democritus", "anaxagoras"],
+    "concepts": ["arché", "logos", "physis", "cosmos", "apeiron", "átomo"],
+    "related_schools": ["platonismo", "aristotelismo"],
+    "lesson_ids": ["pre-socratics-intro", "pre-socratics-problem"]
+  },
+  {
+    "id": "sofistas",
+    "name": "Sofistas",
+    "period": "Séc. V a.C.",
+    "era": "Antiga",
+    "summary": "Professores itinerantes de retórica e argumentação que cobravam pelo ensino e deslocaram a investigação filosófica da natureza para o homem, a linguagem e a política.",
+    "context": "Os sofistas surgem na Atenas democrática do século V a.C., quando o sucesso político dependia da capacidade de persuadir. Protagóras, Górgias e outros ensinavam as habilidades necessárias para a vida pública.",
+    "core_questions": [
+      "O que é a verdade e pode ser conhecida?",
+      "Existe uma virtude que pode ser ensinada?",
+      "A lei é natural ou convencional?"
+    ],
+    "thinkers": ["protagoras", "gorgias", "thrasymachus", "hippias"],
+    "concepts": ["relativismo", "retórica", "persuasão", "convenção", "nomos vs physis"],
+    "related_schools": ["socrática", "ceticismo"],
+    "lesson_ids": ["sophists-intro", "sophists-relativism"]
+  },
+  {
+    "id": "socrática",
+    "name": "Escola Socrática",
+    "period": "Séc. V–IV a.C.",
+    "era": "Antiga",
+    "summary": "Movimento filosófico fundado por Sócrates e continuado por seus discípulos imediatos, centrado na ética, no autoconhecimento e no método dialético.",
+    "context": "Sócrates reorientou a filosofia grega do cosmos para o homem, inaugurando a tradição ética da filosofia ocidental. Seus discípulos desenvolveram vertentes distintas do seu pensamento.",
+    "core_questions": [
+      "O que é a virtude?",
+      "Como devo viver?",
+      "O que é o bem?"
+    ],
+    "thinkers": ["socrates", "plato", "xenophon", "antisthenes"],
+    "concepts": ["virtude", "maiêutica", "ironia socrática", "autoconhecimento", "eudaimonia"],
+    "related_schools": ["platonismo", "cinismo", "estoicismo"],
+    "lesson_ids": ["socratic-method", "socratic-ethics"]
+  },
+  {
+    "id": "platonismo",
+    "name": "Platonismo",
+    "period": "Séc. IV a.C. – Séc. VI d.C.",
+    "era": "Antiga",
+    "summary": "Corrente filosófica fundada por Platão e desenvolvida na Academia. Afirma a existência de um mundo de ideias ou formas eternas e imutáveis, do qual o mundo sensível é cópia imperfeita.",
+    "context": "A Academia de Platão tornou-se o centro intelectual de Atenas por quase novecentos anos. O platonismo influenciou o Neoplatonismo tardio e, através de Agostinho, toda a filosofia cristã medieval.",
+    "core_questions": [
+      "O que é o conhecimento verdadeiro?",
+      "Qual é a relação entre o mundo sensível e o inteligível?",
+      "O que é a alma e qual é sua destinação?"
+    ],
+    "thinkers": ["plato", "speusippus", "xenocrates", "plotinus"],
+    "concepts": ["ideia", "dialética", "reminiscência", "alma", "demiurgo", "participação"],
+    "related_schools": ["socrática", "neoplatonismo", "escolástica"],
+    "lesson_ids": ["platonism-intro", "plato-ideas", "plato-cave"]
+  },
+  {
+    "id": "aristotelismo",
+    "name": "Aristotelismo",
+    "period": "Séc. IV a.C. – Séc. XIII d.C.",
+    "era": "Antiga / Medieval",
+    "summary": "Tradição filosófica fundada por Aristóteles que privilegia a observação, a sistematização lógica e o estudo da natureza. Tornou-se a base da filosofia medieval cristã e islâmica.",
+    "context": "O Liceu fundado por Aristóteles desenvolveu pesquisa enciclopédica em biologia, física, ética e política. Após séculos de relativo esquecimento no Ocidente, os textos aristotélicos retornaram via tradução árabe no século XII, gerando a escolástica.",
+    "core_questions": [
+      "O que é o ser enquanto ser?",
+      "Quais são as causas do movimento e da mudança?",
+      "Como a virtude leva à felicidade?"
+    ],
+    "thinkers": ["aristotle", "theophrastus", "averroes", "thomas-aquinas", "albertus-magnus"],
+    "concepts": ["substância", "categoria", "causa", "silogismo", "virtude", "ato e potência"],
+    "related_schools": ["platonismo", "escolástica"],
+    "lesson_ids": ["aristotelism-intro", "aristotle-logic-school", "aristotle-ethics-school"]
+  },
+  {
+    "id": "estoicismo",
+    "name": "Estoicismo",
+    "period": "Séc. III a.C. – Séc. II d.C.",
+    "era": "Antiga / Helenística",
+    "summary": "Escola fundada por Zenão de Cítio que afirma ser a razão o princípio ordenador do cosmos e a virtude o único bem verdadeiro. A felicidade consiste na conformidade com a razão e na indiferença ante o que não está em nosso poder.",
+    "context": "O estoicismo nasce no período helenístico, após Alexandre Magno, quando o cosmopolitismo substitui a pólis. Tornou-se a filosofia dominante na Roma imperial, com representantes como Epicteto, Sêneca e Marco Aurélio.",
+    "core_questions": [
+      "O que está em meu poder?",
+      "O que é viver conforme a natureza?",
+      "Como manter a serenidade ante as adversidades?"
+    ],
+    "thinkers": ["zeno-citium", "chrysippus", "epictetus", "seneca", "marcus-aurelius"],
+    "concepts": ["logos", "virtude", "apatheia", "cosmopolitismo", "fatum", "o que depende de nós"],
+    "related_schools": ["socrática", "epicurismo", "ceticismo"],
+    "lesson_ids": ["stoicism-intro", "stoicism-virtue", "stoicism-freedom"]
+  },
+  {
+    "id": "epicurismo",
+    "name": "Epicurismo",
+    "period": "Séc. IV a.C. – Séc. I d.C.",
+    "era": "Antiga / Helenística",
+    "summary": "Escola fundada por Epicuro que identifica o prazer (hedoné) com o bem supremo, mas entende prazer como ausência de dor e perturbação, não como luxúria. A amizade e a filosofia são os meios para a vida feliz.",
+    "context": "Epicuro fundou sua escola no Jardim de Atenas, aberto inclusive a mulheres e escravos. Em reação ao turbilhão político do helenismo, propôs o retiro da vida pública e o cultivo de relações íntimas.",
+    "core_questions": [
+      "O que é o prazer verdadeiro?",
+      "Como superar o medo da morte?",
+      "O que é a amizade?"
+    ],
+    "thinkers": ["epicurus", "lucretius"],
+    "concepts": ["hedoné", "ataraxia", "aponia", "átomo", "amizade", "tetrapharmakos"],
+    "related_schools": ["estoicismo", "ceticismo"],
+    "lesson_ids": ["epicureanism-intro", "epicurus-pleasure", "epicurus-death"]
+  },
+  {
+    "id": "ceticismo",
+    "name": "Ceticismo",
+    "period": "Séc. IV a.C. – Séc. II d.C.",
+    "era": "Antiga / Helenística",
+    "summary": "Corrente que questiona a possibilidade do conhecimento certo, propondo a suspensão do juízo (epoché) como caminho para a tranquilidade de espírito.",
+    "context": "O ceticismo antigo, representado por Pirro e sistematizado por Sexto Empírico, influenciou Descartes, Montaigne e Hume na filosofia moderna.",
+    "core_questions": [
+      "É possível conhecer a verdade?",
+      "Temos razões suficientes para afirmar qualquer coisa?",
+      "A suspensão do juízo traz a paz?"
+    ],
+    "thinkers": ["pyrrho", "sextus-empiricus", "arcesilaus", "carneades"],
+    "concepts": ["epoché", "isostenia", "ataraxia", "fenômeno", "suspensão do juízo"],
+    "related_schools": ["sofistas", "estoicismo", "epicurismo"],
+    "lesson_ids": ["skepticism-intro", "pyrrhonism", "academic-skepticism"]
+  },
+  {
+    "id": "escolástica",
+    "name": "Escolástica",
+    "period": "Séc. IX – XVI",
+    "era": "Medieval",
+    "summary": "Método filosófico e teológico desenvolvido nas escolas catedrais e universidades medievais, caracterizado pela rigorosa discussão lógica de questões teológicas e filosóficas, baseando-se sobretudo em Aristóteles.",
+    "context": "A escolástica surge da necessidade de harmonizar a fé cristã com a filosofia grega, especialmente após a redescoberta de Aristóteles via tradução árabe no século XII. Tomás de Aquino é seu maior representante.",
+    "core_questions": [
+      "Como harmonizar fé e razão?",
+      "Existem universais fora da mente?",
+      "Como provar a existência de Deus?"
+    ],
+    "thinkers": ["anselm", "abelard", "thomas-aquinas", "albertus-magnus", "duns-scotus", "william-ockham"],
+    "concepts": ["universais", "realismo", "nominalismo", "quaestio", "analogia do ser", "argumento ontológico"],
+    "related_schools": ["aristotelismo", "platonismo", "patrística"],
+    "lesson_ids": ["scholasticism-intro", "scholasticism-universals", "aquinas-synthesis"]
+  },
+  {
+    "id": "racionalismo",
+    "name": "Racionalismo",
+    "period": "Séc. XVII–XVIII",
+    "era": "Moderna",
+    "summary": "Corrente que afirma ser a razão — e não a experiência sensível — a fonte primária do conhecimento verdadeiro. As ideias inatas e a dedução matemática são seus modelos.",
+    "context": "O racionalismo moderno surge em reação à crise de autoridade do Renascimento e à revolução científica. Descartes, Spinoza e Leibniz desenvolveram sistemas filosóficos abrangentes a partir de princípios racionais.",
+    "core_questions": [
+      "De onde vêm as ideias verdadeiras?",
+      "Pode a razão atingir a verdade independente da experiência?",
+      "O que são as verdades necessárias?"
+    ],
+    "thinkers": ["descartes", "spinoza", "leibniz", "malebranche"],
+    "concepts": ["ideia inata", "dedução", "substância", "atributo", "mônada", "verdade necessária"],
+    "related_schools": ["empirismo", "idealismo transcendental"],
+    "lesson_ids": ["rationalism-intro", "descartes-method", "rationalism-vs-empiricism"]
+  },
+  {
+    "id": "empirismo",
+    "name": "Empirismo",
+    "period": "Séc. XVII–XVIII",
+    "era": "Moderna",
+    "summary": "Corrente que afirma derivar todo conhecimento da experiência sensível. A mente, ao nascer, é uma tábula rasa; as ideias provêm das impressões dos sentidos.",
+    "context": "O empirismo britânico, representado por Locke, Berkeley e Hume, desenvolveu-se em diálogo crítico com o racionalismo continental e em paralelo com a ciência newtoniana.",
+    "core_questions": [
+      "De onde provêm nossas ideias?",
+      "O que podemos conhecer com certeza?",
+      "Existem ideias inatas?"
+    ],
+    "thinkers": ["locke", "berkeley", "hume", "bacon"],
+    "concepts": ["impressão", "ideia", "tábula rasa", "indução", "experiência", "ceticismo"],
+    "related_schools": ["racionalismo", "idealismo transcendental"],
+    "lesson_ids": ["empiricism-intro", "locke-tabula-rasa", "hume-impressions", "rationalism-vs-empiricism"]
+  },
+  {
+    "id": "existencialismo",
+    "name": "Existencialismo",
+    "period": "Séc. XIX–XX",
+    "era": "Contemporânea",
+    "summary": "Corrente que coloca a existência humana concreta, a liberdade e a responsabilidade individual no centro da reflexão filosófica. A existência precede a essência.",
+    "context": "O existencialismo surge como reação ao idealismo sistemático de Hegel e ao positivismo científico. Kierkegaard é seu precursor; Sartre, Camus e Heidegger são seus maiores representantes do século XX.",
+    "core_questions": [
+      "O que significa existir?",
+      "Como viver com liberdade e responsabilidade?",
+      "O que é a angústia existencial?"
+    ],
+    "thinkers": ["kierkegaard", "nietzsche", "heidegger", "sartre", "camus", "beauvoir"],
+    "concepts": ["existência", "angústia", "má-fé", "projeto", "ser-no-mundo", "absurdo"],
+    "related_schools": ["fenomenologia", "materialismo"],
+    "lesson_ids": ["existentialism-intro", "sartre-existence", "camus-absurd"]
+  }
+]

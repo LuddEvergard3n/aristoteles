@@ -1,0 +1,1935 @@
+[
+  {
+    "id": "aristotle-wonder-intro",
+    "title": "Aristóteles sobre a admiração",
+    "source": "Metafísica, Livro I",
+    "author": "aristotle",
+    "period": "ca. 350 a.C.",
+    "language": "grego (tradução)",
+    "type": "excerto",
+    "text": "É pela admiração que os homens começaram e começam a filosofar. Primeiro, admiravam as dificuldades mais óbvias; depois, avançando pouco a pouco, chegavam a inquirir sobre questões maiores, como as que dizem respeito às mutações da lua, ao sol e às estrelas, e à geração do universo. Ora, aquele que sente dificuldade e admiração reconhece que não sabe; e por isso o amante dos mitos é de certo modo filósofo, pois o mito é composto de coisas admiráveis.\n\nSe, pois, filosofaram para fugir à ignorância, é evidente que procuravam o saber em vista do conhecer, e não por alguma utilidade. E o testemunho dos factos confirma isso: foi quando já existiam quase todas as coisas necessárias, e também as relativas ao prazer e à vida fácil, que se começou a buscar esse gênero de conhecimento. É evidente, portanto, que não o buscamos por nenhuma outra necessidade que não seja ela própria.\n\nEssa ciência é a única que existe por si mesma. Só ela existe por si só, de entre todas as ciências. Só ela é livre, porque só ela existe em vista de si mesma. Por isso, com razão, poderia considerar-se que a sua posse está acima das possibilidades humanas. Em muitos aspectos, a natureza humana é serva. Mas, como diz Simônides, só a Deus convém ter tal privilégio, e não seria digno da nobreza humana não buscar a ciência que lhe é acessível.",
+    "guided_reading": [
+      {
+        "segment": "É pela admiração que os homens começaram e começam a filosofar.",
+        "note": "A palavra grega é thaumazein — espanto activo diante do que não se compreende. Aristóteles afirma que a filosofia nasce de uma experiência afectiva anterior a qualquer intenção prática: não se filosofa para resolver um problema, mas porque algo causou admiração.",
+        "highlight": true
+      },
+      {
+        "segment": "Primeiro, admiravam as dificuldades mais óbvias; depois, avançando pouco a pouco, chegavam a inquirir sobre questões maiores",
+        "note": "A progressão é deliberada: da admiração diante do que está perto (por que troveja? por que as estrelas se movem?) à admiração diante do que está no limite da compreensão humana (a origem do universo). A filosofia é uma escalada de perguntas.",
+        "highlight": true
+      },
+      {
+        "segment": "aquele que sente dificuldade e admiração reconhece que não sabe",
+        "note": "O reconhecimento da própria ignorância é o primeiro passo filosófico genuíno. Este eco de Sócrates em Aristóteles mostra que ambos concordam: a arrogância do que já sabe não filosofa.",
+        "highlight": true
+      },
+      {
+        "segment": "o amante dos mitos é de certo modo filósofo, pois o mito é composto de coisas admiráveis",
+        "note": "Aristóteles não rejeita o mito como mera superstição. Reconhece que o mito também nasce da admiração. A diferença é de método: o filósofo exige justificação racional, o narrador de mitos não.",
+        "highlight": false
+      },
+      {
+        "segment": "filosofaram para fugir à ignorância, é evidente que procuravam o saber em vista do conhecer, e não por alguma utilidade",
+        "note": "Distinção decisiva: o conhecimento filosófico é buscado por si mesmo, não como meio para outro fim. É conhecimento gratuito, não instrumental. Esta afirmação define o que distingue a filosofia de uma técnica ou ofício.",
+        "highlight": true
+      },
+      {
+        "segment": "Essa ciência é a única que existe por si mesma. Só ela é livre",
+        "note": "A filosofia como ciência 'livre' (eleutheríos) — no sentido grego de livre de determinações externas, de señora de si mesma. O paralelo com a liberdade política é intencional: assim como o homem livre é fim em si mesmo, a filosofia é fim em si mesma.",
+        "highlight": true
+      }
+    ],
+    "key_terms": [
+      "admiração",
+      "thaumazein",
+      "ignorância",
+      "conhecimento pelo conhecimento",
+      "ciência livre",
+      "episteme"
+    ],
+    "questions": [
+      "Por que Aristóteles diz que a admiração é o início da filosofia? O que distingue a admiração da simples curiosidade?",
+      "Qual é a progressão que Aristóteles descreve — do que se filosofa primeiro para o quê?",
+      "Por que o reconhecimento da ignorância é necessário para começar a filosofar?",
+      "O que significa dizer que a filosofia é a única ciência 'livre'? Em que sentido é livre?",
+      "Qual a diferença, para Aristóteles, entre o mito e a filosofia, se ambos nascem da admiração?"
+    ]
+  },
+  {
+    "id": "plato-republic-cave",
+    "title": "O Mito da Caverna",
+    "source": "A República, Livro VII, 514a–517a",
+    "author": "plato",
+    "period": "ca. 380 a.C.",
+    "language": "grego (tradução)",
+    "type": "excerto longo",
+    "text": "Imagina homens numa habitação subterrânea em forma de caverna, com uma abertura voltada para a luz em toda a sua largura. Esses homens aí se encontram desde a infância, com as pernas e o pescoço presos de tal modo que não podem mexer-se nem olhar senão para a frente. A luz vem-lhes de uma fogueira acesa ao longe, num plano superior, por detrás deles. Entre a fogueira e os prisioneiros há um caminho elevado; imagina que ao longo desse caminho foi construído um pequeno muro, tal como o biombo dos titeriteiros, e que por cima desse muro os homens fazem passar objetos cujas sombras se projetam na parede fronteira aos prisioneiros.\n\nTais prisioneiros não veriam de si próprios nem dos seus companheiros senão as sombras projetadas pelo fogo na parede da caverna. Se pudessem dialogar uns com os outros, não te parece que julgariam dar nomes a coisas reais ao nomear o que viam? E se a parede fronteira da prisão fosse um eco, quando um dos transeuntes falasse, não julgariam que o som provinha da sombra que passava? Sem dúvida, para tais homens a verdade não seria mais que as sombras dos objetos.\n\nExamina agora o que aconteceria se fossem libertos das cadeias e curados da sua ignorância. Quando um deles fosse libertado e obrigado a endireitar-se subitamente, a voltar o pescoço, a caminhar, a olhar para a luz, ao fazer tudo isso sentiria dor, e o deslumbramento impedi-lo-ia de ver os objetos cujas sombras via dantes. O que achas que diria se alguém lhe afirmasse que o que via dantes eram ninharias, mas que agora, estando mais perto da realidade e voltado para objetos mais reais, via com mais justeza?\n\nE se depois o fizessem subir à força pela encosta rude e íngreme, e não o deixassem parar antes de o arrastar até a luz do sol, não sofreria e não se irritaria por ser assim arrastado? Ao chegar à luz do sol, com os olhos deslumbrados pelo seu brilho, não seria capaz de ver nenhuma das coisas que agora dizemos serem as verdadeiras. Tendo-se habituado, seria capaz de ver, em primeiro lugar, as sombras, depois os reflexos dos homens e das outras coisas na água, e finalmente as próprias coisas. Por último, seria capaz de olhar diretamente para o sol, e contemplar a sua natureza.",
+    "guided_reading": [
+      {
+        "segment": "Imagina homens numa habitação subterrânea em forma de caverna, com uma abertura voltada para a luz",
+        "note": "A caverna representa o mundo sensível — o nível da realidade que percebemos pelos sentidos. Platão pede que imaginemos, não que argumentemos: a alegoria opera pela imaginação antes da razão.",
+        "highlight": false
+      },
+      {
+        "segment": "com as pernas e o pescoço presos de tal modo que não podem mexer-se nem olhar senão para a frente",
+        "note": "As cadeias representam os hábitos cognitivos, preconceitos e condicionamentos que nos impedem de ver além das aparências imediatas. Não somos prisioneiros por escolha: estamos presos desde a infância.",
+        "highlight": true
+      },
+      {
+        "segment": "para tais homens a verdade não seria mais que as sombras dos objetos",
+        "note": "O ponto epistemológico central: chamamos de 'verdade' ao que os nossos sentidos nos oferecem, mas isso são apenas projecções — sombras de realidades mais fundamentais (as Formas). A doxa (opinião) toma as sombras por realidade.",
+        "highlight": true
+      },
+      {
+        "segment": "ao fazer tudo isso sentiria dor, e o deslumbramento impedi-lo-ia de ver os objetos cujas sombras via dantes",
+        "note": "O processo de libertação é doloroso. O filósofo que sai da caverna não chega à luz facilmente — há resistência, confusão, dor. O conhecimento superior não é imediato nem confortável.",
+        "highlight": true
+      },
+      {
+        "segment": "não sofreria e não se irritaria por ser assim arrastado",
+        "note": "Platão reconhece aqui a resistência ao esclarecimento. O prisioneiro não quer sair — prefere as sombras conhecidas à luz desconhecida. Esta resistência explica por que o filósofo-rei de Platão precisa ser obrigado a governar.",
+        "highlight": true
+      },
+      {
+        "segment": "Por último, seria capaz de olhar diretamente para o sol, e contemplar a sua natureza",
+        "note": "O sol representa o Bem — a Forma das Formas, o princípio máximo que torna todas as outras Formas cognoscíveis. Contemplar o sol é atingir o conhecimento filosófico mais alto: a episteme do Bem em si.",
+        "highlight": true
+      }
+    ],
+    "key_terms": [
+      "caverna",
+      "sombras",
+      "fogueira",
+      "sol",
+      "doxa",
+      "episteme",
+      "Formas",
+      "libertação"
+    ],
+    "questions": [
+      "O que representam, na alegoria, os prisioneiros, as cadeias, as sombras, a fogueira e o sol?",
+      "Por que Platão diz que os prisioneiros chamariam de verdade às sombras? O que isso diz sobre a nossa relação com a realidade sensível?",
+      "Por que o processo de libertação é descrito como doloroso? O que significa, filosoficamente, essa dor?",
+      "Como esta alegoria ilustra a distinção platónica entre doxa (opinião) e episteme (conhecimento)?",
+      "Qual é a implicação política da alegoria — o que ela diz sobre quem deve governar e por quê?"
+    ]
+  },
+  {
+    "id": "descartes-meditations-1",
+    "title": "Primeira Meditação: Das coisas que se podem pôr em dúvida",
+    "source": "Meditações Metafísicas, Meditação I",
+    "author": "descartes",
+    "period": "1641",
+    "language": "latim (tradução)",
+    "type": "excerto",
+    "text": "Há já algum tempo que eu me apercebi de que, desde minha primeira infância, recebera uma multidão de falsas opiniões como verdadeiras, e que tudo aquilo que sobre elas edificara não podia deixar de ser muito duvidoso e incerto; de forma que me era necessário tentar seriamente, uma vez na vida, desfazer-me de todas as opiniões que até então recebera na minha crença, e começar tudo de novo desde os fundamentos, se quisesse estabelecer alguma coisa de firme e de permanente nas ciências.\n\nNão será necessário, para isso, provar que são todas falsas — o que talvez nunca pudesse conseguir. Mas, visto que a razão me persuade desde já que devo negar o assentimento às coisas que não são inteiramente certas e indubitáveis, tanto como às que me parecem manifestamente falsas, ser-me-á suficiente para as rejeitar se encontrar alguma razão de dúvida.\n\nPara esse fim, não me será necessário examinar cada uma em particular, o que seria um trabalho infinito; mas, porque a ruína dos fundamentos faz necessariamente cair todo o edifício, atacarei antes de mais os princípios sobre os quais todas as minhas antigas opiniões estavam apoiadas.\n\nTudo o que até ao presente admiti como mais verdadeiro e certo, aprendi-o dos sentidos ou pelos sentidos; ora, algumas vezes experimentei que esses sentidos eram enganadores, e é prudente não se fiar nunca inteiramente em quem nos enganou uma vez. Mas se bem que os sentidos nos enganem às vezes, quanto às coisas pouco sensíveis e muito distantes, encontramos talvez muitas outras das quais não se pode razoavelmente duvidar, embora as conheçamos por meio deles.",
+    "guided_reading": [
+      {
+        "segment": "me era necessário tentar seriamente, uma vez na vida, desfazer-me de todas as opiniões que até então recebera na minha crença",
+        "note": "O projecto das Meditações é epistemológico e reconstrutivo: não destruir o conhecimento, mas refundá-lo em bases indubitáveis. A dúvida é metódica — instrumento para encontrar certeza, não fim em si mesma.",
+        "highlight": true
+      },
+      {
+        "segment": "devo negar o assentimento às coisas que não são inteiramente certas e indubitáveis, tanto como às que me parecem manifestamente falsas",
+        "note": "O princípio metodológico: qualquer coisa que possa ser duvidada, por menor que seja a dúvida, é descartada provisoriamente. Não é necessário provar que é falsa — basta que seja duvidável. Este critério de certeza absoluta é muito exigente.",
+        "highlight": true
+      },
+      {
+        "segment": "a ruína dos fundamentos faz necessariamente cair todo o edifício",
+        "note": "A metáfora arquitectónica é central em Descartes. O conhecimento é como um edifício construído sobre fundamentos. Em vez de examinar cada tijolo, ataca os fundamentos — se estes falharem, tudo cai; se resistirem, tudo está seguro.",
+        "highlight": true
+      },
+      {
+        "segment": "Tudo o que até ao presente admiti como mais verdadeiro e certo, aprendi-o dos sentidos ou pelos sentidos",
+        "note": "O primeiro alvo da dúvida: os sentidos. Descartes usa o facto, amplamente aceite, de que os sentidos nos enganam às vezes (ilusões, perspectiva, etc.) como ponto de entrada para uma dúvida mais radical.",
+        "highlight": true
+      },
+      {
+        "segment": "é prudente não se fiar nunca inteiramente em quem nos enganou uma vez",
+        "note": "O princípio da desconfiança generalizada: se os sentidos nos enganaram alguma vez, não podemos confiar neles absolutamente. Não que enganem sempre — mas que podem enganar é suficiente para a dúvida metódica.",
+        "highlight": false
+      }
+    ],
+    "key_terms": [
+      "dúvida metódica",
+      "fundamentos",
+      "sentidos",
+      "certeza",
+      "indubitável",
+      "método cartesiano",
+      "reconstrução epistemológica"
+    ],
+    "questions": [
+      "Qual é o propósito da dúvida metódica de Descartes? É uma dúvida sincera ou instrumental?",
+      "Por que Descartes não precisa de provar que as suas crenças são falsas para as rejeitar?",
+      "Por que ataca os fundamentos em vez de examinar cada crença individualmente?",
+      "O argumento de que os sentidos nos enganam às vezes é suficiente para duvidar de tudo o que conhecemos pelos sentidos?",
+      "Qual é a diferença entre o cepticismo de Descartes e o cepticismo pirrónico (que nega a possibilidade de qualquer conhecimento)?"
+    ]
+  },
+  {
+    "id": "descartes-meditations-2-cogito",
+    "title": "O Cogito",
+    "source": "Meditações Metafísicas, Meditação II",
+    "author": "descartes",
+    "period": "1641",
+    "language": "latim (tradução)",
+    "type": "excerto",
+    "text": "Suponho, portanto, que todas as coisas que vejo são falsas; persuado-me de que nunca existiu nada de tudo o que a memória cheia de mentiras me representa; penso não ter nenhum sentido; creio que o corpo, a figura, a extensão, o movimento e o lugar são apenas ficções do meu espírito. O que é então que poderá ser tido como verdadeiro? Porventura nenhuma outra coisa, senão que nada há no mundo de certo.\n\nMas como poderei saber que não há alguma outra coisa diferente das que acabo de julgar incertas, da qual não possa ter a mínima dúvida? Não haverá algum Deus, ou alguma outra potência, que me ponha esses pensamentos no espírito? Isso não é necessário; pois talvez eu seja capaz de os produzir por mim mesmo.\n\nPortanto, ao menos eu sou alguma coisa. Mas eu já neguei que eu tivesse nenhum sentido, nem nenhum corpo. Hesito, porém; pois o que se segue disso? Sou tão dependente do corpo e dos sentidos, que não posso ser nada sem eles? Mas eu me persuadi de que não havia nada de tudo o que está no mundo: não me persuadi também de que eu não existia?\n\nNão, certamente; eu existia sem dúvida, se eu me persuadi, ou somente se pensei alguma coisa. Mas há um enganador muito poderoso que usa de toda a sua indústria para me enganar sempre. Sem dúvida, portanto, que eu sou, se ele me engana; e que me engane tanto quanto quiser, nunca poderá fazer com que eu não seja nada, enquanto eu pensar ser alguma coisa. De sorte que, depois de ter pensado bem nisso, e de ter examinado tudo com cuidado, é necessário concluir, e ter por constante, que esta proposição: Eu sou, eu existo, é necessariamente verdadeira todas as vezes que a enuncio, ou que a concebo no meu espírito.",
+    "guided_reading": [
+      {
+        "segment": "Suponho, portanto, que todas as coisas que vejo são falsas... O que é então que poderá ser tido como verdadeiro?",
+        "note": "Descartes chegou ao ponto mais radical da dúvida: hipótese do génio maligno que pode enganar em tudo, incluindo a matemática. Nenhuma crença resistiu. A pergunta é genuína — há algo que sobrevive à dúvida mais radical?",
+        "highlight": true
+      },
+      {
+        "segment": "Portanto, ao menos eu sou alguma coisa",
+        "note": "O primeiro ponto de Arquimedes: mesmo duvidando de tudo, a actividade de duvidar pressupõe alguém que duvida. O acto de dúvida é irrefutável — ao duvidar, confirmo que existe algo que duvida.",
+        "highlight": true
+      },
+      {
+        "segment": "eu existia sem dúvida, se eu me persuadi, ou somente se pensei alguma coisa",
+        "note": "A formulação mais precisa do cogito: não é que 'penso, logo existo' seja um silogismo (com premissa implícita 'tudo o que pensa existe'). É que o acto de pensar é imediatamente e incorrigivelmente a evidência da existência do pensador.",
+        "highlight": true
+      },
+      {
+        "segment": "que me engane tanto quanto quiser, nunca poderá fazer com que eu não seja nada, enquanto eu pensar ser alguma coisa",
+        "note": "A robustez do cogito contra o génio maligno: mesmo que um enganador poderoso me engane em tudo, não pode enganar-me sobre a minha existência enquanto estou a ser enganado. O engano pressupõe um enganado.",
+        "highlight": true
+      },
+      {
+        "segment": "esta proposição: Eu sou, eu existo, é necessariamente verdadeira todas as vezes que a enuncio, ou que a concebo no meu espírito",
+        "note": "O cogito não é uma verdade eterna e abstracta — é uma verdade performativa e temporal. É verdadeira quando e enquanto é pensada. Não prova que existo sempre, apenas que existo quando penso.",
+        "highlight": true
+      }
+    ],
+    "key_terms": [
+      "cogito",
+      "génio maligno",
+      "dúvida hiperbólica",
+      "existência",
+      "pensamento",
+      "certeza imediata",
+      "Descartes"
+    ],
+    "questions": [
+      "O cogito é um argumento (com premissas e conclusão) ou uma intuição imediata? Que diferença faz?",
+      "Por que o génio maligno não pode fazer com que Descartes não exista enquanto ele pensa?",
+      "O cogito prova que Descartes existe sempre, ou apenas que existe quando pensa?",
+      "Que tipo de coisa é o 'eu' que o cogito descobre? Descartes sabe que é uma mente, mas como?",
+      "A objecção: 'o cogito pressupõe que há um sujeito que pensa'. Pode-se concluir só que 'há pensamento', sem 'eu'?"
+    ]
+  },
+  {
+    "id": "aristotle-nicomachean-intro",
+    "title": "O bem supremo e a felicidade",
+    "source": "Ética a Nicômaco, Livro I, caps. 1–7",
+    "author": "aristotle",
+    "period": "ca. 335 a.C.",
+    "language": "grego (tradução)",
+    "type": "excerto",
+    "text": "Toda a arte e todo o processo de investigação, e igualmente toda a acção e toda a escolha parecem tender para algum bem. E por isso o bem foi correctamente definido como aquilo a que tudo tende.\n\nMas uma certa diferença existe entre os fins: alguns deles são actividades, outros são produtos separados das actividades que os produzem. Quando os fins são produtos separados das acções, é natural que os produtos sejam superiores às actividades.\n\nOra, existe uma certa hierarquia nas acções, artes e ciências. Na medicina, a produção de arreios de cavalaria é subordinada à equitação, e esta e toda a arte militar é subordinada à estratégia. Da mesma forma, noutros casos. Mas em todas estas actividades, os fins das ciências arquitectónicas são mais desejáveis do que todos os fins que lhes são subordinados, pois são prosseguidas por amor a estes últimos.\n\nEntão, se existe algum fim que desejemos por si mesmo, sendo todos os outros desejados por causa dele, e se não escolhemos tudo por causa de outra coisa (pois então o processo iria ao infinito, tornando o desejo vazio e fútil), claramente este fim deve ser o bem e o bem supremo. Não será o seu conhecimento, portanto, de grande importância para a vida, e não nos tornará capazes, como arqueiros que têm um alvo, de atingir o que devemos?\n\nA este bem os homens dão o nome de felicidade, e o que é viver bem e agir bem identificam com o feliz. Mas sobre a natureza da felicidade os homens discutem, e o povo não a descreve da mesma maneira que os sábios.",
+    "guided_reading": [
+      {
+        "segment": "toda a arte e todo o processo de investigação, e igualmente toda a acção e toda a escolha parecem tender para algum bem",
+        "note": "A abertura da Ética a Nicômaco define o campo teleológico: toda acção humana tem um fim (telos). Nenhuma acção é completamente arbitrária — visa sempre algum bem, mesmo que implicitamente.",
+        "highlight": true
+      },
+      {
+        "segment": "Mas uma certa diferença existe entre os fins: alguns deles são actividades, outros são produtos separados das actividades",
+        "note": "A distinção entre praxis (acção que é fim em si mesma) e poiesis (produção que visa um produto externo). Aprender filosofia é praxis; construir uma mesa é poiesis. Esta distinção estrutura toda a ética aristotélica.",
+        "highlight": false
+      },
+      {
+        "segment": "se existe algum fim que desejemos por si mesmo, sendo todos os outros desejados por causa dele",
+        "note": "O argumento para a existência de um bem supremo: se toda cadeia de fins chegasse ao infinito, o desejo seria vão. Tem de existir um fim último que não é meio para nada — o que Aristóteles identificará com a eudaimonia.",
+        "highlight": true
+      },
+      {
+        "segment": "claramente este fim deve ser o bem e o bem supremo",
+        "note": "O argumento é estrutural: se há hierarquia de fins, tem de haver um topo. Não é uma premissa sobre o que esse bem é, apenas que deve existir. Aristóteles vai depois argumentar que esse bem é a eudaimonia.",
+        "highlight": true
+      },
+      {
+        "segment": "A este bem os homens dão o nome de felicidade",
+        "note": "Eudaimonia — frequentemente traduzida como 'felicidade', mas mais precisamente: florescimento humano, viver bem. Não é um estado subjectivo de contentamento, mas uma actividade em conformidade com a excelência da natureza humana.",
+        "highlight": true
+      }
+    ],
+    "key_terms": [
+      "bem",
+      "fim",
+      "telos",
+      "hierarquia de fins",
+      "eudaimonia",
+      "florescimento",
+      "bem supremo"
+    ],
+    "questions": [
+      "Por que Aristóteles afirma que tem de existir um bem supremo? Qual é a estrutura do argumento?",
+      "O que significa dizer que a eudaimonia é o bem que desejamos 'por si mesmo'?",
+      "Qual é a diferença entre praxis e poiesis? Por que essa distinção importa para a ética?",
+      "A eudaimonia aristotélica é o mesmo que a felicidade entendida como prazer ou satisfação subjectiva? Por que não?",
+      "Como a imagem do arqueiro com um alvo ilumina a importância do conhecimento ético?"
+    ]
+  },
+  {
+    "id": "aristotle-virtue-habit",
+    "title": "A virtude como hábito",
+    "source": "Ética a Nicômaco, Livro II, cap. 1",
+    "author": "aristotle",
+    "period": "ca. 335 a.C.",
+    "language": "grego (tradução)",
+    "type": "excerto",
+    "text": "As virtudes não se nos formam por natureza nem contra a natureza. A natureza deu-nos a capacidade de as adquirir, e essa capacidade aperfeiçoa-se pelo hábito. Com efeito, é pela prática de actos justos que nos tornamos justos, com actos temperantes nos tornamos temperantes, e com actos corajosos nos tornamos corajosos. Isso confirma-o o que acontece nas artes. Com efeito, aprendemos a tocar cítara tocando cítara. Da mesma forma, praticando actos justos tornamo-nos justos; praticando actos temperantes, temperantes; praticando actos corajosos, corajosos.\n\nA isso acrescente-se o testemunho do que acontece nas cidades: os legisladores tornam bons os cidadãos fazendo-os contrair bons hábitos. É isso, aliás, que distingue a boa constituição da má.\n\nHá uma dificuldade aqui: para nos tornarmos justos temos de praticar actos justos. Mas para praticar actos justos, parece que já temos de ser justos. Como é possível sair deste círculo?\n\nA solução de Aristóteles: os actos que produzem a virtude são os mesmos que os actos que resultam dela — mas não são praticados da mesma maneira. A pessoa já virtuosa age por escolha deliberada, com prazer, de modo estável. O aprendiz age de modo semelhante externamente, mas ainda sem a escolha firmemente enraizada, ainda com esforço, ainda sem o prazer adequado. A virtude é o estado estável de onde brotam as acções — não é apenas praticar actos, é tê-los incorporado de tal modo que brotam naturalmente, com prazer, pelo carácter formado.",
+    "guided_reading": [
+      {
+        "segment": "As virtudes não se nos formam por natureza nem contra a natureza. A natureza deu-nos a capacidade de as adquirir",
+        "note": "Aristóteles recusa dois extremos: virtude inata (nativismo moral) e virtude contra a natureza (constrangimento externo). A natureza fornece a capacidade, o hábito actualiza-a. Somos constitutivamente aptos para a virtude, mas não automaticamente virtuosos.",
+        "highlight": true
+      },
+      {
+        "segment": "é pela prática de actos justos que nos tornamos justos, com actos temperantes nos tornamos temperantes",
+        "note": "A circularidade aparente: para ser justo preciso de praticar actos justos, mas para praticar actos justos parece que preciso de ser justo. Aristóteles reconhece o problema e vai responder-lhe.",
+        "highlight": true
+      },
+      {
+        "segment": "aprendemos a tocar cítara tocando cítara",
+        "note": "A analogia com as artes é central na ética aristotélica. As artes também se aprendem pela prática, não pelo estudo teórico. Um músico que nunca toca não é músico; uma pessoa que sabe teoricamente o que é a justiça mas nunca age justamente não é justa.",
+        "highlight": true
+      },
+      {
+        "segment": "os legisladores tornam bons os cidadãos fazendo-os contrair bons hábitos",
+        "note": "A dimensão política da ética: a cidade (polis) tem responsabilidade na formação do carácter dos cidadãos. A lei não é apenas coerciva — é educativa. Uma boa constituição é aquela que forma bons hábitos.",
+        "highlight": false
+      },
+      {
+        "segment": "A pessoa já virtuosa age por escolha deliberada, com prazer, de modo estável. O aprendiz age de modo semelhante externamente, mas ainda sem a escolha firmemente enraizada",
+        "note": "A solução ao círculo: a virtude não é só o acto externo mas o estado interior. A diferença entre o virtuoso e o aprendiz não é no que fazem, mas em como fazem: o virtuoso age com prazer, por deliberação estável, pelo carácter formado.",
+        "highlight": true
+      }
+    ],
+    "key_terms": [
+      "virtude",
+      "hábito",
+      "hexis",
+      "praxis",
+      "carácter",
+      "phronesis",
+      "aprendizagem moral"
+    ],
+    "questions": [
+      "Por que Aristóteles diz que as virtudes não são inatas mas também não vão contra a natureza?",
+      "Qual é a analogia com as artes? O que ela ilumina e o que pode distorcer sobre a aprendizagem moral?",
+      "Como Aristóteles resolve a aparente circularidade de 'só me torno justo praticando actos justos, mas para tal preciso de ser justo'?",
+      "Qual é a diferença entre o virtuoso e o aprendiz que pratica actos virtuosos?",
+      "O que significa 'agir por escolha deliberada, com prazer, de modo estável'? Por que os três elementos são necessários?"
+    ]
+  },
+  {
+    "id": "plato-apology-oracle",
+    "title": "A missão de Sócrates",
+    "source": "Apologia de Sócrates",
+    "author": "plato",
+    "period": "ca. 399 a.C.",
+    "language": "grego (tradução)",
+    "type": "excerto",
+    "text": "Ouvi dizer que Sócrates é o mais sábio de todos os homens. Querendo verificar o que isso significava, fui ter com um dos que passavam por sábios, pensando que aí teria ocasião de refutar o oráculo e de dizer-lhe: este é mais sábio do que eu, e tu dirias que eu sou o mais sábio. Examinando esse homem — não é necessário dizer o nome, era um homem político — obtive esta impressão: esse homem parecia ser sábio a muita gente e sobretudo a si próprio, mas não o era. Tentei então mostrar-lhe que ele se julgava sábio mas não o era. Por isso se criou entre ele e os que estavam presentes uma inimizade contra mim.\n\nAo retirar-me, raciocinei comigo mesmo: sou mais sábio do que esse homem. Na verdade, nenhum de nós sabe nada de belo nem de bom; mas ele julga que sabe alguma coisa, sem o saber, enquanto eu, não sabendo, também não julgo que sei. Parece que estou um pouco mais acima dele neste aspeto: não julgo que sei o que não sei.\n\nDepois disso fui a outro que passava por ainda mais sábio e recebi a mesma impressão, e aí fiz também novos inimigos. Fui depois de uns para outros, reconhecendo, não sem amargura e apreensão, que me tornava odioso, mas parecendo-me necessário colocar a coisa de Deus acima de tudo. Ia, pois, verificar o que significava o oráculo, e a cada homem que parecia saber alguma coisa ia procurar saber se não seria ele mais sábio do que eu.\n\nA conclusão é que os que têm mais reputação são quase os que têm menos valor, e os que são tidos por menos são os mais dotados de entendimento. Tenho de vos dizer que todo esse percurso me deu muito trabalho, e concluí que não sou sábio em nada que valha a pena.",
+    "guided_reading": [
+      {
+        "segment": "Querendo verificar o que isso significava, fui ter com um dos que passavam por sábios",
+        "note": "Sócrates não aceita o oráculo passivamente — testa-o empiricamente. O seu método é filosófico: verificar através do diálogo. O oráculo não é uma autoridade a obedecer, mas uma hipótese a examinar.",
+        "highlight": true
+      },
+      {
+        "segment": "esse homem parecia ser sábio a muita gente e sobretudo a si próprio, mas não o era",
+        "note": "A dupla aparência: sábio para os outros e para si mesmo. A ignorância que Sócrates vai diagnosticar é pior do que a ignorância simples — é a ignorância que não sabe de si mesma.",
+        "highlight": true
+      },
+      {
+        "segment": "nenhum de nós sabe nada de belo nem de bom; mas ele julga que sabe alguma coisa, sem o saber, enquanto eu, não sabendo, também não julgo que sei",
+        "note": "A famosa distinção socrática: não a diferença entre saber e ignorar, mas entre ignorar e saber que se ignora. A sabedoria socrática é meta-cognitiva: é o conhecimento da própria limitação.",
+        "highlight": true
+      },
+      {
+        "segment": "não julgo que sei o que não sei",
+        "note": "Esta frase é o núcleo da sabedoria socrática. Não é ceticismo absoluto — Sócrates não diz que nada pode ser conhecido. É honestidade epistémica: não fingir saber o que não se sabe.",
+        "highlight": true
+      },
+      {
+        "segment": "reconhecendo, não sem amargura e apreensão, que me tornava odioso, mas parecendo-me necessário colocar a coisa de Deus acima de tudo",
+        "note": "Sócrates sabe que o seu método o torna impopular. Mas a 'missão divina' — o cuidado da alma dos concidadãos — é mais importante do que a popularidade. Esta é a raiz da sua condenação.",
+        "highlight": false
+      },
+      {
+        "segment": "os que têm mais reputação são quase os que têm menos valor, e os que são tidos por menos são os mais dotados de entendimento",
+        "note": "Inversão socrática da hierarquia social: prestígio e sabedoria são inversamente proporcionais. Os políticos, poetas e artesãos que são admirados revelam, no exame, as maiores ignorâncias.",
+        "highlight": true
+      }
+    ],
+    "key_terms": [
+      "oráculo",
+      "sabedoria",
+      "ignorância",
+      "meta-cognição",
+      "elenchos",
+      "missão divina",
+      "Deus"
+    ],
+    "questions": [
+      "O que Sócrates entende por 'sabedoria' depois de examinar os homens reputados?",
+      "Por que saber que não se sabe é superior a não saber e julgar que se sabe?",
+      "Como o método de Sócrates — ir examinar os que são tidos por sábios — é em si um exercício filosófico?",
+      "Qual é a relação entre este texto e a razão pela qual Sócrates foi condenado?",
+      "O que este texto diz sobre a relação entre reputação social e valor filosófico?"
+    ]
+  },
+  {
+    "id": "aristotle-on-thales-water",
+    "title": "Aristóteles sobre o arché dos milésios",
+    "source": "Metafísica, Livro I, capítulo 3",
+    "author": "aristotle",
+    "period": "Séc. IV a.C.",
+    "language": "grego",
+    "type": "secondario",
+    "text": "A maioria dos primeiros filósofos considerou que os únicos princípios de todas as coisas eram de natureza material. Aquilo de que todas as coisas existentes são feitas, aquilo a partir do qual elas primeiramente vêm a ser e aquilo em que por último se resolvem, com a substância persistindo embora mude os seus acidentes — eis o que dizem ser o elemento e o princípio das coisas. E por isso pensam que nada nasce nem perece, uma vez que tal natureza se conserva sempre.\n\nTales, o iniciador desta filosofia, diz que esse princípio é a água — por isso afirma que a terra está sobre a água. Pode ter chegado a esta hipótese pela observação de que o alimento de todas as coisas é húmido, e de que o próprio calor nasce do húmido e vive do húmido. Ora, aquilo de que tudo provém é o princípio de tudo. Por isso chegou a essa hipótese, e também porque as sementes de todas as coisas têm natureza húmida, e a água é o princípio da natureza das coisas húmidas.\n\nAnaxímenes e Diógenes colocam o ar antes da água e afirmam que é o mais primitivo dos corpos simples; Hipaso de Metaponto e Heráclito de Éfeso afirmam que é o fogo; Empédocles postula quatro elementos, acrescentando a terra como quarto aos que já foram ditos. Anaxágoras de Clazômenas, que foi anterior a Empédocles mas que veio depois dele nas suas obras, afirma que os princípios são infinitos em número. Pois diz que quase todas as coisas homogêneas são geradas e destruídas somente por agregação e separação, e que de outra maneira não há geração nem destruição, mas que as coisas se conservam eternamente.",
+    "guided_reading": [
+      {
+        "segment": "A maioria dos primeiros filósofos considerou que os únicos princípios de todas as coisas eram de natureza material",
+        "note": "Aristóteles está a classificar retrospectivamente os pré-socráticos como 'materialistas'. A categorização é sua — os próprios pré-socráticos não se identificavam assim. A busca pelo arché (princípio ou origem) é a questão unificadora.",
+        "highlight": true
+      },
+      {
+        "segment": "Aquilo de que todas as coisas existentes são feitas, aquilo a partir do qual elas primeiramente vêm a ser e aquilo em que por último se resolvem",
+        "note": "Aristóteles identifica três funções do arché: substrato do qual as coisas são feitas, origem a partir da qual surgem, e destino ao qual retornam. O arché é simultaneamente material, temporal e final.",
+        "highlight": true
+      },
+      {
+        "segment": "Tales, o iniciador desta filosofia, diz que esse princípio é a água",
+        "note": "Tales (c. 624–548 a.C.) de Mileto é considerado o primeiro filósofo ocidental precisamente por ter dado uma resposta não-mítica a uma questão cosmológica. Não invocou os deuses — invocou um elemento natural.",
+        "highlight": true
+      },
+      {
+        "segment": "o alimento de todas as coisas é húmido, e o próprio calor nasce do húmido e vive do húmido",
+        "note": "Aristóteles reconstruiu as razões prováveis de Tales — Tales não deixou escritos. A observação é empírica: a vida parece requerer humidade, os organismos morrem por dessecação, as sementes são húmidas.",
+        "highlight": false
+      },
+      {
+        "segment": "Anaxímenes e Diógenes colocam o ar antes da água; Hipaso de Metaponto e Heráclito de Éfeso afirmam que é o fogo",
+        "note": "O debate entre os pré-socráticos é progressivo: cada resposta gera novas perguntas. Por que a água e não o ar? Por que um elemento e não vários? Essa progressão dialéctica é a história inicial da filosofia.",
+        "highlight": true
+      },
+      {
+        "segment": "Empédocles postula quatro elementos, acrescentando a terra como quarto",
+        "note": "A resposta de Empédocles é uma síntese: em vez de escolher um elemento, postula quatro. Este modelo de quatro elementos (fogo, água, ar, terra) tornou-se dominante na filosofia natural até Lavoisier no século XVIII.",
+        "highlight": false
+      }
+    ],
+    "key_terms": [
+      "arché",
+      "princípio material",
+      "Tales",
+      "água",
+      "pré-socráticos",
+      "Mileto",
+      "elemento"
+    ],
+    "questions": [
+      "O que os pré-socráticos queriam dizer com 'princípio' (arché) de todas as coisas?",
+      "Que razões Aristóteles atribui a Tales para escolher a água como princípio? São razões filosóficas ou empíricas?",
+      "Em que sentido a proposta de Tales é filosófica e não apenas uma crença qualquer sobre a natureza?",
+      "Como o debate entre os pré-socráticos (água, ar, fogo, quatro elementos) representa um progresso filosófico?",
+      "Por que Aristóteles chama Tales de 'o iniciador desta filosofia'? O que há de inaugural no seu gesto?"
+    ]
+  },
+  {
+    "id": "protagoras-man-measure",
+    "title": "O homem como medida de todas as coisas",
+    "source": "Platão, Teeteto, 152a–b",
+    "author": "plato",
+    "period": "Séc. IV a.C.",
+    "language": "grego",
+    "type": "secondario",
+    "text": "De todas as coisas, o homem é a medida: das que são, enquanto são; das que não são, enquanto não são. O que a cada um parece verdadeiro é verdadeiro para esse alguém. Se o vento parece frio a um e não frio a outro, não podemos dizer qual está correcto — o vento é frio para o que assim o sente e não é frio para o que não o sente.\n\nSócrates, no Teeteto de Platão, comenta esta tese: se cada coisa é para mim tal como me parece, e para ti tal como te parece, sendo tu e eu homens, como pode ser que eu seja em alguns casos mais sábio do que tu? Por que motivo se diz que Protágoras é digno de ensinar os outros — e a bons preços — como se ele soubesse algo, enquanto nós somos ignorantes e devemos ir aprender com ele? Se cada um é a medida da sua própria sabedoria, não há sábios nem ignorantes: toda opinião é igualmente verdadeira. E se toda opinião é igualmente verdadeira, a própria afirmação de Protágoras de que o homem é medida de tudo é apenas uma opinião, e portanto igualmente verdadeira e falsa.\n\nMas Protágoras tem uma resposta: não se trata de que todas as opiniões são igualmente verdadeiras num sentido absoluto, mas de que algumas são melhores que outras — mais úteis, mais benéficas, mais capazes de produzir bons resultados. O médico é superior ao leigo não porque conheça a verdade sobre a doença, mas porque as suas perspectivas sobre a saúde são mais salutares. O sofista e o orador são superiores ao cidadão comum porque sabem produzir perspectivas mais úteis à cidade. O critério não é a verdade, mas a utilidade.",
+    "guided_reading": [
+      {
+        "segment": "De todas as coisas, o homem é a medida: das que são, enquanto são; das que não são, enquanto não são.",
+        "note": "Esta é provavelmente a frase mais influente e discutida de toda a tradição sofista. Protágoras diz que não há padrão de verdade independente do percipiente humano — o homem substitui os deuses ou as Formas platónicas como referência.",
+        "highlight": true
+      },
+      {
+        "segment": "O que a cada um parece verdadeiro é verdadeiro para esse alguém",
+        "note": "O relativismo de Protágoras é claro: a verdade é perspectival, não absoluta. 'Verdadeiro para X' não é o mesmo que 'verdadeiro'. O predicado 'verdadeiro' é sempre relativo a um sujeito.",
+        "highlight": true
+      },
+      {
+        "segment": "se cada coisa é para mim tal como me parece, e para ti tal como te parece, como pode ser que eu seja em alguns casos mais sábio do que tu?",
+        "note": "Esta é a objecção de Sócrates (via Platão): se toda opinião é igualmente verdadeira, então não há sábios nem ignorantes — o que torna absurda a pretensão dos sofistas de ensinar sabedoria a troco de dinheiro.",
+        "highlight": true
+      },
+      {
+        "segment": "a própria afirmação de Protágoras de que o homem é medida de tudo é apenas uma opinião",
+        "note": "O argumento auto-refutador: se toda opinião é igualmente verdadeira, então a opinião de que 'toda opinião é igualmente verdadeira' é tão verdadeira quanto a sua negação. Protágoras refuta-se a si mesmo.",
+        "highlight": true
+      },
+      {
+        "segment": "algumas são melhores que outras — mais úteis, mais benéficas, mais capazes de produzir bons resultados",
+        "note": "A resposta sofisticada de Protágoras: não é verdade absoluta que distingue opiniões, mas utilidade prática. Esta antecipação do pragmatismo americano (William James, John Dewey) é notável.",
+        "highlight": true
+      }
+    ],
+    "key_terms": [
+      "relativismo",
+      "homem como medida",
+      "doxa",
+      "sofistas",
+      "auto-refutação",
+      "utilidade",
+      "verdade perspectival"
+    ],
+    "questions": [
+      "O que significa exatamente a tese de que 'o homem é a medida de todas as coisas'?",
+      "Como a objecção de Sócrates mostra que o relativismo de Protágoras é auto-refutador?",
+      "Em que sentido a resposta de Protágoras (utilidade em vez de verdade) resolve ou não resolve o problema?",
+      "Qual é a diferença entre relativismo e pluralismo? Protágoras é relativista ou pluralista?",
+      "Que implicações têm o relativismo de Protágoras para a ética e para a política?"
+    ]
+  },
+  {
+    "id": "gorgias-on-not-being",
+    "title": "Sobre o Não-Ser: os três argumentos de Górgias",
+    "source": "Sexto Empírico, Contra os Matemáticos, VII, 65–87",
+    "author": "gorgias",
+    "period": "Séc. V a.C.",
+    "language": "grego",
+    "type": "primario",
+    "text": "Górgias de Leontini avançou três teses que, se demonstráveis, destruiriam qualquer possibilidade de filosofia e de comunicação racionais.\n\nA primeira tese: nada existe. Se algo existisse, teria de ser eterno ou ter vindo a ser. Se viesse a ser, teria vindo a ser de algo ou do nada. Mas do nada nada vem, e de algo que existe não pode vir algo que não existia — pois o que existe já existe. Se fosse eterno, seria ilimitado; mas o ilimitado não pode estar em nenhum lugar, pois teria de estar em algo diferente de si, e esse algo seria maior do que o ilimitado. Contradição. Portanto, nada existe.\n\nA segunda tese: mesmo que algo existisse, não poderia ser conhecido. O pensamento e o ser são diferentes. Posso pensar criaturas impossíveis — homens voadores, carruagens correndo no mar. O facto de os pensar não faz com que existam. Inversamente, o facto de algo existir não garante que eu possa pensá-lo correctamente. O pensamento não é garantia de realidade, nem a realidade garantia do pensamento correcto.\n\nA terceira tese: mesmo que algo pudesse ser conhecido, esse conhecimento não poderia ser comunicado. O instrumento da comunicação é a linguagem, e a linguagem é diferente das coisas. Quando digo 'doce', a palavra não é doce. Transmito palavras, não experiências. O que tu recebes é a minha palavra, não a minha experiência da coisa. A comunicação é sempre tradução imperfeita.",
+    "guided_reading": [
+      {
+        "segment": "Górgias de Leontini avançou três teses que, se demonstráveis, destruiriam qualquer possibilidade de filosofia",
+        "note": "As teses de Górgias são frequentemente interpretadas como exercícios de retórica (demonstração de que qualquer posição pode ser argumentada) em vez de posições filosóficas genuínas. Seja como for, os argumentos são tecnicamente sérios.",
+        "highlight": true
+      },
+      {
+        "segment": "nada existe. Se algo existisse, teria de ser eterno ou ter vindo a ser",
+        "note": "O argumento de Górgias usa os instrumentos da filosofia eleática (Parménides, Zenão) para chegar a conclusões niilistas. É uma crítica interna: destrói a metafísica com as suas próprias armas.",
+        "highlight": true
+      },
+      {
+        "segment": "O pensamento e o ser são diferentes. Posso pensar criaturas impossíveis",
+        "note": "Este argumento ataca a famosa tese de Parménides ('o ser e o pensar são o mesmo'). Se pensamento e ser fossem idênticos, não poderíamos pensar o que não existe — mas podemos. Logo, são diferentes.",
+        "highlight": true
+      },
+      {
+        "segment": "O instrumento da comunicação é a linguagem, e a linguagem é diferente das coisas",
+        "note": "A terceira tese antecipa o problema da linguagem que ocupará a filosofia no século XX (Wittgenstein, Heidegger). A linguagem é mediação, não transparência — transmite palavras, não realidades.",
+        "highlight": true
+      },
+      {
+        "segment": "Transmito palavras, não experiências",
+        "note": "Este ponto é especialmente poderoso: mesmo que eu conheça algo, o que posso partilhar é a minha descrição verbal, que é inevitavelmente uma tradução. Tu recebes as minhas palavras, não o meu conhecimento.",
+        "highlight": true
+      }
+    ],
+    "key_terms": [
+      "niilismo",
+      "ser",
+      "não-ser",
+      "pensamento e ser",
+      "linguagem e realidade",
+      "Parménides",
+      "relativismo radical"
+    ],
+    "questions": [
+      "Quais são as três teses de Górgias e o que cada uma implica para a filosofia?",
+      "Como o argumento de Górgias sobre o não-ser usa as ferramentas da filosofia eleática contra si mesma?",
+      "A segunda tese (o que existe não pode ser conhecido) é um argumento sólido? Qual é a sua premissa mais vulnerável?",
+      "Como a terceira tese (o conhecimento não pode ser comunicado) se relaciona com os problemas modernos da linguagem?",
+      "Górgias está genuinamente a defender o niilismo ou a fazer um exercício retórico? Faz diferença para avaliar os argumentos?"
+    ]
+  },
+  {
+    "id": "epictetus-enchiridion-1",
+    "title": "O que depende de nós — abertura do Enchiridion",
+    "source": "Enchiridion, capítulo 1",
+    "author": "epictetus",
+    "period": "Séc. I–II d.C.",
+    "language": "grego",
+    "type": "primario",
+    "text": "Algumas coisas dependem de nós; outras, não. Dependem de nós: a opinião, o impulso, o desejo, a aversão — em suma, tudo o que é nosso fazer. Não dependem de nós: o corpo, a reputação, o cargo, em suma tudo o que não é nosso fazer. As coisas que dependem de nós são por natureza livres, não sujeitas a impedimento nem a obstáculo; as que não dependem de nós são fracas, servis, sujeitas a impedimento, alheias.\n\nRecorda, pois, que se considerares livre o que é por natureza servo, e teu o que é alheio, serás impedido, afligido, perturbado; irás queixar-te dos deuses e dos homens. Mas se considerares teu apenas o que é teu, e alheio o que é realmente alheio, ninguém te forçará jamais a nada, ninguém te impedirá, não te queixarás de ninguém, não acusarás ninguém, não farás nada contra a tua vontade, não terás inimigos, e não sofrerás dano algum.\n\nAspirando a coisas assim grandes, recorda que não se trata de começar por moderação, mas de abdicar completamente de algumas coisas, e de as adiar por enquanto. Mas se desejas ao mesmo tempo essas grandes coisas e também o cargo e a riqueza, talvez não venhas a obter sequer estes últimos por aspirares também àqueles primeiros; e certamente não conseguirás as grandes coisas, as únicas que produzem liberdade e felicidade.\n\nPratica dizendo de tudo que te apraz: escolheste aparecer assim para mim. Pois isso não te perturba. E se a criança ou a mulher adoecerem, disseres que é um ser humano que adoeceu, que não morreu quem não era ainda imortal, dirás a ti próprio o que é conveniente para manter a serenidade.",
+    "guided_reading": [
+      {
+        "segment": "Algumas coisas dependem de nós; outras, não.",
+        "note": "A distinção fundamental do estoicismo: eph' hēmin (o que depende de nós) versus ouk eph' hēmin (o que não depende). Toda a ética estoica deriva desta divisão. A sabedoria prática começa por aprender a distingui-las.",
+        "highlight": true
+      },
+      {
+        "segment": "Dependem de nós: a opinião, o impulso, o desejo, a aversão",
+        "note": "O domínio do que é nosso é estritamente mental e volitivo — não inclui o corpo, outros seres, ou os eventos externos. Só o que se passa na nossa mente está sob o nosso controlo.",
+        "highlight": true
+      },
+      {
+        "segment": "As coisas que dependem de nós são por natureza livres, não sujeitas a impedimento",
+        "note": "A liberdade estoica é interior. Mesmo em cativeiro físico, o sábio é livre — ninguém pode forçá-lo a desejar o que não quer, a julgar o que não julga. Epicteto era escravo: a autoridade desta observação é biográfica.",
+        "highlight": true
+      },
+      {
+        "segment": "se considerares livre o que é por natureza servo, e teu o que é alheio, serás impedido, afligido, perturbado",
+        "note": "A fonte do sofrimento é o erro categorial: tratar como nosso o que não é. Quem condiciona a sua felicidade à saúde (que pode perder), à riqueza (que pode perder) ou à opinião alheia sofre por necessidade.",
+        "highlight": true
+      },
+      {
+        "segment": "ninguém te forçará jamais a nada, ninguém te impedirá, não te queixarás de ninguém",
+        "note": "A promessa estoica: a imperturbabilidade (ataraxia) como consequência prática da distinção correcta. Não é indiferença ao mundo, mas libertação da dependência das circunstâncias externas.",
+        "highlight": true
+      },
+      {
+        "segment": "se a criança ou a mulher adoecerem, disseres que é um ser humano que adoeceu",
+        "note": "O exemplo mais provocador de Epicteto: a indiferença estoica aplicada à doença de um familiar. Não é falta de amor — é o reconhecimento de que o sofrimento nasce do julgamento ('isto é um mal'), não do evento em si.",
+        "highlight": false
+      }
+    ],
+    "key_terms": [
+      "eph' hēmin",
+      "dicotomia de controlo",
+      "ataraxia",
+      "liberdade interior",
+      "estoicismo",
+      "Epicteto",
+      "imperturbabilidade"
+    ],
+    "questions": [
+      "O que significa a distinção entre o que depende e o que não depende de nós? Dê exemplos concretos de cada categoria.",
+      "Por que a liberdade estoica é interior? Em que sentido um escravo pode ser livre?",
+      "Qual é a relação entre o erro categorial (tomar como nosso o que é alheio) e o sofrimento?",
+      "A indiferença de Epicteto à doença de um familiar é defensável? O que a distingue da crueldade ou da insensibilidade?",
+      "Compare a liberdade estoica com a liberdade entendida politicamente (ausência de coerção externa). São compatíveis?"
+    ]
+  },
+  {
+    "id": "epicurus-letter-menoeceus",
+    "title": "Carta a Meneceu — sobre a morte e o prazer",
+    "source": "Epicuro, Carta a Meneceu",
+    "author": "epicurus",
+    "period": "Séc. III a.C.",
+    "language": "grego",
+    "type": "primario",
+    "text": "Acostuma-te a pensar que a morte não é nada para nós, pois todo o bem e todo o mal residem na sensação, e a morte é privação de sensação. Por isso o conhecimento correcto de que a morte não é nada para nós torna aprazível a mortalidade da vida, não porque acrescente tempo ilimitado, mas porque suprime o desejo da imortalidade.\n\nPois não há nada de temível na vida para quem verdadeiramente compreendeu que não há nada de temível no não-viver. Por isso é tolo quem diz ter medo da morte não porque vai sofrer quando ela chegar, mas porque sofre por ela estar a chegar. Pois o que não nos perturba quando está presente não nos deve perturbar por antecipação.\n\nPortanto, o mais terrível dos males, a morte, não é nada para nós, pois quando nós existimos a morte não está presente, e quando a morte está presente então nós não existimos. Portanto, não diz respeito nem aos vivos nem aos mortos: não diz respeito aos vivos porque não está presente, nem aos mortos porque eles já não existem.\n\nQuando dizemos que o prazer é o princípio e o fim da vida feliz, não nos referimos aos prazeres dos dissolutos nem aos prazeres que consistem em gozos sensuais, como certos ignorantes, discordantes de nós ou mal compreendendo-nos, supõem; referimo-nos à ausência de dor no corpo e de perturbação na alma. Pois não são banquetes e festas contínuos que produzem uma vida agradável, mas o raciocínio sóbrio que examina as causas de toda a escolha e recusa e expulsa as opiniões que causam à alma a maior perturbação.",
+    "guided_reading": [
+      {
+        "segment": "a morte não é nada para nós, pois todo o bem e todo o mal residem na sensação, e a morte é privação de sensação",
+        "note": "O argumento tem a forma: bem e mal = sensações; morte = ausência de sensação; logo morte = ausência de bem e mal = nada. A premissa-chave é que só a experiência consciente tem valor positivo ou negativo.",
+        "highlight": true
+      },
+      {
+        "segment": "não porque vai sofrer quando ela chegar, mas porque sofre por ela estar a chegar",
+        "note": "Distinção importante: medo da morte versus sofrimento pela antecipação da morte. Epicuro aceita que morrer pode ser doloroso, mas o medo da morte em si é irracional — é sofrimento no presente por um não-evento futuro.",
+        "highlight": true
+      },
+      {
+        "segment": "quando nós existimos a morte não está presente, e quando a morte está presente então nós não existimos",
+        "note": "O argumento da assimetria temporal: vida e morte são mutuamente exclusivas. Nunca se experiencia a própria morte — experiencia-se o processo de morrer, que é distinto. Esta distinção é tecnicamente correcta mas psicologicamente desafiante.",
+        "highlight": true
+      },
+      {
+        "segment": "não nos referimos aos prazeres dos dissolutos nem aos prazeres que consistem em gozos sensuais",
+        "note": "Epicuro distingue o seu hedonismo do hedonismo vulgar. O prazer supremo (aponia + ataraxia) não é intensidade de prazer positivo, mas ausência de dor e perturbação. É uma concepção negativa e tranquila do prazer.",
+        "highlight": true
+      },
+      {
+        "segment": "o raciocínio sóbrio que examina as causas de toda a escolha e recusa",
+        "note": "A phronesis (prudência) epicurista: não a entrega ao prazer imediato, mas o cálculo racional de quais prazeres são sustentáveis, quais dores são necessárias, e quais desejos valem a pena satisfazer.",
+        "highlight": true
+      }
+    ],
+    "key_terms": [
+      "morte",
+      "privação de sensação",
+      "hedonismo",
+      "aponia",
+      "ataraxia",
+      "prazer tranquilo",
+      "cálculo hedónico"
+    ],
+    "questions": [
+      "Reconstrua o argumento de Epicuro de que a morte não é nada para nós. Em que premissas assenta?",
+      "Qual é a diferença entre o medo de morrer e o medo da morte? Epicuro responde a ambos?",
+      "O que distingue o hedonismo de Epicuro do hedonismo vulgar (busca de prazeres intensos)?",
+      "O argumento 'quando estou, a morte não está; quando a morte está, eu não estou' é convincente? Que objecções pode levantar?",
+      "Compare a ética de Epicuro com a de Epicteto: o que têm em comum e em que divergem sobre como viver bem?"
+    ]
+  },
+  {
+    "id": "plato-theaetetus-knowledge",
+    "title": "O que é conhecimento? — Teeteto",
+    "source": "Platão, Teeteto, 200d–201c",
+    "author": "plato",
+    "period": "Séc. IV a.C.",
+    "language": "grego",
+    "type": "primario",
+    "text": "Sócrates: Então, Teeteto, tenta de novo, e diz-me o que é o saber, pois é vergonhoso não ser capaz de dizer o que se sabe.\n\nTeeteto: Parece-me que quem sabe alguma coisa percebe o que sabe, e assim me parece que o saber não é outra coisa senão a percepção.\n\nSócrates: Bem respondido. Mas vamos examinar isto juntos. Protágoras dizia, como te recordas, que o homem é a medida de todas as coisas, das que são, enquanto são, e das que não são, enquanto não são. Não te parece que também ele estava a dizer que as coisas são para mim tal como me aparecem, e para ti tal como te aparecem, sendo tu e eu homens?\n\nMas considera: o vento, quando sopra, uns têm frio, outros não. De quem diremos que percebe correctamente? Do que tem frio, ou do que não tem? Ou diremos que o vento é frio para o que tem frio, e não frio para o que não tem?\n\nTeeteto: Assim parece.\n\nSócrates: E então não é verdadeiro para cada um aquilo que lhe parece? Mas então, veja: quando tu estás doente e algo te parece amargo, está a ser amargo para ti; mas quando estás são, parece-te doce. Qual das duas percepções é verdadeira? Ou é cada uma verdadeira para quem a tem? E se cada percepção é verdadeira para quem a tem, o conhecimento não é outra coisa que percepção — mas então nunca podes estar errado sobre nada que percebes.\n\nO problema é que isso é impossível. Recorda os sonhos: pensas que sabes, que percebes, mas o que percebes é falso. E o louco: sente e percebe, mas percebe o que não é real. Se saber é perceber, e perceber pode ser sonhar ou estar louco, saber pode ser sonhar ou estar louco — o que é evidentemente absurdo.",
+    "guided_reading": [
+      {
+        "segment": "o saber não é outra coisa senão a percepção",
+        "note": "A definição de Teeteto identifica conhecimento com percepção sensorial directa. É uma posição empirista ingénua: sei que o fogo queima porque sinto o calor, não por inferência ou raciocínio.",
+        "highlight": true
+      },
+      {
+        "segment": "o homem é a medida de todas as coisas",
+        "note": "Sócrates liga a tese de Teeteto a Protágoras: se conhecimento é percepção, e cada percepção é verdadeira para quem percebe, chegamos ao relativismo protagoriano. As duas posições são equivalentes.",
+        "highlight": true
+      },
+      {
+        "segment": "o vento é frio para o que tem frio, e não frio para o que não tem",
+        "note": "O exemplo do vento mostra a consequência do relativismo perceptual: não há propriedades objectivas do vento, apenas experiências subjectivas variáveis. O vento não é frio — é frio-para-X e não-frio-para-Y.",
+        "highlight": false
+      },
+      {
+        "segment": "nunca podes estar errado sobre nada que percebes",
+        "note": "A consequência absurda da identificação conhecimento = percepção. Se conhecimento é percepção, e percepção é infalível (o que percebo, percebo), então o conhecimento é infalível — mas sabemos que podemos estar errados.",
+        "highlight": true
+      },
+      {
+        "segment": "os sonhos: pensas que sabes, que percebes, mas o que percebes é falso",
+        "note": "O argumento do sonho como refutação: nos sonhos há percepção sem conhecimento. Se percepção bastasse para conhecimento, o sonhador conheceria. Mas o sonhador é enganado. Logo, percepção não é suficiente para conhecimento.",
+        "highlight": true
+      }
+    ],
+    "key_terms": [
+      "conhecimento",
+      "percepção",
+      "empirismo",
+      "relativismo",
+      "Teeteto",
+      "argumento do sonho",
+      "infalibilidade"
+    ],
+    "questions": [
+      "Por que Platão liga a tese 'conhecimento é percepção' ao relativismo de Protágoras?",
+      "O exemplo do vento frio mostra que percepções podem ser contraditórias. Isso refuta a tese de Teeteto?",
+      "Como o argumento do sonho refuta a identificação entre conhecimento e percepção?",
+      "Se conhecimento não é percepção, o que falta à percepção para ser conhecimento?",
+      "A definição de Teeteto é completamente errada, ou capta algo verdadeiro sobre como o conhecimento começa?"
+    ]
+  },
+  {
+    "id": "gettier-problem-presentation",
+    "title": "O problema de Gettier",
+    "source": "Edmund Gettier, 'Is Justified True Belief Knowledge?' (1963) — apresentação adaptada",
+    "author": "plato",
+    "period": "Séc. XX",
+    "language": "português",
+    "type": "secondario",
+    "text": "É amplamente aceito que a definição de conhecimento como crença verdadeira justificada é necessária e suficiente para o conhecimento factual. A presente nota mostra que esta definição é falsa, porque não é suficiente.\n\nCaso I. Smith e Jones candidataram-se a um emprego. Smith tem fortes razões para acreditar na proposição (d): Jones vai ficar com o emprego, e Jones tem dez moedas no bolso. As razões de Smith são: o presidente da empresa disse-lhe que Jones seria seleccionado, e Smith contou as moedas no bolso de Jones há dez minutos. A proposição (d) implica logicamente a proposição (e): O homem que vai ficar com o emprego tem dez moedas no bolso. Smith vê esta implicação e por isso acredita justificadamente em (e). Mas suponha que, sem que Smith o saiba, ele próprio vai ficar com o emprego, e também sem que ele o saiba, ele próprio tem dez moedas no bolso. Então (e) é verdadeira — o homem que vai ficar com o emprego (Smith) tem dez moedas no bolso. Smith está justificado em acreditar em (e), (e) é verdadeira, mas Smith não sabe (e).\n\nCaso II. Suponha que Smith tem razões justificadas para acreditar na proposição (f): Jones tem um Ford. Baseando-se em (f), Smith infere e acredita justificadamente nas proposições: (g) Jones tem um Ford, ou Brown está em Barcelona; (h) Jones tem um Ford, ou Brown está em Brest-Litovsky; (i) Jones tem um Ford, ou Brown está em Lisboa. Mas suponha que Jones não tem um Ford, mas que, por coincidência, Brown está de facto em Barcelona. Então (g) é verdadeira, Smith está justificado em acreditar em (g), mas Smith não sabe (g) — sabia apenas que Jones tinha um Ford, que é falso.",
+    "guided_reading": [
+      {
+        "segment": "a definição de conhecimento como crença verdadeira justificada é necessária e suficiente para o conhecimento factual",
+        "note": "A definição tripartite (JTB — Justified True Belief) dominou a epistemologia desde Platão. Um agente S sabe P se e só se: (1) P é verdadeira, (2) S acredita em P, (3) S está justificado em acreditar em P. Gettier vai mostrar que isto é insuficiente.",
+        "highlight": true
+      },
+      {
+        "segment": "Smith tem fortes razões para acreditar na proposição (d): Jones vai ficar com o emprego, e Jones tem dez moedas no bolso",
+        "note": "A justificação de Smith é razoável — baseia-se no testemunho da autoridade competente e na observação directa. Não há erro epistémico da parte de Smith.",
+        "highlight": false
+      },
+      {
+        "segment": "sem que Smith o saiba, ele próprio vai ficar com o emprego, e também sem que ele o saiba, ele próprio tem dez moedas no bolso",
+        "note": "O golpe de Gettier: o que torna (e) verdadeira não é o que Smith acreditava. A crença de Smith é verdadeira, mas por razão diferente da que Smith tinha em mente. A coincidência entre justificação e verdade não é o conhecimento.",
+        "highlight": true
+      },
+      {
+        "segment": "Smith está justificado em acreditar em (e), (e) é verdadeira, mas Smith não sabe (e)",
+        "note": "Esta é a conclusão que desfaz dois mil anos de epistemologia. Smith tem os três elementos — justificação, verdade, crença — mas intuitivamente não tem conhecimento. A definição JTB é refutada por contraexemplo.",
+        "highlight": true
+      },
+      {
+        "segment": "Jones não tem um Ford, mas que, por coincidência, Brown está de facto em Barcelona",
+        "note": "O segundo caso usa a disjunção: (g) é verdadeira não pela razão que Smith tinha (Jones tem um Ford, falso) mas por uma coincidência independente (Brown está em Barcelona). A verdade e a justificação não estão ligadas pela razão certa.",
+        "highlight": true
+      }
+    ],
+    "key_terms": [
+      "crença verdadeira justificada",
+      "JTB",
+      "problema de Gettier",
+      "contraexemplo",
+      "conhecimento",
+      "justificação",
+      "coincidência"
+    ],
+    "questions": [
+      "Qual é a definição tripartite de conhecimento que Gettier está a atacar? Formule-a com precisão.",
+      "No Caso I, Smith satisfaz as três condições (crença, verdade, justificação). Por que intuitivamente não tem conhecimento?",
+      "O que há de estruturalmente semelhante nos dois casos de Gettier? Qual é o 'truque' que usa em ambos?",
+      "Que condição adicional poderia ser acrescentada à definição tripartite para bloquear os casos de Gettier?",
+      "O problema de Gettier mostra que é impossível definir conhecimento, ou apenas que a definição JTB é incompleta?"
+    ],
+    "note": "Apresentação contemporânea do problema iniciado no Teeteto de Platão. Autor moderno: Edmund Gettier (1963)."
+  },
+  {
+    "id": "hume-causation-custom",
+    "title": "Causalidade, costume e o problema da indução",
+    "source": "David Hume, Investigação sobre o Entendimento Humano, Seção IV e VII",
+    "author": "hume",
+    "period": "1748",
+    "language": "inglês",
+    "type": "primario",
+    "text": "Suponha que uma pessoa, dotada da mais forte razão e capacidade, é trazida de repente ao mundo; ela observaria imediatamente uma sucessão de eventos, um seguindo o outro, mas seria incapaz de descobrir qualquer outra coisa. Não seria capaz de, pelo mais cuidadoso exame de uma causa aparente, descobrir qualquer poder ou ligação necessária — apenas que os dois eventos se seguem um ao outro.\n\nPortanto, suponha que vejo uma bola de bilhar movendo-se em linha recta em direcção a uma outra — não sinto nem infiro qualquer outra coisa do que o facto de que as bolas se tocam e de que a segunda se move imediatamente. Não é razoável concluir que eu inferi o efeito a partir da causa e que a razão determinou essa inferência? Aparentemente é. Mas observa: se eu estivesse a raciocinar a priori, o que poderia oferecer como evidência para a minha crença? Não poderia descobrir na causa, pelo exame mais rigoroso, qualquer poder ou força — apenas o facto de que um evento se segue a outro. Não há nada na causa que nos permita inferir o efeito.\n\nTendo encontrado, em muitos casos, que dois tipos de objetos, chama e calor, neve e frio, se seguiram um ao outro, sinto-me determinado pelo costume a esperar o mesmo noutros casos. Portanto, é o costume, e não a razão, o grande guia da vida humana. É aquele princípio que faz com que a nossa experiência seja útil para nós, e nos faça esperar, no futuro, uma sequência de eventos semelhante à que apareceu no passado.",
+    "guided_reading": [
+      {
+        "segment": "seria incapaz de descobrir qualquer outra coisa. Não seria capaz de descobrir qualquer poder ou ligação necessária",
+        "note": "Hume começa com um experimento mental: uma mente sem hábitos ou expectativas prévias observa o mundo. O que vê? Sequências — A antes de B. Nunca o 'poder' ou a 'força' que supostamente liga A a B. A conexão necessária não é observável.",
+        "highlight": true
+      },
+      {
+        "segment": "não sinto nem infiro qualquer outra coisa do que o facto de que as bolas se tocam e de que a segunda se move imediatamente",
+        "note": "O exemplo da bilhar é o mais famoso de Hume. Observamos: contacto (A) → movimento (B). Nunca observamos a 'necessidade' de que B siga A. A causalidade não está nas coisas — está na expectativa que desenvolvemos depois de ver repetições.",
+        "highlight": true
+      },
+      {
+        "segment": "se eu estivesse a raciocinar a priori, o que poderia oferecer como evidência para a minha crença?",
+        "note": "Hume desafia o racionalismo: mesmo se raciocinarmos a priori sobre uma causa, não podemos deduzir o efeito sem experiência prévia. Não há necessidade lógica na causalidade — há apenas conjunção constante.",
+        "highlight": true
+      },
+      {
+        "segment": "é o costume, e não a razão, o grande guia da vida humana",
+        "note": "A conclusão radical de Hume: as nossas crenças causais não são racionalmente justificadas — são hábitos psicológicos formados pela repetição de experiências. A razão não pode provar que o futuro será como o passado.",
+        "highlight": true
+      },
+      {
+        "segment": "faz com que a nossa experiência seja útil para nós, e nos faça esperar, no futuro, uma sequência de eventos semelhante à que apareceu no passado",
+        "note": "O costume é útil, mesmo que não seja racionalmente justificado. Hume não é cético prático — aceita que vivemos segundo expectativas causais. Apenas nega que essas expectativas tenham fundamento racional.",
+        "highlight": false
+      }
+    ],
+    "key_terms": [
+      "causalidade",
+      "ligação necessária",
+      "costume",
+      "conjunção constante",
+      "problema da indução",
+      "a priori",
+      "hábito"
+    ],
+    "questions": [
+      "O que Hume quer mostrar com o experimento mental da 'pessoa trazida de repente ao mundo'?",
+      "O que observamos quando vemos uma bola de bilhar bater noutra? O que não observamos, segundo Hume?",
+      "Por que o costume e não a razão é, para Hume, o fundamento das nossas crenças causais?",
+      "O que é o 'problema da indução'? Como este texto o ilustra?",
+      "A conclusão de Hume é cética — implica que não sabemos que o sol vai nascer amanhã. Como responder a isso?"
+    ]
+  },
+  {
+    "id": "kant-copernican-revolution",
+    "title": "A revolução copernicana de Kant",
+    "source": "Immanuel Kant, Crítica da Razão Pura, Prefácio à Segunda Edição (B xvi)",
+    "author": "kant",
+    "period": "1787",
+    "language": "alemão",
+    "type": "primario",
+    "text": "Até agora se supunha que todo o nosso conhecimento tinha que se guiar pelos objectos; mas todas as tentativas de descobrir algo a priori sobre os objectos por meio de conceitos, que ampliariam o nosso conhecimento, fracassaram com este pressuposto. Experimente-se, pois, verificar se não se resolverão melhor as tarefas da metafísica admitindo que os objectos se têm de regular pelo nosso conhecimento.\n\nIsto coincide já com o que Copérnico fez na Astronomia: não conseguindo explicar bem os movimentos celestes admitindo que toda a multidão de estrelas se movia em torno do espectador, tentou verificar se não seria mais fácil admitindo que o espectador se movia e que as estrelas se mantinham em repouso.\n\nOra, na metafísica pode fazer-se uma tentativa semelhante quanto à intuição dos objectos. Se a intuição tivesse que se guiar pela natureza dos objectos, não se vê como se poderia saber algo deles a priori; se, pelo contrário, o objecto (enquanto objecto dos sentidos) se guiar pela natureza da nossa faculdade de intuição, então é muito fácil representar essa possibilidade. Mas como não posso parar na intuição se esta deve tornar-se conhecimento, e como me é necessário referir a representação a alguma coisa como seu objecto e determinar este objeto por meio dela, posso admitir que os conceitos pelos quais efectuo essa determinação se regulam igualmente pelo objecto.",
+    "guided_reading": [
+      {
+        "segment": "todo o nosso conhecimento tinha que se guiar pelos objectos; mas todas as tentativas fracassaram com este pressuposto",
+        "note": "Kant diagnostica o fracasso do empirismo dogmático: se o conhecimento fosse apenas 'cópia' da realidade, não conseguiríamos explicar o conhecimento a priori (matemática, lógica). O pressuposto precisa de ser invertido.",
+        "highlight": true
+      },
+      {
+        "segment": "admitindo que os objectos se têm de regular pelo nosso conhecimento",
+        "note": "A inversão copernicana: não é a mente que se adapta passivamente à realidade, mas a realidade (tal como a conhecemos) que se conforma às estruturas da mente. O sujeito deixa de ser receptor passivo e torna-se constituidor activo da experiência.",
+        "highlight": true
+      },
+      {
+        "segment": "não conseguindo explicar bem os movimentos celestes admitindo que toda a multidão de estrelas se movia, tentou verificar se o espectador se movia",
+        "note": "A analogia com Copérnico é precisa: Copérnico não mudou os factos, mudou o ponto de referência. Kant não muda a realidade, muda quem constitui a estrutura do conhecimento: não o objecto, mas o sujeito.",
+        "highlight": true
+      },
+      {
+        "segment": "se a intuição tivesse que se guiar pela natureza dos objectos, não se vê como se poderia saber algo deles a priori",
+        "note": "O argumento transcendental: o conhecimento a priori (matemática, física newtoniana) é necessário e universal. Só pode ser assim se as suas estruturas vierem do sujeito, não dos objectos — pois os objectos nunca nos dariam necessidade, só regularidade.",
+        "highlight": true
+      },
+      {
+        "segment": "os conceitos pelos quais efectuo essa determinação se regulam igualmente pelo objecto",
+        "note": "A limitação crítica: os conceitos do entendimento (categorias) são impostos pelo sujeito, mas só se aplicam a objectos da experiência possível. Kant não é idealista absoluto — há uma realidade exterior, mas só a conhecemos através das formas do sujeito.",
+        "highlight": false
+      }
+    ],
+    "key_terms": [
+      "revolução copernicana",
+      "a priori",
+      "sujeito constitutivo",
+      "intuição",
+      "categorias",
+      "conhecimento transcendental",
+      "empirismo vs. racionalismo"
+    ],
+    "questions": [
+      "O que Kant quer dizer com 'revolução copernicana' em filosofia? Qual a analogia com Copérnico?",
+      "Por que o fracasso do pressuposto de que 'o conhecimento se guia pelos objectos' levou Kant a inverter a relação?",
+      "O que torna o conhecimento matemático e científico possível, segundo a perspectiva transcendental?",
+      "Qual é a diferença entre o idealismo de Kant e o idealismo de Berkeley (que nega a existência de objectos materiais)?",
+      "A revolução copernicana de Kant resolve o problema da indução de Hume? Como ou por que não?"
+    ]
+  },
+  {
+    "id": "kant-phenomena-noumena",
+    "title": "Fenômeno e coisa-em-si",
+    "source": "Immanuel Kant, Crítica da Razão Pura, Analítica dos Princípios — adaptação",
+    "author": "kant",
+    "period": "1781",
+    "language": "alemão",
+    "type": "primario",
+    "text": "Se tirarmos um sujeito transcendental, ou mesmo apenas a natureza subjectiva dos sentidos em geral, todo o modo de ser, todas as relações dos objectos no espaço e no tempo, incluindo o próprio espaço e o próprio tempo, desapareceriam. Como fenômenos, não podem existir em si mesmos, só na nossa representação.\n\nO que os objectos podem ser em si mesmos, com independência de toda a receptividade da nossa sensibilidade, permanece-nos inteiramente desconhecido. Conhecemos somente o nosso modo de os percepcionar; esse modo é-nos peculiar e não tem de ser necessariamente partilhado por todos os seres, embora seja necessariamente partilhado por todos os seres humanos.\n\nCom a coisa-em-si não temos que tratar; ela pertence ao noúmeno — ao objecto pensado mas não dado na intuição sensível. O noúmeno não é um objecto especial ao lado dos fenômenos; é o conceito-limite que nos lembra que os nossos conhecimentos têm fronteiras.\n\nEsta distinção não é cepticismo. Não estamos a dizer que nada pode ser conhecido. Estamos a dizer que o que pode ser conhecido é determinado pelas condições da nossa cognição. A ciência é inteiramente possível e legítima — dentro do âmbito da experiência possível. É quando pretendemos conhecer o que está além da experiência possível — quando a razão especula sobre Deus, a alma imortal, o universo como totalidade — que entramos em ilusão transcendental.",
+    "guided_reading": [
+      {
+        "segment": "Se tirarmos um sujeito transcendental, todo o modo de ser, todas as relações dos objectos no espaço e no tempo... desapareceriam",
+        "note": "A tese do idealismo transcendental: espaço e tempo não são propriedades das coisas em si, mas formas da intuição sensível humana. Sem sujeito cognoscente, não haveria espaço nem tempo tal como os conhecemos.",
+        "highlight": true
+      },
+      {
+        "segment": "O que os objectos podem ser em si mesmos, com independência de toda a receptividade da nossa sensibilidade, permanece-nos inteiramente desconhecido",
+        "note": "A coisa-em-si (Ding an sich) é o correlato noumenal dos fenômenos: o objecto como é independentemente de toda a percepção humana. Não é que não exista — é que não podemos conhecê-la, porque todo conhecimento passa pelas formas da intuição e do entendimento.",
+        "highlight": true
+      },
+      {
+        "segment": "O noúmeno não é um objecto especial ao lado dos fenômenos; é o conceito-limite",
+        "note": "Clarificação importante: o noúmeno não é um segundo nível da realidade escondido por baixo dos fenômenos. É um conceito negativo — 'o que não é fenômeno'. A sua função é marcar os limites do conhecimento possível.",
+        "highlight": true
+      },
+      {
+        "segment": "É quando pretendemos conhecer o que está além da experiência possível — Deus, a alma imortal, o universo como totalidade — que entramos em ilusão transcendental",
+        "note": "A Crítica da Razão Pura é uma crítica das pretensões excessivas da razão. A metafísica tradicional tentou conhecer o que está além da experiência possível — e assim caiu em contradições e ilusões inevitáveis.",
+        "highlight": true
+      }
+    ],
+    "key_terms": [
+      "fenômeno",
+      "noúmeno",
+      "coisa-em-si",
+      "idealismo transcendental",
+      "ilusão transcendental",
+      "limites do conhecimento",
+      "Kant"
+    ],
+    "questions": [
+      "Qual é a distinção entre fenômeno e noúmeno em Kant? São dois tipos de objectos ou dois aspectos do mesmo?",
+      "Por que a coisa-em-si é incognoscível, segundo Kant?",
+      "O idealismo transcendental de Kant é equivalente ao idealismo de Berkeley (que nega a existência de coisas materiais)?",
+      "O que é a 'ilusão transcendental' e por que a razão cai nela inevitavelmente?",
+      "A distinção fenômeno/noúmeno implica que a ciência só conhece aparências? Como Kant responderia?"
+    ]
+  },
+  {
+    "id": "kant-groundwork-ci",
+    "title": "O imperativo categórico — Fundamentação da Metafísica dos Costumes",
+    "source": "Immanuel Kant, Fundamentação da Metafísica dos Costumes, seção II (BA 52, 66–67)",
+    "author": "kant",
+    "period": "1785",
+    "language": "alemão",
+    "type": "primario",
+    "text": "Tudo na natureza age segundo leis. Somente um ser racional tem a capacidade de agir segundo a representação das leis, isto é, segundo princípios; ou seja, tem uma vontade. Uma vez que para derivar acções das leis é necessária a razão, a vontade não é outra coisa senão razão prática. Se a razão determina infalivelmente a vontade, as acções de um tal ser que são reconhecidas como objectivamente necessárias são também subjectivamente necessárias, isto é, a vontade é uma capacidade de escolher só o que a razão, independentemente da inclinação, reconhece como praticamente necessário.\n\nMas se a razão por si só não determina suficientemente a vontade, e se a vontade está ainda sujeita a condições subjectivas (certos impulsos) que não concordam sempre com as condições objectivas — numa palavra, se a vontade não é em si completamente conforme com a razão (como é na realidade o caso dos homens) — então as acções que são reconhecidas como objectivamente necessárias são subjectivamente contingentes, e a determinação de tal vontade em conformidade com princípios objectivos chama-se imposição. O princípio objectivo, na medida em que é imperativo para uma vontade, chama-se mandamento da razão, e a fórmula do mandamento chama-se imperativo.\n\nAgora eu digo: o homem, e em geral todo o ser racional, existe como fim em si mesmo, não meramente como meio para ser usado a bel-prazer por esta ou aquela vontade. Deve nas suas acções ser sempre considerado ao mesmo tempo como fim.",
+    "guided_reading": [
+      {
+        "segment": "Somente um ser racional tem a capacidade de agir segundo a representação das leis, isto é, segundo princípios; ou seja, tem uma vontade",
+        "note": "A distinção entre acção por lei natural (necessidade cega) e acção por princípio (autonomia racional). Só os seres racionais têm vontade — a capacidade de determinar a acção por razão em vez de apenas por impulso.",
+        "highlight": true
+      },
+      {
+        "segment": "se a vontade está ainda sujeita a condições subjectivas (certos impulsos) que não concordam sempre com as condições objectivas",
+        "note": "A situação dos seres humanos: não somos razão pura. Temos inclinações, desejos, emoções que por vezes contradizem o que a razão manda. Por isso precisamos de imperativos — a razão precisa de se impor contra as inclinações.",
+        "highlight": true
+      },
+      {
+        "segment": "O princípio objectivo, na medida em que é imperativo para uma vontade, chama-se mandamento da razão, e a fórmula do mandamento chama-se imperativo",
+        "note": "A distinção entre imperativo hipotético ('se queres X, faz Y') e imperativo categórico ('faz Y', sem condição). O imperativo categórico é o único que tem força moral — não depende de nenhum desejo ou fim particular.",
+        "highlight": true
+      },
+      {
+        "segment": "o homem, e em geral todo o ser racional, existe como fim em si mesmo, não meramente como meio",
+        "note": "A segunda formulação do imperativo categórico: a fórmula da humanidade. Tem força directa e intuitiva: não usar pessoas apenas como instrumentos. Esta formulação é frequentemente mais acessível do que a da lei universal.",
+        "highlight": true
+      }
+    ],
+    "key_terms": [
+      "imperativo categórico",
+      "razão prática",
+      "fim em si mesmo",
+      "vontade racional",
+      "autonomia",
+      "dever",
+      "humanidade"
+    ],
+    "questions": [
+      "Por que só os seres racionais têm vontade, segundo Kant?",
+      "Qual é a diferença entre imperativo hipotético e imperativo categórico? Dê exemplos de cada.",
+      "O que significa tratar alguém 'apenas como meio'? É sempre errado usá-lo como meio?",
+      "A fórmula da lei universal ('age só segundo a máxima que podes universalizar') e a fórmula da humanidade são equivalentes? Ou dão respostas diferentes?",
+      "Como o imperativo categórico se aplica a casos concretos como mentir para salvar uma vida?"
+    ]
+  },
+  {
+    "id": "kant-good-will",
+    "title": "A boa vontade — o único bem incondicional",
+    "source": "Immanuel Kant, Fundamentação da Metafísica dos Costumes, seção I (BA 1–3)",
+    "author": "kant",
+    "period": "1785",
+    "language": "alemão",
+    "type": "primario",
+    "text": "Neste mundo, e até mesmo fora dele, não é possível pensar nada que possa ser considerado bom sem limitação, a não ser somente uma boa vontade. Entendimento, sagacidade e discernimento, e como quer que possam chamar-se os talentos do espírito, ou coragem, decisão, perseverança nos propósitos, como qualidades do temperamento, são sem dúvida em muitos aspectos bons e desejáveis; mas também podem tornar-se maus e prejudiciais se a vontade que deve servir-se destes dons da natureza não é boa.\n\nO mesmo ocorre com os dons da fortuna. Poder, riqueza, honra, até a própria saúde e o bem-estar geral, a satisfação com a sua condição — o que se designa por felicidade — infundem coragem e por isso muitas vezes também arrogância, quando não existe uma boa vontade que corrija e torne universalmente conforme a um fim a sua influência sobre o ânimo.\n\nA boa vontade não é boa por aquilo que promove ou realiza, não é boa por sua adequação para alcançar qualquer finalidade que nos tenhamos proposto; é boa somente pelo querer, isto é, é boa em si mesma. Considerada em si mesma, ela é por si mesma muito mais valiosa do que tudo o que por seu intermédio possa ser alcançado em proveito de qualquer inclinação.\n\nEsta ideia do valor absoluto da simples vontade, sem tomar em consideração qualquer utilidade na sua avaliação, parece tão extraordinária que, embora seja partilhada até pelo senso comum, devemos contudo perguntar se está de acordo com a razão.",
+    "guided_reading": [
+      {
+        "segment": "não é possível pensar nada que possa ser considerado bom sem limitação, a não ser somente uma boa vontade",
+        "note": "A tese central da ética kantiana: há apenas um bem incondicionalmente bom. Todos os outros bens (talentos, virtudes, felicidade) são condicionados — bons apenas quando servem uma boa vontade.",
+        "highlight": true
+      },
+      {
+        "segment": "Entendimento, sagacidade e discernimento... podem tornar-se maus e prejudiciais se a vontade que deve servir-se destes dons não é boa",
+        "note": "A inteligência pode servir ao crime; a coragem pode servir ao mal. Nenhuma qualidade natural ou adquirida é intrinsecamente boa. O valor moral de um acto não está nas capacidades usadas, mas na intenção que os dirige.",
+        "highlight": true
+      },
+      {
+        "segment": "Poder, riqueza, honra, até a própria saúde e o bem-estar geral, a satisfação com a sua condição — o que se designa por felicidade",
+        "note": "Kant inclui a felicidade na lista do condicionalmente bom. Esta é uma ruptura com Aristóteles: para Kant, a felicidade não é o bem supremo — pode ser alcançada por meios moralmente errados.",
+        "highlight": true
+      },
+      {
+        "segment": "A boa vontade não é boa por aquilo que promove ou realiza... é boa somente pelo querer, isto é, é boa em si mesma",
+        "note": "O deontologismo kantiano: o valor moral de uma acção está na intenção (na conformidade ao dever), não nas consequências. Uma acção boa que falha nos seus resultados não perde valor moral.",
+        "highlight": true
+      },
+      {
+        "segment": "embora seja partilhada até pelo senso comum, devemos contudo perguntar se está de acordo com a razão",
+        "note": "Kant usa o senso comum como ponto de partida, mas submete-o ao teste da razão. Não basta que uma intuição moral seja comum — precisa de ser racionalmente justificada. Este é o programa da Fundamentação.",
+        "highlight": false
+      }
+    ],
+    "key_terms": [
+      "boa vontade",
+      "dever",
+      "deontologia",
+      "bem incondicionado",
+      "intenção",
+      "consequências",
+      "razão prática"
+    ],
+    "questions": [
+      "Por que Kant afirma que apenas a boa vontade é boa sem limitação? Por que a felicidade não o é?",
+      "O que significa dizer que a boa vontade é boa 'em si mesma' e não pelos seus resultados?",
+      "Como a posição de Kant se opõe ao consequencialismo (a ideia de que o valor moral de uma acção depende das suas consequências)?",
+      "É possível saber se a vontade de alguém é realmente boa? Que problema isso coloca para a ética kantiana?",
+      "Compare a posição de Kant com a de Aristóteles: para quem a felicidade é central? Porque discordam?"
+    ]
+  },
+  {
+    "id": "mill-utilitarianism-principle",
+    "title": "O princípio da utilidade",
+    "source": "John Stuart Mill, Utilitarismo, capítulo II",
+    "author": "mill",
+    "period": "1863",
+    "language": "inglês",
+    "type": "primario",
+    "text": "A crença que aceita como fundamento da moral a utilidade, ou o princípio da maior felicidade, sustenta que as acções são correctas na proporção em que tendem a promover a felicidade, erradas na proporção em que tendem a produzir o reverso da felicidade. Por felicidade entende-se o prazer e a ausência de dor; por infelicidade, a dor e a privação de prazer.\n\nPara dar uma compreensão clara do padrão moral que a teoria estabelece, muito mais precisa de ser dito; em particular, o que se inclui nas ideias de dor e prazer e até que ponto isso fica uma questão aberta. Mas essas explicações suplementares não afectam a teoria da vida em que esta teoria da moralidade está baseada — a saber, que o prazer e a liberdade da dor são as únicas coisas desejáveis como fins; e que todas as coisas desejáveis são desejáveis ou pelo prazer inerente a elas próprias, ou como meios para a promoção do prazer e a prevenção da dor.\n\nÉ perfeitamente compatível com o princípio da utilidade reconhecer o facto de que alguns géneros de prazer são mais desejáveis e mais valiosos do que outros. Seria absurdo que enquanto, na estimativa de todas as outras coisas, a qualidade fosse considerada assim como a quantidade, a estimativa dos prazeres dependesse somente da quantidade. É melhor ser Sócrates insatisfeito do que um tolo satisfeito. E se o tolo ou o porco tiverem uma opinião diferente, é porque eles só conhecem o seu lado da questão. O outro partido no comparação conhece ambos os lados.",
+    "guided_reading": [
+      {
+        "segment": "as acções são correctas na proporção em que tendem a promover a felicidade, erradas na proporção em que tendem a produzir o reverso da felicidade",
+        "note": "O princípio da utilidade em formulação precisa. Note o elemento quantitativo ('proporção') e o elemento consequencialista: o critério moral é o resultado da acção (promoção de felicidade), não a intenção do agente.",
+        "highlight": true
+      },
+      {
+        "segment": "o prazer e a liberdade da dor são as únicas coisas desejáveis como fins",
+        "note": "O hedonismo do utilitarismo: apenas prazer e ausência de dor têm valor intrínseco. Tudo o resto (virtude, conhecimento, amizade) é valioso instrumentalmente — como meio para o prazer ou prevenção da dor.",
+        "highlight": true
+      },
+      {
+        "segment": "alguns géneros de prazer são mais desejáveis e mais valiosos do que outros",
+        "note": "Mill introduz a distinção qualitativa para responder à objecção de que o utilitarismo é 'uma filosofia de porcos'. Bentham tratava todos os prazeres quantitativamente. Mill admite prazeres superiores (intelectuais, estéticos) e inferiores (corporais).",
+        "highlight": true
+      },
+      {
+        "segment": "É melhor ser Sócrates insatisfeito do que um tolo satisfeito",
+        "note": "A frase mais famosa de Mill. Um ser de capacidades superiores prefere o exercício dessas capacidades, mesmo que isso gere mais infelicidade. O prazer intelectual de Sócrates vale mais, mesmo que seja menor em quantidade, do que a satisfação embrutecida.",
+        "highlight": true
+      },
+      {
+        "segment": "O outro partido no comparação conhece ambos os lados",
+        "note": "O critério de Mill para hierarquizar prazeres: quem conheceu ambos os tipos de prazer prefere consistentemente os superiores. Não é elitismo — é apelo à experiência comparada de quem pode julgar.",
+        "highlight": false
+      }
+    ],
+    "key_terms": [
+      "princípio da utilidade",
+      "maior felicidade",
+      "hedonismo",
+      "prazeres superiores e inferiores",
+      "consequencialismo",
+      "Bentham",
+      "Mill"
+    ],
+    "questions": [
+      "Formule o princípio da utilidade com precisão. O que conta como 'felicidade' nesta formulação?",
+      "Qual é a diferença entre o utilitarismo de Bentham e o de Mill quanto à qualidade dos prazeres?",
+      "O que significa 'melhor ser Sócrates insatisfeito do que um tolo satisfeito'? Como justifica esta hierarquia?",
+      "O utilitarismo exige que calculemos as consequências de cada acção. É isso possível ou razoável?",
+      "Como o utilitarismo responde a casos em que a maior felicidade do maior número exige prejudicar uma minoria?"
+    ]
+  },
+  {
+    "id": "mill-proof-utilitarianism",
+    "title": "A prova do princípio da utilidade",
+    "source": "John Stuart Mill, Utilitarismo, capítulo IV",
+    "author": "mill",
+    "period": "1863",
+    "language": "inglês",
+    "type": "primario",
+    "text": "Não há modo de provar que a felicidade é desejável, excepto o facto de que as pessoas a desejam. Qualquer teoria que vise mostrar que algo é desejável tem de apelar, em última análise, ao facto de que é desejado. O único fundamento possível para provar que um objecto é visível é que as pessoas o vêem; o único fundamento possível para provar que um som é audível é que as pessoas o ouvem. Da mesma forma, a única prova de que algo é desejável é que as pessoas o desejam.\n\nSendo isto assim, temos não só um fundamento para crer que a felicidade é um bem para cada pessoa, em particular, já que é desejada por cada pessoa para si própria; mas temos também um fundamento para crer que a felicidade geral é um bem para o conjunto de todas as pessoas, já que é a soma das felicidades individuais.\n\nMas o utilitarismo exige que a felicidade não seja apenas o bem da pessoa individual mas o único bem. Poder-se-ia objectar: as pessoas desejam outras coisas além da felicidade — desejam a virtude, por exemplo. Mas a virtude é apenas um meio para a felicidade? Ou é desejada por si mesma?\n\nMill responde: o desejo de virtude não é originalmente um constituinte da felicidade, mas pode tornar-se tal. Uma pessoa virtuosa sente prazer na virtude e dor quando age contra ela. Deste modo, a virtude torna-se parte da felicidade — não um meio externo para ela, mas um ingrediente dela. O que importa é que quando a virtude é genuinamente desejada por si mesma, é porque se tornou fonte de prazer e de ausência de dor — e assim encaixa no esquema utilitarista.",
+    "guided_reading": [
+      {
+        "segment": "o único fundamento possível para provar que um objecto é visível é que as pessoas o vêem; da mesma forma, a única prova de que algo é desejável é que as pessoas o desejam",
+        "note": "O famoso argumento por analogia de Mill. A falácia naturalista (G.E. Moore) está aqui: 'visível' significa 'pode ser visto'; 'desejável' não significa 'pode ser desejado' mas 'deve ser desejado'. Mill confunde os dois sentidos.",
+        "highlight": true
+      },
+      {
+        "segment": "temos um fundamento para crer que a felicidade geral é um bem para o conjunto de todas as pessoas, já que é a soma das felicidades individuais",
+        "note": "A passagem do individual ao colectivo é problemática: que cada pessoa deseje a sua própria felicidade não implica que cada pessoa deva desejar a felicidade de todos. Mill dá um salto lógico que os críticos consideram injustificado.",
+        "highlight": true
+      },
+      {
+        "segment": "as pessoas desejam outras coisas além da felicidade — desejam a virtude, por exemplo",
+        "note": "Mill enfrenta a objecção mais séria: se as pessoas desejam a virtude independentemente do prazer que produz, o utilitarismo falha — há bens não redutíveis à felicidade. Esta é a objecção que Kant, por exemplo, tornaria decisiva.",
+        "highlight": true
+      },
+      {
+        "segment": "a virtude torna-se parte da felicidade — não um meio externo para ela, mas um ingrediente dela",
+        "note": "A resposta de Mill: a virtude pode ser inicialmente instrumental, mas com o hábito torna-se um fim em si mesma — porque gera prazer directamente. Esta resposta é psicológica, não lógica, e tem sido muito contestada.",
+        "highlight": true
+      }
+    ],
+    "key_terms": [
+      "desejável",
+      "falácia naturalista",
+      "prova",
+      "virtude",
+      "felicidade",
+      "G.E. Moore",
+      "soma das felicidades"
+    ],
+    "questions": [
+      "O argumento da analogia de Mill ('visível/desejável') é válido? Que falácia os críticos identificam nele?",
+      "Como Mill passa da felicidade individual para a felicidade geral? É uma passagem lógica válida?",
+      "Como Mill responde à objecção de que as pessoas desejam coisas além da felicidade?",
+      "A resposta de Mill sobre a virtude é convincente? A virtude pode tornar-se 'ingrediente' da felicidade?",
+      "O que G.E. Moore chama de 'falácia naturalista' e como se aplica a este argumento de Mill?"
+    ]
+  },
+  {
+    "id": "aristotle-phronesis-ethics",
+    "title": "A prudência e o agir bem",
+    "source": "Aristóteles, Ética a Nicômaco, Livro VI, 1140a–1141b",
+    "author": "aristotle",
+    "period": "Séc. IV a.C.",
+    "language": "grego",
+    "type": "primario",
+    "text": "A prudência diz respeito às coisas humanas e às coisas sobre as quais é possível deliberar. Com efeito, dizemos que a função do homem prudente consiste principalmente em deliberar bem, e ninguém delibera sobre as coisas que não podem ser de outra maneira, nem sobre as que não têm um fim que seja um bem praticável. O homem que, sem cálculo, é bom a deliberar em geral é prudente.\n\nMas a prudência não é ciência. Com efeito, as coisas que podem ser praticadas são susceptíveis de ser de outra maneira; aliás, não é possível deliberar sobre as coisas que são necessariamente tal como são. Por outro lado, a prudência não é arte: as artes têm por fim produzir algo diferente do acto que as produz, enquanto a acção boa é ela própria o seu fim.\n\nPortanto, a prudência é um estado de apreensão verdadeira acompanhada de razão, relativo à acção, que diz respeito às coisas boas e más para o homem. Com efeito, enquanto o fim da produção é diferente dela, o fim da acção não pode sê-lo. Porque a boa acção em si mesma é o fim.\n\nHá uma diferença entre a habilidade do homem prático e a prudência: a habilidade consiste em ser capaz de fazer as coisas que contribuem para o fim em vista, seja esse fim bom ou mau. A prudência é habilidade que serve fins genuinamente bons. O homem astuto pode ter a habilidade de calcular meios mas não tem prudência se os fins que persegue não são bons.",
+    "guided_reading": [
+      {
+        "segment": "a função do homem prudente consiste principalmente em deliberar bem",
+        "note": "A phronesis (prudência, sabedoria prática) é a virtude intelectual central da ética aristotélica. Não é saber teórico sobre o bem, mas a capacidade de deliberar bem sobre acções concretas em situações concretas.",
+        "highlight": true
+      },
+      {
+        "segment": "a prudência não é ciência",
+        "note": "A ciência (episteme) é sobre o necessário — o que não pode ser de outro modo. A prudência é sobre o contingente — o que pode ser de outro modo. Acções éticas pertencem ao domínio do contingente: exigem julgamento situacional, não dedução.",
+        "highlight": true
+      },
+      {
+        "segment": "a prudência não é arte: as artes têm por fim produzir algo diferente do acto que as produz",
+        "note": "Arte (techne) visa um produto externo — a mesa, o poema. Prudência visa a boa acção em si mesma, não um produto dela. Agir bem é o seu próprio fim. Esta distinção explica por que a ética não pode ser reduzida a uma técnica.",
+        "highlight": true
+      },
+      {
+        "segment": "a prudência é um estado de apreensão verdadeira acompanhada de razão, relativo à acção, que diz respeito às coisas boas e más para o homem",
+        "note": "A definição completa de phronesis combina: (1) apreensão verdadeira (não mera opinião), (2) razão (não impulso), (3) orientação para a acção, (4) referência explícita ao bem humano.",
+        "highlight": true
+      },
+      {
+        "segment": "O homem astuto pode ter a habilidade de calcular meios mas não tem prudência se os fins que persegue não são bons",
+        "note": "A distinção entre habilidade (deinotes) e prudência (phronesis): a habilidade pode ser usada para fins bons ou maus. A prudência inclui a excelência dos fins — é habilidade vinculada ao bem genuíno. O estratega criminoso tem habilidade, não phronesis.",
+        "highlight": true
+      }
+    ],
+    "key_terms": [
+      "phronesis",
+      "prudência",
+      "deliberação",
+      "contingente",
+      "techne",
+      "episteme",
+      "habilidade e prudência"
+    ],
+    "questions": [
+      "Por que a phronesis não é ciência nem arte? O que ela é, então?",
+      "O que significa dizer que a acção boa é 'ela própria o seu fim'?",
+      "Qual é a diferença entre habilidade (deinotes) e prudência (phronesis)?",
+      "Por que a ética não pode ser reduzida a um conjunto de regras ou técnicas, segundo Aristóteles?",
+      "Como a phronesis se relaciona com as virtudes do carácter (como a coragem ou a justiça)?"
+    ]
+  },
+  {
+    "id": "augustine-confessions-time",
+    "title": "O que é o tempo? — Confissões",
+    "source": "Agostinho de Hipona, Confissões, Livro XI, 14–28",
+    "author": "augustine",
+    "period": "Séc. IV–V d.C.",
+    "language": "latim",
+    "type": "primario",
+    "text": "Que é, pois, o tempo? Se ninguém mo pergunta, sei o que é; mas se quero explicar a quem me faz essa pergunta, já não sei. Todavia, digo com segurança que, se nada passasse, não existiria o tempo passado; se nada sobreviesse, não existiria o tempo futuro; se nada existisse, não existiria o tempo presente.\n\nEntão como existem esses dois tempos — o passado e o futuro — se o passado já não é e o futuro ainda não é? E o presente, se fosse sempre presente sem passar para o passado, já não seria tempo mas eternidade.\n\nO presente das coisas passadas é a memória; o presente das coisas presentes é a intuição directa; o presente das coisas futuras é a expectativa. Há, por conseguinte, três tempos no espírito: o presente do passado, que é a memória; o presente do presente, que é a intuição; e o presente do futuro, que é a expectativa.\n\nÉ no meu espírito que meço o tempo. Seria errado dizer-te que meço o que já passou: meço a impressão que as coisas, ao passar, deixaram em mim. A impressão é que existe actualmente; é ela que meço quando meço o tempo, não as coisas que passaram e a deixaram.",
+    "guided_reading": [
+      {
+        "segment": "Se ninguém mo pergunta, sei o que é; mas se quero explicar a quem me faz essa pergunta, já não sei",
+        "note": "A abertura mais famosa da filosofia do tempo. Agostinho identifica um problema peculiar: há conceitos que usamos com segurança na prática mas que resistem à definição teórica. O tempo é o exemplo paradigmático.",
+        "highlight": true
+      },
+      {
+        "segment": "se o passado já não é e o futuro ainda não é — E o presente, se fosse sempre presente sem passar para o passado, já não seria tempo mas eternidade",
+        "note": "O paradoxo do tempo: dos três tempos, o passado não existe (já passou), o futuro não existe (ainda não veio), e o presente que não passa seria eternidade, não tempo. Como pode o tempo existir?",
+        "highlight": true
+      },
+      {
+        "segment": "O presente das coisas passadas é a memória; o presente das coisas presentes é a intuição directa; o presente das coisas futuras é a expectativa",
+        "note": "A solução agostiniana: o tempo existe no espírito. Os três tempos são três modos de presença mental. O passado existe como memória presente; o futuro existe como expectativa presente. O tempo é interiorizado.",
+        "highlight": true
+      },
+      {
+        "segment": "É no meu espírito que meço o tempo",
+        "note": "A tese central: o tempo não é uma realidade objectiva externa ao espírito, mas uma extensão da alma (distentio animi). Esta antecipação fenomenológica do século XX (Husserl, Heidegger) é notável num texto do século V.",
+        "highlight": true
+      },
+      {
+        "segment": "meço a impressão que as coisas, ao passar, deixaram em mim",
+        "note": "Quando medimos uma duração, medimos a impressão psíquica que o evento deixou, não o evento em si (que já passou). Há uma subjectividade irredutível na experiência do tempo.",
+        "highlight": false
+      }
+    ],
+    "key_terms": [
+      "tempo",
+      "memória",
+      "expectativa",
+      "intuição",
+      "distentio animi",
+      "presente do passado",
+      "eternidade"
+    ],
+    "questions": [
+      "Qual é o paradoxo do tempo que Agostinho identifica? Como é que o passado e o futuro 'existem'?",
+      "O que significa dizer que os três tempos são 'presentes no espírito'? É isso uma solução para o paradoxo?",
+      "Como a teoria de Agostinho se relaciona com a fenomenologia moderna do tempo (Husserl, Heidegger)?",
+      "Quando Agostinho diz que mede a impressão das coisas, não as coisas, o que isso implica sobre a objectividade do tempo?",
+      "Há um sentido em que o tempo é objectivo — independente do espírito humano? Agostinho deixa espaço para isso?"
+    ]
+  },
+  {
+    "id": "augustine-illumination",
+    "title": "A iluminação divina e o conhecimento da verdade",
+    "source": "Agostinho, Sobre o Mestre (De Magistro), cap. XI, 38; Solilóquios I, 1–8",
+    "author": "augustine",
+    "period": "Séc. IV d.C.",
+    "language": "latim",
+    "type": "primario",
+    "text": "Onde, então, encontrei a verdade para aprender o que é falso e o que é verdadeiro? Pois eu tinha de referir as coisas que aprendi a alguma coisa — e esse algo tinha de ser mais estável e seguro do que as opiniões dos homens. E isso não é o espírito humano — pois o espírito humano é mutável, falível, perturbado por paixões. E não são os sentidos — pois os sentidos enganam.\n\nQuando, porém, julgamos que dois e três são cinco, ou que a linha mais curta entre dois pontos é recta, ou que a igualdade não é injusta, não estamos a criar essas verdades. Encontramo-las. Elas estão lá, independentes de nós, eternas, necessárias, imutáveis. Nenhum espírito as criou; todos os espíritos que as descobrem confirmam-nas.\n\nEsta luz que ilumina a mente quando ela compreende verdades eternas não é a luz dos sentidos nem a luz da razão humana. É a luz de Deus — a Iluminação divina. Assim como o olho corporal vê as coisas visíveis pela luz do sol, o olho da mente compreende as verdades eternas pela luz de Deus.\n\nNão é que Deus nos revele as verdades como um profeta revela profecias. É antes que Deus é a condição da possibilidade de todo o conhecimento verdadeiro — sem a luz divina, a mente não poderia reconhecer o verdadeiro nem o bem.",
+    "guided_reading": [
+      {
+        "segment": "Onde, então, encontrei a verdade para aprender o que é falso e o que é verdadeiro?",
+        "note": "Agostinho parte de uma pergunta epistemológica: para detectar o erro, precisamos de uma norma de verdade. De onde vem essa norma? Não pode vir dos sentidos (falíveis) nem da razão humana (mutável).",
+        "highlight": true
+      },
+      {
+        "segment": "quando julgamos que dois e três são cinco... não estamos a criar essas verdades. Encontramo-las",
+        "note": "O argumento pela imutabilidade das verdades matemáticas e lógicas: são descobertas, não inventadas. Nenhum espírito humano as criou; existem independentemente de qualquer mente humana particular.",
+        "highlight": true
+      },
+      {
+        "segment": "Esta luz que ilumina a mente quando ela compreende verdades eternas não é a luz dos sentidos nem a luz da razão humana. É a luz de Deus",
+        "note": "A teoria da iluminação divina: o conhecimento das verdades eternas requer uma luz especial que excede as capacidades humanas naturais. Deus é a condição transcendente do conhecimento humano.",
+        "highlight": true
+      },
+      {
+        "segment": "Assim como o olho corporal vê as coisas visíveis pela luz do sol, o olho da mente compreende as verdades eternas pela luz de Deus",
+        "note": "A analogia da luz solar é platónica (recorda o sol no Mito da Caverna). Agostinho é um platónico cristão: transforma a Forma do Bem platónica em Deus cristão como fonte de toda a inteligibilidade.",
+        "highlight": true
+      }
+    ],
+    "key_terms": [
+      "iluminação",
+      "verdades eternas",
+      "luz divina",
+      "epistemologia agostiniana",
+      "platonismo cristão",
+      "imutabilidade da verdade"
+    ],
+    "questions": [
+      "Por que os sentidos e a razão humana não são suficientes como fundamento do conhecimento, segundo Agostinho?",
+      "O que há de especial nas verdades matemáticas que as torna exemplos privilegiados para Agostinho?",
+      "Como a teoria da iluminação se relaciona com a teoria platónica das Formas?",
+      "A teoria da iluminação é religiosa ou filosófica — ou as duas coisas? Pode ser separada da teologia?",
+      "Compare a teoria do conhecimento de Agostinho com a de Descartes: o que têm em comum sobre o papel de Deus no conhecimento?"
+    ]
+  },
+  {
+    "id": "anselm-proslogion",
+    "title": "O argumento ontológico",
+    "source": "Anselmo de Cantuária, Proslógio, capítulos II–III",
+    "author": "anselm",
+    "period": "1077–1078",
+    "language": "latim",
+    "type": "primario",
+    "text": "E de facto, Senhor, Tu que nos dás a fé, ensina-me a compreender que Tu existes, como acreditamos, e que és o que acreditamos que és. E na verdade, cremos que Tu és um ser do qual nada maior pode ser pensado. Mas então: porventura não existe um ser desse género, visto que o insensato disse no seu coração 'Não há Deus'?\n\nMas quando este insensato ouve o que eu digo, nomeadamente 'um ser do qual nada de maior pode ser concebido', compreende o que ouve; e o que compreende existe no seu entendimento, ainda que ele não entenda que esse ser existe. Pois uma coisa é que um ser exista no entendimento, e outra coisa é entender que um ser existe.\n\nPortanto, mesmo o insensato deve aceitar que existe, pelo menos no entendimento, um ser do qual nada de maior pode ser pensado. E certamente isso do qual nada de maior pode ser pensado não pode existir apenas no entendimento. Porque se existisse apenas no entendimento, poder-se-ia pensar que ele existia também na realidade — e isso seria maior. Portanto, se aquilo do qual nada de maior pode ser pensado existisse apenas no entendimento, então aquilo do qual nada de maior pode ser pensado seria aquilo do qual algo maior pode ser pensado. O que é uma contradição.\n\nPor conseguinte, existe indubitavelmente um ser do qual nada de maior pode ser pensado, tanto no entendimento como na realidade.",
+    "guided_reading": [
+      {
+        "segment": "Tu és um ser do qual nada maior pode ser pensado",
+        "note": "Esta é a definição de Deus que Anselmo usa — não uma descrição empírica, mas uma definição conceptual. O argumento vai mostrar que este conceito implica a existência real. Note que o insensato que nega Deus tem este conceito no entendimento — mesmo ele compreende o que a palavra significa.",
+        "highlight": true
+      },
+      {
+        "segment": "uma coisa é que um ser exista no entendimento, e outra coisa é entender que um ser existe",
+        "note": "Anselmo distingue dois modos de existência: no entendimento (in intellectu) e na realidade (in re). Posso ter o conceito de uma ilha perfeita sem que ela exista. O passo crucial é mostrar que, no caso de Deus, o in intellectu implica o in re.",
+        "highlight": true
+      },
+      {
+        "segment": "aquilo do qual nada de maior pode ser pensado não pode existir apenas no entendimento",
+        "note": "O núcleo do argumento: existir apenas na mente é ser menor do que existir também na realidade. Se Deus (o maior ser pensável) existisse apenas na mente, haveria algo maior (o mesmo ser existindo também na realidade). Mas então Deus não seria o maior — contradição.",
+        "highlight": true
+      },
+      {
+        "segment": "se aquilo do qual nada de maior pode ser pensado existisse apenas no entendimento, então aquilo do qual nada de maior pode ser pensado seria aquilo do qual algo maior pode ser pensado",
+        "note": "A redução ao absurdo: a hipótese 'Deus existe apenas no entendimento' implica 'algo maior que Deus pode ser pensado', o que contradiz a definição de Deus. Logo, a hipótese é falsa: Deus existe também na realidade.",
+        "highlight": true
+      }
+    ],
+    "key_terms": [
+      "argumento ontológico",
+      "id quo maius cogitari nequit",
+      "in intellectu",
+      "in re",
+      "Anselmo",
+      "existência",
+      "a priori"
+    ],
+    "questions": [
+      "Reconstitua o argumento ontológico de Anselmo em forma de dedução: premissas e conclusão.",
+      "Qual é o papel da distinção entre existência no entendimento e existência na realidade no argumento?",
+      "Gaunilo objectou com a 'ilha perfeita': se o argumento valesse, provaria a existência de uma ilha perfeita. Como Anselmo pode responder?",
+      "Kant afirmou que 'existência não é um predicado'. Como isso refuta o argumento de Anselmo?",
+      "O argumento ontológico é a priori ou a posteriori? O que isso significa para o seu alcance?"
+    ]
+  },
+  {
+    "id": "aquinas-five-ways",
+    "title": "As cinco vias para a existência de Deus",
+    "source": "Tomás de Aquino, Suma Teológica, Parte I, Questão 2, Artigo 3",
+    "author": "thomas-aquinas",
+    "period": "1265–1274",
+    "language": "latim",
+    "type": "primario",
+    "text": "A existência de Deus pode ser demonstrada por cinco vias.\n\nA primeira e mais evidente é a do movimento. Tudo o que se move é movido por algo. O que está em movimento foi posto em movimento por algo que é distinto dele. Pois o movimento nada mais é que a passagem da potência ao acto, e a passagem ao acto só pode ser efectuada por algo que já está em acto. É impossível que a mesma coisa seja em relação ao mesmo aspecto simultaneamente em potência e em acto. Portanto, é impossível que o mesmo seja ao mesmo tempo e sob o mesmo aspecto o motor e o movido. É preciso, portanto, chegar a um primeiro motor que não seja movido por ninguém — e este é o que todos entendem por Deus.\n\nA segunda via parte da noção de causa eficiente. Verificamos que há uma ordem de causas eficientes no mundo sensível. Não é possível que uma coisa seja causa eficiente de si mesma, pois dessa forma ela existiria antes de si mesma, o que é impossível. Não é possível regredir ao infinito na série de causas eficientes, pois assim suprimir-se-ia a causa primeira, e portanto a última. É preciso, pois, admitir uma causa eficiente primeira, que todos chamam Deus.\n\nA terceira via parte da contingência. Encontramos coisas que podem ser ou não ser — que nascem e perecem. É impossível que essas coisas sempre tenham existido. Se tudo pudesse não ser, teria havido um momento em que nada existia. Mas se isso fosse assim, nada existiria agora, pois o que não existe não começa a existir senão por algo que existe. Logo, é preciso admitir um ser necessário que exista por si mesmo.",
+    "guided_reading": [
+      {
+        "segment": "A primeira e mais evidente é a do movimento. Tudo o que se move é movido por algo",
+        "note": "A primeira via é cosmológica: parte de um facto empírico (o movimento existe) e raciocina até à sua causa última. A premissa aristotélica é que o movimento requer um motor — nada passa de potência a acto por si mesmo.",
+        "highlight": true
+      },
+      {
+        "segment": "a passagem ao acto só pode ser efectuada por algo que já está em acto",
+        "note": "O princípio aristotélico: o actual precede o potencial. O fogo (em acto quente) aquece a lenha (em potência quente). A potência não se actualiza sozinha — requer algo já em acto para a mover.",
+        "highlight": false
+      },
+      {
+        "segment": "É preciso, portanto, chegar a um primeiro motor que não seja movido por ninguém",
+        "note": "O argumento para o primeiro motor imóvel: a cadeia de motores-movidos não pode regredir ao infinito (o que tornaria impossível explicar o movimento actual). Tem de haver um primeiro motor que move sem ser movido.",
+        "highlight": true
+      },
+      {
+        "segment": "É necessário admitir uma causa eficiente primeira, que todos chamam Deus",
+        "note": "A segunda via segue a mesma estrutura mas aplica-se à causalidade eficiente em vez do movimento. A impossibilidade de regressão infinita de causas implica uma causa primeira incausada.",
+        "highlight": true
+      },
+      {
+        "segment": "se tudo pudesse não ser, teria havido um momento em que nada existia",
+        "note": "A terceira via: se todos os seres fossem contingentes (pudessem não existir), em algum momento nada teria existido. Mas ex nihilo nihil fit — do nada, nada vem. Como existe algo agora, tem de haver um ser necessário.",
+        "highlight": true
+      }
+    ],
+    "key_terms": [
+      "vias cosmológicas",
+      "motor imóvel",
+      "causa primeira",
+      "contingência",
+      "ser necessário",
+      "Aristóteles",
+      "Tomás de Aquino"
+    ],
+    "questions": [
+      "Qual é a estrutura lógica comum às três primeiras vias de Tomás? Que premissa partilham sobre o regresso ao infinito?",
+      "A premissa 'tudo o que se move é movido por algo' é necessariamente verdadeira? Que contra-exemplos são possíveis?",
+      "Por que o regresso infinito de causas é problemático? É logicamente impossível ou apenas inaceitável?",
+      "A terceira via (da contingência) conclui um 'ser necessário'. Esse ser necessariamente é o Deus do Cristianismo?",
+      "Hume e Kant criticaram as vias cosmológicas. Qual é a objecção central de cada um?"
+    ]
+  },
+  {
+    "id": "aquinas-faith-reason",
+    "title": "Fé e razão — a distinção dos domínios",
+    "source": "Tomás de Aquino, Suma Contra os Gentios, Livro I, caps. 3–9; Suma Teológica I, q. 1, a. 1",
+    "author": "thomas-aquinas",
+    "period": "1259–1265",
+    "language": "latim",
+    "type": "primario",
+    "text": "Existem certas coisas verdadeiras sobre Deus que excedem inteiramente a capacidade da razão humana, como Deus ser trino e uno. Mas há outras que a razão natural é capaz de atingir, como o facto de Deus existir, ser uno, e ter os atributos que os filósofos têm demonstrado de Deus por razão natural.\n\nÉ por isso conveniente que essas verdades que a razão pode descobrir sejam também objecto de fé. Por que razão? Em primeiro lugar, para que o conhecimento de Deus chegue a mais homens mais rapidamente. O caminho da razão para esses conhecimentos é longo e difícil, e poucos chegam ao fim. Em segundo lugar, para que o conhecimento de Deus chegue com mais certeza. A razão, deixada a si mesma, comete erros.\n\nPortanto, as verdades que a razão pode descobrir sobre Deus são objecto tanto da fé como da razão — não porque a fé e a razão se contradigam, mas porque a fé é um suplemento providente da razão para as mesmas verdades.\n\nQuanto às verdades que excedem a razão — a Trindade, a Incarnação — não se trata de provas, mas de credibilidade. Não podemos provar que Deus é trino, mas podemos mostrar que não há argumento racional que o refute. A fé não vai contra a razão; vai além dela. Há que distinguir o contra rationem (contra a razão) do supra rationem (acima da razão).",
+    "guided_reading": [
+      {
+        "segment": "Existem certas coisas verdadeiras sobre Deus que excedem inteiramente a capacidade da razão humana, como Deus ser trino e uno",
+        "note": "Tomás distingue dois tipos de verdade religiosa: as que a razão pode alcançar (praeambula fidei) e as que excedem a razão (mistérios da fé). Esta distinção evita dois extremos — o fideísmo puro e o racionalismo que pretende provar tudo.",
+        "highlight": true
+      },
+      {
+        "segment": "para que o conhecimento de Deus chegue a mais homens mais rapidamente",
+        "note": "O argumento de conveniência: mesmo as verdades que a razão poderia alcançar (como a existência de Deus) são reveladas porque o caminho da razão é longo, difícil, e poucos chegam ao fim. A revelação é uma atalho providencial, não uma substituição da razão.",
+        "highlight": false
+      },
+      {
+        "segment": "a fé é um suplemento providente da razão para as mesmas verdades",
+        "note": "Para as verdades racionalmente acessíveis, fé e razão chegam ao mesmo lugar por caminhos diferentes. Não há contradição — há complementaridade. A fé não cancela a razão sobre a existência de Deus; confirma-a.",
+        "highlight": true
+      },
+      {
+        "segment": "Há que distinguir o contra rationem do supra rationem",
+        "note": "A distinção crucial de Tomás: as doutrinas cristãs que excedem a razão (Trindade, Encarnação) não contradizem a razão — estão acima dela. É possível mostrar que nenhum argumento racional as refuta, mesmo que não se possa prová-las.",
+        "highlight": true
+      }
+    ],
+    "key_terms": [
+      "fé e razão",
+      "praeambula fidei",
+      "mistérios da fé",
+      "supra rationem",
+      "contra rationem",
+      "revelação",
+      "Tomás de Aquino"
+    ],
+    "questions": [
+      "Qual é a distinção fundamental que Tomás faz entre os dois tipos de verdade religiosa?",
+      "Por que Tomás acha conveniente que as verdades racionalmente acessíveis sejam também reveladas?",
+      "O que significa dizer que a fé é 'supra rationem' e não 'contra rationem'?",
+      "Como a posição de Tomás se distingue do fideísmo (que rejeita a razão em matéria religiosa)?",
+      "A posição de Tomás é ainda defensável hoje, depois de Darwin, da neurociência cognitiva e da física cosmológica?"
+    ]
+  },
+  {
+    "id": "aristotle-prior-analytics-syllogism",
+    "title": "O que é um silogismo — Analíticos Anteriores",
+    "source": "Aristóteles, Analíticos Anteriores, Livro I, capítulo 1 (24b18–22)",
+    "author": "aristotle",
+    "period": "Séc. IV a.C.",
+    "language": "grego",
+    "type": "primario",
+    "text": "Um silogismo é um discurso no qual, postas certas coisas, outras coisas distintas das postas resultam necessariamente pelo facto de aquelas serem. Digo pelo facto de aquelas serem para mostrar que a conclusão resulta por causa delas; e digo outras coisas distintas das postas para excluir que a conclusão seja idêntica às premissas.\n\nO silogismo perfeito é aquele que não requer nada além do que foi posto para que a necessidade da conclusão se torne evidente. O silogismo imperfeito é aquele que requer uma ou mais proposições que são necessárias em virtude dos termos postos, mas que não foram incluídas nas premissas.\n\nExemplo de silogismo em Barbara: todo homem é mortal (premissa maior); Sócrates é homem (premissa menor); logo, Sócrates é mortal (conclusão). Esta é a figura mais simples e mais perfeita: o predicado da conclusão é afirmado de todo o sujeito, via o termo médio que aparece nas duas premissas.\n\nDeve distinguir-se entre silogismo válido e silogismo sólido. Um silogismo é válido quando a conclusão se segue necessariamente das premissas — independentemente da verdade das premissas. Um silogismo é sólido quando é válido e as premissas são verdadeiras. Todo homem pode voar; Sócrates é homem; logo Sócrates pode voar — é válido mas não sólido. Sócrates é mortal; Sócrates é grego; logo algum grego é mortal — é sólido mas não é um silogismo standard (tem premissas verdadeiras e conclusão verdadeira mas a conclusão não resulta necessariamente só das premissas dadas).",
+    "guided_reading": [
+      {
+        "segment": "Um silogismo é um discurso no qual, postas certas coisas, outras coisas distintas das postas resultam necessariamente",
+        "note": "A definição formal de silogismo tem dois elementos essenciais: (1) necessidade — a conclusão não pode ser falsa se as premissas são verdadeiras; (2) distinção — a conclusão diz algo novo, não é apenas repetição das premissas.",
+        "highlight": true
+      },
+      {
+        "segment": "O silogismo perfeito é aquele que não requer nada além do que foi posto para que a necessidade da conclusão se torne evidente",
+        "note": "Perfeição silogística significa auto-evidência da necessidade: ao ler as premissas e a conclusão, é imediatamente claro que a conclusão resulta das premissas, sem passos intermédios. Barbara (AAA-1) é o exemplo paradigmático.",
+        "highlight": false
+      },
+      {
+        "segment": "todo homem é mortal; Sócrates é homem; logo, Sócrates é mortal",
+        "note": "O silogismo mais famoso da história da lógica. A estrutura: (M-P) todo M é P; (S-M) S é M; (S-P) logo S é P. O termo médio (M = homem) aparece em ambas as premissas mas não na conclusão — é o 'elo' que conecta sujeito e predicado da conclusão.",
+        "highlight": true
+      },
+      {
+        "segment": "Um silogismo é válido quando a conclusão se segue necessariamente das premissas — independentemente da verdade das premissas",
+        "note": "A distinção validade/solidez é fundamental em lógica. Validade é uma propriedade formal — diz respeito à estrutura do argumento. Um argumento pode ser estruturalmente perfeito (válido) com premissas falsas.",
+        "highlight": true
+      }
+    ],
+    "key_terms": [
+      "silogismo",
+      "premissa maior",
+      "premissa menor",
+      "conclusão",
+      "termo médio",
+      "validade",
+      "solidez",
+      "Barbara"
+    ],
+    "questions": [
+      "O que é um silogismo segundo Aristóteles? Identifique as suas partes no exemplo de Sócrates.",
+      "Qual é a diferença entre um argumento válido e um argumento sólido? Dê um exemplo de cada.",
+      "O que é o termo médio e qual é o seu papel no silogismo?",
+      "Todo argumento dedutivo é um silogismo? Ou o silogismo é apenas um tipo de argumento dedutivo?",
+      "Quais são as limitações do silogismo aristotélico como sistema de lógica formal? (O que não consegue representar?)"
+    ],
+    "advanced": {
+      "section": "Nomenclatura medieval das figuras",
+      "content": "Os lógicos medievais nomearam os modos válidos com vogais indicando a quantidade e qualidade das proposições: A (universal afirmativa), E (universal negativa), I (particular afirmativa), O (particular negativa). BARBARA: AAA-1 (Todos os M são P; todos os S são M; logo, todos os S são P). CELARENT: EAE-1. DARII: AII-1. FERIO: EIO-1. As demais figuras reduzem-se à primeira por operações de conversão."
+    }
+  },
+  {
+    "id": "aristotle-categories-proposition",
+    "title": "Proposição, sujeito e predicado — Sobre a Interpretação",
+    "source": "Aristóteles, Sobre a Interpretação (De Interpretatione), caps. 4–7 (17a2–26)",
+    "author": "aristotle",
+    "period": "Séc. IV a.C.",
+    "language": "grego",
+    "type": "primario",
+    "text": "Das coisas que se dizem, algumas dizem-se em combinação e outras sem combinação. As que se dizem em combinação, como 'o homem corre', 'o homem vence'. As que se dizem sem combinação, como 'homem', 'boi', 'corre', 'vence'.\n\nDas coisas que existem, algumas se predicam de um sujeito mas não estão em nenhum sujeito: por exemplo, homem se predica do homem individual, mas não está em nenhum sujeito. Outras estão num sujeito mas não se predicam de nenhum sujeito — por exemplo, o conhecimento gramatical individual está no espírito mas não se predica de nenhum sujeito. Outras predicam-se de um sujeito e estão num sujeito — por exemplo, o conhecimento está no espírito e predica-se da gramática. Outras não estão em nenhum sujeito nem se predicam de nenhum sujeito, por exemplo, o homem individual, o cavalo individual — o que é individual e numericamente uno não se predica de nenhum sujeito.\n\nAs categorias são os géneros mais gerais de predicação: substância, quantidade, qualidade, relação, lugar, tempo, posição, estado, acção, paixão. Uma substância como Sócrates, uma quantidade como dois metros, uma qualidade como branco, uma relação como maior que, um lugar como no Liceu, um tempo como ontem, uma posição como está sentado, um estado como está armado, uma acção como corta, uma paixão como é cortado.",
+    "guided_reading": [
+      {
+        "segment": "Das coisas que se dizem, algumas dizem-se em combinação e outras sem combinação",
+        "note": "Aristóteles começa com a linguagem (o que se diz) antes de chegar ao ser (o que existe). As proposições combinam termos; os termos isolados não são verdadeiros nem falsos. 'Homem' — nem verdadeiro nem falso. 'O homem corre' — verdadeiro ou falso.",
+        "highlight": true
+      },
+      {
+        "segment": "algumas se predicam de um sujeito mas não estão em nenhum sujeito",
+        "note": "Distinção entre predicação (dizer-se de) e inerência (estar em). Homem predica-se de Sócrates individual mas não está nele como num substrato — é uma espécie, não uma propriedade. A cor branca, ao contrário, está no sujeito como propriedade acidental.",
+        "highlight": true
+      },
+      {
+        "segment": "o conhecimento gramatical individual está no espírito mas não se predica de nenhum sujeito",
+        "note": "As particularidades ('este conhecimento gramatical que Sócrates tem') estão num sujeito (no espírito de Sócrates) mas não se predicam de outro sujeito — são individuais, não universais.",
+        "highlight": false
+      },
+      {
+        "segment": "As categorias são os géneros mais gerais de predicação: substância, quantidade, qualidade, relação...",
+        "note": "As dez categorias são as formas básicas em que algo pode ser dito de outro. Não são apenas categorias gramaticais — são categorias ontológicas: os modos fundamentais em que algo pode existir ou ser determinado.",
+        "highlight": true
+      }
+    ],
+    "key_terms": [
+      "categorias",
+      "substância",
+      "predicação",
+      "inerência",
+      "universal",
+      "particular",
+      "acidente"
+    ],
+    "questions": [
+      "Qual é a diferença entre 'predicar-se de um sujeito' e 'estar num sujeito'?",
+      "Por que Aristóteles diz que termos isolados ('homem', 'corre') não são verdadeiros nem falsos?",
+      "O que são as categorias aristotélicas? São categorias linguísticas, lógicas, ou ontológicas?",
+      "Como a distinção substância/acidente se relaciona com as categorias?",
+      "Compare a teoria das categorias de Aristóteles com a de Kant: o que têm em comum e em que divergem?"
+    ],
+    "advanced": {
+      "section": "O Quadrado de Oposições formal",
+      "content": "Notação: A = SaP (S pertence todo a P), E = SeP (nenhum S é P), I = SiP (algum S é P), O = SoP (algum S não é P). Relações: A e E: contrárias (não podem ser ambas V; podem ser ambas F). I e O: subcontrárias (não podem ser ambas F; podem ser ambas V). A e O: contraditórias. E e I: contraditórias. A implica I (subalternação). E implica O."
+    }
+  },
+  {
+    "id": "logic-fallacies-text",
+    "title": "Falácias: os erros mais comuns no raciocínio",
+    "source": "Exposição analítica — compilada de Aristóteles, Refutações Sofísticas, e tradição lógica",
+    "author": "aristotle",
+    "period": "Séc. IV a.C. / tradição",
+    "language": "português",
+    "type": "secondario",
+    "text": "Uma falácia é um argumento que parece válido mas não o é. As falácias formais violam as regras da lógica formal. As falácias informais violam normas de raciocínio relevante ou evidência adequada.\n\nAd Hominem: atacar o carácter ou a situação do proponente em vez de responder ao argumento. «O argumento de X sobre economia não vale nada, porque X faliu duas vezes.» O historial financeiro de X é irrelevante para a validade dos seus argumentos económicos. Variante tu quoque: «Mas você faz o mesmo!» — mesmo que o interlocutor seja hipócrita, isso não torna o argumento falso.\n\nApelo à autoridade (non sequitur): «Einsten acreditava em Deus, logo Deus existe.» A autoridade de Einstein em física não se transfere para teologia. Autoridade é evidência relevante apenas quando (1) a pessoa é perita na área em questão e (2) há consenso de peritos na área.\n\nPergunta carregada: «Quando é que você parou de bater na sua mulher?» A pergunta pressupõe o que deveria provar. Qualquer resposta directa (sim ou não) aceita a premissa embutida.\n\nFalsa dicotomia: «Ou está connosco ou contra nós.» Apresenta apenas duas opções quando há mais. A estrutura é: A ou B; não A; logo B — mas o problema é que a disjunção original omite outras possibilidades.\n\nPost hoc ergo propter hoc: «Depois disto, portanto por causa disto.» Uma correlação temporal não é causalidade. O galo canta antes do nascer do sol, mas não é a causa do nascer do sol.\n\nGeneralização apressada: inferir uma conclusão geral a partir de uma amostra insuficiente ou não representativa. «Conheci dois portugueses antipáticos, logo os portugueses são antipáticos.»",
+    "guided_reading": [
+      {
+        "segment": "Uma falácia é um argumento que parece válido mas não o é",
+        "note": "A definição identifica o que torna as falácias perigosas: não são erros óbvios, são erros disfarçados de raciocínio correcto. Um argumento manifestamente absurdo não engana; uma falácia bem construída pode enganar até pensadores cuidadosos.",
+        "highlight": true
+      },
+      {
+        "segment": "Ad Hominem: atacar o carácter ou a situação do proponente em vez de responder ao argumento",
+        "note": "O ad hominem é uma das falácias mais comuns no discurso público. A distinção crucial: a credibilidade do proponente é relevante para avaliar o seu testemunho, mas não para avaliar a validade dos seus argumentos.",
+        "highlight": true
+      },
+      {
+        "segment": "Autoridade é evidência relevante apenas quando a pessoa é perita na área em questão e há consenso de peritos na área",
+        "note": "O apelo à autoridade não é sempre falacioso — citar peritos é parte do raciocínio correcto. A falácia acontece quando a autoridade é invocada fora da sua área, ou quando é uma autoridade isolada contra o consenso.",
+        "highlight": true
+      },
+      {
+        "segment": "Pergunta carregada: quando é que você parou de bater na sua mulher?",
+        "note": "A falácia da pergunta carregada esconde uma premissa (que você bateu na sua mulher) na estrutura da pergunta. Para evitá-la, deve-se rejeitar a pergunta e tornar explícita a premissa embutida antes de responder.",
+        "highlight": true
+      },
+      {
+        "segment": "Post hoc ergo propter hoc: depois disto, portanto por causa disto",
+        "note": "Uma das falácias mais importantes em ciência e política: confundir correlação com causalidade. O desafio é que correlação é frequentemente evidência de causalidade — só que não é prova. Precisamos de critérios adicionais (mecanismo, controlos, replicação).",
+        "highlight": true
+      }
+    ],
+    "key_terms": [
+      "falácia",
+      "ad hominem",
+      "apelo à autoridade",
+      "pergunta carregada",
+      "falsa dicotomia",
+      "post hoc",
+      "generalização apressada"
+    ],
+    "questions": [
+      "Por que as falácias são mais perigosas do que os erros óbvios de raciocínio?",
+      "O ad hominem é sempre falacioso? Há casos em que atacar o proponente é relevante?",
+      "Qual é a diferença entre um apelo à autoridade legítimo e uma falácia de apelo à autoridade?",
+      "Identifique a falácia e explique o erro em: 'O índice de criminalidade aumentou depois do governo aumentar os impostos. Logo, os impostos causam crime.'",
+      "A falácia da generalização apressada é sempre um erro, ou há graus de legitimidade na generalização indutiva?"
+    ],
+    "advanced": {
+      "section": "Falácias formais clássicas",
+      "content": "Afirmação do consequente: 'Se P então Q; Q; logo P.' Inválido — Q pode ter outras causas. Exemplo: 'Se chove, a rua fica molhada. A rua está molhada. Logo, choveu.' (Pode ter sido o caminhão-pipa.) Negação do antecedente: 'Se P então Q; não-P; logo não-Q.' Inválido. Exemplo: 'Se estudo, passo. Não estudei. Logo, não passo.' (Posso passar por sorte.) Estes contrastam com o Modus Ponens (válido: P→Q, P, logo Q) e o Modus Tollens (válido: P→Q, não-Q, logo não-P)."
+    }
+  },
+  {
+    "id": "logic-propositional-intro",
+    "title": "Lógica proposicional — conectivos e validade formal",
+    "source": "Exposição analítica — tradição da lógica formal, de Frege a Russell",
+    "author": "aristotle",
+    "period": "Séc. XIX–XX / tradição",
+    "language": "português",
+    "type": "secondario",
+    "text": "A lógica proposicional estuda como proposições simples se combinam em proposições complexas através de conectivos lógicos, e como o valor de verdade das proposições complexas depende dos valores de verdade das componentes.\n\nOs conectivos básicos são: negação (¬), conjunção (∧), disjunção (∨), condicional (→), bicondicional (↔).\n\nA negação de P (¬P) é verdadeira se e só se P é falsa. A conjunção P ∧ Q é verdadeira se e só se tanto P como Q são verdadeiras. A disjunção P ∨ Q é verdadeira se e só se pelo menos uma de P ou Q é verdadeira. O condicional P → Q é falso se e só se P é verdadeira e Q é falsa.\n\nA validade formal de um argumento pode ser verificada por tabelas de verdade. Um argumento é válido se e só se não há nenhuma atribuição de valores de verdade às variáveis proposicionais que torne as premissas verdadeiras e a conclusão falsa.\n\nExemplo: Modus ponens — se P então Q (P → Q); P; logo Q. Para verificar: se P é verdadeiro e P → Q é verdadeiro, Q tem de ser verdadeiro (a única linha em que P → Q é falso é quando P é verdadeiro e Q é falso — mas então P → Q seria falso, não verdadeiro). Logo, não há linha em que as premissas são verdadeiras e a conclusão é falsa. O argumento é válido.\n\nModus tollens: se P então Q (P → Q); não Q (¬Q); logo não P (¬P). Também válido. Afirmação do consequente: se P então Q; Q; logo P — inválido. Há linhas em que P → Q e Q são verdadeiros mas P é falso (quando P é falso e Q é verdadeiro, P → Q é verdadeiro).",
+    "guided_reading": [
+      {
+        "segment": "como o valor de verdade das proposições complexas depende dos valores de verdade das componentes",
+        "note": "A propriedade fundamental da lógica proposicional: composicionalidade. O valor de verdade de 'P e Q' é completamente determinado pelos valores de verdade de P e de Q. Não há ambiguidade contextual — ao contrário da linguagem natural.",
+        "highlight": true
+      },
+      {
+        "segment": "O condicional P → Q é falso se e só se P é verdadeira e Q é falsa",
+        "note": "A tabela de verdade do condicional é frequentemente contra-intuitiva. Quando P é falsa, P → Q é verdadeiro independentemente de Q. 'Se a Lua é feita de queijo, então 2+2=5' é formalmente verdadeiro. Isso mostra que o condicional lógico não é o mesmo que a implicação causal.",
+        "highlight": true
+      },
+      {
+        "segment": "Um argumento é válido se e só se não há nenhuma atribuição de valores de verdade às variáveis que torne as premissas verdadeiras e a conclusão falsa",
+        "note": "A definição formal de validade em termos de tabelas de verdade. É um método mecânico e completo para verificar validade em lógica proposicional — o que distingue a lógica formal da argumentação informal.",
+        "highlight": true
+      },
+      {
+        "segment": "Afirmação do consequente: se P então Q; Q; logo P — inválido",
+        "note": "A confusão entre 'P implica Q' e 'Q implica P' é uma das falácias formais mais comuns. 'Se chove, o chão fica molhado; o chão está molhado; logo choveu' — inválido, porque o chão pode estar molhado por outra razão.",
+        "highlight": true
+      }
+    ],
+    "key_terms": [
+      "proposição",
+      "conectivos lógicos",
+      "condicional",
+      "modus ponens",
+      "modus tollens",
+      "validade formal",
+      "tabela de verdade"
+    ],
+    "questions": [
+      "Por que a tabela de verdade do condicional (P → Q) é contra-intuitiva quando P é falsa?",
+      "Qual é a diferença entre validade formal e solidez de um argumento?",
+      "Explique o modus ponens e o modus tollens com exemplos em linguagem natural.",
+      "Por que 'afirmação do consequente' é uma falácia formal? Construa um contra-exemplo.",
+      "Qual é a diferença entre o condicional lógico (→) e a implicação causal ('porque')?"
+    ],
+    "advanced": {
+      "section": "Formas normais e equivalências fundamentais",
+      "content": "Equivalências importantes: dupla negação ¬¬P ≡ P. De Morgan: ¬(P∧Q) ≡ ¬P∨¬Q; ¬(P∨Q) ≡ ¬P∧¬Q. Contraposição: (P→Q) ≡ (¬Q→¬P). Exportação: (P∧Q→R) ≡ (P→(Q→R)). Forma Normal Conjuntiva (CNF): conjunção de disjunções. Forma Normal Disjuntiva (DNF): disjunção de conjunções. Toda fórmula proposicional é equivalente a uma em CNF e a uma em DNF — base para SAT solvers e verificação automatizada de programas."
+    }
+  },
+  {
+    "id": "hegel-phenomenology-intro",
+    "title": "O saber que aparece — Fenomenologia do Espírito",
+    "source": "G.W.F. Hegel, Fenomenologia do Espírito, Prefácio (§§ 1–3) e Introdução (§§ 73–76)",
+    "author": "hegel",
+    "period": "1807",
+    "language": "alemão",
+    "type": "primario",
+    "text": "O que é habitualmente chamado de filosofia é na melhor das hipóteses a história da filosofia. Parece ser razoável começar pela filosofia mesma antes de iniciar a sua história. Mas é justamente o começo que é problemático: como a ciência deve ser iniciada?\n\nA ciência pode começar com o resultado — o absoluto como fundamento. Mas assim pressupõe o que deve ser demonstrado. Ou pode começar com o imediato — o que nos aparece sem mediação. O imediato é a consciência ingénua, que aceita o que lhe aparece como sendo o que é. A fenomenologia começa aqui: com a consciência como ela se apresenta a si mesma.\n\nA consciência tem, por um lado, um saber e, por outro, o seu objecto. O saber é o que a consciência sabe do objecto, mas o objecto é também o que a consciência sabe que é o objecto. O critério para avaliar o saber está no próprio objecto — mas o objecto é constituído pelo saber. A consciência julga a si mesma, e nesse julgamento, modifica-se.\n\nEsta é a dialéctica imanente da consciência: quando a consciência descobre que o seu saber não corresponde ao seu objecto, não abandona o objecto — reconstitui-o, passando a um novo modo de consciência que inclui o fracasso do modo anterior. O caminho da consciência é um caminho de experiências negativas que, porém, são produtivas: cada negação é uma determinação nova. O resultado final não é o regresso ao início mas a consciência que se sabe como o processo que realizou.",
+    "guided_reading": [
+      {
+        "segment": "A ciência pode começar com o resultado — o absoluto como fundamento. Mas assim pressupõe o que deve ser demonstrado.",
+        "note": "Hegel critica o método filosófico que começa com pressuposições não justificadas. A filosofia não pode começar do absoluto como dado — tem de chegar ao absoluto como resultado de um processo. A Fenomenologia é esse processo.",
+        "highlight": true
+      },
+      {
+        "segment": "A consciência tem, por um lado, um saber e, por outro, o seu objecto. O critério para avaliar o saber está no próprio objecto — mas o objecto é constituído pelo saber.",
+        "note": "O círculo epistemológico de Hegel: não podemos sair da consciência para comparar o nosso saber com a 'coisa em si' (como Kant tentou). A consciência avalia o seu saber pelo seu objecto, mas o objecto é o que a consciência o toma por ser.",
+        "highlight": true
+      },
+      {
+        "segment": "quando a consciência descobre que o seu saber não corresponde ao seu objecto, não abandona o objecto — reconstitui-o",
+        "note": "O mecanismo dialéctico: o fracasso do saber não é apenas negativo. A consciência não desiste — reformula o objecto de modo a incluir o fracasso. Cada crise de consciência produz um novo modo de consciência mais rico.",
+        "highlight": true
+      },
+      {
+        "segment": "O resultado final não é o regresso ao início mas a consciência que se sabe como o processo que realizou",
+        "note": "A meta da Fenomenologia não é um estado estático final, mas a consciência que se sabe como processo histórico. O saber absoluto não é uma verdade encontrada no fim — é a consciência do caminho percorrido.",
+        "highlight": true
+      }
+    ],
+    "key_terms": [
+      "dialéctica",
+      "consciência",
+      "absoluto",
+      "fenomenologia",
+      "negação determinante",
+      "experiência",
+      "Hegel"
+    ],
+    "questions": [
+      "Por que Hegel acha problemático começar a filosofia com o 'absoluto como fundamento'?",
+      "O que é o critério imanente de verificação do saber na Fenomenologia?",
+      "Como a dialéctica imanente da consciência funciona? O que é uma 'negação determinante'?",
+      "Como a Fenomenologia se distingue do método transcendental de Kant?",
+      "O que é o 'saber absoluto' para Hegel? É uma conclusão ou um processo?"
+    ]
+  },
+  {
+    "id": "hegel-lordship-bondage",
+    "title": "A dialética do senhor e do escravo",
+    "source": "Hegel, Fenomenologia do Espírito, §§ 178–196",
+    "author": "hegel",
+    "period": "1807",
+    "language": "alemão",
+    "type": "primario",
+    "text": "A consciência de si existe em si e para si quando e porque existe em si e para si para outra consciência de si; quer dizer, só existe como algo reconhecido. O processo da autoconciência é o processo do reconhecimento.\n\nCada consciência busca a morte do outro. Mas se o outro morre, a consciência vencedora perde o reconhecimento de que necessita: perde o espelho no qual se via como sujeito. A consciência que arrisca a vida e sobrevive torna-se o senhor; a consciência que recua diante da morte preserva a vida tornando-se serva.\n\nO senhor tem acesso à natureza através do trabalho do servo. O senhor desfruta; o servo trabalha. Mas esta relação inverte-se. O trabalho do servo transforma a natureza e, ao transformá-la, o servo objectiva a sua própria consciência na coisa transformada. O servo vê-se reflectido no produto do seu trabalho — e essa é uma forma de autoconhecimento que o senhor não tem. O senhor apenas consome; o servo cria.\n\nO senhor, por sua vez, recebe o reconhecimento de quem não é um igual: recebe o reconhecimento de um servo, não de uma consciência livre. O reconhecimento que recebe é assim vazio. A dialéctica do senhor e do escravo mostra que a dominação se auto-destrói: o senhor depende do servo para o reconhecimento que não pode receber do servo porque o servo não é livre.",
+    "guided_reading": [
+      {
+        "segment": "A consciência de si existe em si e para si quando e porque existe em si e para si para outra consciência de si",
+        "note": "A autoconciência não é solipsista — não emerge da reflexão solitária. Requer reconhecimento por outra consciência. O 'eu' constitui-se na relação com o 'tu'. Esta é a tese fundamental da dialéctica do reconhecimento.",
+        "highlight": true
+      },
+      {
+        "segment": "Cada consciência busca a morte do outro. Mas se o outro morre, a consciência vencedora perde o reconhecimento",
+        "note": "O paradoxo da luta pelo reconhecimento: a forma extrema de afirmar-se (matar o outro) destrói a condição do reconhecimento. A consciência precisa do outro vivo para ser reconhecida.",
+        "highlight": true
+      },
+      {
+        "segment": "O trabalho do servo transforma a natureza e, ao transformá-la, o servo objectiva a sua própria consciência na coisa transformada",
+        "note": "A dialéctica da inversão: o servo, ao trabalhar, exterioriza e objectiva a sua consciência. Vê-se no produto do trabalho. Esta forma de autoconhecimento produtivo é o que o senhor — que apenas consome — não pode ter.",
+        "highlight": true
+      },
+      {
+        "segment": "O senhor recebe o reconhecimento de quem não é um igual: recebe o reconhecimento de um servo, não de uma consciência livre. O reconhecimento que recebe é assim vazio.",
+        "note": "A auto-derrota do senhor: o reconhecimento que busca (ser reconhecido como senhor) é obtido de alguém cuja liberdade foi negada. Mas o reconhecimento de uma consciência não livre não tem valor — é como ser louvado por alguém a quem se coagiu a louvar.",
+        "highlight": true
+      }
+    ],
+    "key_terms": [
+      "reconhecimento",
+      "senhor e servo",
+      "luta por reconhecimento",
+      "trabalho",
+      "dialéctica",
+      "autoconciência",
+      "Hegel"
+    ],
+    "questions": [
+      "Por que a autoconciência requer reconhecimento por outra consciência?",
+      "Por que a morte do adversário não resolve o problema do reconhecimento?",
+      "Como o trabalho do servo produz uma forma de autoconhecimento que o senhor não tem?",
+      "Como esta dialéctica se inverte — como o servo termina numa posição epistemicamente superior?",
+      "Como Alexandre Kojève usou esta dialéctica para interpretar a história e influenciar Marx?"
+    ]
+  },
+  {
+    "id": "marx-theses-feuerbach",
+    "title": "Teses sobre Feuerbach",
+    "source": "Karl Marx, Teses sobre Feuerbach (1845), teses I, III, VI, XI",
+    "author": "marx",
+    "period": "1845",
+    "language": "alemão",
+    "type": "primario",
+    "text": "I. O defeito principal de todo o materialismo até agora — incluindo o de Feuerbach — é que a coisa, a realidade, o mundo sensível é apreendido apenas sob a forma de objecto ou de intuição, mas não como actividade humana sensível, como praxis, não subjectivamente.\n\nIV. Feuerbach parte do facto da auto-alienação religiosa, da duplicação do mundo num mundo religioso e num mundo secular. O seu trabalho consiste em dissolver o mundo religioso no seu fundamento secular. Mas que o fundamento secular se separe de si mesmo e se fixe nas nuvens como reino independente só pode ser explicado pela auto-divisão e pela contradição interna desse fundamento secular. Este deve, pois, ser compreendido nas suas contradições e revolucionado na praxis.\n\nVI. Feuerbach dissolve a essência religiosa na essência humana. Mas a essência humana não é uma abstracção inerente ao indivíduo singular. Na sua realidade, ela é o conjunto das relações sociais.\n\nVIII. A vida social é essencialmente prática. Todos os mistérios que induziram a teoria ao misticismo encontram a sua solução racional na praxis humana e na compreensão dessa praxis.\n\nXI. Os filósofos têm apenas interpretado o mundo de diferentes maneiras; o que importa é transformá-lo.",
+    "guided_reading": [
+      {
+        "segment": "a coisa, a realidade, o mundo sensível é apreendido apenas sob a forma de objecto ou de intuição, mas não como actividade humana sensível, como praxis",
+        "note": "Marx critica o materialismo contemplativo: trata o mundo como algo dado a ser observado. A praxis — a actividade transformadora — é a categoria central. O mundo é produto da actividade humana; compreendê-lo exige compreender essa actividade.",
+        "highlight": true
+      },
+      {
+        "segment": "O seu trabalho consiste em dissolver o mundo religioso no seu fundamento secular. Mas que o fundamento secular se separe de si mesmo... só pode ser explicado pela auto-divisão e pela contradição interna desse fundamento secular",
+        "note": "Marx avança além de Feuerbach: não basta explicar a religião por reduzi-la ao humano. Precisa de explicar por que o humano se aliena e projecta uma versão idealizada de si num além. A resposta está nas contradições da vida social real.",
+        "highlight": true
+      },
+      {
+        "segment": "a essência humana não é uma abstracção inerente ao indivíduo singular. Na sua realidade, ela é o conjunto das relações sociais",
+        "note": "Contra o humanismo abstracto: não há essência humana trans-histórica. O que os seres humanos são é determinado pelas relações sociais históricas concretas em que vivem. Esta tese é o núcleo do materialismo histórico.",
+        "highlight": true
+      },
+      {
+        "segment": "Os filósofos têm apenas interpretado o mundo de diferentes maneiras; o que importa é transformá-lo",
+        "note": "A tese XI é a mais famosa — e a mais ambígua. Não é rejeição da teoria: sem compreensão adequada do mundo, a transformação seria cega. É a exigência de que a teoria esteja a serviço da práxis transformadora.",
+        "highlight": true
+      }
+    ],
+    "key_terms": [
+      "praxis",
+      "materialismo histórico",
+      "alienação",
+      "relações sociais",
+      "Feuerbach",
+      "transformação",
+      "essência humana"
+    ],
+    "questions": [
+      "Qual é a crítica de Marx ao materialismo de Feuerbach?",
+      "O que Marx quer dizer com praxis? Por que é a categoria central do seu materialismo?",
+      "Como Marx explica a religião diferentemente de Feuerbach?",
+      "O que significa dizer que a essência humana é 'o conjunto das relações sociais'?",
+      "A tese XI ('transformar o mundo') abandona a filosofia ou redefine o seu papel?"
+    ]
+  },
+  {
+    "id": "nietzsche-death-of-god",
+    "title": "A morte de Deus — A Gaia Ciência",
+    "source": "Friedrich Nietzsche, A Gaia Ciência, §§ 108, 125 (O Homem Louco)",
+    "author": "nietzsche",
+    "period": "1882",
+    "language": "alemão",
+    "type": "primario",
+    "text": "Não ouvistes falar do louco que acendeu uma lanterna em pleno meio-dia e correu pela praça a gritar: Procuro Deus! Procuro Deus! Como lá estavam muitos daqueles que não acreditavam em Deus, o louco provocou muitas gargalhadas. Perdeste-o? disse um. Terá emigrado? disse outro. Ou estará escondido? Tem medo de nós? Terá embarcado? Emigrado?\n\nO louco saltou para o meio deles e trespassou-os com os seus olhares. Para onde foi Deus? disse ele. Eu vou dizer-vos. Nós o matámos — vós e eu! Todos nós somos os seus assassinos! Mas como fizemos isso? Como pudemos beber o mar inteiro? Quem nos deu a esponja para apagar o horizonte inteiro? Que fizemos ao desligar essa terra do seu sol? Para onde se move agora? Para onde nos movemos nós? Para longe de todos os sóis? Não caímos continuamente? Para baixo, para os lados, para frente, para todos os lados? Existe ainda um acima e um abaixo? Não erramos como através de um nada infinito?\n\nChegou demasiado cedo, disse ele em seguida. O meu tempo ainda não chegou. Este monstruoso acontecimento está ainda a caminho, ainda não chegou aos ouvidos dos homens. O raio e o trovão precisam de tempo. As acções precisam de tempo, mesmo depois de feitas, para serem vistas e ouvidas. Este acto está ainda mais longe dos homens do que as estrelas mais distantes — e todavia eles o praticaram.",
+    "guided_reading": [
+      {
+        "segment": "Procuro Deus! Procuro Deus! Como lá estavam muitos daqueles que não acreditavam em Deus, o louco provocou muitas gargalhadas.",
+        "note": "O paradoxo inicial: o louco procura Deus numa praça de não-crentes. Os não-crentes riem — mas o louco vai mostrar que são eles os assassinos de Deus, sem o saber. O ateísmo fácil não compreendeu o que implicou ao negar Deus.",
+        "highlight": true
+      },
+      {
+        "segment": "Nós o matámos — vós e eu! Todos nós somos os seus assassinos!",
+        "note": "A morte de Deus não é um evento teológico ou metafísico — é um evento cultural e histórico. A modernidade, com a ciência, o secularismo e a crítica, tornou Deus inacreditável. Mesmo quem acredita em Deus vive e pensa como se Deus não existisse.",
+        "highlight": true
+      },
+      {
+        "segment": "Para onde nos movemos nós? Para longe de todos os sóis? Não caímos continuamente?",
+        "note": "As consequências da morte de Deus: perda de orientação absoluta (não há 'acima' nem 'abaixo'), perda de fundamento (queda contínua), desorientação total. Deus era não apenas uma crença religiosa mas o fundamento de toda a ordem, valor e significado.",
+        "highlight": true
+      },
+      {
+        "segment": "Chegou demasiado cedo. O meu tempo ainda não chegou. Este monstruoso acontecimento está ainda a caminho.",
+        "note": "O diagnóstico temporal de Nietzsche: a morte de Deus já aconteceu (a modernidade a realizou) mas as suas consequências ainda não chegaram à consciência dos homens. Vivemos no intervalo entre o acto e a sua compreensão.",
+        "highlight": true
+      }
+    ],
+    "key_terms": [
+      "morte de Deus",
+      "niilismo",
+      "secularismo",
+      "valores",
+      "fundamento",
+      "desorientação",
+      "Nietzsche"
+    ],
+    "questions": [
+      "O que Nietzsche quer dizer com 'morte de Deus'? É uma afirmação religiosa ou cultural?",
+      "Por que os não-crentes são os assassinos de Deus, mesmo sem o saber?",
+      "Quais são as consequências filosóficas da morte de Deus para os valores e para a orientação humana?",
+      "O que significa o diagnóstico de que o evento 'chegou cedo demais'?",
+      "A morte de Deus é catastrófica ou libertadora para Nietzsche? Ou ambas?"
+    ]
+  },
+  {
+    "id": "nietzsche-genealogy-morals",
+    "title": "Bem e mal, bom e ruim — Genealogia da Moral",
+    "source": "Friedrich Nietzsche, Para a Genealogia da Moral, Primeira Dissertação §§ 1–5, 10–11",
+    "author": "nietzsche",
+    "period": "1887",
+    "language": "alemão",
+    "type": "primario",
+    "text": "Os ingleses querem estabelecer a origem do conceito 'bom'. Afirmam: as acções não-egoístas foram originalmente chamadas de boas por aqueles a quem eram úteis, por aqueles a quem eram feitas. Depois esqueceu-se esta origem, e simplesmente pela habituação, essas acções passaram a ser sentidas como boas.\n\nMas esta genealogia é psicologicamente absurda. O ponto de partida histórico do julgamento de valor 'bom' não pertence a quem a bondade é útil. Foram os nobres, os poderosos, os superiores em posição e em alma que se designaram e designaram as suas acções como boas — em contraste com tudo o que era baixo, popular e vil.\n\nO preconceito dos ingleses é o preconceito moral moderno em toda a sua forma ingénua. Querem reduzir o 'bom' ao 'útil' — ao que beneficia o rebanho. Mas a distinção primordial não é bom/mau (gut/böse) — é bom/ruim (gut/schlecht). Os aristocratas não denominaram 'bom' o que é útil; denominaram 'bom' o que são eles mesmos.\n\nA moral dos escravos começa com o ressentimento. O escravo olha para o nobre e diz: esse é o mau (böse) — e a partir dessa negação constrói o 'bom' como o seu oposto. A moral nobre afirma a si mesma; a moral escrava nega o outro antes de se afirmar. Este é o movimento do ressentimento: uma criação por negação.",
+    "guided_reading": [
+      {
+        "segment": "Os ingleses querem estabelecer a origem do conceito 'bom'. Afirmam: as acções não-egoístas foram originalmente chamadas de boas por quem delas beneficiou",
+        "note": "Nietzsche refere-se a utilitaristas e a filósofos como Herbert Spencer. A sua crítica é genealógica: antes de perguntar 'o que é bom?', pergunta 'quem criou este conceito e em que circunstâncias?'",
+        "highlight": true
+      },
+      {
+        "segment": "Foram os nobres, os poderosos, os superiores em posição e em alma que se designaram e designaram as suas acções como boas",
+        "note": "A hipótese genealógica de Nietzsche: 'bom' não veio de uma utilidade social calculada, mas de uma auto-afirmação aristocrática. Os nobres chamaram-se bons a si mesmos, por contraste com o que era vulgar e baixo.",
+        "highlight": true
+      },
+      {
+        "segment": "A distinção primordial não é bom/mau (gut/böse) — é bom/ruim (gut/schlecht)",
+        "note": "Distinção crucial: gut/schlecht é a oposição aristocrática original (excelência vs. vulgaridade). Gut/böse é a oposição moral posterior, criada pelo ressentimento dos escravos que invertem a avaliação: o poderoso torna-se 'o mau', o fraco torna-se 'o bom'.",
+        "highlight": true
+      },
+      {
+        "segment": "A moral dos escravos começa com o ressentimento. O escravo olha para o nobre e diz: esse é o mau",
+        "note": "A genealogia da moral judaico-cristã como moral do ressentimento: nasce da impotência, não da força. Em vez de afirmar valores positivos, começa por negar os valores do inimigo e depois constrói o 'bem' como a negação desse inimigo.",
+        "highlight": true
+      }
+    ],
+    "key_terms": [
+      "genealogia",
+      "ressentimento",
+      "bom/ruim",
+      "bom/mau",
+      "moral nobre",
+      "moral escrava",
+      "inversão de valores"
+    ],
+    "questions": [
+      "O que é o método genealógico de Nietzsche? Em que se distingue da análise filosófica tradicional dos conceitos?",
+      "Qual é a diferença entre a distinção gut/schlecht e a distinção gut/böse?",
+      "O que é o ressentimento e como Nietzsche o identifica na origem da moral cristã?",
+      "A genealogia de Nietzsche é um argumento contra a moral, ou apenas uma explicação da sua origem?",
+      "É possível defender a moral do 'rebanho' (utilidade social) contra a crítica de Nietzsche?"
+    ]
+  },
+  {
+    "id": "wittgenstein-language-games",
+    "title": "Jogos de linguagem e formas de vida — Investigações Filosóficas",
+    "source": "Ludwig Wittgenstein, Investigações Filosóficas, §§ 1, 7, 23, 43, 66–67, 201",
+    "author": "wittgenstein",
+    "period": "1953 (póstumo)",
+    "language": "alemão",
+    "type": "primario",
+    "text": "Consideremos como se aprende a significação de uma palavra. Alguém diz ao bebê que chora: pão, pão. O adulto aponta para o pão e diz a palavra. A criança aprende a usar a palavra em contextos semelhantes. Seria tentador dizer que a criança aprendeu que 'pão' significa o pão. Mas o que aprendeu foi uma prática — como se usa a palavra. E essa prática pode divergir de outras práticas com a mesma palavra.\n\nOs jogos de linguagem são formas de vida. Imagine que alguém diz uma frase e pergunta: esta frase é verdadeira ou falsa? Mas a resposta depende de que tipo de acto é proferir essa frase. 'Vai à janela' — verdadeiro ou falso? Não, é uma ordem. 'Como estás?' — verdadeiro ou falso? Não, é uma saudação. A lógica de um enunciado não está na frase em si mas no uso que fazemos dela.\n\nO significado de uma palavra é o seu uso na língua. Quando pergunto o que significa 'amor', não me está a ser dada uma entidade mental ou uma definição que o encerra. Está a mostrar-se-me como a palavra é usada em diferentes jogos de linguagem — em poesia, em contratos, em conversas entre amigos, em filosofia.\n\nOs problemas filosóficos surgem quando a linguagem entra em férias — quando usamos palavras fora dos jogos de linguagem que lhes dão sentido. 'O tempo existe?' não é uma questão científica nem uma questão do senso comum — é uma confusão gramatical. A tarefa da filosofia não é responder a estas questões mas dissolvê-las mostrando de onde vieram.",
+    "guided_reading": [
+      {
+        "segment": "Consideremos como se aprende a significação de uma palavra",
+        "note": "Wittgenstein começa pelo processo de aprendizagem da linguagem para mostrar que o significado não é um objecto mental (uma ideia, uma imagem) mas uma prática social partilhada. Aprende-se a usar a palavra, não a identificar uma entidade mental.",
+        "highlight": true
+      },
+      {
+        "segment": "Os jogos de linguagem são formas de vida",
+        "note": "A tese mais abrangente das Investigações: linguagem e vida estão entrelaçadas. Não há linguagem fora de práticas humanas, e não há práticas humanas que não sejam estruturadas pela linguagem. O significado não é privado — é público e social.",
+        "highlight": true
+      },
+      {
+        "segment": "'Vai à janela' — verdadeiro ou falso? Não, é uma ordem.",
+        "note": "O argumento contra o reducionismo semântico: não todos os enunciados funcionam como descrições verdadeiras ou falsas. Ordens, saudações, promessas, exclamações — cada um tem uma lógica diferente determinada pelo seu uso.",
+        "highlight": true
+      },
+      {
+        "segment": "O significado de uma palavra é o seu uso na língua",
+        "note": "A tese central das Investigações, oposta ao Tractatus. No Tractatus, significado era imagem de estados de coisas. Aqui, significado é uso — prático, contextual, social. Esta mudança é a grande viragem do segundo Wittgenstein.",
+        "highlight": true
+      },
+      {
+        "segment": "Os problemas filosóficos surgem quando a linguagem entra em férias",
+        "note": "O diagnóstico de Wittgenstein para os problemas filosóficos: surgem quando palavras são usadas fora dos seus jogos de linguagem naturais. 'Tempo', 'alma', 'ser' — quando usadas em filosofia, perdem a âncora prática que lhes dá sentido.",
+        "highlight": true
+      }
+    ],
+    "key_terms": [
+      "jogos de linguagem",
+      "formas de vida",
+      "uso",
+      "significado",
+      "segundo Wittgenstein",
+      "dissolução filosófica",
+      "linguagem privada"
+    ],
+    "questions": [
+      "O que é um 'jogo de linguagem' para Wittgenstein? Dê exemplos de diferentes jogos.",
+      "Por que o significado de uma palavra é o seu uso e não uma entidade mental (ideia, imagem)?",
+      "O que significa dizer que os jogos de linguagem são 'formas de vida'?",
+      "Como Wittgenstein explica a origem dos problemas filosóficos? Dê um exemplo de um problema 'dissolvido'.",
+      "Compare o Tractatus e as Investigações: em que muda a teoria do significado de Wittgenstein?"
+    ]
+  }
+]

@@ -1,0 +1,97 @@
+[
+  {
+    "id": "syllogism-socrates-mortal",
+    "name": "Silogismo de Sócrates",
+    "author": "aristotle",
+    "type": "silogismo categórico",
+    "form": "Barbara (AAA-1)",
+    "premises": [
+      { "id": "p1", "text": "Todo homem é mortal.", "type": "premissa maior (universal)" },
+      { "id": "p2", "text": "Sócrates é homem.", "type": "premissa menor (particular)" }
+    ],
+    "conclusion": { "id": "c1", "text": "Sócrates é mortal.", "type": "conclusão" },
+    "validity": true,
+    "soundness": true,
+    "explanation": "Silogismo canônico da lógica aristotélica. Forma Barbara: todo A é B; C é A; logo C é B. Válido e sólido (premissas verdadeiras).",
+    "related_concepts": ["silogismo", "lógica", "validade"]
+  },
+  {
+    "id": "argument-eudaimonia",
+    "name": "Argumento pela eudaimonia como bem supremo",
+    "author": "aristotle",
+    "type": "argumento teleológico",
+    "premises": [
+      { "id": "p1", "text": "Toda ação e toda escolha tendem para algum bem.", "type": "premissa universal" },
+      { "id": "p2", "text": "Existe uma hierarquia de bens: alguns são fins em si mesmos, outros são meios para outros fins.", "type": "premissa estrutural" },
+      { "id": "p3", "text": "Uma cadeia infinita de fins seria vã e fútil (redutor ao absurdo).", "type": "premissa por absurdo" }
+    ],
+    "conclusion": { "id": "c1", "text": "Deve existir um bem último, que é desejado por si mesmo: a eudaimonia.", "type": "conclusão" },
+    "validity": true,
+    "soundness": "contestada — a premissa 1 pode ser questionada (ações destrutivas também têm fins?)",
+    "explanation": "Aristóteles usa estrutura de redução ao absurdo na premissa 3: se não houvesse fim último, o desejo seria vão. A eudaimonia é identificada como esse fim por consenso e exame racional.",
+    "related_concepts": ["eudaimonia", "felicidade", "teleologia", "bem"]
+  },
+  {
+    "id": "argument-cogito",
+    "name": "Cogito ergo sum",
+    "author": "descartes",
+    "type": "inferência imediata",
+    "premises": [
+      { "id": "p1", "text": "Estou pensando agora (pois duvidar é pensar).", "type": "fato indubitável" },
+      { "id": "p2", "text": "Para pensar, é necessário existir.", "type": "princípio necessário" }
+    ],
+    "conclusion": { "id": "c1", "text": "Existo (enquanto coisa pensante).", "type": "conclusão" },
+    "validity": true,
+    "soundness": "aceita — as premissas resistem à dúvida hiperbólica",
+    "explanation": "O cogito resiste à dúvida porque a própria dúvida é ato de pensar. Descartes o formula como intuição imediata (não silogismo) na segunda Meditação; depois como argumento explícito no Discurso do Método.",
+    "related_concepts": ["cogito", "certeza", "existência", "dúvida metódica"]
+  },
+  {
+    "id": "argument-platonic-forms",
+    "name": "Argumento pelo mundo das Ideias",
+    "author": "plato",
+    "type": "argumento ontológico-epistemológico",
+    "premises": [
+      { "id": "p1", "text": "Conhecimento verdadeiro deve ter como objeto algo estável, eterno e imutável.", "type": "premissa epistemológica" },
+      { "id": "p2", "text": "As coisas sensíveis são mutáveis e perecíveis.", "type": "premissa empírica" },
+      { "id": "p3", "text": "Temos, contudo, conhecimento de verdades universais (ex: o igual perfeito, o belo em si).", "type": "premissa fenomenológica" }
+    ],
+    "conclusion": { "id": "c1", "text": "Deve existir um domínio de entidades eternas e imutáveis — as Ideias — que são objetos do conhecimento verdadeiro.", "type": "conclusão" },
+    "validity": true,
+    "soundness": "contestada — Aristóteles questiona P3: o conhecimento do universal pode ser obtido por abstração dos particulares, sem postular um mundo separado.",
+    "explanation": "O argumento da separação platônica. Aristóteles responde que os universais existem 'nos' particulares (imanência), não 'além' deles (transcendência). Debate filosófico fundador.",
+    "related_concepts": ["ideia", "episteme", "universal", "particular", "abstração"]
+  },
+  {
+    "id": "argument-five-ways-motion",
+    "name": "Primeira Via de Tomás: o movimento",
+    "author": "thomas-aquinas",
+    "type": "argumento cosmológico",
+    "premises": [
+      { "id": "p1", "text": "É certo que neste mundo existem coisas que se movem.", "type": "premissa empírica" },
+      { "id": "p2", "text": "Tudo que se move é movido por outro.", "type": "princípio causal" },
+      { "id": "p3", "text": "É impossível regredir ao infinito numa série de movedores.", "type": "premissa por absurdo" }
+    ],
+    "conclusion": { "id": "c1", "text": "Deve existir um primeiro motor imóvel, que todos chamam Deus.", "type": "conclusão" },
+    "validity": true,
+    "soundness": "contestada — Hume questiona P2 (por que toda mudança precisa de causa externa?) e P3 (por que não série infinita?)",
+    "explanation": "A Primeira Via adapta a prova aristotélica do Motor Imóvel à teologia cristã. Depende do princípio de causalidade e da impossibilidade de regressão infinita.",
+    "related_concepts": ["ser", "causa", "existência", "lei natural"]
+  },
+  {
+    "id": "argument-hume-causality",
+    "name": "Hume e a dissolução da causalidade",
+    "author": "hume",
+    "type": "argumento cético",
+    "premises": [
+      { "id": "p1", "text": "Todo nosso conhecimento provém de impressões sensíveis e de ideias que as copiam.", "type": "premissa empirista" },
+      { "id": "p2", "text": "Nunca observamos a necessidade da conexão causal — apenas a conjunção constante de eventos.", "type": "premissa observacional" },
+      { "id": "p3", "text": "Uma ideia sem impressão correspondente não é legítima.", "type": "critério de significação" }
+    ],
+    "conclusion": { "id": "c1", "text": "A ideia de necessidade causal não provém da experiência; é projeção mental (hábito) sobre a realidade.", "type": "conclusão" },
+    "validity": true,
+    "soundness": "debatida — Kant aceita a crítica e responde que a causalidade é categoria a priori do entendimento, não derivada da experiência nem descoberta na realidade",
+    "explanation": "Hume não nega que os eventos se seguem uns aos outros; nega que vejamos a necessidade da conexão. Esse argumento 'despertou Kant do sono dogmático'.",
+    "related_concepts": ["causalidade", "impressão", "indução", "ceticismo", "hábito"]
+  }
+]

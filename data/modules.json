@@ -1,0 +1,270 @@
+[
+  {
+    "id": "intro",
+    "title": "Introdução à Filosofia",
+    "subtitle": "Da admiração ao argumento",
+    "description": "O ponto de entrada para a filosofia. Aprende-se o que é perguntar filosoficamente, como distinguir opinião de argumento e como localizar o momento em que o pensamento grego inaugurou uma nova forma de compreender o mundo.",
+    "stage": "gramática",
+    "order": 1,
+    "status": "active",
+    "lessons": [
+      "what-is-philosophy",
+      "myth-to-logos",
+      "what-is-argument"
+    ],
+    "prerequisites": [],
+    "concepts_introduced": [
+      "filosofia",
+      "mito",
+      "logos",
+      "razão",
+      "argumento",
+      "premissa",
+      "conclusão",
+      "opinião"
+    ],
+    "duration_estimate": "3–4 horas",
+    "icon": "intro"
+  },
+  {
+    "id": "greek-philosophy",
+    "title": "Os Três Gregos",
+    "subtitle": "Sócrates, Platão, Aristóteles",
+    "description": "O núcleo fundador da filosofia ocidental. Sócrates ensina a interrogar; Platão abre o mundo das ideias; Aristóteles sistematiza o pensamento. Cada um responde diferentemente às mesmas questões fundamentais.",
+    "stage": "filosofia",
+    "order": 2,
+    "status": "active",
+    "lessons": [
+      "socrates-method",
+      "plato-theory-of-ideas",
+      "plato-cave",
+      "aristotle-logic",
+      "aristotle-ethics"
+    ],
+    "prerequisites": [
+      "intro"
+    ],
+    "concepts_introduced": [
+      "maiêutica",
+      "ideia",
+      "alma",
+      "silogismo",
+      "virtude",
+      "eudaimonia",
+      "phronesis"
+    ],
+    "duration_estimate": "8–10 horas",
+    "icon": "greek"
+  },
+  {
+    "id": "schools",
+    "title": "Escolas Filosóficas",
+    "subtitle": "Pré-socrática ao Estoicismo",
+    "description": "As grandes escolas do mundo antigo e medieval: dos primeiros cosmólogos ao estoicismo romano, passando pelos sofistas, epicuristas e céticos. Cada escola como resposta a uma constelação de problemas.",
+    "stage": "filosofia",
+    "order": 3,
+    "status": "active",
+    "lessons": [
+      "pre-socratic-arche",
+      "sophists-relativism",
+      "stoicism-control",
+      "epicureanism-pleasure"
+    ],
+    "prerequisites": [
+      "intro"
+    ],
+    "concepts_introduced": [
+      "arche",
+      "physis",
+      "logos",
+      "verdade",
+      "relativismo",
+      "virtude",
+      "felicidade",
+      "ataraxia"
+    ],
+    "duration_estimate": "2h 30min",
+    "icon": "schools"
+  },
+  {
+    "id": "currents",
+    "title": "Correntes Filosóficas",
+    "subtitle": "As grandes tomadas de posição que estruturam o debate moderno e contemporâneo",
+    "description": "Racionalismo, empirismo, idealismo, materialismo, existencialismo, filosofia analítica e continental: cada corrente como resposta a um problema filosófico central — sobre o conhecimento, a realidade, os valores, a linguagem e a história.",
+    "stage": "filosofia",
+    "order": 4,
+    "status": "active",
+    "lessons": [
+      "rationalism-vs-empiricism",
+      "current-idealism",
+      "current-materialism",
+      "current-existentialism",
+      "current-analytic-continental"
+    ],
+    "prerequisites": [
+      "greek-philosophy"
+    ],
+    "concepts_introduced": [
+      "idealismo",
+      "fenomenologia",
+      "ideia inata",
+      "impressão",
+      "síntese transcendental",
+      "existência",
+      "angústia",
+      "má-fé",
+      "autenticidade",
+      "jogos de linguagem",
+      "verificação"
+    ],
+    "duration_estimate": "15–18 horas",
+    "icon": "currents"
+  },
+  {
+    "id": "logic",
+    "title": "Lógica",
+    "subtitle": "A gramática do raciocínio",
+    "description": "Estudo formal das estruturas do raciocínio válido: silogismo, lógica proposicional, falácias. A lógica como instrumento da filosofia e como disciplina autônoma.",
+    "stage": "lógica",
+    "order": 5,
+    "status": "active",
+    "lessons": [
+      "logic-what-is-argument",
+      "logic-validity-soundness",
+      "logic-fallacies",
+      "logic-syllogism",
+      "logic-propositional"
+    ],
+    "prerequisites": [
+      "intro"
+    ],
+    "concepts_introduced": [
+      "validade",
+      "falacia",
+      "proposicao",
+      "inferencia"
+    ],
+    "duration_estimate": "3h 15min",
+    "icon": "logic"
+  },
+  {
+    "id": "ethics",
+    "title": "Ética",
+    "subtitle": "Como devo viver?",
+    "description": "As grandes teorias éticas da tradição filosófica: eudaimonismo, deontologia, utilitarismo, ética das virtudes. Cada teoria como resposta à questão fundamental: o que torna uma ação boa ou má?",
+    "stage": "filosofia",
+    "order": 6,
+    "status": "active",
+    "lessons": [
+      "ethics-what-is-ethics",
+      "ethics-kant-deontology",
+      "ethics-utilitarianism",
+      "ethics-virtue",
+      "ethics-applied-comparison"
+    ],
+    "prerequisites": [
+      "greek-philosophy"
+    ],
+    "concepts_introduced": [
+      "dever",
+      "imperativo-categorico",
+      "deontologia",
+      "consequencialismo",
+      "utilidade"
+    ],
+    "duration_estimate": "3h 15min",
+    "icon": "ethics"
+  },
+  {
+    "id": "epistemology",
+    "title": "Epistemologia",
+    "subtitle": "O que podemos conhecer?",
+    "description": "A teoria do conhecimento: o que distingue saber de crer, como justificamos nossas crenças, quais são os limites do conhecimento humano.",
+    "stage": "filosofia",
+    "order": 7,
+    "status": "active",
+    "lessons": [
+      "epistemology-what-is-knowledge",
+      "epistemology-hume-induction",
+      "epistemology-kant-copernican",
+      "epistemology-limits"
+    ],
+    "prerequisites": [
+      "currents"
+    ],
+    "concepts_introduced": [
+      "justificacao",
+      "ceticismo",
+      "fenomeno",
+      "noumenon",
+      "a-priori",
+      "inducao"
+    ],
+    "duration_estimate": "2h 40min",
+    "icon": "epistemology"
+  },
+  {
+    "id": "medieval",
+    "title": "Filosofia Medieval",
+    "subtitle": "Fé e razão",
+    "description": "A síntese medieval entre filosofia grega e teologia cristã: patrística, escolástica, debate dos universais. Agostinho, Tomás de Aquino e o encontro entre Atenas e Jerusalém.",
+    "stage": "filosofia",
+    "order": 8,
+    "status": "active",
+    "lessons": [
+      "medieval-augustine",
+      "medieval-universals",
+      "medieval-anselm-ontological",
+      "medieval-aquinas-synthesis"
+    ],
+    "prerequisites": [
+      "greek-philosophy",
+      "schools"
+    ],
+    "concepts_introduced": [
+      "universais",
+      "argumento-ontologico",
+      "iluminacao",
+      "lei-natural"
+    ],
+    "duration_estimate": "2h 40min",
+    "icon": "medieval"
+  },
+  {
+    "id": "modern",
+    "title": "Filosofia Moderna e Contemporânea",
+    "subtitle": "Da dúvida ao além-do-homem — Descartes, Hume, Kant, Hegel, Marx, Nietzsche, Wittgenstein",
+    "description": "Do cogito cartesiano à terapia wittgensteiniana: como o pensamento moderno construiu e demoliu fundamentos, inverteu hierarquias e transformou a própria ideia do que a filosofia deve fazer.",
+    "stage": "filosofia",
+    "order": 9,
+    "status": "active",
+    "lessons": [
+      "descartes-doubt",
+      "rationalism-vs-empiricism",
+      "modern-hume-empiricism",
+      "modern-kant-synthesis",
+      "modern-hegel",
+      "modern-marx",
+      "modern-nietzsche",
+      "modern-wittgenstein"
+    ],
+    "prerequisites": [
+      "greek-philosophy",
+      "epistemology"
+    ],
+    "concepts_introduced": [
+      "cogito",
+      "dúvida metódica",
+      "ideia inata",
+      "impressão",
+      "imperativo-categorico",
+      "dialética",
+      "geist",
+      "ideologia",
+      "vontade-de-potência",
+      "jogos-de-linguagem"
+    ],
+    "duration_estimate": "20–25 horas",
+    "icon": "modern"
+  }
+]

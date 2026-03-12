@@ -1,0 +1,1128 @@
+[
+  {
+    "id": "filosofia",
+    "term": "Filosofia",
+    "etymology": "Do grego philos (amigo, amante) + sophia (sabedoria). Amor à sabedoria.",
+    "definition": "Investigação racional e sistemática sobre questões fundamentais da existência, do conhecimento, da moral, da realidade e da linguagem. Distingue-se da opinião por exigir justificação e coerência argumentativa.",
+    "extended": "A filosofia não se define por um objeto fixo, mas por um modo de interrogar: busca fundamentos, examina pressupostos, analisa conceitos e busca coerência entre afirmações. Todo campo do saber tem uma filosofia possível: filosofia da ciência, da linguagem, da religião, da arte.",
+    "related_concepts": [
+      "razão",
+      "argumento",
+      "logos"
+    ],
+    "authors": [
+      "socrates",
+      "plato",
+      "aristotle"
+    ],
+    "category": "fundamentos",
+    "examples": [
+      "Quando alguém pergunta 'o que é justo?' e exige razões, não aceita a resposta 'é o que manda a lei', está fazendo filosofia.",
+      "Quando a ciência questiona seus próprios fundamentos — o que é uma explicação científica? — faz filosofia da ciência."
+    ]
+  },
+  {
+    "id": "mito",
+    "term": "Mito",
+    "etymology": "Do grego mythos: palavra, narrativa, história.",
+    "definition": "Narrativa simbólica que explica a origem e a ordem do mundo por meio de forças divinas ou sobrenaturais, anterior à exigência de justificação racional.",
+    "extended": "O mito não é simplesmente 'mentira': é uma forma de organizar o sentido da existência por meio de imagens e narrativas. A filosofia nasce da passagem do mythos ao logos — da narrativa simbólica à explicação racional — mas não suprime o mito; frequentemente o incorpora criticamente, como Platão faz com seus próprios mitos (a caverna, o carro alado da alma).",
+    "related_concepts": [
+      "logos",
+      "filosofia",
+      "razão"
+    ],
+    "authors": [
+      "plato"
+    ],
+    "category": "fundamentos",
+    "examples": [
+      "O mito de Prometeu explica a origem do fogo e a relação entre homens e deuses.",
+      "O Mito da Caverna, em Platão, é um mito filosófico: usa imagem narrativa para ilustrar argumento racional."
+    ]
+  },
+  {
+    "id": "razão",
+    "term": "Razão",
+    "etymology": "Do latim ratio: cálculo, conta, medida. Tradução de logos e nous gregos.",
+    "definition": "Capacidade humana de pensar de forma ordenada, inferir conclusões a partir de premissas, e fundamentar afirmações por meio de critérios que transcendem a preferência individual.",
+    "extended": "A razão foi objeto central da filosofia ocidental. Platão e Descartes veem nela a via privilegiada para a verdade. Hume a subordina às paixões. Kant distingue razão teórica (que conhece) da razão prática (que ordena a ação moral). O conceito tem usos distintos em lógica (inferência válida), epistemologia (fundamento do conhecimento) e ética (base da moralidade).",
+    "related_concepts": [
+      "logos",
+      "argumento",
+      "lógica"
+    ],
+    "authors": [
+      "plato",
+      "aristotle",
+      "descartes",
+      "kant",
+      "hume"
+    ],
+    "category": "fundamentos",
+    "examples": [
+      "Usar a razão é dar razões para o que se afirma, não apenas expressar preferências.",
+      "Quando Kant diz que a moral se funda na razão, significa que seus princípios devem ser universais e necessários, não contingentes."
+    ]
+  },
+  {
+    "id": "argumento",
+    "term": "Argumento",
+    "etymology": "Do latim argumentum: prova, demonstração.",
+    "definition": "Conjunto de proposições em que algumas (as premissas) fornecem razões para aceitar outra (a conclusão). Um argumento é válido quando a conclusão se segue necessariamente das premissas.",
+    "extended": "Distinguir argumento de opinião é tarefa central da filosofia. Uma opinião é uma crença sem fundamento explícito. Um argumento apresenta as razões que sustentam uma posição e permite que outros as avaliem. Argumentos podem ser dedutivos (a conclusão segue necessariamente) ou indutivos (a conclusão é provável dado o que as premissas afirmam).",
+    "related_concepts": [
+      "premissa",
+      "conclusão",
+      "lógica"
+    ],
+    "authors": [
+      "aristotle",
+      "socrates"
+    ],
+    "category": "lógica",
+    "examples": [
+      "Todo homem é mortal. Sócrates é homem. Portanto, Sócrates é mortal. (argumento válido)",
+      "'Acho que a democracia é melhor' é uma opinião. 'A democracia é melhor porque distribui o poder e evita a tirania' começa a ser um argumento."
+    ]
+  },
+  {
+    "id": "premissa",
+    "term": "Premissa",
+    "etymology": "Do latim praemissa: enviada antes, proposta preliminar.",
+    "definition": "Proposição que serve como base ou ponto de partida de um argumento. As premissas fornecem as razões que devem levar à aceitação da conclusão.",
+    "extended": "Um argumento pode ter uma ou mais premissas. Para que o argumento seja bom, as premissas devem ser verdadeiras (ou pelo menos aceitas como plausíveis) e a conclusão deve se seguir delas. Identificar as premissas de um argumento é o primeiro passo da análise filosófica.",
+    "related_concepts": [
+      "argumento",
+      "conclusão",
+      "silogismo",
+      "lógica"
+    ],
+    "authors": [
+      "aristotle"
+    ],
+    "category": "lógica",
+    "examples": [
+      "No argumento 'Todo homem é mortal; Sócrates é homem; logo, Sócrates é mortal', as premissas são as duas primeiras proposições.",
+      "Às vezes as premissas ficam implícitas: 'Sócrates é mortal porque é homem' — premissa oculta: todo homem é mortal."
+    ]
+  },
+  {
+    "id": "conclusão",
+    "term": "Conclusão",
+    "etymology": "Do latim conclusio: fechamento, resultado.",
+    "definition": "A proposição que o argumento pretende estabelecer ou demonstrar. Deve se seguir das premissas de forma válida.",
+    "extended": "A conclusão é o ponto de chegada do raciocínio. Identificá-la é fundamental: muitas discussões são confusas porque os participantes não sabem ao certo o que estão tentando provar. Na análise de textos filosóficos, perguntar 'o que o autor está tentando concluir?' é o primeiro passo.",
+    "related_concepts": [
+      "premissa",
+      "argumento",
+      "silogismo"
+    ],
+    "authors": [
+      "aristotle"
+    ],
+    "category": "lógica",
+    "examples": [
+      "No argumento aristotélico sobre Sócrates, a conclusão é: Sócrates é mortal.",
+      "Indicadores de conclusão em textos: 'portanto', 'logo', 'assim', 'conclui-se que', 'segue-se que'."
+    ]
+  },
+  {
+    "id": "lógica",
+    "term": "Lógica",
+    "etymology": "Do grego logos: razão, palavra, discurso. Logikê: arte do raciocínio.",
+    "definition": "Disciplina que estuda as formas válidas de raciocínio, as regras da inferência correta e as estruturas do pensamento coerente.",
+    "extended": "Aristóteles foi o fundador da lógica formal, sistematizando o silogismo. A lógica moderna, fundada por Frege e Russell no século XIX-XX, expandiu esse campo com cálculo proposicional e de predicados. Para a filosofia, a lógica é instrumento: permite avaliar se um argumento é válido, independente do conteúdo das proposições.",
+    "related_concepts": [
+      "silogismo",
+      "argumento",
+      "verdade"
+    ],
+    "authors": [
+      "aristotle"
+    ],
+    "category": "lógica",
+    "examples": [
+      "A lógica não diz se uma premissa é verdadeira, apenas se a conclusão se segue das premissas.",
+      "Um argumento pode ser logicamente válido e ter conclusão falsa: 'Todos os pássaros voam; o pinguim é pássaro; logo o pinguim voa'. Válido mas com premissa falsa."
+    ]
+  },
+  {
+    "id": "etica",
+    "term": "Ética",
+    "etymology": "Do grego ethos: costume, caráter, modo de ser.",
+    "definition": "Parte da filosofia que investiga a moralidade, os critérios de ação boa e má, a natureza da virtude, a felicidade e os fundamentos da vida moral.",
+    "extended": "A ética distingue-se da moral: moral designa o conjunto de normas e costumes de uma comunidade; ética é a reflexão filosófica sobre esses costumes. As principais teorias éticas são: eudaimonismo aristotélico (a felicidade como bem supremo), deontologia kantiana (o dever como fundamento), utilitarismo (o maior bem para o maior número), ética das virtudes (formação do caráter).",
+    "related_concepts": [
+      "virtude",
+      "felicidade"
+    ],
+    "authors": [
+      "aristotle",
+      "plato",
+      "kant",
+      "socrates"
+    ],
+    "category": "ética",
+    "examples": [
+      "A pergunta 'devo mentir para salvar uma vida?' é uma questão ética.",
+      "Aristóteles responde: age como agiria o homem virtuoso nestas circunstâncias."
+    ]
+  },
+  {
+    "id": "politica",
+    "term": "Política",
+    "etymology": "Do grego polis: cidade-estado. Politiké: arte de governar a cidade.",
+    "definition": "Parte da filosofia que investiga a organização da vida coletiva, a natureza do poder, a justiça social e as formas de governo.",
+    "extended": "Para Aristóteles, o homem é um animal político por natureza: só pode realizar-se plenamente na comunidade. A filosofia política questiona os fundamentos da autoridade, os direitos dos cidadãos, a legitimidade das leis e a melhor forma de organizar a vida em comum.",
+    "related_concepts": [],
+    "authors": [
+      "aristotle",
+      "plato",
+      "socrates",
+      "thomas-aquinas"
+    ],
+    "category": "política",
+    "examples": [
+      "A pergunta 'o que justifica a obediência à lei?' é filosofia política.",
+      "Aristóteles analisou 158 constituições de cidades gregas antes de escrever a Política."
+    ]
+  },
+  {
+    "id": "metafísica",
+    "term": "Metafísica",
+    "etymology": "Do grego meta ta physika: depois (ou além) das coisas físicas. Nome dado aos tratados de Aristóteles sobre o ser enquanto ser.",
+    "definition": "Parte da filosofia que investiga as estruturas mais fundamentais da realidade: o que é o ser, o que existe, quais são as categorias mais gerais do real.",
+    "extended": "A metafísica pergunta o que está por trás ou além das aparências físicas. Aristóteles a chamou de 'filosofia primeira'. Kant limitou sua possibilidade: a metafísica clássica ultrapassa os limites do conhecimento possível. A metafísica contemporânea discute categorias como substância, causa, identidade, tempo e modalidade.",
+    "related_concepts": [
+      "ser"
+    ],
+    "authors": [
+      "aristotle",
+      "plato",
+      "kant",
+      "descartes"
+    ],
+    "category": "metafísica",
+    "examples": [
+      "'O que existe, além das coisas físicas?' é uma questão metafísica.",
+      "A pergunta 'Deus existe?' é metafísica; a pergunta 'posso provar que Deus existe?' é epistemológica e metafísica."
+    ]
+  },
+  {
+    "id": "epistemologia",
+    "term": "Epistemologia",
+    "etymology": "Do grego episteme (conhecimento seguro) + logos (estudo). Teoria do conhecimento.",
+    "definition": "Parte da filosofia que investiga a natureza, as fontes, os limites e a validade do conhecimento.",
+    "extended": "A epistemologia pergunta: o que é saber? Como distinguir conhecimento de mera crença? Quais são os limites do que podemos conhecer? As principais posições são: racionalismo (o conhecimento vem da razão), empirismo (vem da experiência), ceticismo (o conhecimento seguro é impossível ou muito limitado), e idealismo transcendental kantiano (o conhecimento é construção da mente sobre a experiência).",
+    "related_concepts": [
+      "verdade",
+      "razão"
+    ],
+    "authors": [
+      "plato",
+      "aristotle",
+      "descartes",
+      "hume",
+      "kant"
+    ],
+    "category": "epistemologia",
+    "examples": [
+      "'Posso confiar nos meus sentidos?' é uma questão epistemológica.",
+      "A distinção de Platão entre episteme (saber) e doxa (opinião) inaugura a epistemologia ocidental."
+    ]
+  },
+  {
+    "id": "verdade",
+    "term": "Verdade",
+    "etymology": "Do latim veritas; em grego: aletheia (desvelamento, revelação).",
+    "definition": "Propriedade de uma proposição que a faz corresponder à realidade, ou condição em que um enunciado não engana.",
+    "extended": "As principais teorias da verdade: correspondência (verdadeiro = corresponde aos fatos), coerência (verdadeiro = coerente com o sistema de crenças), pragmática (verdadeiro = funciona na prática). Heidegger retoma a aletheia grega como desvelamento: a verdade não é propriedade da proposição, mas evento de manifestação do ser.",
+    "related_concepts": [
+      "razão"
+    ],
+    "authors": [
+      "aristotle",
+      "plato",
+      "descartes",
+      "hume",
+      "kant"
+    ],
+    "category": "epistemologia",
+    "examples": [
+      "'A neve é branca' é verdadeiro se e somente se a neve é branca. (teoria da correspondência)",
+      "Para Platão, a verdade plena pertence ao mundo das Ideias; o mundo sensível oferece apenas opiniões."
+    ]
+  },
+  {
+    "id": "justica",
+    "term": "Justiça",
+    "etymology": "Do latim justitia; em grego: dikaiosyne.",
+    "definition": "Virtude que consiste em dar a cada um o que lhe é devido. Na filosofia política, princípio que deve reger a organização da cidade e a distribuição de bens e encargos.",
+    "extended": "Para Platão, a justiça é a harmonia entre as partes da alma e as classes da cidade. Para Aristóteles, é dar a cada um segundo sua contribuição e mérito. Para Kant, é tratar cada pessoa como fim em si mesma. Para Rawls, é o que os membros de uma sociedade escolheriam sob um 'véu de ignorância'.",
+    "related_concepts": [
+      "virtude"
+    ],
+    "authors": [
+      "plato",
+      "aristotle",
+      "socrates",
+      "thomas-aquinas"
+    ],
+    "category": "ética / política",
+    "examples": [
+      "Platão pergunta: uma cidade justa é aquela em que cada parte cumpre sua função própria.",
+      "Aristóteles distingue justiça distributiva (proporção) de justiça corretiva (restaurar a igualdade)."
+    ]
+  },
+  {
+    "id": "ser",
+    "term": "Ser",
+    "etymology": "Do latim esse; em grego: einai, on. Particípio do verbo ser.",
+    "definition": "Conceito mais fundamental e mais difícil da metafísica. Designa o fato de algo existir ou possuir alguma qualidade.",
+    "extended": "Parmênides foi o primeiro a tematizar o ser: 'o ser é, o não-ser não é'. Aristóteles pergunta: 'o que é o ser enquanto ser?' e estuda as categorias. Heidegger em Ser e Tempo questiona o esquecimento do ser pela tradição metafísica e retoma a pergunta pelo sentido do ser.",
+    "related_concepts": [],
+    "authors": [
+      "parmenides",
+      "aristotle",
+      "plato",
+      "thomas-aquinas"
+    ],
+    "category": "metafísica",
+    "examples": [
+      "A diferença entre 'o que é o ser?' e 'o que existe?' é o ponto de partida da ontologia.",
+      "Quando Aristóteles diz que 'o ser se diz de muitas maneiras', abre a questão da analogia do ser."
+    ]
+  },
+  {
+    "id": "alma",
+    "term": "Alma",
+    "etymology": "Do latim anima; em grego: psyche. Princípio de vida.",
+    "definition": "Princípio de vida e movimento. Para os gregos, a alma distingue os seres vivos dos inanimados. Para Platão, é imortal e pertence ao mundo das ideias. Para Aristóteles, é a forma do corpo.",
+    "extended": "As concepções variam enormemente: Platão afirma a imortalidade e pré-existência da alma, que tem memória das Ideias. Aristóteles a identifica com a forma do corpo orgânico: a alma não sobrevive ao corpo em geral (exceto o intelecto ativo). Descartes retoma a alma como res cogitans: substância pensante distinta do corpo.",
+    "related_concepts": [],
+    "authors": [
+      "plato",
+      "aristotle",
+      "descartes",
+      "augustine"
+    ],
+    "category": "metafísica",
+    "examples": [
+      "Para Platão, o corpo é a prisão da alma; a morte liberta a alma para retornar ao mundo das ideias.",
+      "Para Aristóteles, perguntar se a alma e o corpo são distintos é como perguntar se a cera e a forma de cera são distintas."
+    ]
+  },
+  {
+    "id": "virtude",
+    "term": "Virtude",
+    "etymology": "Do latim virtus (excelência, força viril); em grego: arete (excelência, capacidade de cumprir sua função bem).",
+    "definition": "Excelência ou disposição estável de agir bem, segundo a natureza ou a razão. Em Aristóteles, é o hábito adquirido de escolher o meio-termo entre extremos.",
+    "extended": "O conceito grego de arete é mais amplo que 'virtude moral': designa a excelência em qualquer domínio. A virtude ética aristotélica é o hábito de escolher bem, desenvolvido pela prática. Virtudes intelectuais (sophia, phronesis) distinguem-se das virtudes éticas (coragem, temperança, justiça). Sócrates identificava virtude com conhecimento: ninguém faz o mal voluntariamente.",
+    "related_concepts": [
+      "felicidade",
+      "phronesis"
+    ],
+    "authors": [
+      "aristotle",
+      "plato",
+      "socrates"
+    ],
+    "category": "ética",
+    "examples": [
+      "A coragem é virtude porque é o meio-termo entre a covardia (falta) e a temeridade (excesso).",
+      "Para Aristóteles, a virtude não se aprende apenas lendo: exige prática, como aprender a tocar um instrumento."
+    ]
+  },
+  {
+    "id": "felicidade",
+    "term": "Felicidade (Eudaimonia)",
+    "etymology": "Do grego eudaimonia: ter um bom daimon, espírito, gênio interior. Usualmente traduzido como felicidade, florescimento ou bem-estar.",
+    "definition": "Para Aristóteles, a eudaimonia é o bem supremo humano: a atividade da alma conforme a virtude. Não é um estado passivo de contentamento, mas uma atividade excelente e plena.",
+    "extended": "A eudaimonia aristotélica difere da felicidade moderna como prazer ou satisfação subjetiva. É objetiva: depende de viver e agir de determinado modo. Os estoicos identificam a eudaimonia com a virtude exclusivamente, independente de bens exteriores. Epicuro a identifica com a ataraxia, ausência de perturbação.",
+    "related_concepts": [
+      "virtude",
+      "phronesis"
+    ],
+    "authors": [
+      "aristotle",
+      "plato",
+      "socrates"
+    ],
+    "category": "ética",
+    "examples": [
+      "Para Aristóteles, a felicidade não é sentir-se bem, mas viver bem e agir bem.",
+      "Um homem rico e saudável mas sem virtude não é eudaimon para Aristóteles."
+    ]
+  },
+  {
+    "id": "conhecimento",
+    "term": "Conhecimento",
+    "etymology": "Do latim cognoscere: reconhecer, compreender. Em grego: episteme (saber seguro), gnosis (conhecimento direto).",
+    "definition": "Estado cognitivo de quem crê em algo verdadeiro e tem justificação para essa crença. Distingue-se da mera opinião por exigir fundamento.",
+    "extended": "A definição clássica de conhecimento é 'crença verdadeira justificada' — proposta por Platão. Em 1963, Edmund Gettier mostrou casos em que há crença verdadeira justificada sem que intuitivamente haja conhecimento, desafiando essa definição. A questão permanece aberta na epistemologia contemporânea.",
+    "related_concepts": [
+      "verdade",
+      "opinião"
+    ],
+    "authors": [
+      "plato",
+      "aristotle",
+      "descartes",
+      "hume",
+      "kant"
+    ],
+    "category": "epistemologia",
+    "examples": [
+      "Platão distingue: ver um objeto é opinião (doxa); compreender a Ideia do objeto é conhecimento (episteme).",
+      "Posso ter crença verdadeira sem conhecimento: acertar na loteria 'porque tinha certeza' — creio, é verdade, mas não sabia."
+    ]
+  },
+  {
+    "id": "opinião",
+    "term": "Opinião (Doxa)",
+    "etymology": "Do grego doxa: opinião, crença, aparência, glória. De dokein: parecer.",
+    "definition": "Crença sem fundamento demonstrativo rigoroso. Para Platão, a doxa é o nível inferior de cognição, voltado ao mundo sensível e mutável, oposto à episteme.",
+    "extended": "Na democracia contemporânea, 'opinião' ganhou valor positivo como expressão de autonomia individual. Na filosofia, porém, a distinção entre opinião e argumento é fundamental: opinar é afirmar sem dar razões; argumentar é sustentar uma posição com razões avaliáveis. A filosofia não proíbe opiniões, mas exige que se transformem em posições justificadas.",
+    "related_concepts": [
+      "conhecimento",
+      "verdade",
+      "argumento"
+    ],
+    "authors": [
+      "plato",
+      "parmenides",
+      "aristotle"
+    ],
+    "category": "epistemologia",
+    "examples": [
+      "Parmenides distingue a Via da Verdade (ser) da Via da Opinião (aparências sensíveis).",
+      "Dizer 'acho que a vida tem sentido' é opinião. Dizer por que razão tem sentido, examinando objeções, é argumento filosófico."
+    ]
+  },
+  {
+    "id": "silogismo",
+    "term": "Silogismo",
+    "etymology": "Do grego syllogismos: cálculo, raciocínio, de syn (junto) + logizesthai (calcular, raciocinar).",
+    "definition": "Forma de argumento dedutivo composta de duas premissas e uma conclusão, em que a conclusão se segue necessariamente das premissas por meio de um termo médio.",
+    "extended": "O silogismo foi inventado e sistematizado por Aristóteles no Organon. A forma canônica: 'Todo A é B; todo C é A; logo, todo C é B'. O silogismo categórico usa proposições que afirmam ou negam predicados de sujeitos. Aristóteles catalogou 256 formas possíveis de silogismo e identificou as 24 válidas.",
+    "related_concepts": [
+      "lógica",
+      "premissa",
+      "conclusão",
+      "argumento"
+    ],
+    "authors": [
+      "aristotle"
+    ],
+    "category": "lógica",
+    "examples": [
+      "Todo homem é mortal (P1). Sócrates é homem (P2). Portanto, Sócrates é mortal (C).",
+      "A validade do silogismo é formal: independe de os homens serem ou não mortais."
+    ]
+  },
+  {
+    "id": "phronesis",
+    "term": "Phronesis",
+    "etymology": "Do grego phronein: pensar, refletir. Phronesis: sabedoria prática, prudência.",
+    "definition": "Para Aristóteles, a virtude intelectual por excelência no domínio prático: a capacidade de discernir o que fazer em cada situação concreta, escolhendo o meio-termo apropriado.",
+    "extended": "A phronesis distingue-se da sophia (sabedoria teórica) e da techne (habilidade técnica): não é teoria nem simples habilidade, mas discernimento situado. O phronimos, homem prudente, sabe aplicar princípios gerais a casos particulares irredutíveis a regras fixas. É a virtude que governa todas as outras virtudes éticas.",
+    "related_concepts": [
+      "virtude"
+    ],
+    "authors": [
+      "aristotle"
+    ],
+    "category": "ética",
+    "examples": [
+      "Saber que a coragem é o meio-termo é sophia; saber agir com coragem nesta situação concreta é phronesis.",
+      "O juiz que aplica a lei com sabedoria, atendendo ao espírito além da letra, exerce phronesis."
+    ]
+  },
+  {
+    "id": "logos",
+    "term": "Logos",
+    "etymology": "Do grego legein: dizer, reunir. Logos: palavra, razão, discurso, princípio.",
+    "definition": "Termo grego de múltiplos sentidos: palavra, discurso racional, razão, princípio ordenador do cosmos. Central no vocabulário da filosofia grega.",
+    "extended": "Para Heráclito, o logos é o princípio racional que governa o cosmos, acessível à razão humana mas ignorado pela maioria. Para os estoicos, é a razão imanente ao universo (razão seminal). Para Aristóteles, o homem é definido como 'animal que tem logos' — ser capaz de linguagem racional e deliberação. No Evangelho de João, o logos se torna carne: outra tradição de uso teológico.",
+    "related_concepts": [
+      "razão",
+      "filosofia"
+    ],
+    "authors": [
+      "heraclitus",
+      "aristotle",
+      "plato"
+    ],
+    "category": "fundamentos",
+    "examples": [
+      "Heráclito: 'embora o logos governe tudo, a maioria vive como se tivesse inteligência própria'.",
+      "Aristóteles define o humano como 'zôon logikon': animal racional/linguístico."
+    ]
+  },
+  {
+    "id": "arche",
+    "term": "arché",
+    "etymology": "Do grego ἀρχή (arkhē): começo, origem, princípio de comando.",
+    "definition": "O princípio originário e constitutivo de todas as coisas — aquilo de que tudo provém, do que é feito e ao que retorna. Conceito central da filosofia pré-socrática.",
+    "extended": "Aristóteles usou o termo sistematicamente para descrever o projeto dos primeiros filósofos, embora eles próprios não usassem necessariamente essa palavra. O arché não é apenas origem temporal (o que veio primeiro), mas também substrato permanente (o que está em tudo) e princípio explicativo (o que permite entender a multiplicidade das coisas).",
+    "related_concepts": [
+      "logos",
+      "physis",
+      "ser"
+    ],
+    "authors": [
+      "thales",
+      "anaximander",
+      "anaximenes",
+      "heraclitus"
+    ],
+    "category": "metafísica",
+    "examples": [
+      "Para Tales: a água é o arché de todas as coisas",
+      "Para Anaximandro: o ápeiron (ilimitado/indefinido) é o arché",
+      "Para Anaxímenes: o ar é o arché, transformando-se por rarefação e condensação"
+    ]
+  },
+  {
+    "id": "physis",
+    "term": "physis",
+    "etymology": "Do grego φύσις (phúsis): natureza, o que brota por si mesmo, derivado de phyō (fazer crescer).",
+    "definition": "A natureza como totalidade dinâmica e autossuficiente dos processos do mundo — em oposição à convenção humana (nomos) e ao sobrenatural.",
+    "extended": "Para os pré-socráticos, physis é o campo de investigação: o que a natureza é por conta própria, sem a intervenção dos deuses. A distinção physis/nomos torna-se central nos sofistas: as leis humanas são convencionais, as leis naturais são necessárias. Aristóteles define physis como o princípio interno de movimento e repouso dos seres naturais.",
+    "related_concepts": [
+      "arche",
+      "logos",
+      "ser"
+    ],
+    "authors": [
+      "thales",
+      "anaximander",
+      "heraclitus",
+      "aristotle"
+    ],
+    "category": "metafísica",
+    "examples": [
+      "A physis do fogo é subir — é seu movimento natural",
+      "A distinção physis/nomos nos sofistas: a lei natural versus a lei convencional",
+      "'Filosofia natural' (natural philosophy) é a precursora da ciência moderna"
+    ]
+  },
+  {
+    "id": "ataraxia",
+    "term": "ataraxia",
+    "etymology": "Do grego ἀταραξία (ataraxía): a — privação + taraxis — perturbação. 'Ausência de perturbação.'",
+    "definition": "Estado de tranquilidade e equanimidade da alma, livre de medo, perturbação e ansiedade. Para epicuristas e céticos, é o bem supremo e a definição prática de felicidade.",
+    "extended": "A ataraxia não é um estado passivo ou entorpecido — é a condição ativa de quem, por conhecimento e prática filosófica, deixou de ser perturbado pelo que não controla. Para Epicuro, ela é alcançada principalmente pela eliminação do medo da morte e dos deuses. Para os céticos pirrônicos, resulta da suspensão do julgamento (epochē). Para os estoicos, vem da conformidade da vontade com a natureza.",
+    "related_concepts": [
+      "felicidade",
+      "virtude",
+      "logos"
+    ],
+    "authors": [
+      "epicurus",
+      "epictetus"
+    ],
+    "category": "ética",
+    "examples": [
+      "O sábio epicurista vive em ataraxia porque eliminou desejos supérfluos e o medo da morte",
+      "O estóico alcança equanimidade distinguindo o que depende e o que não depende de si",
+      "'Perturbação zero' não como apatia, mas como ausência de perturbação irracional"
+    ]
+  },
+  {
+    "id": "relativismo",
+    "term": "relativismo",
+    "etymology": "Do latim relativus (relativo) + -ismo. Termo moderno que nomeia uma posição antiga.",
+    "definition": "A posição filosófica segundo a qual a verdade, o conhecimento ou os valores morais não são absolutos, mas relativos ao sujeito, à cultura ou ao contexto histórico que os produz.",
+    "extended": "O relativismo tem versões distintas: (1) relativismo epistêmico — o que é verdade depende do percipiente (Protágoras); (2) relativismo moral — o que é certo ou errado depende da cultura (sofistas em geral); (3) relativismo conceitual — o que podemos pensar depende do nosso esquema conceitual (versão contemporânea). A objeção clássica é a do autorrefutação: 'o relativismo é relativamente verdadeiro' ou 'para mim, o relativismo é falso'.",
+    "related_concepts": [
+      "verdade",
+      "conhecimento",
+      "opinião"
+    ],
+    "authors": [
+      "protagoras",
+      "gorgias"
+    ],
+    "category": "epistemologia",
+    "examples": [
+      "Protágoras: 'O vento é frio para mim e quente para você — ambos estamos certos'",
+      "Relativismo moral: 'A poligamia é errada em nossa cultura, mas está certa em outra'",
+      "Objeção: se toda verdade é relativa, também o é a tese do relativismo"
+    ]
+  },
+  {
+    "id": "justificacao",
+    "term": "justificação",
+    "etymology": "Do latim iustificatio: tornar justo, dar razão. Em epistemologia: o que torna uma crença racionalmente sustentável.",
+    "definition": "O componente da crença que a distingue de mera suposição ou acidente: as razões, evidências ou processos cognitivos confiáveis que sustentam adequadamente a verdade de uma crença.",
+    "extended": "Na definição JTB (Justified True Belief), a justificação é o terceiro elemento: não basta crer em algo verdadeiro — é preciso ter boas razões. O problema de Gettier mostrou que justificação + verdade + crença não é suficiente para conhecimento. Há justificação internalista (fundada em razões que o sujeito pode acessar conscientemente) e externalista (fundada em processos cognitivos confiáveis, mesmo que o sujeito não os acesse).",
+    "related_concepts": [
+      "conhecimento",
+      "verdade",
+      "opinião"
+    ],
+    "authors": [
+      "plato",
+      "kant"
+    ],
+    "category": "epistemologia",
+    "examples": [
+      "Tenho justificação para crer que chove porque vejo chuva pela janela",
+      "O júri tem crença verdadeira mas justificação inadequada (persuasão retórica, não evidência)",
+      "No caso Gettier, há justificação — mas ela não conecta corretamente à verdade"
+    ]
+  },
+  {
+    "id": "ceticismo",
+    "term": "ceticismo",
+    "etymology": "Do grego skeptikos: que examina, que investiga. De skeptomai: olhar atentamente, examinar.",
+    "definition": "A posição filosófica que questiona a possibilidade, o alcance ou a confiabilidade do conhecimento humano. Vai do ceticismo moderado (dúvida metódica cartesiana) ao ceticismo radical (impossibilidade de qualquer conhecimento).",
+    "extended": "O ceticismo antigo (Pirro, Arcesilau, Sexto Empírico) visava a ataraxia: ao suspender o julgamento sobre tudo, o cético deixa de ser perturbado por opiniões falsas. O ceticismo moderno (Descartes) é metódico: duvida para encontrar fundamento indubitável. O ceticismo de Hume é naturalizado: não é uma posição prática mas um resultado da análise do conhecimento. Kant tentou responder ao ceticismo mostrando que estruturas a priori garantem o conhecimento dos fenômenos.",
+    "related_concepts": [
+      "conhecimento",
+      "verdade",
+      "justificacao",
+      "ataraxia"
+    ],
+    "authors": [
+      "descartes",
+      "hume",
+      "kant"
+    ],
+    "category": "epistemologia",
+    "examples": [
+      "Descartes: 'E se tudo que percebo é sonho ou ilusão de um gênio maligno?'",
+      "Hume: não podemos justificar racionalmente a indução nem a causalidade",
+      "Pirro: suspensão do julgamento leva à paz de espírito"
+    ]
+  },
+  {
+    "id": "fenomeno",
+    "term": "fenômeno",
+    "etymology": "Do grego phainomenon: o que aparece, o que se manifesta. De phainesthai: aparecer, mostrar-se.",
+    "definition": "Em Kant, os objetos tal como aparecem ao sujeito cognoscente — estruturados pelas formas puras da intuição (espaço e tempo) e pelas categorias do entendimento. Contraste com o noumenon (coisa-em-si).",
+    "extended": "Na fenomenologia posterior (Husserl, Heidegger, Merleau-Ponty), fenômeno ganha outro sentido: o que se mostra à consciência em sua estrutura própria, antes de qualquer teoria. Para Kant, o fenômeno é o objeto do conhecimento possível — não é ilusão, é o único objeto que podemos conhecer. A ciência conhece fenômenos, não coisas-em-si.",
+    "related_concepts": [
+      "noumenon",
+      "conhecimento",
+      "ceticismo"
+    ],
+    "authors": [
+      "kant"
+    ],
+    "category": "epistemologia",
+    "examples": [
+      "A maçã que percebo — com sua cor, forma e peso no espaço — é um fenômeno",
+      "A temperatura que sinto no termômetro é um fenômeno; o calor em si (seja lá o que for) é noumenon",
+      "A física descreve fenômenos com precisão extraordinária — mas não a realidade última"
+    ]
+  },
+  {
+    "id": "noumenon",
+    "term": "noumenon",
+    "etymology": "Do grego nooumenon: o que é pensado, o que é apreendido pelo nous (intelecto). Plural: noumena.",
+    "definition": "Em Kant, a coisa-em-si (Ding an sich): o objeto como é independentemente de qualquer percepção ou estrutura cognitiva do sujeito. Constitui o limite do conhecimento possível — existe, mas não pode ser conhecido.",
+    "extended": "Kant usa noumenon em dois sentidos: negativo (o que está além do alcance do conhecimento) e positivo (o que seria apreendido por um intelecto não sensível, como Deus). O noumenon negativo é um conceito-limite: indica onde o conhecimento para. A metafísica tradicional errou ao tentar conhecer Deus, a alma e o universo como se fossem objetos de experiência possível.",
+    "related_concepts": [
+      "fenomeno",
+      "conhecimento",
+      "ceticismo"
+    ],
+    "authors": [
+      "kant"
+    ],
+    "category": "epistemologia",
+    "examples": [
+      "Deus, a alma imortal e o universo como totalidade são noumena — objetos da razão, não do conhecimento",
+      "A coisa-em-si por trás de cada fenômeno é noumenon — existe, mas está além do alcance",
+      "Para Kant, a moral pressupõe o noumenon: a liberdade da vontade não pode ser conhecida, apenas postulada"
+    ]
+  },
+  {
+    "id": "a-priori",
+    "term": "a priori / a posteriori",
+    "etymology": "Do latim: a priori = 'do que vem antes' (da experiência); a posteriori = 'do que vem depois' (da experiência).",
+    "definition": "A priori: conhecimento independente da experiência, necessário e universal. A posteriori: conhecimento derivado da experiência, contingente e particular. Distinção central na epistemologia kantiana.",
+    "extended": "Kant adiciona uma segunda distinção: analítico/sintético. Proposições analíticas apenas explicitam o que está contido no conceito ('solteiro é não casado'). Proposições sintéticas ampliam o conhecimento ('o ouro é amarelo'). A questão decisiva para Kant: existem juízos sintéticos a priori? Ele diz sim — e exemplifica com matemática e física newtoniana.",
+    "related_concepts": [
+      "conhecimento",
+      "razão",
+      "fenomeno"
+    ],
+    "authors": [
+      "kant",
+      "hume"
+    ],
+    "category": "epistemologia",
+    "examples": [
+      "A priori: 'todo evento tem uma causa' (universal e necessário, independe de observação)",
+      "A posteriori: 'a água ferve a 100°C' (aprendido pela experiência, contingente)",
+      "Sintético a priori (Kant): '7 + 5 = 12' (amplia conhecimento, mas independe de experiência)"
+    ]
+  },
+  {
+    "id": "inducao",
+    "term": "indução",
+    "etymology": "Do latim inductio: conduzir para dentro, introduzir. Em lógica: raciocínio do particular para o geral.",
+    "definition": "Forma de raciocínio que vai de casos particulares observados a generalizações. Contrasta com a dedução (do geral para o particular). O problema da indução — formulado por Hume — questiona se generalizações indutivas podem ser racionalmente justificadas.",
+    "extended": "O problema de Hume: a indução não pode ser justificada dedutivamente (circularia), nem empiricamente (usaria indução para justificar indução). Karl Popper respondeu substituindo a indução pela falseabilidade: a ciência não confirma teorias, apenas as testa. Outros (Carnap, Goodman) tentaram construir lógicas indutivas formais. O problema permanece em aberto.",
+    "related_concepts": [
+      "conhecimento",
+      "razão",
+      "ceticismo"
+    ],
+    "authors": [
+      "hume",
+      "aristotle"
+    ],
+    "category": "epistemologia",
+    "examples": [
+      "'Observei mil cisnes brancos, logo todos os cisnes são brancos' — indução falseada em 1697 na Austrália",
+      "A ciência empírica usa indução para formular leis gerais a partir de experimentos",
+      "Hume: não há justificação racional para acreditar que o passado prediz o futuro"
+    ]
+  },
+  {
+    "id": "dever",
+    "term": "dever",
+    "etymology": "Do latim debere: estar obrigado, ter uma obrigação. Em alemão: Pflicht — obrigação, incumbência.",
+    "definition": "Em ética kantiana, a obrigação moral que se impõe à vontade racional independentemente de inclinações, desejos ou consequências esperadas. Agir por dever é agir porque é certo — não porque é conveniente.",
+    "extended": "Kant distingue agir conforme o dever (fazer o certo pela razão errada — medo, interesse) de agir por dever (fazer o certo porque é o certo). Só o segundo tem valor moral. O comerciante honesto que não engana clientes por medo de perder negócios age conforme o dever; o que é honesto porque reconhece que honestidade é um imperativo racional age por dever.",
+    "related_concepts": [
+      "imperativo-categorico",
+      "virtude",
+      "deontologia"
+    ],
+    "authors": [
+      "kant"
+    ],
+    "category": "ética",
+    "examples": [
+      "Pagar impostos por medo da multa: ação conforme o dever",
+      "Pagar impostos porque é obrigação de cidadão racional: ação por dever",
+      "Dizer a verdade quando é dolorosa porque a honestidade é imperativo racional: dever"
+    ]
+  },
+  {
+    "id": "imperativo-categorico",
+    "term": "imperativo categórico",
+    "etymology": "Do latim imperativus: mandamento. Categórico: incondicional, sem exceção. Termo cunhado por Kant.",
+    "definition": "O princípio moral supremo de Kant: um mandamento incondicional que se impõe à vontade racional sem depender de nenhuma condição ou objetivo. Contrasta com imperativos hipotéticos, que obrigam apenas condicionalmente.",
+    "extended": "Kant formula o imperativo categórico em três fórmulas principais: (1) Lei universal: 'Age apenas segundo máxima que possas querer como lei universal'; (2) Humanidade: 'Age de modo que trates a humanidade sempre como fim, nunca simplesmente como meio'; (3) Autonomia: 'Age como se fosses simultaneamente legislador e súdito de um reino de fins'. As três fórmulas são, para Kant, equivalentes — diferentes perspectivas sobre o mesmo princípio.",
+    "related_concepts": [
+      "dever",
+      "deontologia"
+    ],
+    "authors": [
+      "kant"
+    ],
+    "category": "ética",
+    "examples": [
+      "Testar uma máxima: 'posso prometer sem intenção de cumprir?' Universalizado, destrói a instituição da promessa",
+      "Fórmula da humanidade: explorar trabalhadores como mero meio de lucro viola o imperativo",
+      "O mentiroso usa o ouvinte como meio — trata sua racionalidade como obstáculo, não como fim"
+    ]
+  },
+  {
+    "id": "deontologia",
+    "term": "deontologia",
+    "etymology": "Do grego deon: o que é necessário, o dever. Logos: razão, estudo. Cunhado por Jeremy Bentham no século XIX.",
+    "definition": "Teoria ética que avalia ações pela sua conformidade a regras ou deveres, independentemente das consequências. Uma ação é certa se segue o princípio correto; errada se o viola — mesmo que produza bons resultados.",
+    "extended": "A deontologia kantiana é a versão mais influente. Outras versões incluem: deontologia contratualista (ações corretas são as que seguem princípios que todos aceitariam), teoria dos direitos (ações erradas são as que violam direitos fundamentais). A crítica principal à deontologia é o rigorismo: pode levar a conclusões contra-intuitivas (Kant proibiu absolutamente a mentira, mesmo para proteger um inocente).",
+    "related_concepts": [
+      "dever",
+      "imperativo-categorico",
+      "consequencialismo"
+    ],
+    "authors": [
+      "kant"
+    ],
+    "category": "ética",
+    "examples": [
+      "Deontológico: 'não devo mentir mesmo que salve uma vida — a mentira é proibida'",
+      "Direitos como restrições deontológicas: tortura é proibida mesmo se salvaria cem pessoas",
+      "Contraste: 'o fim justifica os meios' é a tese oposta à deontologia"
+    ]
+  },
+  {
+    "id": "consequencialismo",
+    "term": "consequencialismo",
+    "etymology": "Do latim consequentia: o que segue, resultado. -ismo: doutrina. Termo do século XX para designar teorias éticas anteriores.",
+    "definition": "Teoria ética que avalia ações exclusivamente pelas suas consequências. Uma ação é moralmente correta se e somente se produz as melhores consequências disponíveis. O utilitarismo é a versão mais conhecida.",
+    "extended": "Variantes do consequencialismo: utilitarismo de ato (cada ação individual avaliada pelas suas consequências), utilitarismo de regra (seguir regras que geralmente produzem as melhores consequências), consequencialismo de motivos (cultivar motivos que geralmente levam a boas consequências). A crítica principal: pode justificar violar direitos individuais para maximizar bem-estar coletivo.",
+    "related_concepts": [
+      "utilidade",
+      "felicidade",
+      "deontologia"
+    ],
+    "authors": [
+      "mill"
+    ],
+    "category": "ética",
+    "examples": [
+      "'Cinco vidas valem mais que uma' — raciocínio consequencialista no dilema do bonde",
+      "Pena de morte: consequencialista pró se a deterrência supera os custos; anti se não supera",
+      "Mentira piedosa: consequencialismo pode justificá-la se os resultados forem melhores"
+    ]
+  },
+  {
+    "id": "utilidade",
+    "term": "utilidade / princípio da utilidade",
+    "etymology": "Do latim utilitas: utilidade, proveito, vantagem. Em ética: o valor que uma coisa tem por promover bem-estar.",
+    "definition": "Em ética utilitarista, a propriedade de ações, regras ou estados que consiste em produzir felicidade (prazer menos dor). O princípio da utilidade estabelece que a ação correta é a que maximiza a utilidade agregada de todos os afetados.",
+    "extended": "Bentham propôs um cálculo hedonista puro: prazer e dor mensuráveis por intensidade, duração, certeza, proximidade, fecundidade e pureza. Mill acrescentou qualidade: prazeres intelectuais são superiores aos físicos. Críticas: (1) impossibilidade de medir e comparar utilidades entre pessoas; (2) pode justificar sacrifício de minorias; (3) ignora distribuição (cem pessoas com 10 de utilidade = uma com 1000?).",
+    "related_concepts": [
+      "felicidade",
+      "consequencialismo",
+      "virtude"
+    ],
+    "authors": [
+      "mill"
+    ],
+    "category": "ética",
+    "examples": [
+      "Bentham: medir utilidade pela intensidade e duração do prazer",
+      "Mill: um poema de Shakespeare tem mais utilidade que mil horas de jogos frívolos — se avaliado por quem experienciou ambos",
+      "Análise de custo-benefício em políticas públicas: forma contemporânea de cálculo utilitarista"
+    ]
+  },
+  {
+    "id": "universais",
+    "term": "universais",
+    "etymology": "Do latim universalis: que se refere a todos, geral. Oposto de particularis.",
+    "definition": "Conceitos ou propriedades gerais (humanidade, bondade, vermelhidão) que se aplicam a múltiplos particulares. O debate medieval sobre universais pergunta se existem como entidades reais ou apenas como nomes.",
+    "extended": "O debate dos universais estruturou toda a filosofia medieval. Três posições principais: realismo (universais existem realmente, seja separados das coisas como em Platão, seja nas coisas como em Aristóteles/Tomás), nominalismo (universais são apenas nomes — só existem particulares), conceitualismo (universais existem na mente como conceitos, não nas coisas). O nominalismo de Ockham no século XIV foi filosoficamente revolucionário: preparou o terreno para o empirismo moderno ao recusar entidades abstratas sem necessidade.",
+    "related_concepts": [
+      "ser",
+      "verdade",
+      "razão"
+    ],
+    "authors": [
+      "thomas-aquinas",
+      "plato",
+      "aristotle"
+    ],
+    "category": "metafísica",
+    "examples": [
+      "Realismo: a humanidade de Sócrates e de Platão é a mesma humanidade real presente em ambos",
+      "Nominalismo: 'humanidade' é apenas o nome que damos ao conjunto de indivíduos que se parecem",
+      "Conceitualismo: a humanidade existe como conceito abstrato formado pela mente a partir de casos particulares"
+    ]
+  },
+  {
+    "id": "argumento-ontologico",
+    "term": "argumento ontológico",
+    "etymology": "Termo cunhado por Kant no século XVIII para referir-se ao argumento de Anselmo. De ontos (ser) + logos (razão).",
+    "definition": "Argumento a priori para a existência de Deus: dado o conceito de Deus como o ser do qual nada maior pode ser pensado, a existência na realidade (que é maior que a existência apenas no pensamento) deve ser atribuída a Deus.",
+    "extended": "Formulado por Anselmo no Proslógio (1077). Refutado por Gaunilo com a ilha perfeita. Rejeitado por Tomás (método errado, não conclusão errada). Reformulado por Descartes (Deus como ser sumamente perfeito, e existência como perfeição). Refutado por Kant (existência não é predicado real). Reformulado por Plantinga no século XX em lógica modal. Permanece em debate.",
+    "related_concepts": [
+      "ser",
+      "razão",
+      "verdade"
+    ],
+    "authors": [
+      "anselm",
+      "kant",
+      "descartes"
+    ],
+    "category": "metafísica",
+    "examples": [
+      "Anselmo: aquilo do qual nada maior pode ser pensado deve existir na realidade — senão seria menor do que algo que existe",
+      "Descartes: a existência é parte do conceito de ser sumamente perfeito, como ter três ângulos é parte de triângulo",
+      "Kant: cem táleres reais e cem táleres possíveis têm as mesmas propriedades — existência não acrescenta propriedade"
+    ]
+  },
+  {
+    "id": "iluminacao",
+    "term": "iluminação (teoria da)",
+    "etymology": "Do latim illuminatio: ato de iluminar, tornar visível. Metáfora visual para o conhecimento: a mente vê a verdade quando iluminada.",
+    "definition": "Teoria epistemológica de Agostinho: o conhecimento de verdades eternas e imutáveis requer a iluminação divina — uma ação de Deus sobre o intelecto humano que lhe permite apreender verdades que transcendem a experiência sensível.",
+    "extended": "Agostinho adapta a teoria platônica da reminiscência: em Platão, a alma lembra de verdades eternas que contemplou antes de encarnar; em Agostinho, a mente é iluminada por Deus para ver verdades eternas que existem na mente divina. Esta teoria foi progressivamente enfraquecida na escolástica: Tomás a substituiu pela abstração aristotélica — a mente extrai universais das coisas sensíveis por luz natural da razão, sem intervenção divina especial em cada ato cognitivo.",
+    "related_concepts": [
+      "verdade",
+      "razão",
+      "alma",
+      "conhecimento"
+    ],
+    "authors": [
+      "augustine"
+    ],
+    "category": "epistemologia",
+    "examples": [
+      "As verdades matemáticas são eternas e necessárias — não podem vir dos sentidos, que só mostram o contingente",
+      "Quando entendo que 7+5=12, não 'invento' essa verdade — reconheço algo que Deus me permite ver",
+      "Contraste: Tomás diz que a razão natural extrai universais das coisas sem iluminação especial a cada ato"
+    ]
+  },
+  {
+    "id": "lei-natural",
+    "term": "lei natural",
+    "etymology": "Do latim lex naturalis: a lei inscrita na natureza das coisas, cognoscível pela razão.",
+    "definition": "Em Tomás de Aquino, a participação da criatura racional na lei eterna divina: os princípios morais fundamentais que a razão humana pode descobrir por si mesma, sem revelação, por análise da natureza humana e seus fins.",
+    "extended": "Tomás distingue quatro tipos de lei: lei eterna (o governo divino do universo), lei natural (a participação da razão humana na lei eterna), lei humana positiva (as leis das sociedades, que devem derivar da lei natural), lei divina revelada (as Escrituras, que complementam a lei natural para fins que a razão não alcança). O primeiro princípio da lei natural: 'o bem deve ser feito e promovido, o mal evitado.' Os preceitos secundários derivam dos fins naturais do ser humano: preservar a vida, reproduzir-se, viver em sociedade, conhecer a verdade.",
+    "related_concepts": [
+      "virtude",
+      "razão",
+      "ser",
+      "dever"
+    ],
+    "authors": [
+      "thomas-aquinas"
+    ],
+    "category": "ética",
+    "examples": [
+      "Proibição do homicídio: cognoscível pela razão como violação da lei natural (fim natural da vida)",
+      "Direitos naturais (Locke, Grotius): construídos sobre o conceito tomista de lei natural",
+      "Debate contemporâneo: os princípios de bioética (não-maleficência, beneficência) têm estrutura de lei natural"
+    ]
+  },
+  {
+    "id": "validade",
+    "term": "validade",
+    "etymology": "Do latim validus: forte, eficaz. Em lógica: a propriedade de um argumento cuja conclusão se segue necessariamente das premissas.",
+    "definition": "Um argumento é válido se e somente se é impossível que as premissas sejam verdadeiras e a conclusão falsa. A validade é uma propriedade formal — depende da estrutura do argumento, não do conteúdo das proposições.",
+    "extended": "Distinção crucial: validade ≠ solidez ≠ persuasão. Um argumento pode ser válido com premissas falsas (a conclusão falsa não afeta a validade). Pode ser sólido (válido + premissas verdadeiras) e ainda não persuadir. Pode persuadir e ser inválido (se apela a emoções ou autoridade). A lógica trata de validade; a epistemologia trata de solidez; a retórica trata de persuasão.",
+    "related_concepts": [
+      "silogismo",
+      "inferencia",
+      "proposicao"
+    ],
+    "authors": [
+      "aristotle"
+    ],
+    "category": "lógica",
+    "examples": [
+      "Válido: 'Todos os X são Y; Z é X; logo Z é Y' — independentemente do que X, Y, Z sejam",
+      "Sólido: o silogismo 'Todo mamífero tem sangue quente; baleias são mamíferos; logo baleias têm sangue quente'",
+      "Inválido: 'A maioria dos políticos é corrupta; João é político; logo João é corrupto' — premissa probabilística não garante conclusão"
+    ]
+  },
+  {
+    "id": "falacia",
+    "term": "falácia",
+    "etymology": "Do latim fallacia: engano, ardil, ilusão. De fallere: enganar.",
+    "definition": "Argumento que parece válido mas contém um erro lógico — formal ou informal — que invalida a inferência. As falácias formais são erros na forma do argumento; as informais são erros de conteúdo, contexto ou relevância.",
+    "extended": "Aristóteles catalogou as primeiras falácias nas Refutações Sofísticas. Falácias informais clássicas: ad hominem (atacar a pessoa), espantalho (distorcer o argumento adversário), falsa dicotomia (reduzir a duas opções), post hoc (confundir sequência com causalidade), apelo à autoridade inadequada, petição de princípio (usar a conclusão como premissa), equívoco (ambiguidade de termos). Falácias formais: afirmação do consequente, negação do antecedente.",
+    "related_concepts": [
+      "validade",
+      "silogismo",
+      "inferencia"
+    ],
+    "authors": [
+      "aristotle"
+    ],
+    "category": "lógica",
+    "examples": [
+      "Ad hominem: 'Você está errado porque é desonesto' — ataca a pessoa, não o argumento",
+      "Post hoc: 'Tomei vitamina C e melhorei — a vitamina curou minha gripe'",
+      "Afirmação do consequente: 'Se chove, a rua molha; a rua está molhada; logo choveu' — inválido (pode ter sido regador)"
+    ]
+  },
+  {
+    "id": "proposicao",
+    "term": "proposição",
+    "etymology": "Do latim propositio: o que é posto diante, enunciado. De pro + ponere: colocar à frente.",
+    "definition": "Enunciado declarativo que expressa um pensamento com valor de verdade determinado — é verdadeiro ou falso. Distingue-se de perguntas, ordens e exclamações, que não têm valor de verdade.",
+    "extended": "Na lógica silogística, as proposições são categóricas: universais afirmativas (todo S é P), universais negativas (nenhum S é P), particulares afirmativas (algum S é P), particulares negativas (algum S não é P). Na lógica proposicional, as proposições atômicas são combinadas por conectivos. Em filosofia da linguagem, debate-se se juízos morais ('matar é errado') e estéticos ('Beethoven é genial') são genuínas proposições com valor de verdade, ou expressões de atitude.",
+    "related_concepts": [
+      "validade",
+      "silogismo",
+      "verdade"
+    ],
+    "authors": [
+      "aristotle"
+    ],
+    "category": "lógica",
+    "examples": [
+      "'A Terra orbita o Sol' — proposição verdadeira",
+      "'Todo número par é divisível por 2' — proposição necessariamente verdadeira",
+      "'Você deveria ajudá-la' — ordem, não proposição; sem valor de verdade lógico"
+    ]
+  },
+  {
+    "id": "inferencia",
+    "term": "inferência",
+    "etymology": "Do latim inferre: conduzir para dentro, concluir. De in + ferre: trazer.",
+    "definition": "O processo pelo qual se passa de premissas a uma conclusão. Uma inferência é válida se a conclusão se segue necessariamente das premissas; inválida se não se segue. Pode ser dedutiva (do geral ao particular) ou indutiva (do particular ao geral).",
+    "extended": "Tipos de inferência: dedução (garante a conclusão se as premissas forem verdadeiras), indução (confere probabilidade, não certeza), abdução ou inferência à melhor explicação (escolhe a hipótese que melhor explica os dados — o raciocínio do detetive). A abdução foi sistematizada por C.S. Peirce: dada a observação Q e a teoria P→Q, infere-se P como melhor explicação de Q. Não é válida dedutivamente mas é o motor do raciocínio científico e cotidiano.",
+    "related_concepts": [
+      "validade",
+      "silogismo",
+      "inducao"
+    ],
+    "authors": [
+      "aristotle"
+    ],
+    "category": "lógica",
+    "examples": [
+      "Dedutiva: 'Todos os metais conduzem calor; o ferro é metal; logo o ferro conduz calor'",
+      "Indutiva: 'Observei cem cisnes brancos; provavelmente todos os cisnes são brancos'",
+      "Abdutiva: 'A grama está molhada; a melhor explicação é que choveu' — inferência ao cotidiano"
+    ]
+  },
+  {
+    "id": "dialética",
+    "term": "dialética",
+    "etymology": "Do grego dialektikē: arte do diálogo, do debate. De dia (através) + légein (falar). Em Hegel: o movimento da contradição que impele o desenvolvimento.",
+    "definition": "Em Hegel, a dialética é o movimento pelo qual todo conceito ou realidade contém uma contradição interna que o força a superar-se num conceito mais alto. O processo — tese, antítese, síntese — não é um método imposto de fora: é o automovimento da razão e da realidade.",
+    "extended": "Platão usou 'dialética' para o método de ascensão às Formas por perguntas e respostas. Kant usou para as contradições inevitáveis da razão quando ultrapassa a experiência. Hegel transformou: a contradição não é um erro do pensamento — é o motor do desenvolvimento. A síntese (Aufhebung) cancela e preserva os termos anteriores num nível mais rico. Marx materializou a dialética: não é o Espírito que se desenvolve dialeticamente — são as condições materiais de produção.",
+    "related_concepts": [
+      "ser",
+      "razão",
+      "verdade",
+      "inferencia"
+    ],
+    "authors": [
+      "hegel",
+      "plato",
+      "marx"
+    ],
+    "category": "lógica / metafísica",
+    "examples": [
+      "Hegel: ser puro (tese) e nada (antítese) suprassumidos no devir (síntese)",
+      "Dialética do senhor e do escravo: dominação gera dependência que inverte a relação",
+      "Marx: capitalismo gera proletariado que suprassume o capitalismo"
+    ]
+  },
+  {
+    "id": "geist",
+    "term": "Geist (Espírito)",
+    "etymology": "Alemão Geist: espírito, mente, fantasma. Tradução inadequada de 'mind' (mente) e 'spirit' (espírito). Hegel usa nos dois sentidos simultaneamente.",
+    "definition": "Em Hegel, o Geist é o sujeito absoluto que se desenvolve na história humana em direção à autocompreensão plena. Não é uma entidade sobrenatural: é a razão que se realiza nas instituições, na arte, na religião, na filosofia — e que só existe no seu processo de autodesenvolvimento.",
+    "extended": "O Geist hegeliano não é o Deus pessoal do teísmo nem a razão humana individual. É a racionalidade que se exprime na história das civilizações, nas formas de vida social, nos sistemas filosóficos. A história universal é o processo pelo qual o Geist vem a saber de si mesmo — de ser inconsciente (natureza) a ser consciente (espírito subjetivo) a ser objetivo (instituições, direito, Estado) a ser absoluto (arte, religião, filosofia). Crítica principal: a filosofia da história de Hegel pressupõe que a história tem uma direção racional — o que muitos consideram injustificado.",
+    "related_concepts": [
+      "dialética",
+      "razão",
+      "ser",
+      "verdade"
+    ],
+    "authors": [
+      "hegel"
+    ],
+    "category": "metafísica",
+    "examples": [
+      "A Revolução Francesa como momento do Geist compreendendo a liberdade",
+      "O Estado moderno como objetivação do Espírito ético",
+      "A filosofia de Hegel como o Espírito chegando ao autoconhecimento"
+    ]
+  },
+  {
+    "id": "ideologia",
+    "term": "ideologia",
+    "etymology": "Cunhado por Destutt de Tracy em 1796: ciência das ideias. Marx reapropriou com sentido crítico: conjunto de ideias que mascaram relações de dominação.",
+    "definition": "Em Marx, o conjunto de ideias, valores e representações que uma classe dominante apresenta como universais e naturais, mas que na verdade expressam e legitimam seus interesses particulares. A ideologia é a 'falsa consciência' que impede as classes dominadas de perceberem sua situação real.",
+    "extended": "Marx: 'As ideias da classe dominante são, em cada época, as ideias dominantes.' Isso não significa que todas as ideias são falsas — significa que as ideias que circulam como óbvias e naturais numa sociedade expressam a perspectiva de quem controla os meios de produção. A crítica ideológica desvela esse enraizamento — mostra que o que parece universal é particular, o que parece eterno é histórico. A teoria da ideologia levanta o problema do relativismo: se toda ideia é condicionada por interesses de classe, a própria teoria marxista também o é?",
+    "related_concepts": [
+      "dialética",
+      "razão",
+      "verdade",
+      "consequencialismo"
+    ],
+    "authors": [
+      "marx",
+      "hegel"
+    ],
+    "category": "filosofia política / epistemologia",
+    "examples": [
+      "A 'mão invisível' do mercado: ideologia que apresenta o capitalismo como ordem natural",
+      "Os direitos naturais liberais: Marx os via como ideologia da burguesia apresentada como universal",
+      "A religião como 'ópio do povo': promessa de compensação celeste que justifica sofrimento terreno"
+    ]
+  },
+  {
+    "id": "vontade-de-potência",
+    "term": "vontade de potência",
+    "etymology": "Alemão Wille zur Macht. Wille: vontade. Macht: poder, potência, força. Tradução debatida: 'poder' (mais político) vs. 'potência' (mais ontológico).",
+    "definition": "Em Nietzsche, o impulso fundamental de toda vida: não a sobrevivência nem o prazer, mas o crescimento, a superação, a criação, o exercício de força. Não é vontade de dominar outros — é vontade de superar-se, de expandir capacidades.",
+    "extended": "Nietzsche propôs a vontade de potência como o instinto mais básico — mais fundamental que o instinto de autopreservação de Darwin e Schopenhauer. A vida que apenas sobrevive está em declínio; a vida plena é a que cresce, cria, se supera. A vontade de potência explica tanto a arte quanto a ciência, tanto a política quanto a filosofia. O além-do-homem é quem direciona a vontade de potência para a criação de valores em vez de para a dominação de outros. A vontade de potência foi apropriada de forma distorcida pelo nazismo — leitura que os textos não sustentam.",
+    "related_concepts": [
+      "virtude",
+      "felicidade",
+      "ser",
+      "verdade"
+    ],
+    "authors": [
+      "nietzsche"
+    ],
+    "category": "metafísica / psicologia",
+    "examples": [
+      "O artista que se supera em cada obra — expressão de vontade de potência criadora",
+      "O ressentimento como vontade de potência bloqueada: não podendo crescer, diminui o outro",
+      "O asceta que nega o corpo: para Nietzsche, vontade de potência espiritual disfarçada de negação"
+    ]
+  },
+  {
+    "id": "jogos-de-linguagem",
+    "term": "jogos de linguagem",
+    "etymology": "Alemão Sprachspiele. Termo cunhado por Wittgenstein nas Investigações Filosóficas para descrever as diversas formas de uso da linguagem entrelaçadas com práticas.",
+    "definition": "As diversas práticas linguísticas, cada uma com suas regras próprias, entrelaçadas com atividades humanas específicas. O significado de uma expressão é determinado pelo seu papel num jogo de linguagem particular — não por uma relação abstrata com objetos ou estados mentais.",
+    "extended": "Wittgenstein usa o termo para mostrar que a linguagem não é um único sistema com uma função (descrever o mundo) — é uma família de práticas diversas: dar ordens, descrever, contar histórias, rezar, agradecer, matematizar, filosofar. Cada jogo tem suas regras internas, e confusão filosófica surge ao transferir palavras de um jogo para outro sem perceber a mudança. 'Forma de vida' é o conceito associado: os jogos de linguagem são inseparáveis de práticas e modos de vida humanos — 'imaginar uma linguagem é imaginar uma forma de vida'.",
+    "related_concepts": [
+      "logos",
+      "verdade",
+      "razão"
+    ],
+    "authors": [
+      "wittgenstein"
+    ],
+    "category": "filosofia da linguagem",
+    "examples": [
+      "'Dor': no jogo de linguagem médico, descreve sintoma; no literário, pode ser metáfora; no religioso, oferenda",
+      "O problema filosófico do livre-arbítrio como confusão entre jogos de linguagem: 'livre' funciona diferente em contextos diferentes",
+      "Regras do xadrez: só existem dentro do jogo — 'o rei move-se uma casa por vez' é sem sentido fora do jogo"
+    ]
+  },
+  {
+    "id": "idealismo",
+    "term": "idealismo",
+    "etymology": "Do latim idea (forma, aparência) + -ismo. Na filosofia moderna, designa posições que afirmam a primazia da mente ou do espírito sobre a matéria.",
+    "definition": "Posição filosófica que afirma que a realidade é fundamentalmente mental, espiritual ou dependente da mente. Em sentido amplo: o que existe são ideias, mentes ou espíritos — a matéria é dependente ou derivada. Em sentido kantiano específico: os objetos do conhecimento se conformam às estruturas da mente cognoscente, não o inverso.",
+    "extended": "O idealismo tem formas radicalmente distintas. O idealismo subjetivo de Berkeley: 'ser é ser percebido' — objetos materiais só existem enquanto percebidos por uma mente. O idealismo transcendental de Kant: não afirma que objetos são mentais, mas que as condições de possibilidade do conhecimento são estruturas a priori do sujeito. O idealismo absoluto de Hegel: o real é o racional — a realidade é o processo de autodesdobramento do Espírito. O que une essas formas é a recusa de que o mundo material seja completamente independente e anterior à mente. O materialismo de Marx é definido por oposição ao idealismo: inverte a prioridade — são as condições materiais que determinam as formas de consciência, não o contrário.",
+    "related_concepts": [
+      "razão",
+      "ser",
+      "fenomeno",
+      "noumenon",
+      "dialética",
+      "conhecimento"
+    ],
+    "authors": [
+      "plato",
+      "kant",
+      "hegel"
+    ],
+    "category": "metafísica / epistemologia",
+    "examples": [
+      "Platão: as Formas (Ideias) são mais reais do que os objetos físicos que delas participam",
+      "Berkeley: a árvore no jardim não existe quando nenhuma mente a percebe",
+      "Kant: o espaço e o tempo não são propriedades das coisas-em-si — são formas da intuição do sujeito",
+      "Hegel: a história universal é o processo de autoconhecimento do Espírito absoluto"
+    ]
+  },
+  {
+    "id": "fenomenologia",
+    "term": "fenomenologia",
+    "etymology": "Do grego phainomenon (o que aparece) + logos (estudo, razão). Literalmente: estudo do que aparece à consciência.",
+    "definition": "Método filosófico fundado por Edmund Husserl que propõe analisar rigorosamente as estruturas da experiência consciente tal como aparecem à consciência — suspendendo pressupostos sobre o mundo exterior (epoché) para descrever o que é dado diretamente à experiência.",
+    "extended": "Husserl propôs a fenomenologia como ciência rigorosa das estruturas da consciência. A epoché fenomenológica (redução) suspende a 'atitude natural' — a crença espontânea na existência do mundo exterior — para examinar como os objetos se constituem para a consciência. Todo ato de consciência é intencional: está sempre dirigido a um objeto. A fenomenologia descreve essa intencionalidade. Heidegger transformou a fenomenologia: em vez de estruturas da consciência, analisou as estruturas do Dasein — o ser-no-mundo humano que não é primariamente consciência mas envolvimento prático com o mundo. Sartre e Merleau-Ponty desenvolveram fenomenologias do ser-no-mundo, da liberdade e da corporalidade. A fenomenologia é a principal corrente filosófica continental do século XX — e o ponto de partida do existencialismo.",
+    "related_concepts": [
+      "ser",
+      "conhecimento",
+      "fenomeno",
+      "razão"
+    ],
+    "authors": [
+      "hegel",
+      "hume",
+      "kant"
+    ],
+    "category": "método / epistemologia",
+    "examples": [
+      "A percepção de uma cadeira: não pergunto 'a cadeira existe?' mas 'como a cadeira se dá à minha percepção?'",
+      "A experiência do tempo: Husserl analisa retenção (passado imediato), impressão primal (agora) e protensão (futuro imediato)",
+      "Heidegger: o martelo em uso não é objeto de contemplação — é meio transparente de fazer algo; só se torna objeto quando quebra"
+    ]
+  }
+]

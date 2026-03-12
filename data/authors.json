@@ -1,0 +1,1101 @@
+[
+  {
+    "id": "socrates",
+    "name": "Sócrates",
+    "birth": -470,
+    "death": -399,
+    "period": "Filosofia Antiga",
+    "school": "socrática",
+    "summary": "Filósofo ateniense que fundou o método dialético e centrou a filosofia na ética e no autoconhecimento. Não deixou textos escritos; seu pensamento chegou até nós principalmente através de Platão.",
+    "biography": "Nascido em Atenas por volta de 470 a.C., filho de um escultor e de uma parteira, Sócrates tornou-se o personagem central da filosofia ocidental sem jamais escrever uma linha. Condenado à morte em 399 a.C. sob acusações de impiedade e corrupção da juventude, escolheu tomar a cicuta a trair seus princípios ou fugir da cidade. Sua vida foi um exercício contínuo de exame racional.",
+    "method": "O método socrático consiste em duas etapas: a ironia, na qual Sócrates finge ignorância para revelar as contradições no interlocutor; e a maiêutica, arte de 'dar à luz' ideias latentes na mente, à semelhança do que fazem as parteiras com os corpos.",
+    "key_ideas": [
+      "Só sei que nada sei",
+      "Conhece-te a ti mesmo",
+      "Uma vida sem exame não vale a pena ser vivida",
+      "A virtude é conhecimento",
+      "Ninguém faz o mal voluntariamente"
+    ],
+    "concepts": [
+      "maiêutica",
+      "ironia socrática",
+      "virtude",
+      "autoconhecimento",
+      "eudaimonia"
+    ],
+    "related_authors": [
+      "plato",
+      "aristotle"
+    ],
+    "works": [],
+    "quote": "Uma vida sem exame não vale a pena ser vivida.",
+    "quote_source": "Apologia de Sócrates, Platão",
+    "problems": [
+      "o-que-e-conhecimento",
+      "o-que-e-virtude",
+      "o-que-e-felicidade"
+    ],
+    "lesson_ids": [
+      "socrates-method",
+      "socrates-ethics",
+      "socrates-trial"
+    ]
+  },
+  {
+    "id": "plato",
+    "name": "Platão",
+    "birth": -428,
+    "death": -348,
+    "period": "Filosofia Antiga",
+    "school": "platonismo",
+    "summary": "Discípulo de Sócrates e mestre de Aristóteles, fundou a Academia em Atenas e desenvolveu a Teoria das Ideias, a filosofia da alma e a filosofia política.",
+    "biography": "Nascido em Atenas em 428 a.C. em família aristocrática, Platão foi aluno de Sócrates e testemunhou seu julgamento e morte. Essa experiência marcou profundamente sua desconfiança da democracia ateniense e sua busca por uma ordem política fundada na razão. Fundou a Academia, instituição que duraria quase novecentos anos. Seus diálogos são obras literárias de primeira ordem além de textos filosóficos.",
+    "method": "Platão escreve em forma de diálogo, onde Sócrates é personagem central. O método consiste na dialética: progressão de opiniões contraditórias em direção à verdade por meio do questionamento sistemático.",
+    "key_ideas": [
+      "Teoria das Ideias: o mundo sensível é cópia imperfeita do mundo inteligível",
+      "O Mito da Caverna: ilustra a condição humana e o caminho para o conhecimento",
+      "A alma é tripartite: racional, irascível e apetitiva",
+      "A justiça é a harmonia entre as partes da alma e da cidade",
+      "O filósofo-rei deve governar a pólis"
+    ],
+    "concepts": [
+      "ideia",
+      "alma",
+      "dialética",
+      "justiça",
+      "demiurgo",
+      "reminiscência"
+    ],
+    "related_authors": [
+      "socrates",
+      "aristotle"
+    ],
+    "works": [
+      "A República",
+      "O Banquete",
+      "Fédon",
+      "Mênon",
+      "Timeu",
+      "As Leis"
+    ],
+    "quote": "A necessidade é a mãe da invenção.",
+    "quote_source": "A República",
+    "problems": [
+      "o-que-e-conhecimento",
+      "o-que-e-justica",
+      "o-que-e-alma",
+      "o-que-e-verdade"
+    ],
+    "lesson_ids": [
+      "plato-theory-of-ideas",
+      "plato-cave-myth",
+      "plato-soul",
+      "plato-politics"
+    ]
+  },
+  {
+    "id": "aristotle",
+    "name": "Aristóteles",
+    "birth": -384,
+    "death": -322,
+    "period": "Filosofia Antiga",
+    "school": "aristotelismo",
+    "summary": "Filósofo grego que sistematizou a lógica, fundou a biologia como ciência, desenvolveu a ética das virtudes, a política e a metafísica. Fundou o Liceu e criou a filosofia como disciplina enciclopédica.",
+    "biography": "Nascido em Estagira, Macedônia, em 384 a.C., filho de médico, Aristóteles entrou na Academia de Platão aos 17 anos e ali permaneceu por vinte anos. Após a morte de Platão, tornou-se tutor do jovem Alexandre da Macedônia. Fundou em Atenas o Liceu, escola filosófica que se tornaria rival da Academia. Seus textos chegaram até nós como anotações de aulas — densos, sistemáticos e enciclopédicos.",
+    "method": "O método aristotélico parte da observação e da experiência sensível para alcançar princípios universais por indução, e depois deduz consequências por silogismo. Contra Platão, afirma que o universal não existe separado das coisas particulares.",
+    "key_ideas": [
+      "A lógica é o instrumento do pensamento correto",
+      "A substância é o ser fundamental: matéria e forma",
+      "As quatro causas: material, formal, eficiente e final",
+      "A virtude é o meio-termo entre dois extremos",
+      "A felicidade é a atividade da alma conforme a virtude",
+      "O homem é um animal político por natureza",
+      "Ato e potência explicam a mudança"
+    ],
+    "concepts": [
+      "substância",
+      "virtude",
+      "causa",
+      "ato e potência",
+      "silogismo",
+      "eudaimonia",
+      "phronesis"
+    ],
+    "related_authors": [
+      "plato",
+      "socrates"
+    ],
+    "works": [
+      "Organon",
+      "Física",
+      "Metafísica",
+      "Ética a Nicômaco",
+      "Política",
+      "Poética",
+      "Retórica"
+    ],
+    "quote": "Somos o que repetidamente fazemos. A excelência, portanto, não é um ato, mas um hábito.",
+    "quote_source": "Ética a Nicômaco",
+    "problems": [
+      "o-que-e-virtude",
+      "o-que-e-ser",
+      "o-que-e-felicidade",
+      "o-que-e-politica"
+    ],
+    "lesson_ids": [
+      "aristotle-logic",
+      "aristotle-metaphysics",
+      "aristotle-ethics",
+      "aristotle-politics"
+    ]
+  },
+  {
+    "id": "heraclitus",
+    "name": "Heráclito",
+    "birth": -535,
+    "death": -475,
+    "period": "Pré-Socrática",
+    "school": "pré-socrática",
+    "summary": "Filósofo de Éfeso que afirmou ser o logos o princípio ordenador do cosmos e o fogo o elemento primordial. Famoso por sua doutrina do devir e da unidade dos contrários.",
+    "biography": "Natural de Éfeso, Ásia Menor, por volta de 535 a.C., Heráclito era de família nobre e escreveu um tratado em prosa de estilo obscuro e sentencioso, que lhe valeu o apelido de 'o Obscuro'. Seu pensamento sobreviveu em fragmentos preservados por outros autores.",
+    "method": "Heráclito escreve em aforismos densos que exigem interpretação. Afirma que o logos, a razão que governa o cosmos, está acessível a todos mas incompreendido pela maioria.",
+    "key_ideas": [
+      "Tudo flui, nada permanece",
+      "Não se entra duas vezes no mesmo rio",
+      "O logos é o princípio racional do cosmos",
+      "A guerra é a mãe de todas as coisas",
+      "A unidade dos contrários: o caminho para cima e para baixo é o mesmo"
+    ],
+    "concepts": [
+      "logos",
+      "devir",
+      "fogo",
+      "unidade dos contrários"
+    ],
+    "related_authors": [
+      "parmenides"
+    ],
+    "works": [
+      "Peri Physeos (fragmentos)"
+    ],
+    "quote": "Não se entra duas vezes no mesmo rio.",
+    "quote_source": "Fragmentos",
+    "problems": [
+      "o-que-e-ser",
+      "o-que-e-verdade"
+    ],
+    "lesson_ids": [
+      "heraclitus-logos",
+      "heraclitus-flux"
+    ]
+  },
+  {
+    "id": "parmenides",
+    "name": "Parmênides",
+    "birth": -515,
+    "death": -450,
+    "period": "Pré-Socrática",
+    "school": "pré-socrática",
+    "summary": "Fundador da escola eleática, Parmênides afirmou que o ser é eterno, uno e imóvel, e que o movimento e a mudança são ilusão dos sentidos.",
+    "biography": "Natural de Eleia, sul da Itália, por volta de 515 a.C., Parmênides escreveu um poema filosófico em hexâmetros no qual uma deusa revela ao filósofo as duas vias: a via da verdade e a via da opinião.",
+    "method": "Parmênides usa argumento dedutivo puro: parte do princípio de que 'o ser é e o não-ser não é' e deriva consequências necessárias sobre a natureza do ser.",
+    "key_ideas": [
+      "O ser é, o não-ser não é",
+      "O ser é eterno, uno, contínuo e imóvel",
+      "O movimento é impossível: implica o não-ser",
+      "Os sentidos enganam; só a razão revela a verdade"
+    ],
+    "concepts": [
+      "ser",
+      "não-ser",
+      "imobilidade",
+      "via da verdade",
+      "via da opinião"
+    ],
+    "related_authors": [
+      "heraclitus",
+      "plato"
+    ],
+    "works": [
+      "Sobre a Natureza (fragmentos)"
+    ],
+    "quote": "O ser é, o não-ser não é.",
+    "quote_source": "Sobre a Natureza",
+    "problems": [
+      "o-que-e-ser",
+      "o-que-e-verdade"
+    ],
+    "lesson_ids": [
+      "parmenides-being"
+    ]
+  },
+  {
+    "id": "descartes",
+    "name": "René Descartes",
+    "birth": 1596,
+    "death": 1650,
+    "period": "Filosofia Moderna",
+    "school": "racionalismo",
+    "summary": "Filósofo e matemático francês considerado o pai da filosofia moderna. Desenvolveu o método da dúvida sistemática e fundou o racionalismo moderno.",
+    "biography": "Nascido em La Haye en Touraine, França, em 1596, Descartes foi educado pelos jesuítas em La Flèche. Serviu como voluntário em vários exércitos europeus antes de se dedicar integralmente à filosofia e à matemática. Morreu em Estocolmo em 1650, a serviço da rainha Cristina da Suécia.",
+    "method": "A dúvida metódica: Descartes decide duvidar de tudo aquilo de que seja possível duvidar, em busca de uma fundação indubitável para o conhecimento. Encontra-a no cogito.",
+    "key_ideas": [
+      "Cogito, ergo sum: penso, logo existo",
+      "Dúvida metódica como método filosófico",
+      "Dualismo mente-corpo: res cogitans e res extensa",
+      "As ideias inatas são o fundamento do conhecimento",
+      "A existência de Deus como garantia da verdade"
+    ],
+    "concepts": [
+      "cogito",
+      "dúvida metódica",
+      "dualismo",
+      "ideia inata",
+      "res cogitans",
+      "res extensa"
+    ],
+    "related_authors": [
+      "hume",
+      "kant"
+    ],
+    "works": [
+      "Meditações Metafísicas",
+      "Discurso do Método",
+      "Princípios da Filosofia"
+    ],
+    "quote": "Cogito, ergo sum.",
+    "quote_source": "Meditações Metafísicas",
+    "problems": [
+      "o-que-e-conhecimento",
+      "o-que-e-verdade",
+      "o-que-e-alma"
+    ],
+    "lesson_ids": [
+      "descartes-doubt",
+      "descartes-cogito",
+      "descartes-dualism"
+    ]
+  },
+  {
+    "id": "hume",
+    "name": "David Hume",
+    "birth": 1711,
+    "death": 1776,
+    "period": "Filosofia Moderna",
+    "school": "empirismo",
+    "summary": "Filósofo escocês que levou o empirismo às suas consequências cépticas, questionou a causalidade, a identidade pessoal e a existência do mundo externo.",
+    "biography": "Nascido em Edimburgo em 1711, Hume publicou seu Tratado da Natureza Humana aos 28 anos com a esperança de revolucionar a filosofia. A obra passou despercebida. Encontrou sucesso posterior nos Ensaios e nas Investigações. Foi amigo de Adam Smith e interlocutor de Rousseau.",
+    "method": "Empirismo radical: todo conhecimento provém da experiência sensível. Hume distingue impressões (percepções vívidas) de ideias (cópias enfraquecidas das impressões). Qualquer ideia sem correspondência empírica deve ser rejeitada.",
+    "key_ideas": [
+      "Todo conhecimento deriva da experiência",
+      "A causalidade é hábito mental, não necessidade objetiva",
+      "Não existe self permanente: apenas feixe de percepções",
+      "A razão não pode fundamentar a moral; esta funda-se no sentimento",
+      "O problema da indução: não podemos justificar racionalmente inferências do passado para o futuro"
+    ],
+    "concepts": [
+      "impressão",
+      "ideia",
+      "causalidade",
+      "indução",
+      "ceticismo",
+      "sentimento moral"
+    ],
+    "related_authors": [
+      "kant",
+      "descartes"
+    ],
+    "works": [
+      "Tratado da Natureza Humana",
+      "Investigação sobre o Entendimento Humano",
+      "Diálogos sobre a Religião Natural"
+    ],
+    "quote": "A razão é, e só deve ser, escrava das paixões.",
+    "quote_source": "Tratado da Natureza Humana",
+    "problems": [
+      "o-que-e-conhecimento",
+      "o-que-e-verdade",
+      "o-que-e-causalidade"
+    ],
+    "lesson_ids": [
+      "hume-empiricism",
+      "hume-causality",
+      "hume-skepticism"
+    ]
+  },
+  {
+    "id": "kant",
+    "name": "Immanuel Kant",
+    "birth": 1724,
+    "death": 1804,
+    "period": "Filosofia Moderna",
+    "school": "idealismo transcendental",
+    "summary": "Filósofo alemão que operou a 'revolução copernicana' na filosofia, unindo racionalismo e empirismo na teoria do conhecimento e fundando a ética deontológica moderna.",
+    "biography": "Nascido em Königsberg, Prússia, em 1724, Kant jamais saiu de sua cidade natal. Levou uma vida de precisão quase mecânica, mas sua obra transformou irreversivelmente a filosofia. A publicação da Crítica da Razão Pura em 1781 marcou o início da filosofia moderna alemã.",
+    "method": "Análise transcendental: Kant pergunta não o que conhecemos, mas como é possível conhecer. As condições de possibilidade do conhecimento são as categorias do entendimento e as formas puras da intuição (espaço e tempo).",
+    "key_ideas": [
+      "A revolução copernicana: os objetos conformam-se ao nosso modo de conhecer",
+      "Espaço e tempo são formas da intuição, não propriedades das coisas em si",
+      "As categorias do entendimento estruturam a experiência",
+      "Imperativo categórico: age apenas segundo máximas universalizáveis",
+      "A coisa-em-si é incognoscível; conhecemos apenas os fenômenos"
+    ],
+    "concepts": [
+      "imperativo categórico",
+      "fenômeno",
+      "noumenon",
+      "autonomia",
+      "dever",
+      "razão prática"
+    ],
+    "related_authors": [
+      "hume",
+      "descartes"
+    ],
+    "works": [
+      "Crítica da Razão Pura",
+      "Crítica da Razão Prática",
+      "Fundamentação da Metafísica dos Costumes"
+    ],
+    "quote": "Age apenas segundo uma máxima tal que possas ao mesmo tempo querer que ela se torne lei universal.",
+    "quote_source": "Fundamentação da Metafísica dos Costumes",
+    "problems": [
+      "o-que-e-conhecimento",
+      "o-que-e-moral",
+      "o-que-e-liberdade"
+    ],
+    "lesson_ids": [
+      "kant-epistemology",
+      "kant-ethics",
+      "kant-autonomy"
+    ]
+  },
+  {
+    "id": "thomas-aquinas",
+    "name": "Tomás de Aquino",
+    "birth": 1225,
+    "death": 1274,
+    "period": "Filosofia Medieval",
+    "school": "escolástica",
+    "summary": "Teólogo e filósofo dominicano que sintetizou a filosofia aristotélica com a teologia cristã, criando o tomismo, corrente filosófica oficial da Igreja Católica.",
+    "biography": "Nascido em Roccasecca, Itália, em 1225, de família nobre, Tomás entrou na Ordem Dominicana contra a vontade de seus parentes. Estudou em Colônia com Alberto Magno, que reconheceu imediatamente seu gênio. Lecionou em Paris e em diversas cidades italianas. Morreu em 1274 a caminho do Concílio de Lyon.",
+    "method": "O método escolástico: quaestio disputata. Tomás apresenta objeções à sua própria tese, expõe a tese verdadeira com seus fundamentos e responde sistematicamente a cada objeção. Rigor lógico a serviço da teologia.",
+    "key_ideas": [
+      "Fé e razão são complementares, não contraditórias",
+      "As cinco vias para a existência de Deus",
+      "A lei natural fundamenta a ética e a política",
+      "A graça não destrói a natureza, mas a aperfeiçoa",
+      "Distinção entre essência e existência: só em Deus coincidem"
+    ],
+    "concepts": [
+      "lei natural",
+      "analogia do ser",
+      "graça",
+      "essência",
+      "existência",
+      "bem comum"
+    ],
+    "related_authors": [
+      "aristotle",
+      "augustine"
+    ],
+    "works": [
+      "Suma Teológica",
+      "Suma Contra os Gentios",
+      "Comentários a Aristóteles"
+    ],
+    "quote": "A graça não destrói a natureza, mas a aperfeiçoa.",
+    "quote_source": "Suma Teológica",
+    "problems": [
+      "o-que-e-verdade",
+      "o-que-e-moral",
+      "o-que-e-ser"
+    ],
+    "lesson_ids": [
+      "aquinas-faith-reason",
+      "aquinas-natural-law",
+      "aquinas-five-ways"
+    ]
+  },
+  {
+    "id": "augustine",
+    "name": "Agostinho de Hipona",
+    "birth": 354,
+    "death": 430,
+    "period": "Filosofia Medieval",
+    "school": "patrística",
+    "summary": "Bispo e filósofo latino que fundiu neoplatonismo e teologia cristã, desenvolvendo uma filosofia da história, da vontade e da graça que influenciou decisivamente o pensamento ocidental.",
+    "biography": "Nascido em Tagaste, Norte da África, em 354, filho de mãe cristã (Mônica) e pai pagão, Agostinho passou por uma juventude intensa de buscas intelectuais e morais — maniqueísmo, ceticismo, neoplatonismo — antes de sua conversão ao Cristianismo em 386. Tornou-se bispo de Hipona em 395.",
+    "method": "Agostinho parte da interioridade: a verdade habita no interior do homem. A iluminação divina é condição do conhecimento verdadeiro. Combina dialética filosófica com exegese bíblica.",
+    "key_ideas": [
+      "O coração inquieto só descansa em Deus",
+      "A iluminação divina como condição do conhecimento",
+      "O mal é privação do bem, não substância independente",
+      "A história é o conflito entre a Cidade de Deus e a Cidade Terrena",
+      "A vontade livre é origem do pecado e da responsabilidade moral"
+    ],
+    "concepts": [
+      "iluminação",
+      "livre-arbítrio",
+      "graça",
+      "pecado original",
+      "tempo",
+      "memória"
+    ],
+    "related_authors": [
+      "plato",
+      "thomas-aquinas"
+    ],
+    "works": [
+      "Confissões",
+      "A Cidade de Deus",
+      "Sobre a Trindade",
+      "Sobre o Livre-Arbítrio"
+    ],
+    "quote": "Fizeste-nos para Ti, e inquieto está o nosso coração, enquanto não repousa em Ti.",
+    "quote_source": "Confissões",
+    "problems": [
+      "o-que-e-verdade",
+      "o-que-e-alma",
+      "o-que-e-liberdade"
+    ],
+    "lesson_ids": [
+      "augustine-interiority",
+      "augustine-time",
+      "augustine-will"
+    ]
+  },
+  {
+    "id": "thales",
+    "name": "Tales de Mileto",
+    "birth": -624,
+    "death": -546,
+    "period": "Pré-Socrático",
+    "school": "pre-socratica",
+    "summary": "Considerado o primeiro filósofo ocidental, Tales propôs que a água é o princípio fundamental de todas as coisas, inaugurando a busca racional por uma explicação única da natureza.",
+    "biography": "Natural de Mileto, cidade grega na costa da atual Turquia, Tales foi matemático, astrônomo e pensador político além de filósofo. Teria previsto um eclipse solar em 585 a.C. e demonstrado teoremas geométricos básicos. Nenhum texto seu sobreviveu; conhecemo-lo apenas por relatos de Aristóteles e outros.",
+    "method": "Observação da natureza e dedução por analogia. Tales procurava o substrato comum a todas as coisas visíveis, usando evidências empíricas — a umidade presente em sementes, alimentos, e no próprio ar — para sustentar sua tese.",
+    "key_ideas": [
+      "A água (hydor) é o arché — o princípio e substrato de tudo",
+      "A natureza tem uma unidade explicável sem recurso ao mito",
+      "'Tudo está cheio de deuses' — a natureza é animada (hilozoísmo)",
+      "O ímã tem alma porque move o ferro — movimento como signo de vida"
+    ],
+    "concepts": [
+      "arche",
+      "logos",
+      "physis"
+    ],
+    "related_authors": [
+      "anaximander",
+      "anaximenes",
+      "heraclitus",
+      "parmenides"
+    ],
+    "works": [
+      "Nenhuma obra sobreviveu; atribuições incertas"
+    ],
+    "quote": "A água é o princípio de todas as coisas.",
+    "quote_source": "Relatado por Aristóteles, Metafísica I, 3",
+    "problems": [
+      "O que é o princípio de tudo?",
+      "A natureza pode ser explicada sem os deuses?",
+      "O que une a multiplicidade das coisas?"
+    ],
+    "lesson_ids": [
+      "pre-socratic-arche"
+    ]
+  },
+  {
+    "id": "anaximander",
+    "name": "Anaximandro",
+    "birth": -610,
+    "death": -546,
+    "period": "Pré-Socrático",
+    "school": "pre-socratica",
+    "summary": "Discípulo de Tales, Anaximandro propôs que o princípio não pode ser nenhum elemento determinado, mas o ápeiron — o ilimitado, o indefinido, aquilo de onde todas as coisas emergem e para onde retornam.",
+    "biography": "Também de Mileto e provavelmente discípulo direto de Tales. Teria feito o primeiro mapa do mundo conhecido e escrito a primeira obra em prosa filosófica, da qual sobrevive apenas um fragmento.",
+    "method": "Especulação racional sobre a origem da multiplicidade. Se o princípio fosse um elemento (água, fogo), ele destruiria os opostos. Logo, o princípio deve ser algo que não é nenhuma coisa em particular.",
+    "key_ideas": [
+      "O arché é o ápeiron: o indefinido, ilimitado e eterno",
+      "As coisas emergem do ápeiron por separação dos opostos (quente/frio, seco/úmido)",
+      "As coisas retornam ao ápeiron como punição pela injustiça de existirem",
+      "A Terra flutua livremente no centro do cosmos, sem apoio"
+    ],
+    "concepts": [
+      "arche",
+      "physis"
+    ],
+    "related_authors": [
+      "thales",
+      "anaximenes",
+      "heraclitus"
+    ],
+    "works": [
+      "Sobre a Natureza (fragmento único)"
+    ],
+    "quote": "As coisas perecem naquilo de onde tiveram origem, conforme a necessidade, pois pagam umas às outras pena e retribuição por sua injustiça segundo a ordem do tempo.",
+    "quote_source": "Fragmento DK 12B1 — único fragmento sobrevivente",
+    "problems": [
+      "O que é o princípio de tudo?",
+      "Como o múltiplo emerge do uno?",
+      "Por que as coisas existem e depois desaparecem?"
+    ],
+    "lesson_ids": [
+      "pre-socratic-arche"
+    ]
+  },
+  {
+    "id": "anaximenes",
+    "name": "Anaxímenes",
+    "birth": -585,
+    "death": -525,
+    "period": "Pré-Socrático",
+    "school": "pre-socratica",
+    "summary": "Terceiro milésio, Anaxímenes propôs o ar como arché e introduziu um mecanismo explicativo preciso: rarefação e condensação. É o primeiro a oferecer um processo físico para a transformação dos elementos.",
+    "biography": "Possivelmente discípulo de Anaximandro em Mileto. Propôs uma cosmologia mais detalhada que seus predecessores, descrevendo como a Terra, os astros e as nuvens se formam a partir do ar por processos físicos identificáveis.",
+    "method": "Analogia com a respiração humana. Assim como a alma (ar) sustenta o corpo, o ar cósmico sustenta o mundo. A diferença entre as coisas é quantitativa — densidade — não qualitativa.",
+    "key_ideas": [
+      "O ar (aer) é o arché — o princípio de todas as coisas",
+      "Por rarefação, o ar torna-se fogo; por condensação, vento, nuvem, água, terra, pedra",
+      "A alma humana é ar — e por isso nos sustenta e governa",
+      "A transformação é contínua e reversível"
+    ],
+    "concepts": [
+      "arche",
+      "physis"
+    ],
+    "related_authors": [
+      "thales",
+      "anaximander",
+      "heraclitus"
+    ],
+    "works": [
+      "Sobre a Natureza (fragmentos)"
+    ],
+    "quote": "Assim como a nossa alma, sendo ar, nos sustenta, assim o sopro e o ar envolvem o cosmos inteiro.",
+    "quote_source": "Fragmento DK 13B2",
+    "problems": [
+      "Como explicar a diferença entre as coisas se há um único princípio?",
+      "O princípio do cosmos pode ser o mesmo que o da vida humana?"
+    ],
+    "lesson_ids": [
+      "pre-socratic-arche"
+    ]
+  },
+  {
+    "id": "protagoras",
+    "name": "Protágoras de Abdera",
+    "birth": -490,
+    "death": -420,
+    "period": "Clássico",
+    "school": "sofistas",
+    "summary": "O mais célebre dos sofistas, Protágoras formulou a tese relativista fundamental: 'O homem é a medida de todas as coisas.' Ensinou retórica e argumentação por pagamento, tornando-se o modelo do educador profissional na Atenas clássica.",
+    "biography": "Natural de Abdera (Trácia), Protágoras passou décadas em Atenas como professor itinerante e cobrava honorários elevados por seus ensinamentos — o que escandalizava filósofos como Sócrates. Foi amigo de Péricles e redigiu a constituição da colônia panélênica de Túrios. Acusado de impiedade, foi exilado de Atenas.",
+    "method": "Ensino da antilogia: para cada tese há uma antítese igualmente válida. O bom orador pode tornar mais forte o argumento mais fraco. A educação não revela verdades — ela treina a capacidade de persuadir.",
+    "key_ideas": [
+      "'O homem é a medida de todas as coisas: das que são, enquanto são; das que não são, enquanto não são'",
+      "A verdade é relativa ao percipiente — não há verdade universal",
+      "Sobre os deuses, 'não posso saber se existem ou não, nem qual é sua forma'",
+      "A virtude (areté) pode ser ensinada — é uma habilidade, não um dom"
+    ],
+    "concepts": [
+      "verdade",
+      "conhecimento",
+      "opinião",
+      "virtude"
+    ],
+    "related_authors": [
+      "gorgias",
+      "socrates",
+      "plato"
+    ],
+    "works": [
+      "A Verdade (Antilogias)",
+      "Sobre os Deuses",
+      "Sobre o Ser"
+    ],
+    "quote": "O homem é a medida de todas as coisas: das que são, enquanto são; das que não são, enquanto não são.",
+    "quote_source": "Fragmento DK 80B1, citado por Platão no Teeteto",
+    "problems": [
+      "A verdade é relativa ou objetiva?",
+      "A virtude pode ser ensinada?",
+      "Podemos conhecer algo sobre os deuses?"
+    ],
+    "lesson_ids": [
+      "sophists-relativism"
+    ]
+  },
+  {
+    "id": "gorgias",
+    "name": "Górgias de Leontinos",
+    "birth": -483,
+    "death": -375,
+    "period": "Clássico",
+    "school": "sofistas",
+    "summary": "Sofista e retor siciliano, Górgias levou o ceticismo ao limite: nada existe; se existisse, não poderíamos conhecê-lo; se pudéssemos conhecê-lo, não poderíamos comunicá-lo. É o fundador do niilismo epistemológico na filosofia ocidental.",
+    "biography": "Natural de Leontinos, Sicília, Górgias chegou a Atenas como embaixador em 427 a.C. e causou sensação com seu estilo retórico elaborado. Viveu mais de cem anos, tornando-se o mais longevo e influente retor de sua época. Deu nome a um diálogo de Platão.",
+    "method": "Argumentação por redução ao absurdo. Cada tese sobre o ser é demolida mostrando que implica contradição. A linguagem não captura a realidade — ela apenas persuade.",
+    "key_ideas": [
+      "Nada existe (o ser é impensável e indizível)",
+      "Se algo existisse, não poderia ser conhecido",
+      "Se pudesse ser conhecido, não poderia ser comunicado",
+      "A retórica é a arte suprema — superior à filosofia porque governa os humanos"
+    ],
+    "concepts": [
+      "ser",
+      "verdade",
+      "logos"
+    ],
+    "related_authors": [
+      "protagoras",
+      "socrates",
+      "parmenides"
+    ],
+    "works": [
+      "Sobre o Não-Ser ou Sobre a Natureza",
+      "Elogio de Helena",
+      "Defesa de Palamedes"
+    ],
+    "quote": "Nada existe. Se algo existisse, não poderia ser conhecido. Se pudesse ser conhecido, não poderia ser comunicado.",
+    "quote_source": "Sobre o Não-Ser, relatado por Sexto Empírico",
+    "problems": [
+      "A linguagem pode capturar a realidade?",
+      "É possível comunicar conhecimento?",
+      "O que distingue filosofia de retórica?"
+    ],
+    "lesson_ids": [
+      "sophists-relativism"
+    ]
+  },
+  {
+    "id": "zeno-of-citium",
+    "name": "Zenão de Cítio",
+    "birth": -334,
+    "death": -262,
+    "period": "Helenístico",
+    "school": "estoicismo",
+    "summary": "Fundador do Estoicismo, Zenão ensinou no Pórtico Pintado (Stoá Poikilé) de Atenas que a natureza é governada pelo Logos divino e que a virtude — o único bem verdadeiro — consiste em viver de acordo com a razão e a natureza.",
+    "biography": "De origem fenícia, nasceu em Cítio, Chipre. Após um naufrágio que o arruinou, chegou a Atenas e dedicou-se à filosofia. Estudou com os cínicos e os megáricos antes de fundar sua própria escola. O nome 'estoicismo' vem da stoá (pórtico) onde ensinava.",
+    "method": "Física, lógica e ética como partes inseparáveis de um sistema. A ética depende da física (como o cosmos funciona) e da lógica (como raciocinar corretamente). Viver bem é viver segundo o Logos que permeia o cosmos.",
+    "key_ideas": [
+      "A virtude é o único bem verdadeiro — tudo mais é indiferente (adiaphora)",
+      "Distinguish o que depende de nós (julgamentos, impulsos) do que não depende (corpo, fama, riqueza)",
+      "O Logos divino permeia e governa o cosmos — somos partes de um todo racional",
+      "As emoções perturbadoras resultam de julgamentos falsos, não de eventos externos"
+    ],
+    "concepts": [
+      "virtude",
+      "logos",
+      "felicidade"
+    ],
+    "related_authors": [
+      "epictetus",
+      "marcus-aurelius",
+      "aristotle"
+    ],
+    "works": [
+      "República (fragmentos)",
+      "Sobre a Vida segundo a Natureza (fragmentos)"
+    ],
+    "quote": "A felicidade é uma boa correnteza de vida.",
+    "quote_source": "Fragmento estóico, citado por Diógenes Laércio VII, 88",
+    "problems": [
+      "O que está realmente em nosso poder?",
+      "As emoções podem ser controladas pela razão?",
+      "O que significa viver segundo a natureza?"
+    ],
+    "lesson_ids": [
+      "stoicism-control"
+    ]
+  },
+  {
+    "id": "epictetus",
+    "name": "Epicteto",
+    "birth": 55,
+    "death": 135,
+    "period": "Imperial Romano / Helenístico",
+    "school": "estoicismo",
+    "summary": "Escravo liberto que se tornou o maior professor de filosofia prática do mundo antigo, Epicteto reduziu o estoicismo a uma dicotomia central: o que depende de nós e o que não depende. Sua filosofia é um manual de liberdade interior.",
+    "biography": "Nasceu escravo em Hierápolis, Frígia. Seu senhor em Roma era liberto de Nero. Estudou filosofia com Musônio Rufo e após a liberdade abriu escola em Nicópolis, Grécia. Não escreveu nada — suas lições foram compiladas pelo discípulo Arriano no Enchiridion e nas Diatribes.",
+    "method": "Prática cotidiana e autoexame. Filosofia não é teoria abstrata — é exercício diário. Cada situação é uma oportunidade para praticar a dicotomia: perguntar o que depende de mim e aceitar com serenidade o que não depende.",
+    "key_ideas": [
+      "A dicotomia de controle: só nossa vontade (prohairesis) está em nosso poder",
+      "O sofrimento não vem dos eventos, mas dos nossos julgamentos sobre eles",
+      "A liberdade interior é possível mesmo na escravidão externa",
+      "'Não são as coisas que perturbam os homens, mas as opiniões sobre as coisas'"
+    ],
+    "concepts": [
+      "virtude",
+      "logos",
+      "felicidade"
+    ],
+    "related_authors": [
+      "zeno-of-citium",
+      "marcus-aurelius",
+      "socrates"
+    ],
+    "works": [
+      "Enchiridion (Manual)",
+      "Diatribes (compiladas por Arriano)"
+    ],
+    "quote": "Não são as coisas que perturbam os homens, mas as opiniões sobre as coisas.",
+    "quote_source": "Enchiridion, 5",
+    "problems": [
+      "O que está realmente em nosso poder?",
+      "Como alcançar serenidade diante do que não controlamos?",
+      "O que é liberdade para quem não tem liberdade externa?"
+    ],
+    "lesson_ids": [
+      "stoicism-control"
+    ]
+  },
+  {
+    "id": "marcus-aurelius",
+    "name": "Marco Aurélio",
+    "birth": 121,
+    "death": 180,
+    "period": "Imperial Romano",
+    "school": "estoicismo",
+    "summary": "Imperador romano e filósofo estoico, Marco Aurélio deixou as Meditações — diário filosófico íntimo nunca destinado à publicação — como o mais pessoal e duradouro documento da prática estoica.",
+    "biography": "Nasceu em Roma em família patrícia. Adotado pelo imperador Antonino Pio, foi rigorosamente educado em filosofia estoica, principalmente por Frontão e Júnio Rústico. Tornou-se imperador aos 40 anos e governou durante vinte anos de guerras defensivas nas fronteiras do Danúbio. As Meditações foram escritas em grego durante campanhas militares.",
+    "method": "Autoexame diário e aplicação prática dos princípios estoicos a situações concretas — a reclamação de um general, o atraso de um subordinado, a própria morte iminente. A filosofia é julgada pelo caráter que produz, não pela eloquência.",
+    "key_ideas": [
+      "O presente momento é tudo o que temos — o passado acabou, o futuro não chegou",
+      "Os obstáculos são oportunidades para praticar a virtude",
+      "A razão nos une a todos — cada pessoa tem o logos dentro de si",
+      "A morte é natural e não deve ser temida — somos parte do ciclo do cosmos"
+    ],
+    "concepts": [
+      "virtude",
+      "logos",
+      "felicidade"
+    ],
+    "related_authors": [
+      "epictetus",
+      "zeno-of-citium"
+    ],
+    "works": [
+      "Meditações (Ta eis heauton — 'Para Si Mesmo')"
+    ],
+    "quote": "O impedimento à ação faz avançar a ação. O que está no caminho torna-se o caminho.",
+    "quote_source": "Meditações, V, 20",
+    "problems": [
+      "Como manter a serenidade filosófica no exercício do poder?",
+      "O que significa agir virtuosamente quando os resultados são incertos?",
+      "Como aceitar a morte sem resignação passiva?"
+    ],
+    "lesson_ids": [
+      "stoicism-control"
+    ]
+  },
+  {
+    "id": "epicurus",
+    "name": "Epicuro de Samos",
+    "birth": -341,
+    "death": -270,
+    "period": "Helenístico",
+    "school": "epicurismo",
+    "summary": "Fundador do Epicurismo, Epicuro propôs que o prazer (hedone) é o princípio e o fim de uma vida feliz — não o prazer desregrado, mas a ataraxia: a tranquilidade da alma livre de dor, perturbação e medo, especialmente o medo da morte.",
+    "biography": "Nasceu em Samos, filho de colono ateniense. Após estudar filosofia em Atenas, fundou sua própria escola em 306 a.C.: o Jardim (Kepos) — uma propriedade privada onde ensinava em comunidade com discípulos, incluindo mulheres e escravos, o que era incomum. Escreveu prolificamente mas sobreviveram apenas três cartas e fragmentos.",
+    "method": "A filosofia como medicina da alma. Cada doutrina deve ser testada pela experiência: ela produz ataraxia ou aumenta a perturbação? O critério do verdadeiro é o prazer e a dor sentidos diretamente.",
+    "key_ideas": [
+      "O prazer é o princípio e o fim da vida feliz — mas o maior prazer é a ausência de dor",
+      "A ataraxia (tranquilidade) é o bem supremo — não o prazer ativo",
+      "O medo da morte é irracional: onde a morte está, eu não estou; onde eu estou, a morte não está",
+      "Os deuses não se importam com os humanos — não há providência divina nem punição póstuma",
+      "A amizade (philia) é o maior bem que a sabedoria pode oferecer"
+    ],
+    "concepts": [
+      "felicidade",
+      "virtude",
+      "alma"
+    ],
+    "related_authors": [
+      "zeno-of-citium",
+      "aristotle",
+      "plato"
+    ],
+    "works": [
+      "Carta a Meneceu",
+      "Carta a Heródoto",
+      "Carta a Pítocles",
+      "Máximas Principais"
+    ],
+    "quote": "Acostuma-te a pensar que a morte nada é para nós, pois todo bem e todo mal residem na sensação, e a morte é privação de sensação.",
+    "quote_source": "Carta a Meneceu",
+    "problems": [
+      "O que é uma vida feliz?",
+      "O prazer é o bem supremo?",
+      "Como viver sem medo da morte?"
+    ],
+    "lesson_ids": [
+      "epicureanism-pleasure"
+    ]
+  },
+  {
+    "id": "mill",
+    "name": "John Stuart Mill",
+    "birth": 1806,
+    "death": 1873,
+    "period": "Moderno / Contemporâneo",
+    "school": "empirismo",
+    "summary": "Filósofo e economista britânico, Mill aperfeiçoou o utilitarismo de Bentham com uma distinção crucial: não apenas a quantidade, mas a qualidade dos prazeres importa. É melhor ser Sócrates insatisfeito do que um tolo satisfeito.",
+    "biography": "Educado pelo pai, James Mill, em regime intensivo desde a infância — grego aos 3 anos, lógica e economia aos 8. Trabalhou por trinta e cinco anos na Companhia das Índias Orientais enquanto escrevia suas obras filosóficas mais importantes. Foi também deputado parlamentar e defensor precoce do sufrágio feminino. Sua esposa, Harriet Taylor, foi colaboradora intelectual decisiva.",
+    "method": "Empirismo rigoroso aliado ao raciocínio moral consequencialista. Mill avalia ações pelo estado do mundo que produzem — em particular, pelo bem-estar agregado de todos os afetados. O raciocínio moral é uma ciência empírica: podemos aprender progressivamente o que promove a felicidade humana.",
+    "key_ideas": [
+      "O princípio da utilidade: a ação correta maximiza a felicidade (prazer menos dor) do maior número",
+      "Qualidade dos prazeres: prazeres intelectuais e morais são superiores aos físicos — não apenas mais intensos",
+      "'É melhor ser Sócrates insatisfeito do que um tolo satisfeito'",
+      "A prova do utilitarismo: cada pessoa deseja sua própria felicidade; logo, a felicidade geral é desejável",
+      "O princípio do dano: o único limite legítimo à liberdade individual é prevenir dano a outros"
+    ],
+    "concepts": [
+      "utilidade",
+      "felicidade",
+      "consequencialismo"
+    ],
+    "related_authors": [
+      "kant",
+      "aristotle",
+      "hume"
+    ],
+    "works": [
+      "Utilitarismo (1863)",
+      "Sobre a Liberdade (1859)",
+      "O Sistema de Lógica (1843)",
+      "A Sujeição das Mulheres (1869)"
+    ],
+    "quote": "É melhor ser Sócrates insatisfeito do que um tolo satisfeito. E se o tolo ou o porco tiver opinião diferente, é porque eles conhecem apenas um lado da questão.",
+    "quote_source": "Utilitarismo, capítulo II",
+    "problems": [
+      "O que torna uma ação moralmente correta?",
+      "Como comparar felicidades de pessoas diferentes?",
+      "O fim justifica os meios?"
+    ],
+    "lesson_ids": [
+      "ethics-utilitarianism"
+    ]
+  },
+  {
+    "id": "anselm",
+    "name": "Anselmo de Cantuária",
+    "birth": 1033,
+    "death": 1109,
+    "period": "Medieval",
+    "school": "escolástica",
+    "summary": "Arcebispo de Cantuária e filósofo escolástico, Anselmo formulou o argumento ontológico para a existência de Deus — o argumento mais debatido da história da filosofia: Deus é aquilo do qual nada maior pode ser pensado, e o que existe na realidade é maior do que o que existe apenas no pensamento.",
+    "biography": "Nascido em Aosta, no norte da Itália. Entrou no monastério beneditino de Bec, na Normandia, onde se tornou prior e depois abade. Em 1093 foi nomeado Arcebispo de Cantuária, cargo que exerceu em conflito persistente com os reis Guilherme II e Henrique I da Inglaterra por questões de jurisdição eclesiástica. Definiu o programa da escolástica nascente com sua fórmula: fides quaerens intellectum — a fé em busca de compreensão.",
+    "method": "Argumento a priori: demonstrar a existência de Deus unicamente a partir do conceito de Deus, sem recorrer à experiência. Se entendemos o que significa 'Deus', e Deus é aquilo do qual nada maior pode ser pensado, então Deus deve existir — pois existir na realidade é maior que existir apenas no pensamento.",
+    "key_ideas": [
+      "Fides quaerens intellectum: a fé busca compreensão — não prova, mas inteligência do que já se crê",
+      "O argumento ontológico: Deus é o que não se pode pensar algo maior; logo, existe necessariamente",
+      "Quem nega a existência de Deus é o 'insensato' do Salmo 14 — ele afirma algo que se refuta pela análise do próprio conceito",
+      "A satisfação vicária: Cristo redime a humanidade satisfazendo a ofensa infinita ao ser infinito — argumento racional para a encarnação"
+    ],
+    "concepts": [
+      "ser",
+      "razão",
+      "verdade"
+    ],
+    "related_authors": [
+      "thomas-aquinas",
+      "augustine",
+      "plato"
+    ],
+    "works": [
+      "Monológio (1076)",
+      "Proslógio (1077–1078)",
+      "Por que Deus se fez Homem (Cur Deus Homo, 1098)"
+    ],
+    "quote": "Deus é aquilo do qual nada maior pode ser pensado.",
+    "quote_source": "Proslógio, capítulo II",
+    "problems": [
+      "É possível provar a existência de Deus apenas pelo conceito de Deus?",
+      "A existência é uma propriedade que pode ser incluída numa definição?",
+      "Qual é a relação entre pensar algo e esse algo existir?"
+    ],
+    "lesson_ids": [
+      "medieval-anselm-ontological"
+    ]
+  },
+  {
+    "id": "hegel",
+    "name": "Georg Wilhelm Friedrich Hegel",
+    "birth": 1770,
+    "death": 1831,
+    "period": "Moderno / Idealismo Alemão",
+    "school": "idealismo",
+    "summary": "Hegel propôs que a realidade é um processo dialético — o Espírito (Geist) se desenvolve através da história por contradições que se superam em sínteses progressivas. A história não é acidente: é a autocompreensão crescente da razão.",
+    "biography": "Nasceu em Stuttgart, Württemberg. Estudou teologia em Tübingen com Schelling e Hölderlin. Escreveu a Fenomenologia do Espírito em 1807, na véspera da Batalha de Jena, enquanto Napoleão entrava na cidade — Hegel o chamou de 'alma do mundo a cavalo'. Ensinou em Nuremberg, depois em Heidelberg, e por fim em Berlim, onde se tornou a figura filosófica mais influente da Prússia. Morreu de cólera em 1831.",
+    "method": "Dialética: todo conceito ou realidade contém uma contradição interna que o força a superar-se num conceito mais alto. Tese → antítese → síntese — mas a síntese não elimina os termos anteriores: os preserva num nível superior (Aufhebung: suprassunção). A dialética não é um método externo aplicado à realidade — é o movimento da própria realidade.",
+    "key_ideas": [
+      "O racional é real e o real é racional — a estrutura da razão e a estrutura da realidade são a mesma",
+      "O Geist (Espírito) se desenvolve na história humana em direção à autocompreensão plena",
+      "A dialética: contradição como motor do desenvolvimento — tese, antítese, síntese (Aufhebung)",
+      "A consciência só se torna plenamente si mesma através do outro — a dialética do senhor e do escravo",
+      "A filosofia chega sempre tarde — a coruja de Minerva alça voo ao anoitecer"
+    ],
+    "concepts": [
+      "dialética",
+      "ser",
+      "razão",
+      "verdade"
+    ],
+    "related_authors": [
+      "kant",
+      "marx",
+      "aristotle"
+    ],
+    "works": [
+      "Fenomenologia do Espírito (1807)",
+      "Ciência da Lógica (1812–1816)",
+      "Enciclopédia das Ciências Filosóficas (1817)",
+      "Linhas Fundamentais da Filosofia do Direito (1820)"
+    ],
+    "quote": "A coruja de Minerva alça voo somente ao anoitecer.",
+    "quote_source": "Prefácio à Filosofia do Direito",
+    "problems": [
+      "Como a história pode ser racional se está cheia de sofrimento e contingência?",
+      "O que significa 'suprassumir' uma contradição sem simplesmente eliminá-la?",
+      "Pode-se conhecer o Absoluto ou o conhecimento é sempre perspectivo?"
+    ],
+    "lesson_ids": [
+      "modern-hegel"
+    ]
+  },
+  {
+    "id": "marx",
+    "name": "Karl Marx",
+    "birth": 1818,
+    "death": 1883,
+    "period": "Moderno / Século XIX",
+    "school": "materialismo",
+    "summary": "Marx inverteu Hegel: não é o Espírito que move a história, mas as condições materiais — as relações de produção. A filosofia não deve apenas interpretar o mundo: deve transformá-lo. O capitalismo é um sistema de alienação e exploração que o proletariado superará.",
+    "biography": "Nasceu em Trier, Renânia, filho de advogado judeu convertido. Estudou direito e filosofia, doutorou-se com tese sobre Demócrito e Epicuro. Expulso da Prússia, depois da França, instalou-se em Londres com Friedrich Engels, com quem colaborou toda a vida. Viveu em pobreza crônica enquanto escrevia O Capital. Morreu em Londres em 1883, dois anos após a morte de sua mulher Jenny.",
+    "method": "Materialismo histórico: as formas de consciência (ideias, religião, política, filosofia) são determinadas pelas condições materiais de produção — não o contrário. Para compreender uma época, analise suas relações de produção. Para transformar a consciência, transforme as condições materiais.",
+    "key_ideas": [
+      "A onzena tese sobre Feuerbach: 'Os filósofos apenas interpretaram o mundo de diferentes maneiras; trata-se de transformá-lo'",
+      "O materialismo histórico: as ideias de uma época são as ideias da classe dominante",
+      "A alienação: o trabalhador se torna estranho ao produto do seu trabalho, ao processo, a si mesmo e aos outros",
+      "A mais-valia: o capitalista extrai do trabalhador trabalho não pago — a base da exploração",
+      "A luta de classes como motor da história: a história de toda sociedade até hoje é a história das lutas de classe"
+    ],
+    "concepts": [
+      "dialética",
+      "razão",
+      "verdade"
+    ],
+    "related_authors": [
+      "hegel",
+      "hume",
+      "mill"
+    ],
+    "works": [
+      "Manuscritos Econômico-Filosóficos (1844)",
+      "A Ideologia Alemã (1845, com Engels)",
+      "Manifesto do Partido Comunista (1848, com Engels)",
+      "O Capital, vol. I (1867)"
+    ],
+    "quote": "Os filósofos apenas interpretaram o mundo de diferentes maneiras; trata-se de transformá-lo.",
+    "quote_source": "Teses sobre Feuerbach, tese XI",
+    "problems": [
+      "O determinismo econômico deixa espaço para a agência individual?",
+      "Como distinguir ciência social marxista de ideologia marxista?",
+      "A crítica de Marx ao capitalismo depende da sua teoria do valor?"
+    ],
+    "lesson_ids": [
+      "modern-marx"
+    ]
+  },
+  {
+    "id": "nietzsche",
+    "name": "Friedrich Nietzsche",
+    "birth": 1844,
+    "death": 1900,
+    "period": "Moderno / Século XIX",
+    "school": "existencialismo",
+    "summary": "Nietzsche diagnosticou a crise dos valores do Ocidente: 'Deus está morto' — a crença nos valores absolutos entrou em colapso. A resposta não é o niilismo, mas a criação de novos valores. O além-do-homem é quem supera a moral do ressentimento e afirma a vida.",
+    "biography": "Nasceu em Röcken, Saxônia, filho de pastor luterano. Prodigio filológico, tornou-se professor em Basileia aos 24 anos. Amigo próximo de Wagner, rompeu com ele dramaticamente. Publicou seus livros mais importantes em isolamento quase completo, sem reconhecimento. Em janeiro de 1889, em Turim, sofreu colapso mental do qual nunca se recuperou. Passou os últimos onze anos de vida em silêncio, cuidado pela mãe e pela irmã. Morreu em 1900.",
+    "method": "Filosofia do martelo e genealogia: em vez de construir sistemas, Nietzsche usa aforismos, metáforas e genealogia histórica para desmascarar os fundamentos ocultos dos valores morais e filosóficos. A genealogia não pergunta 'o que é o bem?' mas 'quem inventou o bem? em que condições? para servir a que interesses?'",
+    "key_ideas": [
+      "Deus está morto: a crença nos valores absolutos e transcendentes entrou em colapso irreversível",
+      "O niilismo como diagnóstico: sem Deus, os valores tradicionais perdem fundamento — o vazio ameaça",
+      "A vontade de potência: o impulso fundamental da vida não é sobrevivência mas crescimento, superação, criação",
+      "O além-do-homem (Übermensch): quem cria seus próprios valores em vez de receber os valores estabelecidos",
+      "O eterno retorno: o pensamento mais pesado — poderia querer que esta vida se repetisse infinitamente?"
+    ],
+    "concepts": [
+      "vontade-de-potência",
+      "verdade",
+      "virtude",
+      "ser"
+    ],
+    "related_authors": [
+      "kant",
+      "hegel",
+      "aristotle"
+    ],
+    "works": [
+      "O Nascimento da Tragédia (1872)",
+      "A Gaia Ciência (1882)",
+      "Assim Falou Zaratustra (1883–1885)",
+      "Para Além do Bem e do Mal (1886)",
+      "Genealogia da Moral (1887)"
+    ],
+    "quote": "Deus está morto. Deus permanece morto. E nós o matamos.",
+    "quote_source": "A Gaia Ciência, § 125",
+    "problems": [
+      "O perspectivismo de Nietzsche — não há fatos, apenas interpretações — é ele mesmo uma perspectiva ou uma verdade?",
+      "O além-do-homem é um ideal ético ou uma descrição psicológica?",
+      "O eterno retorno é um argumento cosmológico ou um imperativo ético?"
+    ],
+    "lesson_ids": [
+      "modern-nietzsche"
+    ]
+  },
+  {
+    "id": "wittgenstein",
+    "name": "Ludwig Wittgenstein",
+    "birth": 1889,
+    "death": 1951,
+    "period": "Contemporâneo / Século XX",
+    "school": "analítica",
+    "summary": "Wittgenstein transformou a filosofia duas vezes — com posições radicalmente opostas. O Tractatus propõe que a linguagem figura o mundo e os limites da linguagem são os limites do pensamento. As Investigações Filosóficas destroem o Tractatus: o significado não é figuração, mas uso — nos jogos de linguagem de formas de vida.",
+    "biography": "Nasceu em Viena, numa das famílias mais ricas da Áustria — seu pai era magnata do aço. Estudou engenharia, depois se interessou por lógica e foi a Cambridge estudar com Russell. Serviu no exército austro-húngaro na Primeira Guerra, durante a qual escreveu o Tractatus. Depois da guerra, deu sua herança e tornou-se professor primário em aldeias austríacas. Voltou à filosofia em Cambridge nos anos 1930 e nunca mais parou, embora publicasse apenas o Tractatus em vida. As Investigações foram publicadas postumamente.",
+    "method": "Primeiro Wittgenstein: análise lógica — mostrar a estrutura lógica da linguagem e do mundo. Segundo Wittgenstein: terapia filosófica — os problemas filosóficos são doenças da linguagem, causadas por palavras usadas fora dos jogos de linguagem que lhes dão significado. A filosofia não resolve problemas — dissolve-os mostrando que foram causados por confusão linguística.",
+    "key_ideas": [
+      "Tractatus: o mundo é a totalidade dos fatos, não das coisas; a linguagem figura os fatos do mundo",
+      "O que pode ser dito pode ser dito claramente; sobre o que não se pode falar, deve-se calar",
+      "Investigações: o significado de uma palavra é seu uso na linguagem — não uma entidade mental",
+      "Jogos de linguagem: as práticas linguísticas são entretecidas com formas de vida",
+      "A filosofia como terapia: 'A mosca tem de mostrar à mosca a saída da garrafa'"
+    ],
+    "concepts": [
+      "jogos-de-linguagem",
+      "verdade",
+      "logos",
+      "razão"
+    ],
+    "related_authors": [
+      "hume",
+      "kant",
+      "aristotle"
+    ],
+    "works": [
+      "Tractatus Logico-Philosophicus (1921)",
+      "Investigações Filosóficas (publicado postumamente, 1953)",
+      "Da Certeza (publicado postumamente, 1969)"
+    ],
+    "quote": "Sobre aquilo de que não se pode falar, deve-se calar.",
+    "quote_source": "Tractatus Logico-Philosophicus, proposição 7",
+    "problems": [
+      "O segundo Wittgenstein refuta o primeiro, ou os complementa?",
+      "Se o significado é uso, pode haver linguagem privada?",
+      "A filosofia como terapia tem fim — ou os problemas filosóficos retornam sempre?"
+    ],
+    "lesson_ids": [
+      "modern-wittgenstein"
+    ]
+  }
+]

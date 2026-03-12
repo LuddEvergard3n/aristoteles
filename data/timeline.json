@@ -1,0 +1,547 @@
+[
+  {
+    "id": "thales",
+    "name": "Tales de Mileto",
+    "year": -624,
+    "year_end": -546,
+    "era": "Pré-Socrática",
+    "school": "pre-socratica",
+    "summary": "Primeiro filósofo ocidental. Afirmou que a água é o princípio de todas as coisas.",
+    "significance": "Substituiu a explicação mítica por um princípio natural verificável."
+  },
+  {
+    "id": "thales-tl",
+    "name": "Tales de Mileto",
+    "year": -624,
+    "year_end": -546,
+    "era": "Pré-Socrático",
+    "school": "pre-socratica",
+    "summary": "Propõe a água como arché; inaugura a tradição filosófica ocidental.",
+    "significance": "Primeiro filósofo ocidental. Substituiu a explicação mítica pela racional."
+  },
+  {
+    "id": "anaximander-tl",
+    "name": "Anaximandro",
+    "year": -610,
+    "year_end": -546,
+    "era": "Pré-Socrático",
+    "school": "pre-socratica",
+    "summary": "Propõe o ápeiron (ilimitado) como arché; escreve a primeira obra filosófica em prosa.",
+    "significance": "Primeiro argumento pela abstração: o princípio não pode ser nenhum elemento determinado."
+  },
+  {
+    "id": "anaximenes-tl",
+    "name": "Anaxímenes",
+    "year": -585,
+    "year_end": -525,
+    "era": "Pré-Socrático",
+    "school": "pre-socratica",
+    "summary": "Propõe o ar como arché; introduz rarefação e condensação como mecanismo de transformação.",
+    "significance": "Primeiro mecanismo físico preciso para explicar transformações naturais."
+  },
+  {
+    "id": "pythagoras",
+    "name": "Pitágoras",
+    "year": -570,
+    "year_end": -495,
+    "era": "Pré-Socrática",
+    "school": "pre-socratica",
+    "summary": "Fundou escola que via nos números o princípio da realidade.",
+    "significance": "Uniu matemática, cosmologia e ética numa visão de mundo."
+  },
+  {
+    "id": "heraclitus",
+    "name": "Heráclito",
+    "year": -535,
+    "year_end": -475,
+    "era": "Pré-Socrática",
+    "school": "pre-socratica",
+    "summary": "Logos como princípio racional do cosmos. Doutrina do devir.",
+    "significance": "Introduziu o logos como conceito filosófico central."
+  },
+  {
+    "id": "parmenides",
+    "name": "Parmênides",
+    "year": -515,
+    "year_end": -450,
+    "era": "Pré-Socrática",
+    "school": "pre-socratica",
+    "summary": "O ser é; o não-ser não é. O movimento é ilusão.",
+    "significance": "Fundou a ontologia como disciplina filosófica."
+  },
+  {
+    "id": "protagoras-tl",
+    "name": "Protágoras",
+    "year": -490,
+    "year_end": -420,
+    "era": "Clássico",
+    "school": "sofistas",
+    "summary": "'O homem é a medida de todas as coisas.' Primeiro relativista sistémático.",
+    "significance": "Fundador do relativismo epistêmico. Sua tese provoca a resposta socrático-platônica."
+  },
+  {
+    "id": "gorgias-tl",
+    "name": "Górgias",
+    "year": -483,
+    "year_end": -375,
+    "era": "Clássico",
+    "school": "sofistas",
+    "summary": "Niilismo radical: nada existe, nada pode ser conhecido, nada pode ser comunicado.",
+    "significance": "Levou o ceticismo ao limite absoluto; fundador da retórica como arte autônoma."
+  },
+  {
+    "id": "socrates",
+    "name": "Sócrates",
+    "year": -470,
+    "year_end": -399,
+    "era": "Clássica",
+    "school": "socrática",
+    "summary": "Método dialético e foco na ética e autoconhecimento.",
+    "significance": "Reorientou a filosofia da cosmologia para a ética e o autoconhecimento."
+  },
+  {
+    "id": "plato",
+    "name": "Platão",
+    "year": -428,
+    "year_end": -348,
+    "era": "Clássica",
+    "school": "platonismo",
+    "summary": "Teoria das Ideias, Academia, filosofia política.",
+    "significance": "Criou o primeiro sistema filosófico abrangente do Ocidente."
+  },
+  {
+    "id": "aristotle",
+    "name": "Aristóteles",
+    "year": -384,
+    "year_end": -322,
+    "era": "Clássica",
+    "school": "aristotelismo",
+    "summary": "Lógica, metafísica, ética, política. Fundou o Liceu.",
+    "significance": "Sistematizou o conhecimento filosófico e científico do mundo antigo."
+  },
+  {
+    "id": "epicurus",
+    "name": "Epicuro",
+    "year": -341,
+    "year_end": -270,
+    "era": "Helenística",
+    "school": "epicurismo",
+    "summary": "Felicidade como ausência de dor e perturbação. Jardim.",
+    "significance": "Desenvolveu ética hedonista baseada na amizade e na filosofia."
+  },
+  {
+    "id": "epicurus-tl",
+    "name": "Epicuro",
+    "year": -341,
+    "year_end": -270,
+    "era": "Helenístico",
+    "school": "epicurismo",
+    "summary": "Funda o Jardim em Atenas. A ataraxia como bem supremo; argumenta que a morte nada é para nós.",
+    "significance": "Fundador do epicurismo. Separou felicidade de prazer intenso; antecipou argumentos sobre racionalidade da morte."
+  },
+  {
+    "id": "zeno-citium",
+    "name": "Zenão de Cítio",
+    "year": -334,
+    "year_end": -262,
+    "era": "Helenística",
+    "school": "estoicismo",
+    "summary": "Fundador do Estoicismo. Virtude como único bem.",
+    "significance": "Fundou a escola que dominou a filosofia romana por séculos."
+  },
+  {
+    "id": "zeno-tl",
+    "name": "Zenão de Cítio",
+    "year": -334,
+    "year_end": -262,
+    "era": "Helenístico",
+    "school": "estoicismo",
+    "summary": "Funda o Estoicismo no Pórtico Pintado. Virtude como único bem; viver segundo o Logos.",
+    "significance": "Fundador do estoicismo. A dicotomia de controle influenciou ética, psicologia e filosofia por 25 séculos."
+  },
+  {
+    "id": "cicero",
+    "name": "Cícero",
+    "year": -106,
+    "year_end": -43,
+    "era": "Romana",
+    "school": "estoicismo",
+    "summary": "Divulgou a filosofia grega em latim. Filosofia política e retórica.",
+    "significance": "Principal veículo de transmissão da filosofia grega para o mundo latino."
+  },
+  {
+    "id": "seneca",
+    "name": "Sêneca",
+    "year": -4,
+    "year_end": 65,
+    "era": "Romana",
+    "school": "estoicismo",
+    "summary": "Estoicismo romano. Cartas a Lucílio, tratados sobre a vida feliz.",
+    "significance": "Maior estilista do estoicismo romano. Articulou ética estoica à experiência da fragilidade."
+  },
+  {
+    "id": "epictetus-tl",
+    "name": "Epicteto",
+    "year": 55,
+    "year_end": 135,
+    "era": "Imperial Romano",
+    "school": "estoicismo",
+    "summary": "Escravo liberto. Ensina o estoicismo como prática cotidiana; Enchiridion como manual de vida.",
+    "significance": "Maior expoente do estoicismo prático. Influência direta na psicologia cognitiva contemporânea."
+  },
+  {
+    "id": "marcus-aurelius",
+    "name": "Marco Aurélio",
+    "year": 121,
+    "year_end": 180,
+    "era": "Romana",
+    "school": "estoicismo",
+    "summary": "Imperador filósofo. Meditações: diário estoico.",
+    "significance": "Prova viva de que a filosofia pode ser exercida no poder."
+  },
+  {
+    "id": "marcus-tl",
+    "name": "Marco Aurélio",
+    "year": 121,
+    "year_end": 180,
+    "era": "Imperial Romano",
+    "school": "estoicismo",
+    "summary": "Imperador romano. Meditações: diário filosófico pessoal nunca destinado à publicação.",
+    "significance": "Síntese do estoicismo imperial. O texto mais pessoal da filosofia antiga."
+  },
+  {
+    "id": "plotinus",
+    "name": "Plotino",
+    "year": 204,
+    "year_end": 270,
+    "era": "Tardia Antiga",
+    "school": "neoplatonismo",
+    "summary": "O Uno como princípio absoluto. Emanação e retorno.",
+    "significance": "Último grande sistema filosófico pagão; influência decisiva sobre Agostinho."
+  },
+  {
+    "id": "augustine",
+    "name": "Agostinho",
+    "year": 354,
+    "year_end": 430,
+    "era": "Patrística",
+    "school": "patrística",
+    "summary": "Síntese neoplatonismo-Cristianismo. Vontade, graça, história.",
+    "significance": "Fundou a filosofia cristã ocidental sobre bases neoplatônicas."
+  },
+  {
+    "id": "boethius",
+    "name": "Boécio",
+    "year": 477,
+    "year_end": 524,
+    "era": "Transição",
+    "school": "escolástica",
+    "summary": "Consolação da Filosofia. Tradutor de Aristóteles.",
+    "significance": "Transmitiu a lógica aristotélica à Idade Média latina."
+  },
+  {
+    "id": "anselm",
+    "name": "Anselmo de Cantuária",
+    "year": 1033,
+    "year_end": 1109,
+    "era": "Medieval",
+    "school": "escolástica",
+    "summary": "Argumento ontológico para a existência de Deus.",
+    "significance": "Inaugurou a escolástica com o método 'fé buscando inteligência'."
+  },
+  {
+    "id": "anselm-tl",
+    "name": "Anselmo de Cantuária",
+    "year": 1033,
+    "year_end": 1109,
+    "era": "Medieval",
+    "school": "escolástica",
+    "summary": "Formula o argumento ontológico para a existência de Deus. Fides quaerens intellectum: a fé em busca de compreensão.",
+    "significance": "Pai da escolástica. O argumento ontológico é o mais debatido da história da filosofia — ainda sem resolução consensual."
+  },
+  {
+    "id": "thomas-aquinas",
+    "name": "Tomás de Aquino",
+    "year": 1225,
+    "year_end": 1274,
+    "era": "Medieval",
+    "school": "escolástica",
+    "summary": "Síntese aristotélica-cristã. Cinco vias. Lei natural.",
+    "significance": "Maior síntese filosófico-teológica do Ocidente medieval."
+  },
+  {
+    "id": "william-ockham",
+    "name": "Guilherme de Ockham",
+    "year": 1287,
+    "year_end": 1347,
+    "era": "Medieval Tardio",
+    "school": "escolástica",
+    "summary": "Nominalismo. Navalha de Ockham: não multiplicar entidades.",
+    "significance": "Dissolução do universalismo medieval. Preparou o terreno para o empirismo moderno."
+  },
+  {
+    "id": "descartes",
+    "name": "Descartes",
+    "year": 1596,
+    "year_end": 1650,
+    "era": "Moderna",
+    "school": "racionalismo",
+    "summary": "Cogito. Dúvida metódica. Dualismo mente-corpo.",
+    "significance": "Fundou a filosofia moderna como epistemologia fundamentada no sujeito."
+  },
+  {
+    "id": "spinoza",
+    "name": "Spinoza",
+    "year": 1632,
+    "year_end": 1677,
+    "era": "Moderna",
+    "school": "racionalismo",
+    "summary": "Deus=Natureza. Monismo. Geometria da ética.",
+    "significance": "Sistema panteísta mais rigoroso do racionalismo moderno."
+  },
+  {
+    "id": "locke",
+    "name": "John Locke",
+    "year": 1632,
+    "year_end": 1704,
+    "era": "Moderna",
+    "school": "empirismo",
+    "summary": "Tábula rasa. Governo por consentimento. Tolerância.",
+    "significance": "Fundou o empirismo moderno e a filosofia política liberal."
+  },
+  {
+    "id": "leibniz",
+    "name": "Leibniz",
+    "year": 1646,
+    "year_end": 1716,
+    "era": "Moderna",
+    "school": "racionalismo",
+    "summary": "Mônadas. Melhor dos mundos possíveis. Cálculo.",
+    "significance": "Sistema racionalista baseado na harmonia pré-estabelecida."
+  },
+  {
+    "id": "berkeley",
+    "name": "Berkeley",
+    "year": 1685,
+    "year_end": 1753,
+    "era": "Moderna",
+    "school": "empirismo",
+    "summary": "Esse est percipi: ser é ser percebido. Idealismo subjetivo.",
+    "significance": "Levou o empirismo ao idealismo: só existem mentes e percepções."
+  },
+  {
+    "id": "hume",
+    "name": "Hume",
+    "year": 1711,
+    "year_end": 1776,
+    "era": "Moderna",
+    "school": "empirismo",
+    "summary": "Ceticismo empírico. Causalidade como hábito. Problema da indução.",
+    "significance": "Levou o empirismo ao ceticismo e acordou Kant do 'sono dogmático'."
+  },
+  {
+    "id": "rousseau",
+    "name": "Rousseau",
+    "year": 1712,
+    "year_end": 1778,
+    "era": "Moderna",
+    "school": "iluminismo",
+    "summary": "Contrato social. Vontade geral. Bom selvagem.",
+    "significance": "Influência fundamental sobre a Revolução Francesa e o romantismo."
+  },
+  {
+    "id": "kant",
+    "name": "Kant",
+    "year": 1724,
+    "year_end": 1804,
+    "era": "Moderna",
+    "school": "idealismo transcendental",
+    "summary": "Revolução copernicana. Imperativo categórico. Críticas.",
+    "significance": "Síntese entre racionalismo e empirismo. Ponto de inflexão da filosofia moderna."
+  },
+  {
+    "id": "hegel",
+    "name": "Hegel",
+    "year": 1770,
+    "year_end": 1831,
+    "era": "Século XIX",
+    "school": "idealismo",
+    "summary": "Dialética. Geist. Fenomenologia do espírito.",
+    "significance": "Sistema idealista mais abrangente. Base do marxismo e da filosofia continental."
+  },
+  {
+    "id": "hegel-birth",
+    "name": "Nascimento de Hegel",
+    "year": 1770,
+    "era": "Moderna",
+    "type": "birth",
+    "author_id": "hegel",
+    "description": "Georg Wilhelm Friedrich Hegel nasce em Stuttgart, Württemberg."
+  },
+  {
+    "id": "mill-tl",
+    "name": "John Stuart Mill",
+    "year": 1806,
+    "year_end": 1873,
+    "era": "Moderna / Contemporânea",
+    "school": "empirismo",
+    "summary": "Aperfeiçoa o utilitarismo com a distinção de qualidade dos prazeres. Defende liberdade individual e sufrágio feminino.",
+    "significance": "Maior expoente do utilitarismo. O princípio da maior felicidade como critério moral central do liberalismo moderno."
+  },
+  {
+    "id": "hegel-phenomenology",
+    "name": "Fenomenologia do Espírito",
+    "year": 1807,
+    "era": "Moderna",
+    "type": "work",
+    "author_id": "hegel",
+    "description": "Hegel publica a Fenomenologia, sua obra mais influente, escrita enquanto Napoleão entrava em Jena."
+  },
+  {
+    "id": "marx",
+    "name": "Marx",
+    "year": 1818,
+    "year_end": 1883,
+    "era": "Século XIX",
+    "school": "materialismo",
+    "summary": "Materialismo histórico. Alienação. Capital.",
+    "significance": "Inverteu Hegel: o real é material, não espiritual. Filosofia como práxis."
+  },
+  {
+    "id": "marx-birth",
+    "name": "Nascimento de Marx",
+    "year": 1818,
+    "era": "Moderna",
+    "type": "birth",
+    "author_id": "marx",
+    "description": "Karl Marx nasce em Trier, Renânia."
+  },
+  {
+    "id": "hegel-death",
+    "name": "Morte de Hegel",
+    "year": 1831,
+    "era": "Moderna",
+    "type": "death",
+    "author_id": "hegel",
+    "description": "Hegel morre de cólera em Berlim, no auge de sua influência como filósofo oficial da Prússia."
+  },
+  {
+    "id": "nietzsche",
+    "name": "Nietzsche",
+    "year": 1844,
+    "year_end": 1900,
+    "era": "Século XIX",
+    "school": "existencialismo",
+    "summary": "Morte de Deus. Vontade de poder. Eterno retorno. Além-do-homem.",
+    "significance": "Crítica radical dos fundamentos da cultura e da moral ocidentais."
+  },
+  {
+    "id": "nietzsche-birth",
+    "name": "Nascimento de Nietzsche",
+    "year": 1844,
+    "era": "Moderna",
+    "type": "birth",
+    "author_id": "nietzsche",
+    "description": "Friedrich Nietzsche nasce em Röcken, Saxônia, filho de pastor luterano."
+  },
+  {
+    "id": "marx-manifesto",
+    "name": "Manifesto do Partido Comunista",
+    "year": 1848,
+    "era": "Moderna",
+    "type": "work",
+    "author_id": "marx",
+    "description": "Marx e Engels publicam o Manifesto às vésperas das Revoluções de 1848 que varrerão a Europa."
+  },
+  {
+    "id": "marx-capital",
+    "name": "O Capital, vol. I",
+    "year": 1867,
+    "era": "Moderna",
+    "type": "work",
+    "author_id": "marx",
+    "description": "Marx publica o primeiro volume de sua crítica da economia política."
+  },
+  {
+    "id": "nietzsche-gay-sci",
+    "name": "A Gaia Ciência — morte de Deus",
+    "year": 1882,
+    "era": "Moderna",
+    "type": "work",
+    "author_id": "nietzsche",
+    "description": "Nietzsche publica A Gaia Ciência, contendo o famoso § 125 — o Homem Louco que anuncia a morte de Deus."
+  },
+  {
+    "id": "marx-death",
+    "name": "Morte de Marx",
+    "year": 1883,
+    "era": "Moderna",
+    "type": "death",
+    "author_id": "marx",
+    "description": "Marx morre em Londres. Engels discursa no túmulo: 'A humanidade perdeu uma cabeça.'."
+  },
+  {
+    "id": "nietzsche-genealogy",
+    "name": "Genealogia da Moral",
+    "year": 1887,
+    "era": "Moderna",
+    "type": "work",
+    "author_id": "nietzsche",
+    "description": "Nietzsche analisa a origem dos valores morais ocidentais, propondo a distinção entre moral nobre e moral de escravo."
+  },
+  {
+    "id": "nietzsche-collapse",
+    "name": "Colapso mental de Nietzsche",
+    "year": 1889,
+    "era": "Moderna",
+    "type": "event",
+    "author_id": "nietzsche",
+    "description": "Em Turim, Nietzsche colapsa — provavelmente por paralisia progressiva. Nunca mais escreve. Morre em 1900."
+  },
+  {
+    "id": "wittgenstein-birth",
+    "name": "Nascimento de Wittgenstein",
+    "year": 1889,
+    "era": "Contemporânea",
+    "type": "birth",
+    "author_id": "wittgenstein",
+    "description": "Ludwig Wittgenstein nasce em Viena, numa das famílias mais ricas da Áustria."
+  },
+  {
+    "id": "sartre",
+    "name": "Sartre",
+    "year": 1905,
+    "year_end": 1980,
+    "era": "Século XX",
+    "school": "existencialismo",
+    "summary": "Existência precede essência. Liberdade radical. Má-fé.",
+    "significance": "Maior sistematizador do existencialismo ateu."
+  },
+  {
+    "id": "wittgenstein-tractatus",
+    "name": "Tractatus Logico-Philosophicus",
+    "year": 1921,
+    "era": "Contemporânea",
+    "type": "work",
+    "author_id": "wittgenstein",
+    "description": "O Tractatus é publicado — a teoria pictórica do significado e os limites da linguagem."
+  },
+  {
+    "id": "wittgenstein-death",
+    "name": "Morte de Wittgenstein",
+    "year": 1951,
+    "era": "Contemporânea",
+    "type": "death",
+    "author_id": "wittgenstein",
+    "description": "Wittgenstein morre de câncer em Cambridge. Suas últimas palavras: 'Diga-lhes que tive uma vida maravilhosa.'."
+  },
+  {
+    "id": "wittgenstein-investigations",
+    "name": "Investigações Filosóficas (póstumo)",
+    "year": 1953,
+    "era": "Contemporânea",
+    "type": "work",
+    "author_id": "wittgenstein",
+    "description": "As Investigações são publicadas dois anos após a morte de Wittgenstein — a grande inversão da sua filosofia anterior."
+  }
+]

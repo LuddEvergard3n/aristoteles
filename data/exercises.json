@@ -1,0 +1,2605 @@
+[
+  {
+    "id": "opinion-vs-argument-01",
+    "type": "classify",
+    "title": "Opinião ou argumento?",
+    "instruction": "Leia cada afirmação abaixo e classifique-a como OPINIÃO (crença sem justificação) ou ARGUMENTO (posição sustentada por razões). Depois, explique sua classificação.",
+    "items": [
+      {
+        "id": "a",
+        "text": "Acho que a democracia é o melhor sistema de governo.",
+        "correct": "opinião",
+        "explanation": "Expressão de preferência sem razões apresentadas. 'Acho' é marcador de opinião pessoal não justificada."
+      },
+      {
+        "id": "b",
+        "text": "A democracia é preferível à tirania porque distribui o poder, previne abusos e permite a correção de erros de governo por meios pacíficos.",
+        "correct": "argumento",
+        "explanation": "Apresenta três razões para a posição: distribuição do poder, prevenção de abusos, mecanismo de correção. São premissas que sustentam a conclusão."
+      },
+      {
+        "id": "c",
+        "text": "É óbvio que matar é errado.",
+        "correct": "opinião",
+        "explanation": "Apelar para o óbvio não é justificação filosófica. Existem casos em que matar é debatido: legítima defesa, guerra justa, eutanásia."
+      },
+      {
+        "id": "d",
+        "text": "Se toda ação visa um bem, e a felicidade é o bem supremo para o qual todas as outras coisas tendem, então a felicidade deve ser o objetivo último da vida humana.",
+        "correct": "argumento",
+        "explanation": "Estrutura condicional explícita: duas premissas (toda ação visa bem; felicidade é bem supremo) levam à conclusão (felicidade é objetivo último)."
+      },
+      {
+        "id": "e",
+        "text": "Filosofia é inútil porque não gera empregos.",
+        "correct": "argumento incompleto",
+        "explanation": "Tem forma de argumento (porque + razão), mas a premissa 'inútil = não gera empregos' precisa ser examinada. O que conta como utilidade? É premissa oculta e questionável."
+      }
+    ],
+    "hint": {
+      "type": "structural",
+      "text": "Procure por indicadores argumentativos: 'porque', 'portanto', 'logo', 'já que'. Sua ausência é sinal de opinião não justificada."
+    },
+    "difficulty": 1,
+    "concepts": [
+      "opinião",
+      "argumento",
+      "premissa",
+      "conclusão"
+    ]
+  },
+  {
+    "id": "identify-premises-01",
+    "type": "mark-premises",
+    "title": "Identifique as premissas",
+    "instruction": "No argumento abaixo, identifique: (1) as premissas, (2) a conclusão, (3) eventuais premissas ocultas.",
+    "argument": "Todo ser vivo tem um fim para o qual tende. O ser humano é um ser vivo. Logo, o ser humano tem um fim para o qual tende. Esse fim, segundo Aristóteles, é a eudaimonia.",
+    "correct": {
+      "premises": [
+        "Todo ser vivo tem um fim para o qual tende.",
+        "O ser humano é um ser vivo."
+      ],
+      "conclusion": "O ser humano tem um fim para o qual tende.",
+      "hidden_premises": [],
+      "notes": "A última frase ('Esse fim é a eudaimonia') é uma afirmação adicional, não parte do silogismo, que exigiria argumento separado."
+    },
+    "hint": {
+      "type": "highlight",
+      "text": "A conclusão geralmente vem após 'logo', 'portanto', 'assim', 'conclui-se'. As premissas vêm antes."
+    },
+    "difficulty": 2,
+    "concepts": [
+      "premissa",
+      "conclusão",
+      "silogismo",
+      "argumento"
+    ]
+  },
+  {
+    "id": "reconstruct-argument-01",
+    "type": "reconstruct",
+    "title": "Reconstrua o argumento",
+    "instruction": "As frases abaixo formam um argumento filosófico, mas estão fora de ordem. Organize-as na sequência correta: premissas primeiro, conclusão por último.",
+    "items": [
+      {
+        "id": "a",
+        "text": "Portanto, Sócrates morreu."
+      },
+      {
+        "id": "b",
+        "text": "Todo homem é mortal."
+      },
+      {
+        "id": "c",
+        "text": "Sócrates era homem."
+      }
+    ],
+    "correct_order": [
+      "b",
+      "c",
+      "a"
+    ],
+    "explanation": "O silogismo canônico de Aristóteles. A ordem lógica exige que as premissas (maior e menor) precedam a conclusão. 'Todo homem é mortal' é a premissa maior (universal); 'Sócrates era homem' é a premissa menor (particular); 'Sócrates é mortal' é a conclusão.",
+    "hint": {
+      "type": "structural",
+      "text": "A conclusão contém os termos extremos das duas premissas: sujeito da premissa menor + predicado da premissa maior."
+    },
+    "difficulty": 1,
+    "concepts": [
+      "silogismo",
+      "argumento",
+      "premissa",
+      "conclusão"
+    ]
+  },
+  {
+    "id": "cave-symbols-map-01",
+    "type": "mapping",
+    "title": "O mapa da Caverna",
+    "instruction": "Relacione cada elemento do Mito da Caverna com seu significado filosófico na Teoria das Ideias de Platão.",
+    "items": [
+      {
+        "id": "1",
+        "symbol": "A caverna",
+        "options": [
+          "Mundo sensível",
+          "Mundo das ideias",
+          "O Bem",
+          "A opinião"
+        ]
+      },
+      {
+        "id": "2",
+        "symbol": "As sombras na parede",
+        "options": [
+          "Imagens e ilusões (eikasia)",
+          "Objetos físicos",
+          "As Ideias",
+          "A ciência"
+        ]
+      },
+      {
+        "id": "3",
+        "symbol": "A fogueira dentro da caverna",
+        "options": [
+          "O sol do mundo sensível",
+          "O Bem supremo",
+          "A filosofia",
+          "A razão"
+        ]
+      },
+      {
+        "id": "4",
+        "symbol": "O Sol fora da caverna",
+        "options": [
+          "A Ideia do Bem",
+          "A democracia",
+          "A física",
+          "O mito"
+        ]
+      },
+      {
+        "id": "5",
+        "symbol": "O prisioneiro que sai e volta",
+        "options": [
+          "O filósofo-rei",
+          "O sofista",
+          "O político",
+          "O cientista"
+        ]
+      }
+    ],
+    "correct": {
+      "1": "Mundo sensível",
+      "2": "Imagens e ilusões (eikasia)",
+      "3": "O sol do mundo sensível",
+      "4": "A Ideia do Bem",
+      "5": "O filósofo-rei"
+    },
+    "hint": {
+      "type": "highlight",
+      "text": "Platão descreve quatro níveis de conhecimento: eikasia (imagens), pistis (objetos físicos), dianoia (matemática), noesis (Ideias). Relacione cada elemento da caverna a um nível."
+    },
+    "difficulty": 3,
+    "concepts": [
+      "ideia",
+      "dialética",
+      "verdade",
+      "episteme",
+      "opinião"
+    ]
+  },
+  {
+    "id": "syllogism-identify-01",
+    "type": "classify",
+    "title": "Válido ou inválido?",
+    "instruction": "Analise cada argumento e determine se é logicamente válido (a conclusão se segue das premissas) ou inválido (há erro na forma). Atenção: validade não é o mesmo que verdade das premissas.",
+    "items": [
+      {
+        "id": "a",
+        "text": "Todo metal conduz eletricidade. O ouro é metal. Logo, o ouro conduz eletricidade.",
+        "correct": "válido",
+        "explanation": "Silogismo em Barbara (AAA-1). Forma perfeita: premissa maior universal, premissa menor particular, conclusão necessária."
+      },
+      {
+        "id": "b",
+        "text": "Alguns filósofos são sábios. Sócrates é filósofo. Logo, Sócrates é sábio.",
+        "correct": "inválido",
+        "explanation": "A premissa maior usa 'alguns', não 'todos'. Sócrates pode pertencer ao subconjunto dos filósofos que não são sábios. A conclusão não se segue necessariamente."
+      },
+      {
+        "id": "c",
+        "text": "Se a lei é justa, devo obedecê-la. A lei é justa. Logo, devo obedecê-la.",
+        "correct": "válido",
+        "explanation": "Modus ponens: 'Se P então Q; P; logo Q'. Forma válida elementar da lógica proposicional."
+      },
+      {
+        "id": "d",
+        "text": "Todos os pássaros voam. O pinguim é pássaro. Logo, o pinguim voa.",
+        "correct": "válido com premissa falsa",
+        "explanation": "O argumento é logicamente válido (a conclusão segue das premissas), mas a premissa 'todos os pássaros voam' é falsa. Ilustra a diferença entre validade (forma) e soundness (forma + verdade)."
+      }
+    ],
+    "hint": {
+      "type": "structural",
+      "text": "Para testar a validade, imagine que as premissas são verdadeiras. A conclusão precisa ser verdadeira necessariamente? Se sim, é válido. A verdade real das premissas não importa para a validade."
+    },
+    "difficulty": 3,
+    "concepts": [
+      "silogismo",
+      "lógica",
+      "validade",
+      "argumento",
+      "premissa",
+      "conclusão"
+    ]
+  },
+  {
+    "id": "compare-happiness-theories-01",
+    "type": "comparison",
+    "title": "Três concepções de felicidade",
+    "instruction": "Compare as três posições abaixo sobre o que é a felicidade. Para cada afirmação, identifique a qual filósofo pertence e qual problema ela enfrenta.",
+    "positions": [
+      {
+        "id": "1",
+        "text": "A felicidade é a atividade da alma conforme a virtude mais perfeita, durante uma vida completa.",
+        "author_hint": "Este filósofo fundou o Liceu.",
+        "correct_author": "aristotle",
+        "problem": "Como definir 'virtude mais perfeita'? Bens externos (saúde, amizade) também são necessários? O que fazer com vidas interrompidas?"
+      },
+      {
+        "id": "2",
+        "text": "A felicidade é a ausência de perturbação (ataraxia) e de dor física (aponia), obtidas pela amizade e pela filosofia.",
+        "author_hint": "Este filósofo fundou o Jardim.",
+        "correct_author": "epicurus",
+        "problem": "Uma vida sem dor e perturbação é necessariamente boa? Essa concepção pode ser acusada de passividade ou de buscar pouco."
+      },
+      {
+        "id": "3",
+        "text": "A felicidade consiste na virtude exclusivamente, independente de bens externos. Mesmo escravo, o sábio pode ser feliz.",
+        "author_hint": "Esta escola foi fundada na Stoa Poikile.",
+        "correct_author": "stoicism",
+        "problem": "É humanamente possível ser indiferente a dor, perda e morte? Essa concepção não ignora a natureza encarnada do ser humano?"
+      }
+    ],
+    "hint": {
+      "type": "reduce",
+      "text": "Concentre-se em: onde está a felicidade para cada posição? No agir? No sentir? No estado interior?"
+    },
+    "difficulty": 4,
+    "concepts": [
+      "eudaimonia",
+      "felicidade",
+      "virtude",
+      "ataraxia",
+      "ética"
+    ]
+  },
+  {
+    "id": "identify-question-01",
+    "type": "classify",
+    "title": "É uma questão filosófica?",
+    "instruction": "Classifique cada questão abaixo como: FILOSÓFICA (exige análise conceitual e argumentação), EMPÍRICA (responde-se com observação ou dados) ou AMBÍGUA (depende de como é formulada).",
+    "items": [
+      {
+        "id": "a",
+        "text": "Qual é a temperatura de ebulição da água?",
+        "correct": "empírica",
+        "explanation": "Questão científica respondida por medição experimental. Não exige análise conceitual."
+      },
+      {
+        "id": "b",
+        "text": "O conhecimento científico é mais confiável que outros tipos de conhecimento?",
+        "correct": "filosófica",
+        "explanation": "Exige análise do que é 'conhecimento', 'confiabilidade' e 'ciência'. É questão de epistemologia e filosofia da ciência."
+      },
+      {
+        "id": "c",
+        "text": "Quantas pessoas morreram na Segunda Guerra Mundial?",
+        "correct": "empírica",
+        "explanation": "Questão histórica respondida por pesquisa documental. Há incerteza, mas é incerteza empírica, não filosófica."
+      },
+      {
+        "id": "d",
+        "text": "A guerra é alguma vez justa?",
+        "correct": "filosófica",
+        "explanation": "Questão de ética política. Exige análise dos conceitos de justiça, dever, consequências e legitimidade."
+      },
+      {
+        "id": "e",
+        "text": "O livre-arbítrio existe?",
+        "correct": "ambígua",
+        "explanation": "Depende do que se entende por 'livre-arbítrio'. Como questão conceitual (o que é livre-arbítrio?) é filosófica. Como questão empírica (o cérebro determina as decisões?) é científica."
+      }
+    ],
+    "hint": {
+      "type": "structural",
+      "text": "Pergunte: esta questão é respondida por observar, medir ou experimentar? Então é empírica. Ou exige definir conceitos e construir argumentos? Então é filosófica."
+    },
+    "difficulty": 2,
+    "concepts": [
+      "filosofia",
+      "epistemologia",
+      "argumento",
+      "questão filosófica"
+    ]
+  },
+  {
+    "id": "cogito-argument-01",
+    "type": "reconstruct",
+    "title": "O argumento do Cogito",
+    "instruction": "O famoso 'cogito ergo sum' de Descartes é, na verdade, um argumento. Reconstrua-o organizando os elementos abaixo em ordem lógica.",
+    "items": [
+      {
+        "id": "a",
+        "text": "Portanto, algo que pensa existe."
+      },
+      {
+        "id": "b",
+        "text": "Para pensar, é preciso existir."
+      },
+      {
+        "id": "c",
+        "text": "Eu estou pensando agora (pois até duvidar é pensar)."
+      },
+      {
+        "id": "d",
+        "text": "Logo, eu existo."
+      }
+    ],
+    "correct_order": [
+      "c",
+      "b",
+      "a",
+      "d"
+    ],
+    "explanation": "O argumento: (1) Estou pensando agora — fato indubitável. (2) Para pensar é preciso existir — premissa necessária. (3) Portanto algo pensante existe — conclusão intermediária. (4) Esse algo pensante sou eu — identificação do sujeito pensante. O cogito resiste à dúvida porque a própria dúvida é um ato de pensar.",
+    "hint": {
+      "type": "highlight",
+      "text": "O ponto indubitável de Descartes é a experiência imediata do pensar. A existência é inferida a partir dela, não assumida de partida."
+    },
+    "difficulty": 3,
+    "concepts": [
+      "cogito",
+      "existência",
+      "pensamento",
+      "certeza",
+      "dúvida metódica"
+    ]
+  },
+  {
+    "id": "classify-presocratic-arche-01",
+    "type": "classify",
+    "title": "Qual é o arché de cada filósofo?",
+    "instruction": "Cada filósofo pré-socrático propôs um arché diferente. Identifique o princípio de cada um.",
+    "difficulty": 1,
+    "concepts": [
+      "arche",
+      "physis"
+    ],
+    "items": [
+      {
+        "id": "i1",
+        "text": "Propôs que o princípio de tudo é a água, baseando-se na observação de que o alimento e a geração dependem da umidade.",
+        "options": [
+          "Tales",
+          "Anaximandro",
+          "Anaxímenes",
+          "Heráclito"
+        ],
+        "correct": "Tales",
+        "explanation": "Tales de Mileto: 'A água é o arché.' É o primeiro a propor um princípio único e material para explicar a natureza."
+      },
+      {
+        "id": "i2",
+        "text": "Propôs que o princípio não pode ser nenhum elemento determinado, mas o ilimitado e indeterminado — aquilo de onde tudo emerge e para onde tudo retorna.",
+        "options": [
+          "Tales",
+          "Anaximandro",
+          "Anaxímenes",
+          "Parmênides"
+        ],
+        "correct": "Anaximandro",
+        "explanation": "Anaximandro: o ápeiron (ilimitado). Se o princípio fosse um elemento, ele destruiria seus opostos. Logo, deve ser algo anterior a qualquer determinação."
+      },
+      {
+        "id": "i3",
+        "text": "Propôs o ar como princípio, e que as transformações ocorrem por rarefação (tornando-se fogo) e condensação (tornando-se água, terra e pedra).",
+        "options": [
+          "Tales",
+          "Anaxímenes",
+          "Heráclito",
+          "Epicuro"
+        ],
+        "correct": "Anaxímenes",
+        "explanation": "Anaxímenes: o ar e o mecanismo de rarefação/condensação. É o primeiro a oferecer um processo físico preciso para as transformações."
+      },
+      {
+        "id": "i4",
+        "text": "Propôs que o fogo é o princípio, mas não como substância estática — o cosmos é um fogo eternamente vivo, que se transforma em tudo e em tudo retorna.",
+        "options": [
+          "Heráclito",
+          "Parmênides",
+          "Tales",
+          "Anaximandro"
+        ],
+        "correct": "Heráclito",
+        "explanation": "Heráclito: o fogo como princípio dinâmico. 'Este cosmos, o mesmo para todos, não foi feito por nenhum dos deuses nem dos homens, mas sempre foi, é e será fogo eternamente vivo.'"
+      }
+    ]
+  },
+  {
+    "id": "relativism-objectivism-classify-01",
+    "type": "classify",
+    "title": "Relativismo ou objetivismo?",
+    "instruction": "Cada afirmação a seguir representa uma posição filosófica sobre a verdade. Classifique cada uma como 'relativista' (a verdade depende do sujeito) ou 'objetivista' (há verdade independente do sujeito).",
+    "difficulty": 2,
+    "concepts": [
+      "verdade",
+      "conhecimento",
+      "opinião"
+    ],
+    "items": [
+      {
+        "id": "i1",
+        "text": "'O mel é doce para o saudável e amargo para o doente. Portanto, o mel é doce e amargo ao mesmo tempo, conforme o percipiente.'",
+        "options": [
+          "Relativista",
+          "Objetivista"
+        ],
+        "correct": "Relativista",
+        "explanation": "Posição relativista: a qualidade do mel (doce/amargo) não é uma propriedade objetiva do mel, mas depende do estado do percipiente. Típica de Protágoras e dos sofistas."
+      },
+      {
+        "id": "i2",
+        "text": "'O fogo queima aqui e na Pérsia, mas o que é justo varia de povo para povo. Há então uma diferença entre leis da natureza e leis humanas.'",
+        "options": [
+          "Relativista",
+          "Objetivista"
+        ],
+        "correct": "Relativista",
+        "explanation": "Esta distinção — nomos (convenção) x physis (natureza) — é sofística. Concede objetividade às leis físicas mas relativismo às leis morais e políticas."
+      },
+      {
+        "id": "i3",
+        "text": "'Existe uma forma perfeita e imutável do Belo em si, da qual as coisas belas participam. Não é a nossa percepção que cria a beleza — é o Belo que nos permite reconhecer as coisas belas.'",
+        "options": [
+          "Relativista",
+          "Objetivista"
+        ],
+        "correct": "Objetivista",
+        "explanation": "Posição platônica: o Belo em si é real, objetivo e independente de qualquer percepção. A beleza das coisas deriva da participação nessa forma, não de quem as observa."
+      },
+      {
+        "id": "i4",
+        "text": "'Cada cultura tem seus próprios valores morais e não há critério externo para julgá-los. Nenhuma moral é superior a outra — apenas diferente.'",
+        "options": [
+          "Relativista",
+          "Objetivista"
+        ],
+        "correct": "Relativista",
+        "explanation": "Relativismo moral cultural: a validade de normas morais é relativa à cultura. Posição que tem raízes nos sofistas mas é sobretudo contemporânea."
+      }
+    ]
+  },
+  {
+    "id": "protagoras-vs-plato-comparison-01",
+    "type": "comparison",
+    "title": "Protágoras e Platão sobre o conhecimento",
+    "instruction": "Identifique qual filósofo — Protágoras ou Platão — defenderia cada uma das posições abaixo.",
+    "difficulty": 3,
+    "concepts": [
+      "verdade",
+      "conhecimento",
+      "opinião"
+    ],
+    "positions": [
+      {
+        "id": "p1",
+        "text": "Não existe conhecimento superior à percepção. O que cada um percebe é verdadeiro para si mesmo, e não há tribunal neutro para decidir entre percepções conflitantes.",
+        "author_hint": "Sofista de Abdera, séc. V a.C.",
+        "correct_author": "Protágoras",
+        "problem": "relativismo epistêmico"
+      },
+      {
+        "id": "p2",
+        "text": "A percepção sensível é a fonte do erro, não do conhecimento. O conhecimento verdadeiro é a contemplação das Formas imutáveis pela razão — não pelo que vemos ou tocamos.",
+        "author_hint": "Discípulo de Sócrates, fundador da Academia.",
+        "correct_author": "Platão",
+        "problem": "primado da razão sobre a percepção"
+      },
+      {
+        "id": "p3",
+        "text": "Se a percepção de cada um é verdadeira para si, então a minha percepção de que o relativismo de Protágoras é falso também é verdadeira — e Protágoras teria de concordar.",
+        "author_hint": "Refutação socrática do relativismo no Teeteto.",
+        "correct_author": "Platão",
+        "problem": "autocontradição do relativismo"
+      }
+    ]
+  },
+  {
+    "id": "stoic-dichotomy-classify-01",
+    "type": "classify",
+    "title": "O que depende de nós?",
+    "instruction": "Para Epicteto, a distinção entre o que depende e o que não depende de nós é o fundamento de toda sabedoria prática. Classifique cada item abaixo conforme a dicotomia estóica.",
+    "difficulty": 2,
+    "concepts": [
+      "virtude",
+      "felicidade",
+      "logos"
+    ],
+    "items": [
+      {
+        "id": "i1",
+        "text": "A reputação que tenho entre meus colegas de trabalho.",
+        "options": [
+          "Depende de nós",
+          "Não depende de nós"
+        ],
+        "correct": "Não depende de nós",
+        "explanation": "Para Epicteto, a reputação depende dos julgamentos alheios — e não controlamos o que os outros pensam. Só controlamos nossas ações. A consequência (como outros nos percebem) é externa."
+      },
+      {
+        "id": "i2",
+        "text": "O julgamento que faço sobre se uma situação difícil é uma catástrofe ou uma oportunidade.",
+        "options": [
+          "Depende de nós",
+          "Não depende de nós"
+        ],
+        "correct": "Depende de nós",
+        "explanation": "O julgamento (krisis) é interno e está sob nosso controle. Epicteto: 'Não são as coisas que perturbam os homens, mas as opiniões sobre as coisas.' A interpretação que fazemos de um evento é nossa."
+      },
+      {
+        "id": "i3",
+        "text": "A saúde do meu corpo.",
+        "options": [
+          "Depende de nós",
+          "Não depende de nós"
+        ],
+        "correct": "Não depende de nós",
+        "explanation": "O corpo é 'externo' para os estoicos — embora possamos cuidar dele, doenças, acidentes e a morte são inevitáveis. Podemos escolher cuidar da saúde (isso depende de nós), mas a saúde resultante não é totalmente nossa."
+      },
+      {
+        "id": "i4",
+        "text": "O esforço que dedico a uma tarefa, independentemente do resultado.",
+        "options": [
+          "Depende de nós",
+          "Não depende de nós"
+        ],
+        "correct": "Depende de nós",
+        "explanation": "O esforço, a dedicação, a intenção — esses são internos e plenamente nossos. Os estoicos distinguem entre ação (interna) e resultado (externo). Posso controlar o quanto me esforço; não posso controlar se vou ganhar."
+      },
+      {
+        "id": "i5",
+        "text": "O fato de ter nascido em determinada família, classe social e país.",
+        "options": [
+          "Depende de nós",
+          "Não depende de nós"
+        ],
+        "correct": "Não depende de nós",
+        "explanation": "As circunstâncias de nascimento são paradigmaticamente externas — o ponto de partida da vida. Os estoicos não negam que isso importa; dizem que não devemos construir nossa identidade ou felicidade sobre o que não escolhemos."
+      }
+    ]
+  },
+  {
+    "id": "epicurus-classify-pleasures-01",
+    "type": "classify",
+    "title": "Epicuro: tipos de desejo e prazer",
+    "instruction": "Epicuro distinguia desejos naturais necessários, naturais não necessários e vãos (contrários à natureza). Classifique cada desejo abaixo.",
+    "difficulty": 3,
+    "concepts": [
+      "felicidade",
+      "virtude"
+    ],
+    "items": [
+      {
+        "id": "i1",
+        "text": "A necessidade de comer para não sentir fome.",
+        "options": [
+          "Natural e necessário",
+          "Natural mas não necessário",
+          "Vão"
+        ],
+        "correct": "Natural e necessário",
+        "explanation": "Para Epicuro, desejos naturais e necessários são aqueles cuja satisfação elimina uma dor real (fome, sede, frio). São simples de satisfazer e constituem a base de uma vida feliz."
+      },
+      {
+        "id": "i2",
+        "text": "O desejo de comer um prato específico e caro quando se pode saciar a fome com pão e queijo.",
+        "options": [
+          "Natural e necessário",
+          "Natural mas não necessário",
+          "Vão"
+        ],
+        "correct": "Natural mas não necessário",
+        "explanation": "O desejo de variedade ou de prazer refinado é natural (vem do corpo) mas não necessário (não elimina uma dor, apenas adiciona prazer). Epicuro não proibia esses prazeres — apenas advertia que sua busca gera mais ansiedade que satisfação."
+      },
+      {
+        "id": "i3",
+        "text": "O desejo de ser o mais famoso filósofo de Atenas e ser lembrado por gerações.",
+        "options": [
+          "Natural e necessário",
+          "Natural mas não necessário",
+          "Vão"
+        ],
+        "correct": "Vão",
+        "explanation": "Desejo de glória e imortalidade da fama: para Epicuro, este é um desejo vão (kenos). Não tem origem na natureza — é uma construção cultural — e sua satisfação nunca é definitiva: sempre haverá mais fama a desejar."
+      },
+      {
+        "id": "i4",
+        "text": "O desejo de amizade e companhia de pessoas confiáveis.",
+        "options": [
+          "Natural e necessário",
+          "Natural mas não necessário",
+          "Vão"
+        ],
+        "correct": "Natural e necessário",
+        "explanation": "A philia (amizade) é, para Epicuro, natural e necessária para a felicidade. 'De tudo o que a sabedoria prepara para a felicidade de toda a vida, o maior é a posse da amizade.' O Jardim era uma comunidade de amigos."
+      }
+    ]
+  },
+  {
+    "id": "reconstruct-epicurus-death-01",
+    "type": "reconstruct",
+    "title": "O argumento de Epicuro sobre a morte",
+    "instruction": "Reordene as proposições para reconstruir o argumento de Epicuro sobre por que a morte não deve ser temida.",
+    "difficulty": 3,
+    "concepts": [
+      "morte",
+      "felicidade",
+      "ataraxia"
+    ],
+    "items": [
+      {
+        "id": "a",
+        "text": "Todo bem e todo mal residem na sensação."
+      },
+      {
+        "id": "b",
+        "text": "A morte é a privação completa de sensação."
+      },
+      {
+        "id": "c",
+        "text": "Portanto, a morte não pode ser um mal para quem morre."
+      },
+      {
+        "id": "d",
+        "text": "Logo, o medo da morte é irracional — tememos algo que nunca vamos experienciar como mal."
+      },
+      {
+        "id": "e",
+        "text": "Quando nós existimos, a morte não está presente; quando a morte está presente, nós não existimos mais."
+      }
+    ],
+    "correct_order": [
+      "a",
+      "b",
+      "c",
+      "e",
+      "d"
+    ],
+    "explanation": "O argumento tem duas partes. A primeira (a→b→c) é ontológica: a morte não pode ser um mal porque não há experiência. A segunda (e→d) é pessoal: nunca haverá um momento em que você coexista com sua própria morte. Juntas, eliminam tanto o medo objetivo quanto o medo subjetivo da morte."
+  },
+  {
+    "id": "jtb-gettier-classify-01",
+    "type": "classify",
+    "title": "Crença verdadeira justificada — ou não?",
+    "instruction": "Para cada caso abaixo, indique se a pessoa tem os três elementos JTB (crença + verdade + justificação) e se isso constitui conhecimento ou um caso Gettier.",
+    "difficulty": 3,
+    "concepts": [
+      "conhecimento",
+      "justificação",
+      "verdade"
+    ],
+    "items": [
+      {
+        "id": "i1",
+        "text": "Ana estuda astronomia há dez anos e afirma que Júpiter tem mais de 60 luas. Ela viu os dados de diversas missões espaciais. Júpiter tem de fato mais de 60 luas.",
+        "options": [
+          "Conhecimento (JTB completo)",
+          "Caso Gettier (JTB sem conhecimento)",
+          "Crença sem justificação"
+        ],
+        "correct": "Conhecimento (JTB completo)",
+        "explanation": "Ana tem os três elementos e a conexão entre sua justificação e a verdade é direta — não acidental. Isso é conhecimento no sentido JTB, e não há problema Gettier aqui."
+      },
+      {
+        "id": "i2",
+        "text": "Pedro olha para o campo e vê o que parece ser uma ovelha. Forma a crença 'há uma ovelha no campo'. De fato há uma ovelha no campo — mas escondida atrás de uma rocha. O que Pedro viu foi um cachorro peludo que parecia uma ovelha.",
+        "options": [
+          "Conhecimento (JTB completo)",
+          "Caso Gettier (JTB sem conhecimento)",
+          "Crença sem justificação"
+        ],
+        "correct": "Caso Gettier (JTB sem conhecimento)",
+        "explanation": "Pedro tem crença verdadeira (há uma ovelha) e justificação (viu algo que parecia ovelha). Mas sua justificação se refere ao cachorro, não à ovelha. A verdade foi alcançada por acidente. Exemplo clássico de caso Gettier."
+      },
+      {
+        "id": "i3",
+        "text": "Maria leu em seu horóscopo que 'hoje será um dia de surpresas'. No trajeto ao trabalho, seu ônibus quebrou. Maria acredita que o horóscopo a preparou para surpresas.",
+        "options": [
+          "Conhecimento (JTB completo)",
+          "Caso Gettier (JTB sem conhecimento)",
+          "Crença sem justificação"
+        ],
+        "correct": "Crença sem justificação",
+        "explanation": "O horóscopo não é justificação epistêmica adequada. A crença pode ser verdadeira por acidente, mas não há justificação racional. Este nem sequer chega a ser JTB — falta o terceiro elemento."
+      },
+      {
+        "id": "i4",
+        "text": "Carlos acredita que são 15h30 porque seu celular marca esse horário. De fato são 15h30. Mas o celular estava com o horário errado e acabou de ser sincronizado automaticamente um segundo antes de Carlos olhar.",
+        "options": [
+          "Conhecimento (JTB completo)",
+          "Caso Gettier (JTB sem conhecimento)",
+          "Crença sem justificação"
+        ],
+        "correct": "Caso Gettier (JTB sem conhecimento)",
+        "explanation": "Carlos tem justificação (celulares normalmente mostram a hora correta), crença verdadeira (são 15h30), mas a conexão entre sua justificação e a verdade é acidental. Analogia direta com o caso do relógio parado de Gettier."
+      }
+    ]
+  },
+  {
+    "id": "a-priori-a-posteriori-classify-01",
+    "type": "classify",
+    "title": "A priori ou a posteriori?",
+    "instruction": "Kant distinguiu conhecimentos a priori (independentes da experiência, necessários e universais) de conhecimentos a posteriori (derivados da experiência, contingentes). Classifique cada proposição.",
+    "difficulty": 2,
+    "concepts": [
+      "conhecimento",
+      "razão"
+    ],
+    "items": [
+      {
+        "id": "i1",
+        "text": "7 + 5 = 12",
+        "options": [
+          "A priori",
+          "A posteriori"
+        ],
+        "correct": "A priori",
+        "explanation": "Proposição matemática: necessária e universal, não precisa de verificação empírica. Para Kant, é a priori — embora, curiosamente, ele a considerasse sintética (amplia nosso conhecimento, não é só analítica)."
+      },
+      {
+        "id": "i2",
+        "text": "A água ferve a 100°C ao nível do mar.",
+        "options": [
+          "A priori",
+          "A posteriori"
+        ],
+        "correct": "A posteriori",
+        "explanation": "Conhecimento empírico: só podemos saber isso por observação e experimento. É contingente — a temperatura poderia ser diferente em outro universo. A posteriori."
+      },
+      {
+        "id": "i3",
+        "text": "Todo evento tem uma causa.",
+        "options": [
+          "A priori",
+          "A posteriori"
+        ],
+        "correct": "A priori",
+        "explanation": "Para Kant, a causalidade é uma categoria pura do entendimento — uma estrutura que o sujeito impõe à experiência a priori, não algo aprendido da experiência. É justamente o que Hume não conseguiu justificar empiricamente."
+      },
+      {
+        "id": "i4",
+        "text": "Napoleão morreu em 1821.",
+        "options": [
+          "A priori",
+          "A posteriori"
+        ],
+        "correct": "A posteriori",
+        "explanation": "Fato histórico contingente: poderia ter sido diferente. Só sabemos por fontes históricas — conhecimento a posteriori."
+      },
+      {
+        "id": "i5",
+        "text": "Nenhum solteiro é casado.",
+        "options": [
+          "A priori",
+          "A posteriori"
+        ],
+        "correct": "A priori",
+        "explanation": "Proposição analítica a priori: o predicado 'não casado' está contido no conceito 'solteiro'. Para Kant, diferente de 7+5=12, esta é analítica (não amplia nosso conhecimento, apenas explicita o que já está no conceito)."
+      }
+    ]
+  },
+  {
+    "id": "induction-deduction-classify-01",
+    "type": "classify",
+    "title": "Indução ou dedução?",
+    "instruction": "Hume mostrou que a indução não pode ser justificada racionalmente da mesma forma que a dedução. Identifique o tipo de raciocínio em cada argumento.",
+    "difficulty": 2,
+    "concepts": [
+      "conhecimento",
+      "razão",
+      "verdade"
+    ],
+    "items": [
+      {
+        "id": "i1",
+        "text": "Todo homem é mortal. Sócrates é homem. Logo, Sócrates é mortal.",
+        "options": [
+          "Dedução",
+          "Indução"
+        ],
+        "correct": "Dedução",
+        "explanation": "Silogismo dedutivo: a conclusão se segue necessariamente das premissas. Se as premissas são verdadeiras, a conclusão é necessariamente verdadeira. Não amplia o conhecimento — torna explícito o que já estava contido nas premissas."
+      },
+      {
+        "id": "i2",
+        "text": "Observei mil corvos e todos eram pretos. Portanto, todos os corvos são pretos.",
+        "options": [
+          "Dedução",
+          "Indução"
+        ],
+        "correct": "Indução",
+        "explanation": "Generalização indutiva: do particular (mil corvos observados) para o geral (todos os corvos). A conclusão vai além das premissas — e pode ser refutada por um único corvo branco. Hume mostra que não há como garantir racionalmente essa generalização."
+      },
+      {
+        "id": "i3",
+        "text": "Se está nublado, vai chover. Está nublado. Logo, vai chover.",
+        "options": [
+          "Dedução",
+          "Indução"
+        ],
+        "correct": "Dedução",
+        "explanation": "Modus ponens: forma dedutiva válida. A conclusão é necessária dadas as premissas. Note que a premissa 'se está nublado, vai chover' pode ser falsa — mas o raciocínio é dedutivamente válido."
+      },
+      {
+        "id": "i4",
+        "text": "O sol nasceu todos os dias da história registrada. Portanto, o sol vai nascer amanhã.",
+        "options": [
+          "Dedução",
+          "Indução"
+        ],
+        "correct": "Indução",
+        "explanation": "O argumento paradigmático de Hume sobre o problema da indução. Por mais dias que contemos, não há garantia racional de que o sol nascerá amanhã — apenas expectativa habitual baseada em regularidade passada."
+      }
+    ]
+  },
+  {
+    "id": "reconstruct-hume-causation-01",
+    "type": "reconstruct",
+    "title": "O argumento de Hume sobre causalidade",
+    "instruction": "Reordene as proposições para reconstruir o argumento de Hume sobre por que nosso 'conhecimento' causal não é racional.",
+    "difficulty": 3,
+    "concepts": [
+      "conhecimento",
+      "causalidade",
+      "indução"
+    ],
+    "items": [
+      {
+        "id": "a",
+        "text": "Todo raciocínio sobre fatos se baseia na relação de causa e efeito."
+      },
+      {
+        "id": "b",
+        "text": "Nosso conhecimento sobre causas e efeitos vem exclusivamente da experiência."
+      },
+      {
+        "id": "c",
+        "text": "Raciocinar da experiência passada para eventos futuros pressupõe que a natureza é uniforme."
+      },
+      {
+        "id": "d",
+        "text": "Mas a uniformidade da natureza também só pode ser justificada pela experiência passada — o argumento é circular."
+      },
+      {
+        "id": "e",
+        "text": "Portanto, nosso raciocínio causal não tem fundamento racional — é costume e hábito."
+      }
+    ],
+    "correct_order": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+    ],
+    "explanation": "O argumento de Hume tem estrutura de dilema: ou justificamos a indução racionalmente (mas não conseguimos sem circularidade) ou a justificamos empiricamente (mas isso é indução sobre a indução). Saída de Hume: não é razão, é hábito. Saída de Kant: a causalidade é a priori, não empírica."
+  },
+  {
+    "id": "phenomena-noumena-mapping-01",
+    "type": "mapping",
+    "title": "Fenômeno e coisa-em-si em Kant",
+    "instruction": "Associe cada descrição ao conceito kantiano correto.",
+    "difficulty": 3,
+    "concepts": [
+      "fenômeno",
+      "noumenon",
+      "conhecimento"
+    ],
+    "items": [
+      {
+        "id": "i1",
+        "symbol": "A maçã que vejo, com sua cor vermelha, seu peso e sua posição no espaço",
+        "options": [
+          "Fenômeno",
+          "Noumenon",
+          "Coisa-em-si pura"
+        ],
+        "correct": "Fenômeno"
+      },
+      {
+        "id": "i2",
+        "symbol": "A maçã como ela é independentemente de qualquer percepção ou estrutura cognitiva",
+        "options": [
+          "Fenômeno",
+          "Noumenon",
+          "Categoria pura"
+        ],
+        "correct": "Noumenon"
+      },
+      {
+        "id": "i3",
+        "symbol": "A causalidade — a estrutura que o sujeito aplica à experiência para torná-la inteligível",
+        "options": [
+          "Fenômeno",
+          "Categoria pura do entendimento",
+          "Impressão sensível"
+        ],
+        "correct": "Categoria pura do entendimento"
+      },
+      {
+        "id": "i4",
+        "symbol": "Deus, a alma imortal e o universo como totalidade",
+        "options": [
+          "Fenômenos",
+          "Ideias da razão (noumena inacessíveis)",
+          "Categorias"
+        ],
+        "correct": "Ideias da razão (noumena inacessíveis)"
+      }
+    ],
+    "correct": {
+      "i1": "Fenômeno",
+      "i2": "Noumenon",
+      "i3": "Categoria pura do entendimento",
+      "i4": "Ideias da razão (noumena inacessíveis)"
+    }
+  },
+  {
+    "id": "hume-kant-comparison-01",
+    "type": "comparison",
+    "title": "Hume e Kant sobre o fundamento do conhecimento",
+    "instruction": "Identifique qual filósofo — Hume ou Kant — sustentaria cada posição.",
+    "difficulty": 4,
+    "concepts": [
+      "conhecimento",
+      "razão",
+      "causalidade"
+    ],
+    "positions": [
+      {
+        "id": "p1",
+        "text": "A causalidade não é uma relação que observamos no mundo — é um hábito mental. Vemos sequência, não necessidade. O que chamamos de lei causal é apenas expectativa fundada na repetição.",
+        "author_hint": "Filósofo escocês do século XVIII, empirista radical.",
+        "correct_author": "Hume",
+        "problem": "fundamento empírico da causalidade"
+      },
+      {
+        "id": "p2",
+        "text": "A causalidade é uma categoria pura do entendimento — uma estrutura que o sujeito impõe à experiência antes de qualquer observação. Por isso é universal e necessária: não vem do mundo, vem de nós.",
+        "author_hint": "Filósofo prussiano que disse ter sido 'despertado do sono dogmático' pelo empirismo.",
+        "correct_author": "Kant",
+        "problem": "causalidade como estrutura a priori"
+      },
+      {
+        "id": "p3",
+        "text": "Todo conhecimento começa com a experiência. Nada está no intelecto que não estivesse antes nos sentidos — exceto, talvez, o próprio intelecto.",
+        "author_hint": "Posição do empirismo clássico, que ele radicaliza.",
+        "correct_author": "Hume",
+        "problem": "origem empírica do conhecimento"
+      },
+      {
+        "id": "p4",
+        "text": "Nunca conhecemos as coisas como são em si mesmas — apenas os fenômenos, que são parcialmente constituídos pelas estruturas do nosso aparato cognitivo.",
+        "author_hint": "Distingue fenômeno de noumenon; a 'revolução copernicana' da epistemologia.",
+        "correct_author": "Kant",
+        "problem": "limite do conhecimento humano"
+      }
+    ]
+  },
+  {
+    "id": "moral-theories-classify-01",
+    "type": "classify",
+    "title": "Qual teoria moral está em ação?",
+    "instruction": "Cada julgamento moral abaixo exemplifica uma das três grandes teorias éticas: deontologia (o dever importa, independente do resultado), consequencialismo (o resultado importa) ou ética das virtudes (o caráter do agente importa). Identifique cada uma.",
+    "difficulty": 2,
+    "concepts": [
+      "dever",
+      "utilidade",
+      "virtude",
+      "consequencialismo",
+      "deontologia"
+    ],
+    "items": [
+      {
+        "id": "i1",
+        "text": "'Não devo mentir para meu amigo, mesmo que isso o machuque, porque mentir é errado em si mesmo — independentemente das consequências.'",
+        "options": [
+          "Deontologia",
+          "Consequencialismo",
+          "Ética das virtudes"
+        ],
+        "correct": "Deontologia",
+        "explanation": "Raciocínio deontológico: a ação (mentir) é avaliada pela sua conformidade a uma regra moral (não mentir), não pelos seus efeitos. O resultado é irrelevante para o julgamento moral. Característico de Kant."
+      },
+      {
+        "id": "i2",
+        "text": "'Devo mentir para meu amigo neste caso porque a verdade causaria sofrimento desnecessário e a mentira produzirá mais bem para todos os envolvidos.'",
+        "options": [
+          "Deontologia",
+          "Consequencialismo",
+          "Ética das virtudes"
+        ],
+        "correct": "Consequencialismo",
+        "explanation": "Raciocínio consequencialista: a ação é avaliada pelos seus resultados. A mentira pode ser certa se o balanço de consequências for positivo. Característico do utilitarismo de Mill e Bentham."
+      },
+      {
+        "id": "i3",
+        "text": "'A pergunta não é se devo mentir ou não — é que tipo de pessoa quero ser. Uma pessoa honesta não mente, mesmo quando é difícil, porque a honestidade é parte de uma vida boa.'",
+        "options": [
+          "Deontologia",
+          "Consequencialismo",
+          "Ética das virtudes"
+        ],
+        "correct": "Ética das virtudes",
+        "explanation": "Raciocínio da virtude: a pergunta é sobre o caráter, não sobre a regra nem sobre o resultado. A ação certa é a que uma pessoa virtuosa (com bom caráter formado por hábito e phronesis) faria. Característico de Aristóteles."
+      },
+      {
+        "id": "i4",
+        "text": "'Posso sacrificar uma pessoa para salvar cinco, pois o princípio 'salvar mais vidas' deve ser universalizável como lei da natureza.'",
+        "options": [
+          "Deontologia",
+          "Consequencialismo",
+          "Ambas (posição confusa)"
+        ],
+        "correct": "Ambas (posição confusa)",
+        "explanation": "Este raciocínio mistura os dois: usa linguagem kantiana ('universalizável') mas chega à conclusão consequencialista ('sacrificar um para salvar cinco'). Para Kant puro, usar a pessoa como simples meio (mesmo para salvar cinco) é proibido. Para Mill, pode ser obrigatório. O dilema do bonde é exatamente este conflito."
+      }
+    ]
+  },
+  {
+    "id": "reconstruct-categorical-imperative-01",
+    "type": "reconstruct",
+    "title": "Reconstruindo o imperativo categórico",
+    "instruction": "Reordene as etapas do procedimento kantiano para avaliar se uma ação é moralmente permitida.",
+    "difficulty": 3,
+    "concepts": [
+      "imperativo-categorico",
+      "dever",
+      "lei universal"
+    ],
+    "items": [
+      {
+        "id": "a",
+        "text": "Identifique a máxima da sua ação — o princípio subjetivo que guia o que você pretende fazer."
+      },
+      {
+        "id": "b",
+        "text": "Universalize a máxima: imagine que todo ser racional, em situação similar, agisse pelo mesmo princípio."
+      },
+      {
+        "id": "c",
+        "text": "Verifique se a universalização é contraditória ou incoerente em si mesma."
+      },
+      {
+        "id": "d",
+        "text": "Verifique se você poderia querer racionalmente que essa universalização existisse."
+      },
+      {
+        "id": "e",
+        "text": "Se a universalização falha em algum dos testes, a ação é moralmente proibida."
+      }
+    ],
+    "correct_order": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+    ],
+    "explanation": "Kant propõe dois testes para a universalização. O primeiro (c) é de contradição lógica: uma máxima de mentira universalizada tornaria a promessa impossível — contraditória. O segundo (d) é de contradição da vontade: posso universalizar logicamente 'nunca ajude ninguém' — mas não posso querer racionalmente um mundo onde ninguém se ajuda, pois eu mesmo precisarei de ajuda."
+  },
+  {
+    "id": "trolley-problem-classify-01",
+    "type": "classify",
+    "title": "O dilema do bonde",
+    "instruction": "O dilema do bonde é o experimento de pensamento mais usado na ética contemporânea. Analise as variantes e identifique que teoria moral sustenta cada resposta.",
+    "difficulty": 3,
+    "concepts": [
+      "dever",
+      "utilidade",
+      "consequencialismo",
+      "deontologia"
+    ],
+    "items": [
+      {
+        "id": "i1",
+        "text": "Caso básico: um bonde desgovernado vai matar cinco pessoas. Você pode puxar uma alavanca e desviá-lo para outra via, onde matará uma. Você puxa a alavanca. Sua justificativa: 'salvar cinco e matar uma é melhor do que salvar uma e matar cinco.'",
+        "options": [
+          "Consequencialismo",
+          "Deontologia kantiana",
+          "Ética das virtudes"
+        ],
+        "correct": "Consequencialismo",
+        "explanation": "Justificativa consequencialista: avalia o balanço de vidas. 5 > 1. A maioria das pessoas puxaria a alavanca e justificaria assim. Filósofos utilitaristas como Mill e Bentham concordariam."
+      },
+      {
+        "id": "i2",
+        "text": "Variante da passarela: o bonde vai matar cinco. Você está numa ponte com um homem grande. Se empurrá-lo na frente do bonde, ele morrerá — mas o bonde para e as cinco pessoas se salvam. Você se recusa. Justificativa: 'não posso usar uma pessoa como instrumento para salvar outras, mesmo que o resultado seja melhor.'",
+        "options": [
+          "Consequencialismo",
+          "Deontologia kantiana",
+          "Ceticismo moral"
+        ],
+        "correct": "Deontologia kantiana",
+        "explanation": "Justificativa kantiana: a segunda fórmula do imperativo categórico proíbe usar a humanidade simplesmente como meio. Empurrar o homem o reduz a instrumento — isso é moralmente proibido independentemente do resultado. A maioria das pessoas não empurraria mesmo que puxasse a alavanca — o que revela intuição deontológica."
+      },
+      {
+        "id": "i3",
+        "text": "Médico e cinco pacientes: cinco pacientes morrerão sem órgãos. Um paciente saudável tem todos os órgãos compatíveis. O médico recusa matar o saudável para salvar os cinco. Justificativa: 'um médico que mata pacientes destrói a própria instituição da medicina e a confiança que a torna possível.'",
+        "options": [
+          "Consequencialismo puro",
+          "Deontologia kantiana",
+          "Utilitarismo de regra ou ética das virtudes"
+        ],
+        "correct": "Utilitarismo de regra ou ética das virtudes",
+        "explanation": "Esta justificativa não é puramente consequencialista (que poderia justificar matar o um) nem puramente kantiana (que proibiria por dever). É uma versão de utilitarismo de regra (a regra 'médicos não matam pacientes' produz mais utilidade a longo prazo) ou de ética das virtudes (um médico bom não faz isso — é incompatível com o caráter da medicina)."
+      }
+    ]
+  },
+  {
+    "id": "kant-mill-comparison-01",
+    "type": "comparison",
+    "title": "Kant versus Mill — o fundamento da moral",
+    "instruction": "Identifique qual filósofo — Kant ou Mill — sustentaria cada posição.",
+    "difficulty": 3,
+    "concepts": [
+      "dever",
+      "utilidade",
+      "consequencialismo",
+      "deontologia"
+    ],
+    "positions": [
+      {
+        "id": "p1",
+        "text": "Uma ação praticada por medo das consequências não tem valor moral. Só age moralmente quem age por dever — porque é o certo —, não por inclinação ou medo.",
+        "author_hint": "Prussiano que separou o 'dever ser' do 'ser'.",
+        "correct_author": "Kant",
+        "problem": "motivação moral: dever vs. consequência"
+      },
+      {
+        "id": "p2",
+        "text": "O critério de correção de uma ação é sempre o balanço de felicidade que ela produz. Uma ação motivada pelo dever mas que causa sofrimento desnecessário é moralmente inferior a uma motivada pelo interesse mas que produz bem-estar.",
+        "author_hint": "Britânico que aperfeiçoou Bentham com a distinção de qualidade dos prazeres.",
+        "correct_author": "Mill",
+        "problem": "valor moral depende dos resultados"
+      },
+      {
+        "id": "p3",
+        "text": "Mentir para salvar uma vida não é justificável. Se universalizarmos a máxima 'minta quando conveniente', a própria instituição da linguagem como comunicação verdadeira se desfaz — há contradição.",
+        "author_hint": "Autor da Fundamentação da Metafísica dos Costumes.",
+        "correct_author": "Kant",
+        "problem": "proibição absoluta da mentira"
+      },
+      {
+        "id": "p4",
+        "text": "Mentir para salvar uma vida é não apenas permitido mas obrigatório. Regras morais não são absolutas — são generalizações úteis. Quando a regra produz mais sofrimento do que bem, a própria razão da regra exige quebrá-la.",
+        "author_hint": "Autor de Utilitarismo e Sobre a Liberdade.",
+        "correct_author": "Mill",
+        "problem": "regras morais como instrumentos, não absolutos"
+      }
+    ]
+  },
+  {
+    "id": "virtue-vs-duty-classify-01",
+    "type": "classify",
+    "title": "A virtude é suficiente para a ação correta?",
+    "instruction": "Aristóteles e Kant têm respostas diferentes para a pergunta 'o que me diz o que devo fazer?'. Identifique qual perspectiva cada argumento reflete.",
+    "difficulty": 3,
+    "concepts": [
+      "virtude",
+      "dever",
+      "phronesis",
+      "felicidade"
+    ],
+    "items": [
+      {
+        "id": "i1",
+        "text": "'Não preciso de regras universais — preciso de sabedoria prática para perceber o que a situação exige. Uma pessoa virtuosa vê o que deve ser feito sem precisar deduzir de princípios abstratos.'",
+        "options": [
+          "Aristóteles (ética das virtudes)",
+          "Kant (deontologia)"
+        ],
+        "correct": "Aristóteles (ética das virtudes)",
+        "explanation": "A phronesis aristotélica é exatamente isso: a capacidade de perceber o que a situação particular exige, sem aplicar mecanicamente uma regra universal. A virtude bem formada dispensa dedução — o agente virtuoso simplesmente vê e age."
+      },
+      {
+        "id": "i2",
+        "text": "'Virtude de caráter é insuficiente como guia moral. Precisamos de um princípio racional que valha para todos, em qualquer circunstância, independentemente de temperamento ou formação cultural.'",
+        "options": [
+          "Aristóteles (ética das virtudes)",
+          "Kant (deontologia)"
+        ],
+        "correct": "Kant (deontologia)",
+        "explanation": "Kant desconfia da virtude como guia: caracteres distintos produzem intuições distintas. O imperativo categórico é necessário exatamente porque a moralidade não pode depender de temperamento ou cultura — precisa ser racional e universal."
+      },
+      {
+        "id": "i3",
+        "text": "'A moral não pode ser separada da pergunta sobre que tipo de pessoa quero ser e que tipo de comunidade quero construir. Ações são boas ou más dentro de uma forma de vida.'",
+        "options": [
+          "Aristóteles (ética das virtudes)",
+          "Kant (deontologia)"
+        ],
+        "correct": "Aristóteles (ética das virtudes)",
+        "explanation": "A ética aristotélica é contextual e comunitária: a virtude se forma numa polis, numa tradição. Não há moral abstrata e universal — há formas de vida mais ou menos florescentes. Esta ênfase no contexto comunitário separa radicalmente Aristóteles de Kant."
+      }
+    ]
+  },
+  {
+    "id": "reconstruct-mill-happiness-01",
+    "type": "reconstruct",
+    "title": "O argumento utilitarista de Mill",
+    "instruction": "Reordene as proposições para reconstruir o argumento central do utilitarismo de Mill.",
+    "difficulty": 2,
+    "concepts": [
+      "utilidade",
+      "felicidade",
+      "consequencialismo"
+    ],
+    "items": [
+      {
+        "id": "a",
+        "text": "Cada pessoa deseja sua própria felicidade."
+      },
+      {
+        "id": "b",
+        "text": "O que cada pessoa deseja é evidência do que é desejável para ela."
+      },
+      {
+        "id": "c",
+        "text": "Portanto, a felicidade de cada pessoa é um bem para ela."
+      },
+      {
+        "id": "d",
+        "text": "A felicidade geral é um bem para o agregado de todas as pessoas."
+      },
+      {
+        "id": "e",
+        "text": "Logo, o critério de moralidade é maximizar a felicidade geral."
+      }
+    ],
+    "correct_order": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+    ],
+    "explanation": "O argumento move-se do psicológico (o que as pessoas desejam) ao normativo (o que deve ser promovido). A passagem mais debatida é de (c) para (d): a soma das felicidades individuais não é automaticamente o bem de cada indivíduo. E a passagem de (b) — o erro apontado por G.E. Moore: 'desejável' não significa 'desejado', assim como 'visível' não significa 'visto de fato'."
+  },
+  {
+    "id": "universals-classify-01",
+    "type": "classify",
+    "title": "O debate dos universais: realismo ou nominalismo?",
+    "instruction": "O debate dos universais foi a grande disputa filosófica da Idade Média: os universais (humanidade, bondade, triângulo) existem de forma independente das coisas particulares, ou são apenas nomes que atribuímos a conjuntos de coisas? Classifique cada posição.",
+    "difficulty": 3,
+    "concepts": [
+      "ser",
+      "verdade",
+      "razão"
+    ],
+    "items": [
+      {
+        "id": "i1",
+        "text": "'O universal 'humanidade' existe independentemente de todos os humanos particulares. Mesmo que não houvesse nenhum humano, a humanidade existiria como forma universal e objetiva. Os humanos particulares participam dessa forma.'",
+        "options": [
+          "Realismo exagerado (ultra-realismo)",
+          "Realismo moderado",
+          "Nominalismo"
+        ],
+        "correct": "Realismo exagerado (ultra-realismo)",
+        "explanation": "Posição de inspiração platônica: os universais existem separados das coisas particulares, como as Formas de Platão. Guilherme de Champeaux defendeu algo próximo disso. Abelardo o criticou: se a humanidade é uma só coisa presente em todos os humanos, então o sofrimento de um implica sofrimento de todos."
+      },
+      {
+        "id": "i2",
+        "text": "'O universal 'humanidade' não existe separado dos humanos, mas existe realmente nos humanos particulares como sua natureza comum. A mente abstrai esse universal a partir de múltiplos indivíduos — mas o que abstrai está realmente neles.'",
+        "options": [
+          "Realismo exagerado (ultra-realismo)",
+          "Realismo moderado",
+          "Nominalismo"
+        ],
+        "correct": "Realismo moderado",
+        "explanation": "Posição de Tomás de Aquino, seguindo Aristóteles. Os universais existem nas coisas (in rebus), não separados delas. A mente não inventa os universais — abstrai o que já está na realidade. Esta é a posição escolástica dominante."
+      },
+      {
+        "id": "i3",
+        "text": "'Humanidade' não é nada além de um nome — uma emissão de voz (flatus vocis) que usamos para reunir num grupo indivíduos que se parecem. Só os indivíduos particulares existem realmente. Os universais são utensílios da mente, não entidades do mundo.'",
+        "options": [
+          "Realismo exagerado (ultra-realismo)",
+          "Realismo moderado",
+          "Nominalismo"
+        ],
+        "correct": "Nominalismo",
+        "explanation": "Posição de Roscelino e, no século XIV, de Guilherme de Ockham. Os universais são apenas nomes (nomina) — convenções linguísticas, não entidades reais. A 'navalha de Ockham': não multiplique entidades sem necessidade. O nominalismo mina a metafísica realista e prepara o empirismo moderno."
+      }
+    ]
+  },
+  {
+    "id": "reconstruct-first-way-01",
+    "type": "reconstruct",
+    "title": "A primeira via de Tomás: o argumento do movimento",
+    "instruction": "Reordene as proposições para reconstruir o argumento do primeiro motor imóvel de Tomás de Aquino.",
+    "difficulty": 3,
+    "concepts": [
+      "ser",
+      "razão"
+    ],
+    "items": [
+      {
+        "id": "a",
+        "text": "É evidente pelos sentidos que algumas coisas se movem no mundo."
+      },
+      {
+        "id": "b",
+        "text": "Tudo o que se move é movido por outro — nada passa da potência ao ato por si mesmo."
+      },
+      {
+        "id": "c",
+        "text": "A cadeia de motores e movidos não pode ir ao infinito, pois sem primeiro motor não haveria nenhum movimento."
+      },
+      {
+        "id": "d",
+        "text": "É necessário, portanto, chegar a um primeiro motor que não é movido por nenhum outro."
+      },
+      {
+        "id": "e",
+        "text": "Esse primeiro motor não movido é o que todos chamam de Deus."
+      }
+    ],
+    "correct_order": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+    ],
+    "explanation": "Observe a estrutura aristotélica: premissa empírica (a) → princípio metafísico (b) → impossibilidade do regresso infinito (c) → conclusão necessária (d) → identificação teológica (e). A passagem mais problemática é (e): o 'primeiro motor não movido' prova a existência de uma causa primeira — mas não necessariamente o Deus pessoal do cristianismo. Tomás está ciente disso e trata das propriedades de Deus nas questões seguintes."
+  },
+  {
+    "id": "ontological-argument-analyze-01",
+    "type": "classify",
+    "title": "O argumento ontológico — objeções e respostas",
+    "instruction": "Anselmo formulou o argumento ontológico; filósofos de Gaunilo a Kant tentaram refutá-lo. Identifique a força de cada posição.",
+    "difficulty": 4,
+    "concepts": [
+      "ser",
+      "razão",
+      "verdade"
+    ],
+    "items": [
+      {
+        "id": "i1",
+        "text": "Gaunilo de Marmoutier (contemporâneo de Anselmo): 'Posso conceber a ilha mais perfeita de todas. Se existe apenas no intelecto, posso pensar uma ilha ainda mais perfeita — que existe na realidade. Logo, pela sua lógica, a ilha perfeita deve existir.'",
+        "options": [
+          "Objeção forte — refuta Anselmo",
+          "Objeção fraca — Anselmo pode responder",
+          "Não é uma objeção — confirma Anselmo"
+        ],
+        "correct": "Objeção fraca — Anselmo pode responder",
+        "explanation": "Anselmo respondeu: o argumento só funciona para um ser cuja não-existência é impossível — um ser necessário. Uma ilha, por mais perfeita, poderia não existir sem contradição. Deus, definido como aquilo do qual nada maior pode ser pensado, seria menor se pudesse não existir. Ilhas e outras perfeições relativas não têm essa propriedade."
+      },
+      {
+        "id": "i2",
+        "text": "Immanuel Kant: 'A existência não é um predicado real — não é uma propriedade que acrescenta algo ao conceito de uma coisa. Cem táleres reais não têm mais propriedades do que cem táleres possíveis — apenas existem.'",
+        "options": [
+          "Objeção forte — refuta Anselmo",
+          "Objeção fraca — Anselmo pode responder",
+          "Não é uma objeção — confirma Anselmo"
+        ],
+        "correct": "Objeção forte — refuta Anselmo",
+        "explanation": "A objeção mais influente. Se existência não é uma propriedade, então 'existe na realidade' não torna nada 'maior'. O argumento pressupõe que existência acrescenta perfeição — mas Kant nega isso. Um Deus que existe não é mais perfeito no conceito que um Deus que não existe: a diferença não é de propriedade, mas de fato."
+      },
+      {
+        "id": "i3",
+        "text": "Tomás de Aquino (medieval, não ateísta): 'Mesmo que Deus exista necessariamente, não podemos saber isso a priori — nossa mente não tem acesso imediato à natureza divina. A existência de Deus precisa ser provada a posteriori, pela experiência.'",
+        "options": [
+          "Objeção forte — refuta Anselmo",
+          "Objeção fraca — Anselmo pode responder",
+          "Não é uma objeção — confirma Anselmo"
+        ],
+        "correct": "Objeção forte — refuta Anselmo",
+        "explanation": "Curiosamente, Tomás rejeita o argumento ontológico de Anselmo — não porque seja ateu, mas porque discorda do método a priori. Para Tomás, só Deus conhece sua própria natureza necessariamente. Humanos só podem provar a existência de Deus partindo do que observam — as suas vias a posteriori."
+      }
+    ]
+  },
+  {
+    "id": "faith-reason-classify-01",
+    "type": "classify",
+    "title": "Fé e razão — posições medievais",
+    "instruction": "O debate medieval sobre fé e razão produziu posições distintas. Classifique cada enunciado.",
+    "difficulty": 2,
+    "concepts": [
+      "razão",
+      "verdade"
+    ],
+    "items": [
+      {
+        "id": "i1",
+        "text": "'Credo quia absurdum' — acredito porque é absurdo. A fé é tanto mais meritória quanto menos racional — o que pode ser provado não precisa de fé.'",
+        "options": [
+          "Fideísmo radical",
+          "Síntese tomista",
+          "Racionalismo teológico"
+        ],
+        "correct": "Fideísmo radical",
+        "explanation": "Posição atribuída (provavelmente de forma distorcida) a Tertuliano. O fideísmo radical separa fé e razão, privilegiando a fé. A filosofia é 'a filha de Atenas' — suspeita. Tomás rejeitou isso: a fé não pode contradizer a razão, apenas a transcender."
+      },
+      {
+        "id": "i2",
+        "text": "'A fé não vai contra a razão; vai além dela. Verdades da razão e verdades da fé pertencem a domínios complementares e hierarquicamente ordenados. A filosofia prepara; a teologia completa.'",
+        "options": [
+          "Fideísmo radical",
+          "Síntese tomista",
+          "Averroísmo ou dupla verdade"
+        ],
+        "correct": "Síntese tomista",
+        "explanation": "Posição de Tomás de Aquino: fé e razão são complementares. A razão pode provar que Deus existe e é único; a fé revela que é trino. Não há contradição — há hierarquia. Esta síntese é a posição oficial da escolástica madura."
+      },
+      {
+        "id": "i3",
+        "text": "'O que é verdade em filosofia pode ser falso em teologia, e vice-versa. As duas disciplinas têm seus próprios princípios e conclusões independentes — não há síntese possível.'",
+        "options": [
+          "Fideísmo radical",
+          "Síntese tomista",
+          "Averroísmo ou dupla verdade"
+        ],
+        "correct": "Averroísmo ou dupla verdade",
+        "explanation": "Posição associada aos averroístas medievais (seguidores de Averrois/Ibn Rushd) como Siger de Brabante. Tomás a rejeitou energicamente: a verdade é uma, e nenhuma contradição real é possível entre fé e razão. Esta posição foi condenada em 1277 pelo bispo de Paris."
+      }
+    ]
+  },
+  {
+    "id": "augustine-aquinas-comparison-01",
+    "type": "comparison",
+    "title": "Agostinho e Tomás: dois estilos de síntese",
+    "instruction": "Agostinho e Tomás de Aquino são os dois maiores filósofos cristãos medievais — mas com métodos e ênfases radicalmente diferentes. Identifique qual dos dois sustentaria cada posição.",
+    "difficulty": 3,
+    "concepts": [
+      "razão",
+      "verdade",
+      "ser",
+      "alma"
+    ],
+    "positions": [
+      {
+        "id": "p1",
+        "text": "O caminho para a verdade passa pelo interior — retorna a ti mesmo, pois é aí que Deus habita. A mente humana, ao contemplar suas próprias operações, encontra vestígios da Trindade.",
+        "author_hint": "Norte-africano do século IV, convertido do maniqueísmo; influenciado por Platão e pelos neoplatônicos.",
+        "correct_author": "Agostinho",
+        "problem": "interioridade como via para Deus"
+      },
+      {
+        "id": "p2",
+        "text": "O caminho para Deus começa pelos sentidos — pelos fatos que observamos no mundo: que as coisas se movem, que existem causas, que há graus de perfeição. A partir desses fatos, a razão sobe até a causa primeira.",
+        "author_hint": "Italiano do século XIII, dominicano; seguidor de Aristóteles; Suma Teológica.",
+        "correct_author": "Tomás de Aquino",
+        "problem": "a posteriori como método teológico"
+      },
+      {
+        "id": "p3",
+        "text": "A vontade é superior ao intelecto. O amor precede o conhecimento: 'nosso coração está inquieto, enquanto não repousar em Ti.' É o amor que move o homem a Deus antes de qualquer demonstração.",
+        "author_hint": "Autor das Confissões — a mais pessoal e literária das grandes obras filosóficas.",
+        "correct_author": "Agostinho",
+        "problem": "primado da vontade e do amor"
+      },
+      {
+        "id": "p4",
+        "text": "O intelecto é superior à vontade. Amar o bem pressupõe conhecê-lo. A contemplação intelectual de Deus é o fim último do homem — a beatitude é primariamente um ato do intelecto.",
+        "author_hint": "O 'Doutor Angélico'; sintetizou Aristóteles com a teologia cristã.",
+        "correct_author": "Tomás de Aquino",
+        "problem": "primado do intelecto"
+      }
+    ]
+  },
+  {
+    "id": "valid-sound-classify-01",
+    "type": "classify",
+    "title": "Válido, sólido ou nenhum dos dois?",
+    "instruction": "Classifique cada argumento. Válido: a conclusão se segue necessariamente das premissas (mesmo que as premissas sejam falsas). Sólido: válido E com premissas verdadeiras. Inválido: a conclusão não se segue das premissas.",
+    "difficulty": 2,
+    "concepts": [
+      "validade",
+      "silogismo"
+    ],
+    "items": [
+      {
+        "id": "i1",
+        "text": "P1: Todos os polvos têm doze braços. P2: Bob é um polvo. C: Bob tem doze braços.",
+        "options": [
+          "Válido mas não sólido",
+          "Sólido (válido e verdadeiro)",
+          "Inválido"
+        ],
+        "correct": "Válido mas não sólido",
+        "explanation": "O argumento é válido: se P1 e P2 fossem verdadeiras, C seria necessariamente verdadeira. Mas P1 é falsa (polvos têm oito braços) — então o argumento não é sólido. Validade é sobre a forma; solidez é sobre a forma e o conteúdo."
+      },
+      {
+        "id": "i2",
+        "text": "P1: Todos os mamíferos têm sangue quente. P2: Baleias são mamíferos. C: Baleias têm sangue quente.",
+        "options": [
+          "Válido mas não sólido",
+          "Sólido (válido e verdadeiro)",
+          "Inválido"
+        ],
+        "correct": "Sólido (válido e verdadeiro)",
+        "explanation": "Sólido: o argumento é válido (Barbara: AAA-1) e ambas as premissas são verdadeiras. A conclusão é garantidamente verdadeira. É o melhor tipo de argumento possível."
+      },
+      {
+        "id": "i3",
+        "text": "P1: Chove muito em São Paulo. P2: O trânsito é terrível em São Paulo. C: A chuva causa o trânsito.",
+        "options": [
+          "Válido mas não sólido",
+          "Sólido (válido e verdadeiro)",
+          "Inválido"
+        ],
+        "correct": "Inválido",
+        "explanation": "Inválido: as premissas podem ser verdadeiras e a conclusão falsa (o trânsito pode ser péssimo mesmo sem chuva). Há correlação mas a conclusão causal não se segue logicamente. Falácia post hoc embutida."
+      },
+      {
+        "id": "i4",
+        "text": "P1: Se Deus é onipotente, pode criar uma pedra que não consegue levantar. P2: Se não consegue levantar a pedra, não é onipotente. P3: Logo, Deus não é onipotente — ou o conceito de onipotência é contraditório.",
+        "options": [
+          "Válido mas não sólido",
+          "Sólido (válido e verdadeiro)",
+          "Inválido"
+        ],
+        "correct": "Válido mas não sólido",
+        "explanation": "A forma é válida: o argumento é um dilema lógico bem construído. Se as premissas são verdadeiras, a conclusão se segue. A questão filosófica é se as premissas são verdadeiras — se 'onipotência' implica 'poder do logicamente impossível'. Isso é dispute sobre as premissas, não sobre a validade."
+      }
+    ]
+  },
+  {
+    "id": "fallacies-identify-01",
+    "type": "classify",
+    "title": "Identifique a falácia",
+    "instruction": "Cada argumento contém uma falácia informal. Identifique qual.",
+    "difficulty": 2,
+    "concepts": [
+      "falácia"
+    ],
+    "items": [
+      {
+        "id": "i1",
+        "text": "'Você não deveria ouvir as críticas do professor X à teoria da evolução — ele tem um doutorado em engenharia, não em biologia.'",
+        "options": [
+          "Ad hominem",
+          "Apelo à autoridade inadequada",
+          "Espantalho",
+          "Post hoc"
+        ],
+        "correct": "Ad hominem",
+        "explanation": "Ad hominem relevante (ou tu quoque): ataca as credenciais da pessoa em vez de responder ao argumento. Note: aqui pode ser uma crítica legítima à autoridade (engenheiro opinando em biologia) — a linha entre ad hominem e questionamento legítimo de credencial depende do contexto. Se o argumento do professor for respondido diretamente em outra parte, a menção às credenciais é complementar; se for a única resposta, é ad hominem."
+      },
+      {
+        "id": "i2",
+        "text": "'Os defensores do veganismo argumentam que devemos abolir todo uso de animais. Mas isso é absurdo — significaria não ter animais de estimação, não poder usar remédios testados em animais, e retornar a um estado primitivo.'",
+        "options": [
+          "Ad hominem",
+          "Apelo à autoridade inadequada",
+          "Espantalho",
+          "Falsa dicotomia"
+        ],
+        "correct": "Espantalho",
+        "explanation": "O espantalho distorce a posição adversária para uma versão mais fácil de atacar. A maioria dos veganos não defende eliminar animais de estimação nem recusar todos os remédios. Ao refutar a versão extrema, o argumento evita responder à posição real."
+      },
+      {
+        "id": "i3",
+        "text": "'Ou você apoia totalmente nossa política externa ou está do lado dos terroristas.'",
+        "options": [
+          "Falsa dicotomia",
+          "Post hoc",
+          "Espantalho",
+          "Ad hominem"
+        ],
+        "correct": "Falsa dicotomia",
+        "explanation": "Apresenta duas opções como as únicas, excluindo posições intermediárias (apoio parcial, crítica construtiva, neutralidade). O raciocínio de 'ou/ou' forçado é uma das ferramentas mais usadas em propaganda política."
+      },
+      {
+        "id": "i4",
+        "text": "'Instalamos as câmeras de segurança em janeiro. Em março, os índices de criminalidade caíram 15%. As câmeras claramente reduziram o crime.'",
+        "options": [
+          "Post hoc ergo propter hoc",
+          "Apelo à maioria",
+          "Falsa dicotomia",
+          "Equívoco"
+        ],
+        "correct": "Post hoc ergo propter hoc",
+        "explanation": "Sequência temporal não prova causalidade. A queda pode ter outras causas: mudança sazonal (inverno tem menos crime), mudança econômica, aumento de policiamento simultâneo. Para afirmar causalidade, precisaríamos de grupo de controle — área similar sem câmeras no mesmo período."
+      },
+      {
+        "id": "i5",
+        "text": "'As leis precisam ser obedecidas porque são legais. E são legais porque foram criadas de acordo com as leis.'",
+        "options": [
+          "Petição de princípio (circularidade)",
+          "Ad hominem",
+          "Post hoc",
+          "Equívoco"
+        ],
+        "correct": "Petição de princípio (circularidade)",
+        "explanation": "O argumento usa a conclusão como premissa — circularidade. Para provar que as leis devem ser obedecidas, usa o fato de serem legais; para provar que são legais, usa o processo legal que pressupõe autoridade das leis. O argumento gira em torno de si mesmo sem avançar."
+      }
+    ]
+  },
+  {
+    "id": "syllogism-construct-01",
+    "type": "reconstruct",
+    "title": "Construa o silogismo válido",
+    "instruction": "Para cada conjunto de proposições, identifique qual é a premissa maior, qual é a menor e qual é a conclusão que se segue necessariamente.",
+    "difficulty": 3,
+    "concepts": [
+      "silogismo",
+      "validade"
+    ],
+    "items": [
+      {
+        "id": "a",
+        "text": "Sócrates é humano."
+      },
+      {
+        "id": "b",
+        "text": "Todo humano é mortal."
+      },
+      {
+        "id": "c",
+        "text": "Logo, Sócrates é mortal."
+      },
+      {
+        "id": "d",
+        "text": "Nenhum réptil é mamífero."
+      },
+      {
+        "id": "e",
+        "text": "Cobras são répteis."
+      },
+      {
+        "id": "f",
+        "text": "Logo, cobras não são mamíferos."
+      }
+    ],
+    "correct_order": [
+      "b",
+      "a",
+      "c"
+    ],
+    "explanation": "Silogismo 1 (Barbara, AAA-1): premissa maior universal (b), premissa menor particular (a), conclusão (c). O termo médio é 'humano' — aparece em ambas as premissas e desaparece na conclusão. Silogismo 2 (Celarent, EAE-1): premissa maior universal negativa (d), premissa menor afirmativa (e), conclusão negativa (f). O termo médio é 'réptil'."
+  },
+  {
+    "id": "truth-table-modus-ponens-01",
+    "type": "classify",
+    "title": "Validade formal — tabela-verdade",
+    "instruction": "Use a definição de validade — não existe atribuição que torne premissas verdadeiras e conclusão falsa — para classificar cada argumento.",
+    "difficulty": 4,
+    "concepts": [
+      "validade",
+      "proposição"
+    ],
+    "items": [
+      {
+        "id": "i1",
+        "text": "P1: P → Q (Se estuda, passa). P2: P (Estuda). Conclusão: Q (Passa). [Modus Ponens]",
+        "options": [
+          "Válido",
+          "Inválido (falácia formal)"
+        ],
+        "correct": "Válido",
+        "explanation": "Modus Ponens: P→Q, P ⊢ Q. Tabela: P=V,Q=V → P1=V,P2=V,C=V ✓. P=V,Q=F → P1=F (premissa falsa, não conta). P=F,Q=V → P2=F (premissa falsa). P=F,Q=F → P2=F. Em nenhuma linha as premissas são V e C é F. Válido."
+      },
+      {
+        "id": "i2",
+        "text": "P1: P → Q (Se estuda, passa). P2: Q (Passou). Conclusão: P (Estudou). [Afirmação do consequente]",
+        "options": [
+          "Válido",
+          "Inválido (falácia formal)"
+        ],
+        "correct": "Inválido (falácia formal)",
+        "explanation": "Afirmação do consequente: P→Q, Q ⊢ P. Contra-exemplo: P=F, Q=V → P1=V (condicional com antecedente falso é verdadeiro), P2=V, C=F. As premissas são V e a conclusão é F. Inválido. Pode ter passado por cola, sorte ou outro motivo — Q não implica P."
+      },
+      {
+        "id": "i3",
+        "text": "P1: P → Q (Se estuda, passa). P2: ¬Q (Não passou). Conclusão: ¬P (Não estudou). [Modus Tollens]",
+        "options": [
+          "Válido",
+          "Inválido (falácia formal)"
+        ],
+        "correct": "Válido",
+        "explanation": "Modus Tollens: P→Q, ¬Q ⊢ ¬P. Equivalente por contraposição: P→Q ≡ ¬Q→¬P. Tabela: único caso onde P1 e P2 são V é P=F,Q=F. Nesse caso C=¬P=V. Válido. Lógica da prova científica: se a teoria prediz Q e Q não ocorre, a teoria (P) é refutada."
+      },
+      {
+        "id": "i4",
+        "text": "P1: P → Q. P2: ¬P. Conclusão: ¬Q. [Negação do antecedente]",
+        "options": [
+          "Válido",
+          "Inválido (falácia formal)"
+        ],
+        "correct": "Inválido (falácia formal)",
+        "explanation": "Negação do antecedente: P→Q, ¬P ⊢ ¬Q. Contra-exemplo: P=F, Q=V → P1=V (condicional V quando antecedente F), P2=V, C=¬Q=F. As premissas são V e a conclusão é F. Inválido. Q pode ser verdadeiro por outras razões além de P."
+      }
+    ]
+  },
+  {
+    "id": "argument-structure-map-01",
+    "type": "mapping",
+    "title": "Mapeie a estrutura do argumento",
+    "instruction": "Identifique em cada texto qual é a conclusão principal, quais são as premissas que a sustentam, e se há premissas implícitas (não declaradas mas necessárias).",
+    "difficulty": 3,
+    "concepts": [
+      "validade",
+      "silogismo",
+      "inferência"
+    ],
+    "items": [
+      {
+        "id": "i1",
+        "symbol": "Texto: 'Devemos reduzir o consumo de carne. A produção pecuária emite mais gases de efeito estufa do que todo o setor de transportes. E temos obrigação moral de reduzir emissões.'",
+        "options": [
+          "Conclusão: devemos reduzir carne. Premissas: (1) pecuária emite muito; (2) obrigação de reduzir emissões. Premissa implícita: reduzir consumo de carne reduz emissões.",
+          "Conclusão: pecuária emite gases. Premissa: dados científicos.",
+          "Não há argumento — só afirmações."
+        ],
+        "correct": "Conclusão: devemos reduzir carne. Premissas: (1) pecuária emite muito; (2) obrigação de reduzir emissões. Premissa implícita: reduzir consumo de carne reduz emissões."
+      },
+      {
+        "id": "i2",
+        "symbol": "Texto: 'Todo poder corrompe. Políticos têm poder. Portanto, todos os políticos são corruptos.'",
+        "options": [
+          "Silogismo válido com premissas verdadeiras — argumento sólido.",
+          "Silogismo válido com premissa maior duvidosa ('todo poder corrompe') — válido mas provavelmente não sólido.",
+          "Silogismo inválido — a conclusão não se segue das premissas."
+        ],
+        "correct": "Silogismo válido com premissa maior duvidosa ('todo poder corrompe') — válido mas provavelmente não sólido."
+      }
+    ],
+    "correct": {
+      "i1": "Conclusão: devemos reduzir carne. Premissas: (1) pecuária emite muito; (2) obrigação de reduzir emissões. Premissa implícita: reduzir consumo de carne reduz emissões.",
+      "i2": "Silogismo válido com premissa maior duvidosa ('todo poder corrompe') — válido mas provavelmente não sólido."
+    }
+  },
+  {
+    "id": "connectives-truth-values-01",
+    "type": "classify",
+    "title": "Conectivos e valores de verdade",
+    "instruction": "Dado P = Verdadeiro e Q = Falso, calcule o valor de verdade de cada fórmula proposicional.",
+    "difficulty": 4,
+    "concepts": [
+      "proposição",
+      "validade"
+    ],
+    "items": [
+      {
+        "id": "i1",
+        "text": "P ∧ Q (P e Q)",
+        "options": [
+          "Verdadeiro",
+          "Falso"
+        ],
+        "correct": "Falso",
+        "explanation": "Conjunção: V ∧ F = F. A conjunção só é verdadeira quando ambos os conjuntos são verdadeiros. Basta um falso para tornar toda a conjunção falsa."
+      },
+      {
+        "id": "i2",
+        "text": "P ∨ Q (P ou Q)",
+        "options": [
+          "Verdadeiro",
+          "Falso"
+        ],
+        "correct": "Verdadeiro",
+        "explanation": "Disjunção inclusiva: V ∨ F = V. A disjunção é verdadeira quando pelo menos um dos disjuntos é verdadeiro. Só é falsa quando ambos são falsos."
+      },
+      {
+        "id": "i3",
+        "text": "P → Q (Se P então Q)",
+        "options": [
+          "Verdadeiro",
+          "Falso"
+        ],
+        "correct": "Falso",
+        "explanation": "Condicional: V → F = F. O condicional só é falso quando o antecedente é verdadeiro e o consequente é falso — o único caso 'proibido'. Intuitivamente: a promessa 'se chover, trago o guarda-chuva' é quebrada apenas se choveu e não trouxe."
+      },
+      {
+        "id": "i4",
+        "text": "¬P → Q (Se não-P então Q)",
+        "options": [
+          "Verdadeiro",
+          "Falso"
+        ],
+        "correct": "Verdadeiro",
+        "explanation": "¬P = ¬V = F. Condicional: F → F = V. Um condicional com antecedente falso é sempre verdadeiro (vacuamente verdadeiro). 'Se a lua é feita de queijo, então 2+2=5' é logicamente verdadeiro — porque o antecedente é falso."
+      },
+      {
+        "id": "i5",
+        "text": "P ↔ Q (P se e somente se Q)",
+        "options": [
+          "Verdadeiro",
+          "Falso"
+        ],
+        "correct": "Falso",
+        "explanation": "Bicondicional: V ↔ F = F. O bicondicional é verdadeiro quando ambos têm o mesmo valor de verdade (V↔V = V, F↔F = V) e falso quando têm valores diferentes. Aqui P=V e Q=F — valores diferentes — logo falso."
+      }
+    ]
+  },
+  {
+    "id": "hegel-dialectic-classify-01",
+    "type": "classify",
+    "title": "Dialética em ação",
+    "instruction": "A dialética hegeliana aparece em contextos variados. Em cada caso, identifique o momento que é tese, antítese e síntese (Aufhebung).",
+    "difficulty": 3,
+    "concepts": [
+      "dialética",
+      "geist"
+    ],
+    "items": [
+      {
+        "id": "i1",
+        "text": "Hegel sobre o ser: (A) 'Ser puro, sem nenhuma determinação'. (B) 'Nada puro, a completa ausência de determinação'. (C) 'O devir: o movimento de passar do ser ao nada e do nada ao ser'.",
+        "options": [
+          "A=tese, B=antítese, C=síntese",
+          "B=tese, A=antítese, C=síntese",
+          "C=tese, A=antítese, B=síntese"
+        ],
+        "correct": "A=tese, B=antítese, C=síntese",
+        "explanation": "O exemplo mais puro da dialética hegeliana. Ser puro (sem nenhuma determinação) e nada puro (ausência total de determinação) são indistinguíveis — cada um passa para o outro. O devir é a verdade de ambos: a unidade do ser e do nada no movimento. Note que a síntese não 'elimina' ser e nada — os preserva como momentos do devir."
+      },
+      {
+        "id": "i2",
+        "text": "Dialética do senhor e do escravo: (A) O senhor domina o escravo e é reconhecido. (B) O reconhecimento do escravo é inútil para o senhor; o escravo trabalha e se desenvolve. (C) O caminho para a liberdade passa pelo escravo — pelo trabalho — não pelo senhor.",
+        "options": [
+          "A=tese, B=antítese, C=síntese",
+          "B=tese, A=antítese, C=síntese",
+          "A=tese, C=antítese, B=síntese"
+        ],
+        "correct": "A=tese, B=antítese, C=síntese",
+        "explanation": "A inversão dialética: a posição inicial de domínio (A) gera sua própria contradição (B) — o reconhecimento que o senhor busca é esvaziado pela subjugação do outro. A síntese (C) não é simplesmente 'o escravo ganha': é a descoberta de que a consciência livre não vem da dominação mas do trabalho que transforma o mundo."
+      }
+    ]
+  },
+  {
+    "id": "marx-ideologia-classify-01",
+    "type": "classify",
+    "title": "Ideologia ou descrição?",
+    "instruction": "Para Marx, a ideologia apresenta interesses de classe como verdades universais. Identifique quais dos enunciados abaixo têm estrutura ideológica (no sentido marxista) e quais são análises materiais.",
+    "difficulty": 3,
+    "concepts": [
+      "ideologia",
+      "dialética"
+    ],
+    "items": [
+      {
+        "id": "i1",
+        "text": "'O livre mercado é a forma mais natural e eficiente de organização econômica, compatível com a natureza humana de buscar o benefício próprio.'",
+        "options": [
+          "Ideologia (no sentido marxista)",
+          "Análise material",
+          "Neutro — depende do contexto"
+        ],
+        "correct": "Ideologia (no sentido marxista)",
+        "explanation": "Para Marx, este enunciado apresenta como 'natural' e 'eficiente' uma forma histórica e específica de organização da produção que beneficia quem possui capital. 'Natureza humana' é uma abstração que esconde que o comportamento econômico é moldado pelas relações de produção. O que parece universalmente racional é a racionalidade da burguesia apresentada como universal."
+      },
+      {
+        "id": "i2",
+        "text": "'Na Inglaterra de 1840, a jornada de trabalho nas fábricas têxteis era de 14 a 16 horas, e crianças de 6 anos trabalhavam nas minas.'",
+        "options": [
+          "Ideologia (no sentido marxista)",
+          "Análise material",
+          "Neutro — depende do contexto"
+        ],
+        "correct": "Análise material",
+        "explanation": "Descrição de condições materiais concretas — sem apresentá-las como naturais ou inevitáveis. É exatamente o tipo de análise que Marx defende: partir das condições reais de produção, não de abstrações sobre 'natureza humana' ou 'liberdade'."
+      },
+      {
+        "id": "i3",
+        "text": "'A propriedade privada é um direito natural do homem, anterior ao Estado, que o Estado deve proteger.'",
+        "options": [
+          "Ideologia (no sentido marxista)",
+          "Análise material",
+          "Neutro — depende do contexto"
+        ],
+        "correct": "Ideologia (no sentido marxista)",
+        "explanation": "Para Marx, a propriedade privada não é 'natural' — é uma instituição histórica que surgiu com as relações de produção capitalistas. Apresentá-la como 'direito natural anterior ao Estado' (Locke) é ideologia: transforma uma convenção histórica em necessidade natural, tornando-a impermeável à crítica e à transformação."
+      }
+    ]
+  },
+  {
+    "id": "nietzsche-ressentiment-classify-01",
+    "type": "classify",
+    "title": "Moral nobre ou moral de escravo?",
+    "instruction": "Nietzsche distingue a moral nobre (afirmativa, parte de 'bom') da moral de escravo (reativa, parte de 'mau'). Classifique cada enunciado.",
+    "difficulty": 3,
+    "concepts": [
+      "vontade-de-potência",
+      "virtude",
+      "valores"
+    ],
+    "items": [
+      {
+        "id": "i1",
+        "text": "'Os humildes herdarão a terra. Bem-aventurados os pobres em espírito. Os que sofrem são mais próximos de Deus.'",
+        "options": [
+          "Moral nobre",
+          "Moral de escravo (ressentimento)",
+          "Neutro"
+        ],
+        "correct": "Moral de escravo (ressentimento)",
+        "explanation": "Para Nietzsche, esta é a inversão de valores característica da moral de escravo: o que é fraqueza (humildade, pobreza, sofrimento) é recodificado como virtude suprema. A recompensa é deslocada para o além. Nietzsche vê isso como a 'vingança espiritual' dos fracos contra os fortes — não como falsidade, mas como ressentimento transformado em sistema de valores."
+      },
+      {
+        "id": "i2",
+        "text": "'Sou excelente no que faço e orgulho-me disso. O que é medíocre, covarde ou servil merece desprezo — não ódio, apenas desprezo.'",
+        "options": [
+          "Moral nobre",
+          "Moral de escravo (ressentimento)",
+          "Neutro"
+        ],
+        "correct": "Moral nobre",
+        "explanation": "Estrutura afirmativa: começa com autoafirmação ('sou excelente'), e o negativo ('medíocre, covarde') é secundário e derivado — não é o ponto de partida. O tom é de distância e desprezo, não de ódio ressentido. Nietzsche não endorsa esse ponto de vista como definitivo — usa como tipo ideal para mostrar a estrutura da avaliação afirmativa."
+      },
+      {
+        "id": "i3",
+        "text": "'Os ricos e poderosos são corruptos por natureza. Apenas quem não tem poder pode ser verdadeiramente virtuoso.'",
+        "options": [
+          "Moral nobre",
+          "Moral de escravo (ressentimento)",
+          "Neutro"
+        ],
+        "correct": "Moral de escravo (ressentimento)",
+        "explanation": "A estrutura reativa é clara: o 'bom' (virtuoso) é definido por negação do poderoso ('os ricos são corruptos'). O valor nasce da reação ao inimigo, não da afirmação positiva de si. Para Nietzsche, este raciocínio — frequente em discursos populistas e religiosos — mascara impotência como virtude."
+      }
+    ]
+  },
+  {
+    "id": "wittgenstein-language-games-classify-01",
+    "type": "classify",
+    "title": "Confusão entre jogos de linguagem",
+    "instruction": "Para Wittgenstein, problemas filosóficos surgem ao transferir palavras de um jogo de linguagem para outro sem perceber a mudança. Identifique em quais casos há confusão entre jogos de linguagem.",
+    "difficulty": 4,
+    "concepts": [
+      "jogos-de-linguagem",
+      "verdade",
+      "logos"
+    ],
+    "items": [
+      {
+        "id": "i1",
+        "text": "Filósofo: 'Quando digo que tenho uma dor, estou descrevendo um estado interno privado que só eu posso acessar diretamente.' Outro filósofo: 'Mas como eu sei que a sua palavra dor refere-se à mesma coisa que a minha?'",
+        "options": [
+          "Confusão de jogos de linguagem",
+          "Problema genuíno — sem confusão",
+          "Ambos"
+        ],
+        "correct": "Confusão de jogos de linguagem",
+        "explanation": "Para Wittgenstein, 'dor' não é uma etiqueta que cada pessoa cola em seu estado interno privado. 'Dor' funciona num jogo de linguagem público: aprendemos a palavra no contexto de comportamentos de dor (chorar, encolher, gritar), de contextos de machucado, de respostas terapêuticas. O 'estado interno privado' é uma imagem gramatical que gera confusão — não a descrição de como a palavra funciona."
+      },
+      {
+        "id": "i2",
+        "text": "Matemático: '7 + 5 = 12 é necessariamente verdadeiro.' Empirista: 'Como você sabe? Já contou 7 objetos, depois 5, e sempre obteve 12?'",
+        "options": [
+          "Confusão de jogos de linguagem",
+          "Problema genuíno — sem confusão",
+          "Ambos"
+        ],
+        "correct": "Confusão de jogos de linguagem",
+        "explanation": "O empirista trata a aritmética como se fosse física — como se '7+5=12' fosse uma generalização indutiva de experimentos de contagem. Mas aritmética e física são jogos de linguagem diferentes: a aritmética não é verificada empiricamente — é constitutiva das práticas de contar e calcular. Wittgenstein diria que o empirista confundiu gramática com física."
+      },
+      {
+        "id": "i3",
+        "text": "Juíza: 'O réu é inocente até que se prove culpado.' Filósofo do direito: 'Mas se há evidências de que ele cometeu o crime, como pode ser tecnicamente inocente?'",
+        "options": [
+          "Confusão de jogos de linguagem",
+          "Problema genuíno — sem confusão",
+          "Ambos"
+        ],
+        "correct": "Confusão de jogos de linguagem",
+        "explanation": "'Inocente' no direito é um status jurídico — uma posição dentro do jogo de linguagem do processo legal. 'Inocente' no sentido ordinário é uma descrição factual de não ter praticado o ato. O filósofo confunde os dois jogos: a presunção de inocência é uma regra do jogo jurídico, não uma afirmação factual sobre o mundo."
+      }
+    ]
+  },
+  {
+    "id": "modern-comparison-01",
+    "type": "comparison",
+    "title": "Quatro diagnósticos da modernidade",
+    "instruction": "Hegel, Marx, Nietzsche e Wittgenstein diagnosticaram problemas fundamentais da modernidade. Identifique qual autor corresponderia a cada diagnóstico.",
+    "difficulty": 3,
+    "concepts": [
+      "dialética",
+      "ideologia",
+      "vontade-de-potência",
+      "jogos-de-linguagem"
+    ],
+    "positions": [
+      {
+        "id": "p1",
+        "text": "O problema da modernidade é que ela não compreendeu que a história tem uma estrutura racional. Vemos os conflitos, as guerras, as revoluções como caos — mas são o caminho necessário pelo qual a razão vem a conhecer-se a si mesma.",
+        "author_hint": "Autor da Fenomenologia do Espírito e da Filosofia do Direito.",
+        "correct_author": "Hegel",
+        "problem": "a racionalidade oculta da história"
+      },
+      {
+        "id": "p2",
+        "text": "O problema da modernidade é que as ideias dominantes — liberdade, direitos, progresso — são ideias da classe dominante apresentadas como universais. Para mudar o mundo, é preciso primeiro desmascará-las como ideologia.",
+        "author_hint": "Autor do Manifesto e d'O Capital.",
+        "correct_author": "Marx",
+        "problem": "a ideologia como obstáculo à transformação"
+      },
+      {
+        "id": "p3",
+        "text": "O problema da modernidade é o niilismo: destruímos os fundamentos dos nossos valores sem criar novos. Vivemos na sombra de Deus morto sem perceber que a sombra ainda nos governa.",
+        "author_hint": "Autor da Genealogia da Moral e de Assim Falou Zaratustra.",
+        "correct_author": "Nietzsche",
+        "problem": "o niilismo como crise dos valores"
+      },
+      {
+        "id": "p4",
+        "text": "O problema da filosofia moderna não é político nem moral — é linguístico. Os filósofos geram problemas insolúveis ao usar palavras fora dos jogos de linguagem em que têm sentido. A tarefa da filosofia é curar essas confusões.",
+        "author_hint": "Autor das Investigações Filosóficas.",
+        "correct_author": "Wittgenstein",
+        "problem": "os problemas filosóficos como confusões linguísticas"
+      }
+    ]
+  },
+  {
+    "id": "kant-modern-contextualize-01",
+    "type": "classify",
+    "title": "Kant como charneira entre moderno e contemporâneo",
+    "instruction": "Kant foi respondido de formas radicalmente diferentes pelos filósofos do século XIX. Identifique quem herda o que de Kant.",
+    "difficulty": 3,
+    "concepts": [
+      "dialética",
+      "razão",
+      "vontade-de-potência",
+      "ideologia"
+    ],
+    "items": [
+      {
+        "id": "i1",
+        "text": "Herdou a ideia de que a razão tem uma estrutura necessária — mas rejeitou a separação kantiana entre fenômeno e coisa-em-si. A razão não tem limites externos: o Absoluto é cognoscível.",
+        "options": [
+          "Hegel",
+          "Marx",
+          "Nietzsche",
+          "Wittgenstein"
+        ],
+        "correct": "Hegel",
+        "explanation": "Hegel aceita o programa kantiano de analisar as categorias da razão — mas recusa a coisa-em-si como limite inacessível. Para Hegel, a coisa-em-si é um resíduo do dualismo que a dialética supera: o processo pelo qual o Espírito se conhece a si mesmo não encontra uma barreira opaca — tudo o que parece opaco é apenas o Espírito ainda não se conhecendo completamente."
+      },
+      {
+        "id": "i2",
+        "text": "Herdou o método crítico — a desmistificação das pretensões excessivas — mas direcionou a crítica das categorias do entendimento para as condições materiais da produção ideológica.",
+        "options": [
+          "Hegel",
+          "Marx",
+          "Nietzsche",
+          "Wittgenstein"
+        ],
+        "correct": "Marx",
+        "explanation": "Marx reconheceu Kant como precursor da crítica — mas substituiu a crítica epistemológica pela crítica econômica. Em vez de 'quais são as condições de possibilidade do conhecimento?', Marx pergunta 'quais são as condições materiais de produção das ideias dominantes?'. A Crítica d'O Capital herda o título e o método — mas muda o objeto."
+      },
+      {
+        "id": "i3",
+        "text": "Rejeitou Kant como o filósofo do 'devo' — o imperativo que nega a vida em nome de valores abstratos. O imperativo categórico é, para ele, a formulação filosófica da moral ascética do ressentimento.",
+        "options": [
+          "Hegel",
+          "Marx",
+          "Nietzsche",
+          "Wittgenstein"
+        ],
+        "correct": "Nietzsche",
+        "explanation": "Nietzsche via Kant como o filósofo que deu à moral de escravo uma formulação filosófica sofisticada. O imperativo categórico — agir por dever, independente de inclinação — é para Nietzsche a negação da vida em nome de uma abstração. A autonomia kantiana é heteronomia disfarçada: submissão à razão universal em vez de autoafirmação criadora."
+      }
+    ]
+  },
+  {
+    "id": "current-rv-sources-classify-01",
+    "type": "classify",
+    "title": "Da razão ou da experiência?",
+    "instruction": "Classifique cada afirmação de conhecimento como (A) conhecimento que o racionalista considera a priori — independente da experiência —, ou (B) conhecimento que o empirista considera a posteriori — derivado da experiência. Justifique sua resposta identificando a posição que cada corrente assume sobre o caso.",
+    "difficulty": 2,
+    "concepts": [
+      "a-priori",
+      "razão",
+      "conhecimento",
+      "epistemologia"
+    ],
+    "items": [
+      {
+        "id": "i1",
+        "text": "'A soma dos ângulos internos de qualquer triângulo é 180 graus.'",
+        "options": [
+          "(A) A priori — racionalista",
+          "(B) A posteriori — empirista",
+          "(C) Disputado — depende da posição"
+        ],
+        "correct": "(A) A priori — racionalista",
+        "explanation": "O racionalista clássico (Descartes, Leibniz) considera a verdade geométrica um caso paradigmático de conhecimento a priori: necessária, universal e alcançável pela razão sem medições empíricas. O empirista Hume diria que é uma 'relação de ideias' — verdadeira por definição, não por descoberta sobre o mundo. Mill, o empirista mais radical, insistiu que mesmo a geometria é uma generalização indutiva muito bem confirmada. A posição de Kant resolve: é sintético a priori — acrescenta informação real, mas estruturada pelo espaço como forma pura da intuição."
+      },
+      {
+        "id": "i2",
+        "text": "'O ouro se dissolve em água régia mas não em ácido sulfúrico.'",
+        "options": [
+          "(A) A priori — racionalista",
+          "(B) A posteriori — empirista",
+          "(C) Disputado — depende da posição"
+        ],
+        "correct": "(B) A posteriori — empirista",
+        "explanation": "Nenhum racionalista sério tentaria deduzir o comportamento químico do ouro pela razão pura — isso é descoberta experimental. O empirismo trata este como caso paradigmático: só a experiência pode revelar as propriedades contingentes das substâncias. A posição kantiana concorda: é conhecimento empírico, condicionado pelas categorias do entendimento (causalidade, substância) mas cujo conteúdo específico só a experiência fornece."
+      },
+      {
+        "id": "i3",
+        "text": "'Nada pode ser e não ser ao mesmo tempo e sob o mesmo aspecto.'",
+        "options": [
+          "(A) A priori — racionalista",
+          "(B) A posteriori — empirista",
+          "(C) Disputado — depende da posição"
+        ],
+        "correct": "(A) A priori — racionalista",
+        "explanation": "O princípio de não-contradição é o candidato mais forte ao estatuto de verdade puramente racional: não parece possível nem coerente negá-lo sem usá-lo. Aristóteles o tratou como o princípio mais fundamental de toda demonstração. Racionalistas o tomam como verdade inata ou necessária da razão. Hume o classificaria entre as 'relações de ideias' — analiticamente verdadeiro. Mas o empirista radical questiona: como sabemos que o princípio se aplica a toda a realidade, e não apenas ao nosso pensamento?"
+      }
+    ]
+  },
+  {
+    "id": "current-rv-kant-bridge-01",
+    "type": "reconstruct",
+    "title": "A síntese kantiana em etapas",
+    "instruction": "Kant propôs que tanto o racionalismo quanto o empirismo estavam parcialmente certos e parcialmente errados. Reconstrua o argumento de Kant identificando: (1) o que o racionalismo captou corretamente; (2) o que o empirismo captou corretamente; (3) como Kant os combina; (4) o custo da síntese.",
+    "difficulty": 4,
+    "concepts": [
+      "a-priori",
+      "fenomeno",
+      "noumenon",
+      "razão",
+      "conhecimento"
+    ],
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "O que os racionalistas captaram corretamente que os empiristas negavam?",
+        "model_answer": "Que há estruturas necessárias e universais no conhecimento que não podem ser derivadas da experiência — porque a experiência só fornece o contingente e o particular. A causalidade, por exemplo, não é observada como necessária: observamos sequências, não necessidade. Kant concorda com os racionalistas: há conhecimento a priori genuíno — independente da experiência na sua validade, ainda que aplicado à experiência.",
+        "keywords": [
+          "a priori",
+          "necessário",
+          "universal",
+          "estruturas",
+          "independente da experiência"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "O que os empiristas capturam corretamente que os racionalistas negligenciavam?",
+        "model_answer": "Que sem experiência sensível não há conteúdo cognitivo real. Os racionalistas (especialmente Descartes e Leibniz) pretenderam derivar pela razão pura verdades sobre Deus, a alma e a estrutura do universo — sem qualquer âncora empírica. Kant concorda com os empiristas: 'Pensamentos sem conteúdo são vazios; intuições sem conceitos são cegas.' A razão pura sem experiência produz ilusões metafísicas.",
+        "keywords": [
+          "experiência",
+          "conteúdo",
+          "intuição",
+          "vazio",
+          "ilusão"
+        ]
+      },
+      {
+        "id": "s3",
+        "prompt": "Como Kant combina as duas posições na sua teoria do conhecimento sintético a priori?",
+        "model_answer": "O conhecimento resulta da cooperação de dois elementos: intuições sensíveis (fornecidas pela experiência) e conceitos puros do entendimento (a priori). O espaço e o tempo são formas a priori da intuição — não derivados da experiência, mas condições para que qualquer experiência seja possível. As categorias (causalidade, substância, unidade) são formas a priori do entendimento — estruturas que o sujeito impõe aos dados sensíveis para torná-los cognoscíveis. O resultado é conhecimento sintético a priori: acrescenta informação real (sintético, não apenas analítico), mas válido necessária e universalmente (a priori).",
+        "keywords": [
+          "intuição",
+          "conceito",
+          "espaço",
+          "tempo",
+          "categorias",
+          "sintético a priori"
+        ]
+      },
+      {
+        "id": "s4",
+        "prompt": "Qual é o custo desta síntese — o que Kant cede a cada lado para obter o acordo?",
+        "model_answer": "Kant cede ao empirismo a impossibilidade de conhecer além da experiência possível: Deus, a alma imortal e a liberdade não podem ser provados pela razão teórica. Cede ao racionalismo a recusa de que o conhecimento seja mera generalização de impressões: as estruturas a priori são reais e necessárias. O custo é a coisa-em-si incognoscível: só conhecemos os fenômenos — o mundo tal como estruturado pelo sujeito — nunca as coisas como são em si mesmas. O preço da síntese é um limite permanente ao conhecimento humano.",
+        "keywords": [
+          "fenômeno",
+          "coisa-em-si",
+          "limite",
+          "incognoscível",
+          "preço"
+        ]
+      }
+    ],
+    "correct_order": [
+      "s1",
+      "s2",
+      "s3",
+      "s4"
+    ]
+  },
+  {
+    "id": "current-idealism-positions-01",
+    "type": "classify",
+    "title": "Qual idealismo é esse?",
+    "instruction": "Identifique a qual forma de idealismo pertence cada posição — (A) idealismo subjetivo (Berkeley), (B) idealismo transcendental (Kant) ou (C) idealismo absoluto (Hegel). Atenção: as três formas diferem radicalmente nas suas premissas e conclusões.",
+    "difficulty": 3,
+    "concepts": [
+      "idealismo",
+      "fenomeno",
+      "noumenon",
+      "razão",
+      "ser"
+    ],
+    "items": [
+      {
+        "id": "i1",
+        "text": "'O espaço não é uma propriedade dos objetos físicos. É a forma pela qual nossa faculdade sensível organiza as percepções. Objetos no espaço são fenômenos — representações, não coisas-em-si.'",
+        "options": [
+          "(A) Idealismo subjetivo — Berkeley",
+          "(B) Idealismo transcendental — Kant",
+          "(C) Idealismo absoluto — Hegel"
+        ],
+        "correct": "(B) Idealismo transcendental — Kant",
+        "explanation": "A distinção fenômeno/coisa-em-si e a afirmação de que o espaço é forma da intuição sensível são marcas do idealismo transcendental kantiano. Kant não diz que objetos são mentais (Berkeley): diz que as condições de sua cognoscibilidade são estruturas do sujeito. A coisa-em-si existe — mas é incognoscível. Hegel rejeitará exatamente esse resíduo: a coisa-em-si incognoscível é para Hegel uma contradição do sistema kantiano."
+      },
+      {
+        "id": "i2",
+        "text": "'Uma cereja que não é vista, cheirada ou tocada por nenhuma mente não existe. Ser é ser percebido. A matéria independente da percepção é um conceito vazio.'",
+        "options": [
+          "(A) Idealismo subjetivo — Berkeley",
+          "(B) Idealismo transcendental — Kant",
+          "(C) Idealismo absoluto — Hegel"
+        ],
+        "correct": "(A) Idealismo subjetivo — Berkeley",
+        "explanation": "Esse é o idealismo mais radical — e o mais contraintuitivo. Berkeley (1685–1753) argumentou que a noção de matéria independente da percepção é incoerente: não podemos conceber um objeto sem concebê-lo como percebido. A solução para a continuidade dos objetos não percebidos: Deus os percebe permanentemente. O idealismo de Berkeley é totalmente diferente do de Kant, que jamais negou a existência de coisas-em-si: apenas a sua cognoscibilidade."
+      },
+      {
+        "id": "i3",
+        "text": "'A história não é acaso. É o processo pelo qual a Razão absoluta vem a conhecer-se a si mesma. O que é real é racional; o que é racional é real. Os conflitos históricos são momentos necessários desse automovimento.'",
+        "options": [
+          "(A) Idealismo subjetivo — Berkeley",
+          "(B) Idealismo transcendental — Kant",
+          "(C) Idealismo absoluto — Hegel"
+        ],
+        "correct": "(C) Idealismo absoluto — Hegel",
+        "explanation": "A identificação do real com o racional, a noção de que a história é o automovimento do Espírito, e a eliminação do limite kantiano (a coisa-em-si) são marcas do idealismo absoluto hegeliano. Hegel não diz que o mundo é mental no sentido de Berkeley — diz que o mundo e o pensamento têm a mesma estrutura racional, e que essa estrutura se desenvolve dialeticamente. O 'absoluto' não é um sujeito separado: é a totalidade do processo de autodesenvolvimento da razão."
+      }
+    ]
+  },
+  {
+    "id": "current-idealism-objections-01",
+    "type": "classify",
+    "title": "Objeções ao idealismo",
+    "instruction": "Cada objeção abaixo atinge uma forma específica de idealismo. Identifique qual forma é visada e se a objeção é bem-sucedida ou não segundo a própria posição idealista.",
+    "difficulty": 4,
+    "concepts": [
+      "idealismo",
+      "ser",
+      "razão",
+      "fenomeno"
+    ],
+    "items": [
+      {
+        "id": "i1",
+        "text": "Objeção: 'Se os objetos só existem enquanto percebidos, o que acontece com a Lua quando ninguém a observa?'",
+        "options": [
+          "Visa Berkeley — bem-sucedida",
+          "Visa Berkeley — Berkeley tem resposta",
+          "Visa Kant — bem-sucedida"
+        ],
+        "correct": "Visa Berkeley — Berkeley tem resposta",
+        "explanation": "A objeção visa Berkeley (idealismo subjetivo). Berkeley tem resposta pronta: Deus percebe continuamente todos os objetos — a Lua existe quando nenhuma mente humana a observa porque a mente divina a percebe ininterruptamente. Se a resposta é satisfatória depende de se você aceita a existência de Deus como recurso filosófico. O próprio Samuel Johnson achou a posição absurda e chutou uma pedra: 'Assim refuto Berkeley.' Berkeley responderia: a dor no pé confirmou a experiência — não a matéria."
+      },
+      {
+        "id": "i2",
+        "text": "Objeção de Marx a Hegel: 'Você inverteu o sujeito e o predicado. Não é o Espírito que se manifesta na história material — são as condições materiais que produzem as ideias dominantes de cada época.'",
+        "options": [
+          "Visa Hegel — bem-sucedida como refutação",
+          "Visa Hegel — é inversão, não refutação",
+          "Visa Kant — bem-sucedida"
+        ],
+        "correct": "Visa Hegel — é inversão, não refutação",
+        "explanation": "Marx não refuta Hegel — o inverte. Mantém a estrutura dialética, mas substitui o Espírito pelas relações de produção como motor. Um hegeliano poderia responder: Marx simplesmente trocou um abstrato (Espírito) por outro (modo de produção) sem mostrar que o processo dialético da história requer a primazia da matéria sobre a ideia. A questão de fundo — o que é mais fundamental, mente ou matéria? — permanece aberta."
+      }
+    ]
+  },
+  {
+    "id": "current-idealism-compare-01",
+    "type": "comparison",
+    "title": "Kant e Hegel: continuidade e ruptura",
+    "instruction": "Hegel se considerava o completador de Kant — mas também seu crítico. Mapeie onde Hegel concorda com Kant e onde se afasta, e identifique a questão filosófica central em cada divergência.",
+    "difficulty": 4,
+    "concepts": [
+      "idealismo",
+      "dialética",
+      "razão",
+      "fenomeno",
+      "noumenon"
+    ],
+    "positions": [
+      {
+        "id": "p1",
+        "text": "Kant: 'O espaço e o tempo são formas a priori da intuição; as categorias são formas a priori do entendimento. O conhecimento resulta da síntese de intuições e conceitos.'",
+        "author_hint": "A revolução copernicana kantiana.",
+        "correct_author": "Kant",
+        "problem": "As condições de possibilidade do conhecimento"
+      },
+      {
+        "id": "p2",
+        "text": "Hegel: 'A coisa-em-si incognoscível de Kant é uma contradição. Para afirmar que algo existe além do conhecimento, precisamos de algum acesso a esse além — o que já é conhecimento. O limite do conhecimento é ilegítimo.'",
+        "author_hint": "Hegel criticando o dualismo kantiano fenômeno/coisa-em-si.",
+        "correct_author": "Hegel",
+        "problem": "A eliminação do limite kantiano"
+      },
+      {
+        "id": "p3",
+        "text": "Kant: 'As ideias da razão — Deus, alma, liberdade — ultrapassam qualquer experiência possível. A razão teórica não pode prová-las nem refutá-las. São postulados da razão prática.'",
+        "author_hint": "Os limites da razão teórica kantiana.",
+        "correct_author": "Kant",
+        "problem": "Os limites do que a razão pode conhecer"
+      },
+      {
+        "id": "p4",
+        "text": "Hegel: 'O Absoluto não está além do pensamento — é o próprio processo do pensamento chegando ao autoconhecimento completo. A filosofia não estuda algo fora da razão: a razão estuda a si mesma em seu automovimento.'",
+        "author_hint": "Hegel sobre o Absoluto e o autoconhecimento da razão.",
+        "correct_author": "Hegel",
+        "problem": "O Absoluto como processo, não como limite"
+      }
+    ]
+  },
+  {
+    "id": "current-materialism-base-super-01",
+    "type": "classify",
+    "title": "Base ou superestrutura?",
+    "instruction": "No materialismo histórico de Marx, há uma distinção entre base econômica (relações e forças de produção) e superestrutura (formas de consciência derivadas: direito, política, religião, filosofia). Classifique cada elemento.",
+    "difficulty": 2,
+    "concepts": [
+      "ideologia",
+      "dialética",
+      "razão"
+    ],
+    "items": [
+      {
+        "id": "i1",
+        "text": "O sistema de patentes que protege inventos industriais durante 20 anos.",
+        "options": [
+          "Base (relações/forças de produção)",
+          "Superestrutura (formas de consciência)",
+          "Ambos — interpenetram"
+        ],
+        "correct": "Superestrutura (formas de consciência)",
+        "explanation": "O sistema de patentes é uma instituição jurídica — parte do direito, que Marx coloca na superestrutura. Mas o materialismo histórico admite que superestrutura e base se interpenetram: o sistema de patentes foi criado para proteger os interesses dos proprietários do capital intelectual (base), e ao mesmo tempo molda o desenvolvimento tecnológico futuro (retroage sobre a base). A distinção base/superestrutura é analítica, não uma separação estanque."
+      },
+      {
+        "id": "i2",
+        "text": "A organização do trabalho em linhas de montagem (taylorismo/fordismo) com divisão extrema de tarefas.",
+        "options": [
+          "Base (relações/forças de produção)",
+          "Superestrutura (formas de consciência)",
+          "Ambos — interpenetram"
+        ],
+        "correct": "Base (relações/forças de produção)",
+        "explanation": "A organização do processo produtivo é parte da base — especificamente das relações de produção. O taylorismo não é apenas uma ideia: é uma forma concreta de organizar corpos, tempos e movimentos no processo de produção para extrair mais mais-valia. Marx analisou a divisão do trabalho extensivamente: ela não é neutra tecnicamente, mas expressa relações de dominação entre quem projeta o trabalho e quem o executa."
+      },
+      {
+        "id": "i3",
+        "text": "A crença de que a mobilidade social é possível para quem trabalha com esforço suficiente — o 'sonho americano'.",
+        "options": [
+          "Base (relações/forças de produção)",
+          "Superestrutura (formas de consciência)",
+          "Ambos — interpenetram"
+        ],
+        "correct": "Superestrutura (formas de consciência)",
+        "explanation": "A crença na mobilidade social como resultado do mérito individual é, para Marx, ideologia: uma representação que apresenta como universal (qualquer um pode vencer) o que serve aos interesses da classe dominante (os trabalhadores não devem organizar-se coletivamente — devem competir individualmente). Não significa que a crença seja completamente falsa — significa que sua função social é legitimar uma estrutura que beneficia poucos."
+      }
+    ]
+  },
+  {
+    "id": "current-materialism-alienation-reconstruct-01",
+    "type": "reconstruct",
+    "title": "Reconstruir o argumento da alienação",
+    "instruction": "Marx identificou quatro dimensões da alienação do trabalhador sob o capitalismo. Reconstrua o argumento de cada dimensão e identifique o que é perdido em cada caso.",
+    "difficulty": 3,
+    "concepts": [
+      "ideologia",
+      "dialética",
+      "razão"
+    ],
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "O trabalhador se aliena do produto do seu trabalho. O que isso significa concretamente?",
+        "model_answer": "O produto do trabalho pertence ao capitalista, não ao trabalhador. Mas a alienação vai além da propriedade: o produto se torna uma força independente que se volta contra o trabalhador. A mercadoria produzida representa trabalho não pago — mais-valia que financia o capital que comprará mais trabalho e controlará mais trabalhadores. O produto do trabalhador não apenas é levado: retorna como capital, como poder sobre o próprio trabalhador. Marx usa a imagem do vampiro: o capital é trabalho morto que se alimenta de trabalho vivo.",
+        "keywords": [
+          "produto",
+          "mercadoria",
+          "capital",
+          "mais-valia",
+          "poder sobre"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "O trabalhador se aliena do processo produtivo. Em que sentido o trabalho em si é alienado?",
+        "model_answer": "O trabalho não pertence à 'natureza essencial' do trabalhador — é trabalho forçado, não voluntário. O trabalhador não se afirma no trabalho: nega-se. Não se sente satisfeito: sente-se infeliz. Não desenvolve sua energia física e mental: mortifica seu corpo e arruína sua mente. O trabalhador só se sente si mesmo fora do trabalho. O trabalho — que deveria ser a expressão mais plena da humanidade — torna-se o lugar de maior desumanização.",
+        "keywords": [
+          "forçado",
+          "nega-se",
+          "infeliz",
+          "mortifica",
+          "fora do trabalho"
+        ]
+      },
+      {
+        "id": "s3",
+        "prompt": "O trabalhador se aliena de si mesmo como 'ser genérico'. O que Marx entende por ser genérico humano?",
+        "model_answer": "O ser genérico (Gattungswesen) é o que distingue o humano dos animais: a capacidade de fazer do próprio trabalho o objeto da sua vontade e consciência, de transformar a natureza segundo um plano concebido livremente. O animal produz apenas sob a pressão imediata da necessidade física — o ser humano pode produzir mesmo sem necessidade, segundo critérios de beleza, liberdade e projeto. O trabalho alienado inverte isso: o trabalhador produz como um animal — apenas para sobreviver, sem projeto, sem liberdade.",
+        "keywords": [
+          "ser genérico",
+          "consciência",
+          "plano",
+          "liberdade",
+          "como um animal"
+        ]
+      }
+    ],
+    "correct_order": [
+      "s1",
+      "s2",
+      "s3"
+    ]
+  },
+  {
+    "id": "current-existentialism-authentic-01",
+    "type": "classify",
+    "title": "Autêntico ou inautêntico?",
+    "instruction": "O existencialismo distingue a existência autêntica — assunção lúcida da própria liberdade e finitude — da existência inautêntica — fuga para o conformismo impessoal, a 'má-fé' ou o 'a gente'. Classifique cada situação.",
+    "difficulty": 3,
+    "concepts": [
+      "ser",
+      "verdade",
+      "vontade-de-potência",
+      "fenomenologia"
+    ],
+    "items": [
+      {
+        "id": "i1",
+        "text": "Um jovem escolhe a carreira de medicina porque 'é o que se espera de alguém com minha formação e as expectativas da minha família' — sem nunca interrogar se é isso que quer.",
+        "options": [
+          "Existência autêntica",
+          "Existência inautêntica (má-fé / das Man)",
+          "Ambíguo — depende de como é vivido"
+        ],
+        "correct": "Existência inautêntica (má-fé / das Man)",
+        "explanation": "Para Heidegger, o 'a gente' (das Man) é a estrutura de impessoalidade que governa a existência cotidiana: fazemos o que 'se faz', pensamos o que 'se pensa', escolhemos o que 'se escolhe'. A referência às expectativas familiares e sociais como fundamento da escolha de carreira é o caso paradigmático de das Man. Sartre chamaria isso de má-fé: tratar-se como coisa determinada por causas externas, em vez de como liberdade responsável. O problema não é escolher medicina — é a estrutura da escolha: 'porque é o que se espera', não 'porque é o que escolho ser'."
+      },
+      {
+        "id": "i2",
+        "text": "Uma mulher diagniosticada com câncer terminal decide passar os últimos meses viajando a lugares que sempre quis ver, em vez de seguir o protocolo médico que prolongaria a vida com sofrimento.",
+        "options": [
+          "Existência autêntica",
+          "Existência inautêntica (má-fé / das Man)",
+          "Ambíguo — depende de como é vivido"
+        ],
+        "correct": "Ambíguo — depende de como é vivido",
+        "explanation": "A escolha parece autêntica: confronto lúcido com a morte, assunção da própria finitude, decisão que contesta a norma médica padrão. Mas o existencialismo ressalva: a autenticidade não está no conteúdo da escolha (viajar vs. tratar) — está na estrutura existencial com que é feita. A mesma escolha pode ser autêntica (feita em plena consciência da finitude e da liberdade) ou inautêntica (feita por conformidade a uma imagem de si mesmo que se quer projetar). Heidegger não oferece um catálogo de escolhas autênticas — oferece uma estrutura de como escolher."
+      },
+      {
+        "id": "i3",
+        "text": "Um trabalhador de fábrica que repete os mesmos movimentos 8h por dia, sem pensar no que faz, seguindo instruções ao pé da letra — e que se define completamente pelo seu papel: 'sou operador de torno, é o que sou'.",
+        "options": [
+          "Existência autêntica",
+          "Existência inautêntica (má-fé / das Man)",
+          "Ambíguo — depende de como é vivido"
+        ],
+        "correct": "Existência inautêntica (má-fé / das Man)",
+        "explanation": "Sartre chamaria isso de má-fé na forma de 'espírito de seriedade': tratar o papel social como a essência do que se é. 'Sou operador de torno, é o que sou' nega a transcendência — a abertura radical da existência humana. Para Sartre, o humano nunca 'é' algo da forma como uma pedra 'é' dura: está sempre além do que é, projetando-se. Identificar-se completamente com um papel social é a forma mais comum de fuga da liberdade. Note que o existencialismo não diz que o trabalhador deve abandonar o emprego — diz que deve assumir sua situação como escolha, não como destino."
+      }
+    ]
+  },
+  {
+    "id": "current-existentialism-freedom-reconstruct-01",
+    "type": "reconstruct",
+    "title": "A liberdade radical e seus problemas",
+    "instruction": "Sartre afirmou que 'o homem está condenado a ser livre'. Reconstrua o argumento e examine as três objeções mais sérias.",
+    "difficulty": 4,
+    "concepts": [
+      "ser",
+      "fenomenologia",
+      "vontade-de-potência"
+    ],
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "O que Sartre quer dizer com 'a existência precede a essência'? Como esse princípio leva à liberdade radical?",
+        "model_answer": "Se Deus não existe, não há natureza humana pré-definida. O humano primeiro existe — lançado no mundo sem razão — e depois define o que é pelo que faz. Não há essência humana que determine o que devo ser: sou o que escolho ser. Mas 'condenado' porque essa liberdade não é opcional — não posso não escolher. Não fazer nada é já uma escolha. Fugir da liberdade (má-fé) é uma escolha. A angústia é a tontura de perceber que a liberdade não tem fundo, não tem fundamento garantido.",
+        "keywords": [
+          "essência",
+          "existência",
+          "escolha",
+          "angústia",
+          "condenado",
+          "fundamento"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "Objeção 1 — O determinismo: 'Somos produto do nosso ambiente, educação, biologia. A liberdade radical é ilusão.' Como Sartre responderia?",
+        "model_answer": "Sartre distingue situação e liberdade. A situação é o conjunto de condições que não escolhemos — nascer pobre, ter tal corpo, viver em tal época. Mas a liberdade é sempre liberdade em situação: não é liberdade de mudar qualquer fato, mas liberdade de assumir uma atitude diante dos fatos. O mesmo nascer pobre pode ser vivido como fatalidade (inautêntico) ou como ponto de partida de um projeto (autêntico). A situação nunca determina completamente — sempre há margem de assunção ou negação.",
+        "keywords": [
+          "situação",
+          "projeto",
+          "atitude",
+          "assunção",
+          "margem"
+        ]
+      },
+      {
+        "id": "s3",
+        "prompt": "Objeção 2 — O outro: 'Minha liberdade é limitada pela liberdade dos outros. Sartre não ignora o político?' Como o existencialismo trata a liberdade coletiva?",
+        "model_answer": "Sartre reconhece que o olhar do outro é uma ameaça à liberdade: ser visto é ser objetivado — reduzido a uma essência que o outro projeta sobre mim. Mas em Crítica da Razão Dialética (obra tardia), Sartre tentou combinar existencialismo e marxismo: a liberdade individual só se realiza plenamente em condições materiais que a permitam. A miséria não elimina a liberdade, mas constrange estruturalmente as possibilidades de projeto. A libertação individual e a transformação social não são opostas — são interdependentes.",
+        "keywords": [
+          "outro",
+          "olhar",
+          "objetivação",
+          "condições materiais",
+          "marxismo"
+        ]
+      }
+    ],
+    "correct_order": [
+      "s1",
+      "s2",
+      "s3"
+    ]
+  },
+  {
+    "id": "current-analytic-continental-classify-01",
+    "type": "classify",
+    "title": "Analítica ou continental?",
+    "instruction": "O séc. XX foi marcado pelo grande cisma entre filosofia analítica e filosofia continental. Identifique a qual tradição pertence cada afirmação ou preocupação — (A) analítica ou (B) continental. Atenção: o cisma não é geográfico (há analíticos na França, continentais na Inglaterra) — é metodológico.",
+    "difficulty": 3,
+    "concepts": [
+      "jogos-de-linguagem",
+      "fenomenologia",
+      "logos",
+      "razão",
+      "verdade"
+    ],
+    "items": [
+      {
+        "id": "i1",
+        "text": "'Antes de filosofar sobre a consciência, devemos analisar as condições lógicas sob as quais enunciados sobre estados mentais têm sentido.'",
+        "options": [
+          "(A) Analítica",
+          "(B) Continental",
+          "(C) Ambas — a distinção não se aplica"
+        ],
+        "correct": "(A) Analítica",
+        "explanation": "A prioridade da análise lógica ou linguística sobre questões metafísicas é a marca da filosofia analítica. A posição descrita é próxima de Wittgenstein (Investigações) e da filosofia da linguagem ordinária: não investigue diretamente a consciência — investigue como falamos sobre ela, sob que condições esses enunciados têm sentido. A filosofia continental tenderia a ir diretamente à experiência da consciência (Husserl, Sartre) sem passar pela análise linguística como etapa prévia."
+      },
+      {
+        "id": "i2",
+        "text": "'Para compreender o sujeito humano, é preciso partir da experiência vivida — do corpo habitado, da percepção antes de qualquer teorização científica sobre o cérebro.'",
+        "options": [
+          "(A) Analítica",
+          "(B) Continental",
+          "(C) Ambas — a distinção não se aplica"
+        ],
+        "correct": "(B) Continental",
+        "explanation": "A prioridade da experiência vivida (Erlebnis, vécu) sobre a análise teórica é característica da fenomenologia continental — especialmente de Merleau-Ponty, que analisou a percepção como experiência corporal pré-reflexiva, anterior à distinção sujeito/objeto que a ciência pressupõe. A filosofia analítica da mente tenderia a partir das descrições funcionais ou dos experimentos em ciências cognitivas — não da experiência em primeira pessoa como ponto de partida privilegiado."
+      },
+      {
+        "id": "i3",
+        "text": "'Os enunciados da metafísica tradicional — 'Deus existe', 'a alma é imortal', 'o nada nada' — são literalmente sem sentido: não podem ser verificados empiricamente nem são verdades analíticas.'",
+        "options": [
+          "(A) Analítica",
+          "(B) Continental",
+          "(C) Ambas — a distinção não se aplica"
+        ],
+        "correct": "(A) Analítica",
+        "explanation": "Esse é o programa do Positivismo Lógico (Círculo de Viena: Carnap, Schlick, Ayer) — a corrente mais influente da tradição analítica nos anos 1930. O princípio de verificação: um enunciado tem sentido cognitivo apenas se é verificável empiricamente ou analiticamente verdadeiro por definição. A famosa provocação de Carnap: a frase de Heidegger 'O nada nadifica' (Das Nichts nichtet) é gramaticalmente formada mas logicamente vazia — trata 'nada' como um substantivo e 'nadar' como predicado, o que é um pseudo-problema gerado por confusão gramatical."
+      }
+    ]
+  }
+]

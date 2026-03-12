@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plano de Aula — Aristóteles</title>
+  <meta name="description" content="Gerador de plano de aula de Filosofia com competências e habilidades BNCC.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <style>
+    /* ── Variáveis locais ────────────────────────────────────────────── */
+    :root {
+      --lapis:    #2b4b7e;
+      --lapis-bg: rgba(43, 75, 126, 0.07);
+      --lapis-bd: rgba(43, 75, 126, 0.22);
+      --rust-bg:  rgba(139, 58, 42, 0.06);
+    }
+
+    /* ── Layout dois painéis ─────────────────────────────────────────── */
+    .pw {
+      display: grid;
+      grid-template-columns: 470px 1fr;
+      gap: 1.5rem;
+      max-width: 1300px;
+      margin: 0 auto;
+      padding: 1.5rem 1.5rem 3rem;
+      align-items: start;
+    }
+
+    /* ── Painel do formulário ─────────────────────────────────────────── */
+    .fp {
+      background: rgba(245, 239, 227, 0.92);
+      border: 1px solid var(--border-medium);
+      border-radius: var(--radius-md);
+      box-shadow: 2px 4px 14px var(--color-shadow-strong);
+      overflow: hidden;
+    }
+
+    .fp-title {
+      background: linear-gradient(180deg, #2a1e0f 0%, #3d2e1a 100%);
+      border-bottom: 2px solid var(--color-bronze);
+      padding: 0.9rem 1.2rem;
+      font-family: var(--font-display);
+      font-size: 0.95rem;
+      font-weight: 400;
+      font-variant: small-caps;
+      letter-spacing: 0.07em;
+      color: var(--bg-surface);
+    }
+
+    .fp-body { padding: 1.2rem 1.2rem 1.5rem; }
+
+    /* Grupo de campos */
+    .fg {
+      margin-bottom: 0.8rem;
+    }
+
+    .fg label {
+      display: flex;
+      align-items: flex-end;
+      min-height: 2em;
+      padding-bottom: 0.12rem;
+      font-family: var(--font-serif);
+      font-size: 0.83rem;
+      color: var(--text-secondary);
+      font-variant: small-caps;
+      letter-spacing: 0.04em;
+    }
+
+    .fg input[type="text"],
+    .fg input[type="date"],
+    .fg input[type="number"],
+    .fg select,
+    .fg textarea {
+      width: 100%;
+      font-family: var(--font-serif);
+      font-size: 0.9rem;
+      color: var(--text-primary);
+      background: rgba(255, 255, 255, 0.85);
+      border: 1px solid var(--border-medium);
+      border-radius: var(--radius-sm);
+      padding: 0.35rem 0.55rem;
+      box-sizing: border-box;
+      transition: border-color 0.15s;
+    }
+
+    .fg input:focus, .fg select:focus, .fg textarea:focus {
+      outline: none;
+      border-color: var(--color-bronze);
+    }
+
+    .fg input[readonly], .fg input[disabled] {
+      background: rgba(200, 194, 184, 0.35);
+      color: var(--text-secondary);
+      cursor: default;
+    }
+
+    .fg textarea { resize: vertical; min-height: 3.5rem; line-height: 1.5; }
+
+    /* Grids de campos */
+    .fr2 { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; }
+    .fr3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0.5rem; }
+
+    /* Separador de seção no formulário */
+    .fs {
+      font-family: var(--font-serif);
+      font-size: 0.78rem;
+      font-variant: small-caps;
+      letter-spacing: 0.07em;
+      color: var(--color-rust);
+      border-bottom: 1px solid var(--border-light);
+      padding-bottom: 0.3rem;
+      margin: 1.2rem 0 0.7rem;
+    }
+
+    /* Caixas de checkbox */
+    .box-scroll {
+      max-height: 160px;
+      overflow-y: auto;
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius-sm);
+      background: rgba(255, 255, 255, 0.7);
+      padding: 0.4rem 0.5rem;
+      font-family: var(--font-serif);
+      font-size: 0.83rem;
+    }
+
+    .pi {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.4rem;
+      padding: 0.18rem 0.2rem;
+      border-radius: 2px;
+    }
+
+    .pi:hover { background: rgba(139, 58, 42, 0.05); }
+
+    .pi input[type="checkbox"] { margin-top: 0.15rem; flex-shrink: 0; }
+
+    .pi label {
+      cursor: pointer;
+      line-height: 1.4;
+      color: var(--text-primary);
+      min-height: auto;
+      align-items: flex-start;
+      padding: 0;
+      font-variant: normal;
+      letter-spacing: 0;
+    }
+
+    /* Código BNCC destacado */
+    .pid {
+      font-family: var(--font-serif);
+      font-size: 0.75rem;
+      font-variant: small-caps;
+      color: var(--lapis);
+      background: var(--lapis-bg);
+      border: 1px solid var(--lapis-bd);
+      border-radius: 2px;
+      padding: 0 0.3rem;
+      margin-right: 0.3rem;
+      white-space: nowrap;
+      display: inline-block;
+    }
+
+    .pe2 {
+      color: var(--text-muted);
+      font-style: italic;
+      padding: 0.5rem 0.2rem;
+      font-size: 0.83rem;
+    }
+
+    /* Toolbar de acção */
+    .pt {
+      display: flex;
+      gap: 0.6rem;
+      padding: 0.9rem 1.2rem;
+      border-top: 1px solid var(--border-light);
+      background: rgba(200, 194, 184, 0.15);
+    }
+
+    .btn-gerar {
+      flex: 1;
+      background: var(--text-primary);
+      color: var(--bg-surface);
+      border: none;
+      border-radius: var(--radius-sm);
+      padding: 0.55rem 1rem;
+      font-family: var(--font-serif);
+      font-size: 0.88rem;
+      font-variant: small-caps;
+      letter-spacing: 0.05em;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+
+    .btn-gerar:hover { background: #3d2e1a; }
+
+    .btn-print {
+      background: var(--rust-bg);
+      color: var(--color-rust);
+      border: 1px solid var(--color-rust);
+      border-radius: var(--radius-sm);
+      padding: 0.55rem 1rem;
+      font-family: var(--font-serif);
+      font-size: 0.88rem;
+      font-variant: small-caps;
+      letter-spacing: 0.04em;
+      cursor: pointer;
+      transition: background 0.15s;
+      white-space: nowrap;
+    }
+
+    .btn-print:hover { background: rgba(139, 58, 42, 0.14); }
+
+    /* ── Painel de preview ────────────────────────────────────────────── */
+    .pp {
+      background: rgba(245, 239, 227, 0.88);
+      border: 1px solid var(--border-medium);
+      border-radius: var(--radius-md);
+      box-shadow: 2px 4px 14px var(--color-shadow-strong);
+      overflow: hidden;
+    }
+
+    .pp-title {
+      background: linear-gradient(180deg, #2a1e0f 0%, #3d2e1a 100%);
+      border-bottom: 2px solid var(--color-bronze);
+      padding: 0.9rem 1.2rem;
+      font-family: var(--font-display);
+      font-size: 0.95rem;
+      font-weight: 400;
+      font-variant: small-caps;
+      letter-spacing: 0.07em;
+      color: var(--bg-surface);
+    }
+
+    .pb2 { padding: 1rem 1.2rem; }
+
+    /* Documento gerado */
+    #doc {
+      background: white;
+      border: 1px solid rgba(176, 152, 112, 0.3);
+      border-radius: 2px;
+      padding: 1.8rem 2rem;
+      font-family: var(--font-serif);
+      font-size: 0.9rem;
+      line-height: 1.65;
+      color: #1a1410;
+      min-height: 200px;
+    }
+
+    #doc .doc-header { margin-bottom: 1.5rem; border-bottom: 2px solid #1a1410; padding-bottom: 0.8rem; }
+    #doc .doc-titulo { font-family: var(--font-display); font-size: 1.2rem; font-weight: 400; margin: 0; }
+    #doc .doc-escola { font-size: 0.85rem; color: #5a4a3a; margin: 0.2rem 0 0; }
+
+    #doc .di {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.15rem 1rem;
+      margin: 1rem 0;
+      font-size: 0.83rem;
+    }
+
+    #doc .di span { display: block; }
+    #doc .di strong { color: #3d2e1a; }
+
+    #doc .ds { margin: 1rem 0; }
+
+    #doc .dst {
+      display: inline-block;
+      background: #1a1410;
+      color: #f5efe3;
+      font-family: var(--font-display);
+      font-size: 0.78rem;
+      font-variant: small-caps;
+      letter-spacing: 0.06em;
+      padding: 0.2rem 0.7rem;
+      border-radius: 1px;
+      margin-bottom: 0.5rem;
+    }
+
+    #doc .dc {
+      font-size: 0.88rem;
+      line-height: 1.6;
+      padding-left: 0.5rem;
+      border-left: 2px solid #b8a890;
+    }
+
+    #doc ul.dl {
+      margin: 0;
+      padding: 0 0 0 1.3rem;
+    }
+
+    #doc ul.dl li { margin-bottom: 0.2rem; font-size: 0.87rem; }
+
+    #doc .bncc-id {
+      font-variant: small-caps;
+      font-size: 0.78rem;
+      color: var(--lapis);
+      margin-right: 0.3rem;
+    }
+
+    #doc .vazio {
+      color: #8a7a6a;
+      font-style: italic;
+      font-size: 0.88rem;
+      text-align: center;
+      padding: 2rem 0;
+    }
+
+    /* ── Responsive ──────────────────────────────────────────────────── */
+    @media (max-width: 960px) {
+      .pw {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .pw { padding: 1rem 0.75rem 2rem; }
+      .fr3 { grid-template-columns: 1fr 1fr; }
+    }
+
+    /* ── Impressão ────────────────────────────────────────────────────── */
+    @media print {
+      body { background: white !important; }
+      body::before { display: none !important; }
+      header, .fp, .pt, .pp-title { display: none !important; }
+      .pw { display: block !important; padding: 0 !important; }
+      .pp {
+        background: white !important;
+        border: none !important;
+        box-shadow: none !important;
+      }
+      .pb2 { padding: 0 !important; }
+      #doc {
+        border: none !important;
+        padding: 1.5cm 2cm !important;
+        font-size: 10pt !important;
+        box-shadow: none !important;
+      }
+      * {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Cabeçalho ======================================================= -->
+  <header class="site-header" role="banner">
+    <div class="header-inner">
+      <div class="header-brand">
+        <a href="index.html" class="header-title">Aristóteles</a>
+        <span class="header-subtitle">Sistema de Filosofia</span>
+      </div>
+      <nav class="header-nav" aria-label="Navegação principal">
+        <a href="index.html"             class="header-nav-link">Início</a>
+        <a href="guia-professor.html"    class="header-nav-link">Guia do Professor</a>
+        <a href="plano-aula.html"        class="header-nav-link active">Plano de Aula</a>
+        <a href="sobre.html"             class="header-nav-link">Sobre</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Layout dois painéis ============================================= -->
+  <div class="pw">
+
+    <!-- Formulário ==================================================== -->
+    <div class="fp">
+      <div class="fp-title">Identificação da Aula</div>
+      <div class="fp-body">
+
+        <!-- Linha 1: escola, disciplina, turma -->
+        <div class="fr3">
+          <div class="fg">
+            <label>Escola / Instituição</label>
+            <input type="text" id="f-escola" placeholder="Nome da escola">
+          </div>
+          <div class="fg">
+            <label>Disciplina</label>
+            <input type="text" id="f-disc" value="Filosofia">
+          </div>
+          <div class="fg">
+            <label>Turma</label>
+            <input type="text" id="f-turma" placeholder="Ex.: 2.º A">
+          </div>
+        </div>
+
+        <!-- Linha 2: professor, data, ano/série -->
+        <div class="fr3">
+          <div class="fg">
+            <label>Professor(a)</label>
+            <input type="text" id="f-prof" placeholder="Nome completo">
+          </div>
+          <div class="fg">
+            <label>Data</label>
+            <input type="date" id="f-data">
+          </div>
+          <div class="fg">
+            <label>Ano / Série</label>
+            <select id="f-ano" onchange="onAno()">
+              <option value="">Selecione...</option>
+              <optgroup label="Ensino Médio">
+                <option value="EM1">1.º EM</option>
+                <option value="EM2">2.º EM</option>
+                <option value="EM3">3.º EM</option>
+              </optgroup>
+              <optgroup label="Ensino Fundamental">
+                <option value="EF8">8.º EF</option>
+                <option value="EF9">9.º EF</option>
+              </optgroup>
+            </select>
+          </div>
+        </div>
+
+        <!-- Linha 3: aulas, duração, carga -->
+        <div class="fr3">
+          <div class="fg">
+            <label>N.º de Aulas</label>
+            <input type="number" id="f-naulas" value="1" min="1" max="20" onchange="calcCarga()">
+          </div>
+          <div class="fg">
+            <label>Duração por Aula</label>
+            <select id="f-dur" onchange="calcCarga()">
+              <option value="50">50 min</option>
+              <option value="55">55 min</option>
+              <option value="60">60 min</option>
+              <option value="100">1h40</option>
+              <option value="1h30">1h30</option>
+            </select>
+          </div>
+          <div class="fg">
+            <label>Carga Horária Total</label>
+            <input type="text" id="f-carga" readonly>
+          </div>
+        </div>
+
+        <!-- Tema -->
+        <div class="fg">
+          <label>Tema / Unidade Temática</label>
+          <input type="text" id="f-tema" placeholder="Ex.: O argumento ontológico de Anselmo">
+        </div>
+
+        <!-- Objetos de Conhecimento por ano -->
+        <div class="fs" id="lbl-obj">Objetos de Conhecimento</div>
+        <div class="box-scroll" id="box-obj">
+          <div class="pe2">Selecione o ano/série acima...</div>
+        </div>
+        <div class="fg" style="margin-top: 0.4rem;">
+          <textarea id="f-obj-xa" placeholder="Adicionar livremente..."></textarea>
+        </div>
+
+        <!-- Habilidades BNCC por ano -->
+        <div class="fs">Habilidades BNCC — Ciências Humanas e Sociais</div>
+        <div class="box-scroll" id="box-bncc">
+          <div class="pe2">Selecione o ano/série acima...</div>
+        </div>
+        <div class="fg" style="margin-top: 0.4rem;">
+          <textarea id="f-bncc-xa" placeholder="Adicionar habilidades livres..."></textarea>
+        </div>
+
+        <!-- Objetivos -->
+        <div class="fs">Objetivos da Aula</div>
+        <div class="box-scroll" id="box-obt"></div>
+        <div class="fg" style="margin-top: 0.4rem;">
+          <textarea id="f-obt-xa" placeholder="Adicionar objetivos..."></textarea>
+        </div>
+
+        <!-- Metodologia -->
+        <div class="fs">Metodologia</div>
+        <div class="box-scroll" id="box-met"></div>
+        <div class="fg" style="margin-top: 0.4rem;">
+          <textarea id="f-met-xa" placeholder="Descrever metodologia..."></textarea>
+        </div>
+
+        <!-- Recursos -->
+        <div class="fs">Recursos e Materiais</div>
+        <div class="box-scroll" id="box-rec"></div>
+        <div class="fg" style="margin-top: 0.4rem;">
+          <textarea id="f-rec-xa" placeholder="Outros recursos..."></textarea>
+        </div>
+
+        <!-- Avaliação -->
+        <div class="fs">Avaliação</div>
+        <div class="box-scroll" id="box-ava"></div>
+        <div class="fg" style="margin-top: 0.4rem;">
+          <textarea id="f-ava-xa" placeholder="Descrever avaliação..."></textarea>
+        </div>
+
+        <!-- Observações -->
+        <div class="fs">Observações</div>
+        <div class="fg">
+          <textarea id="f-obs" placeholder="Anotações, adaptações para NEE, materiais extras..." style="min-height: 4rem;"></textarea>
+        </div>
+
+      </div><!-- /.fp-body -->
+
+      <!-- Toolbar -->
+      <div class="pt">
+        <button class="btn-gerar" onclick="gerar()">Gerar Plano</button>
+        <button class="btn-print" onclick="window.print()">Imprimir / PDF</button>
+      </div>
+    </div><!-- /.fp -->
+
+    <!-- Painel de preview ============================================= -->
+    <div class="pp">
+      <div class="pp-title">Pré-visualização do Plano</div>
+      <div class="pb2">
+        <div id="doc">
+          <div class="vazio">Preencha os campos e clique em «Gerar Plano».</div>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /.pw -->
+
+  <!-- Rodapé =========================================================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <p class="footer-credits">Aristóteles &mdash; Sistema de Filosofia &mdash; v1.10.0</p>
+      <nav class="footer-ecosystem" aria-label="Ecossistema educacional">
+        <span style="color: var(--text-muted); font-size: var(--text-xs);">Ecossistema:</span>
+        <a href="https://luddevergard3n.github.io/humboldt/" class="footer-ecosystem-link" target="_blank" rel="noopener">Humboldt</a>
+        <a href="https://luddevergard3n.github.io/johnson-english/" class="footer-ecosystem-link" target="_blank" rel="noopener">Johnson</a>
+        <a href="#" class="footer-ecosystem-link">Heródoto</a>
+        <a href="#" class="footer-ecosystem-link">Euclides</a>
+        <a href="#" class="footer-ecosystem-link">Lavoisier</a>
+        <a href="#" class="footer-ecosystem-link">Archimedes</a>
+        <a href="#" class="footer-ecosystem-link">Darwin</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    /* ================================================================
+     * Dados — Objetos de Conhecimento por ano/série
+     * ============================================================== */
+    const OBJ = {
+      EM1: [
+        'Introdução à Filosofia: o que é filosofar e por que filosofar',
+        'A passagem do mito ao logos na Grécia Clássica',
+        'Os pré-socráticos e a busca pelo princípio (arché)',
+        'O método socrático: ironia, maiêutica e elenchos',
+        'A Teoria das Ideias de Platão e o Mito da Caverna',
+        'Aristóteles: lógica, silogismo e teoria das categorias',
+        'A ética das virtudes aristotélica: eudaimonia e phronesis',
+        'Lógica formal: validade, solidez e falácias comuns',
+        'Estoicismo e Epicurismo: a busca pela vida boa'
+      ],
+      EM2: [
+        'Filosofia Medieval: fé e razão em Agostinho e Tomás de Aquino',
+        'O debate dos universais: realismo, nominalismo e conceptualismo',
+        'O argumento ontológico de Anselmo de Cantuária',
+        'Racionalismo e empirismo: Descartes, Hume e o problema do conhecimento',
+        'A virada copernicana de Kant: fenômenos, noúmenos e categorias',
+        'Ética deontológica: o imperativo categórico de Kant',
+        'Utilitarismo: Bentham, Mill e o princípio da maior felicidade',
+        'Epistemologia: o problema de Gettier e a definição de conhecimento',
+        'Os limites do conhecimento: ceticismo e o problema da indução'
+      ],
+      EM3: [
+        'Idealismo alemão: Hegel e a dialética histórica',
+        'Materialismo histórico e dialético: Marx e a crítica do capitalismo',
+        'Nietzsche: morte de Deus, niilismo e vontade de potência',
+        'Existencialismo: Kierkegaard, Heidegger, Sartre e a liberdade radical',
+        'Filosofia analítica: Russell, Wittgenstein e os limites da linguagem',
+        'Filosofia continental: fenomenologia e hermenêutica',
+        'Ética aplicada: bioética, ética ambiental, direitos humanos',
+        'Filosofia política: contrato social, liberalismo e democracia',
+        'Correntes contemporâneas: pragmatismo, pós-estruturalismo'
+      ],
+      EF9: [
+        'O que é filosofia: distinção entre opinião e argumento',
+        'Grandes perguntas filosóficas: metafísica, epistemologia e ética',
+        'Introdução à ética: virtude, dever e consequências',
+        'Política e cidadania: fundamentos filosóficos dos direitos',
+        'Lógica introdutória: premissas, conclusões e falácias simples'
+      ],
+      EF8: [
+        'Ética e moral: diferença e importância para a vida em sociedade',
+        'Direitos humanos: fundamentos filosóficos e históricos',
+        'Tolerância e alteridade: o outro como problema filosófico',
+        'Verdade e opinião: como distinguir fato de interpretação'
+      ]
+    };
+
+    /* ================================================================
+     * Dados — Habilidades BNCC (CHS — Ciências Humanas e Sociais)
+     * Foco em habilidades relevantes para Filosofia
+     * As habilidades EM são as mesmas para EM1, EM2, EM3 (BNCC não
+     * segmenta por série no EM — distribuição é responsabilidade do PPP)
+     * ============================================================== */
+    const EM_BNCC_FIL = [
+      { id: 'EM13CHS101', t: 'Analisar e comparar diferentes formas de organização política, social, econômica e cultural, valorizando a dignidade da pessoa humana, a liberdade, a democracia, a justiça social e a igualdade' },
+      { id: 'EM13CHS102', t: 'Identificar, analisar e discutir circunstâncias históricas, geográficas, políticas, econômicas, sociais, ambientais e culturais, de âmbito local, regional, nacional e global, que as práticas de responsabilidade socioeconômica e as áreas de atuação profissional demandam' },
+      { id: 'EM13CHS103', t: 'Elaborar hipóteses, selecionar evidências e compor argumentos relativos a processos políticos, econômicos, sociais, ambientais, culturais e epistemológicos, com base na sistematização de dados e informações de natureza qualitativa e quantitativa' },
+      { id: 'EM13CHS106', t: 'Utilizar as linguagens cartográfica, gráfica e iconográfica e de diferentes gêneros textuais e as tecnologias digitais de informação e comunicação de forma crítica, significativa, reflexiva e ética nas diversas práticas sociais' },
+      { id: 'EM13CHS201', t: 'Analisar e caracterizar as visões de mundo, Filosofia de vida, religiões e cosmovisões, no âmbito do pensamento filosófico, científico, artístico, cultural e político' },
+      { id: 'EM13CHS202', t: 'Analisar e avaliar criticamente as relações das sociedades com a natureza e seus impactos econômicos e socioambientais' },
+      { id: 'EM13CHS203', t: 'Comparar os significados de "homem", "sociedade" e "natureza" em diferentes tradições filosóficas, científicas, religiosas e culturais' },
+      { id: 'EM13CHS301', t: 'Problematizar e avaliar criticamente as concepções de justiça, igualdade, equidade e liberdade nas diferentes tradições filosóficas' },
+      { id: 'EM13CHS401', t: 'Identificar e analisar as relações entre sujeito, linguagem e pensamento, problematizando o papel da linguagem na constituição do conhecimento' },
+      { id: 'EM13CHS501', t: 'Analisar os fundamentos da ética em diferentes culturas, saberes e religiões, identificando processos que contribuem para a formação de sujeitos éticos' },
+      { id: 'EM13CHS502', t: 'Analisar situações da vida cotidiana, estilos de vida, valores, práticas socioculturais e padrões de produção e consumo em relação ao que pressupõem e ao que produzem' },
+      { id: 'EM13CHS503', t: 'Identificar diversas formas de violência (física, simbólica, psicológica etc.), suas causas, significados e usos políticos, sociais e culturais, discutindo mecanismos para combatê-las' },
+      { id: 'EM13CHS601', t: 'Analisar os fundamentos filosóficos e políticos dos direitos humanos, questionando formas de instrumentalização e violação desses direitos' },
+      { id: 'EM13CHS602', t: 'Identificar e caracterizar a presença do paternalismo, do autoritarismo e do totalitarismo nas diversas esferas da vida social e política, analisando suas consequências para as democracias contemporâneas' },
+      { id: 'EM13CHS604', t: 'Analisar os impactos das tecnologias digitais na formação do sujeito, nas relações interpessoais, e nas questões de privacidade, poder e liberdade' },
+      { id: 'EM13CHS606', t: 'Problematizar questões relativas à ética da ciência e da tecnologia, apreciando criticamente pesquisas científicas e inovações tecnológicas e suas implicações morais' }
+    ];
+
+    const EF9_BNCC = [
+      { id: 'EF09HI27', t: 'Relacionar as práticas de existência dos grupos sociais de diferentes épocas com os pressupostos filosóficos que as orientaram, identificando rupturas e continuidades' },
+      { id: 'EF09HI28', t: 'Compreender o papel da razão nos processos filosófico, científico e religioso como forma de conhecimento e transformação do mundo' },
+      { id: 'EF09ER02', t: 'Investigar as práticas e crenças de povos e culturas diferentes quanto à espiritualidade, ao sagrado e ao profano, e refletir sobre o papel dessas práticas na constituição dos valores éticos e morais' },
+      { id: 'EF09ER05', t: 'Relacionar valores éticos de diferentes culturas, analisando suas semelhanças, diferenças e a importância da tolerância para a convivência democrática' }
+    ];
+
+    const EF8_BNCC = [
+      { id: 'EF08HI21', t: 'Identificar e analisar as transformações e permanências dos padrões de produção, distribuição e consumo de bens, em suas relações com as condições de trabalho e de vida dos diferentes grupos sociais' },
+      { id: 'EF08ER01', t: 'Investigar os valores éticos presentes em diferentes tradições culturais, comparando e contextualizando suas semelhanças e diferenças' },
+      { id: 'EF08ER07', t: 'Investigar e problematizar a questão dos direitos humanos no mundo contemporâneo, analisando argumentos filosóficos e históricos que os fundamentam' }
+    ];
+
+    const BNCC = {
+      EM1: EM_BNCC_FIL,
+      EM2: EM_BNCC_FIL,
+      EM3: EM_BNCC_FIL,
+      EF9: EF9_BNCC,
+      EF8: EF8_BNCC
+    };
+
+    /* ================================================================
+     * Presets fixos — Objetivos, Metodologia, Recursos, Avaliação
+     * ============================================================== */
+    const POBJ = [
+      'Identificar e reconstruir o argumento central do texto filosófico estudado',
+      'Distinguir premissas explícitas e implícitas num argumento',
+      'Comparar as posições de dois ou mais filósofos sobre a mesma questão',
+      'Avaliar criticamente a validade e a solidez de argumentos filosóficos',
+      'Relacionar conceitos filosóficos a situações concretas e contemporâneas',
+      'Articular por escrito uma posição filosófica fundamentada',
+      'Identificar falácias em argumentos cotidianos e filosóficos',
+      'Reconhecer a questão filosófica central de um texto primário'
+    ];
+
+    const PMET = [
+      'Leitura anotada de texto primário com identificação de termos técnicos',
+      'Debate filosófico estruturado com papéis definidos (proponente, oponente, mediador)',
+      'Reconstituição coletiva de argumento por etapas',
+      'Seminário temático com apresentação e arguição',
+      'Análise de caso ético real por três perspectivas teóricas',
+      'Exercício socrático: questionamento progressivo de premissas',
+      'Produção de argumento escrito com premissas explícitas',
+      'Mapa conceitual colaborativo',
+      'Discussão em círculo com fala fundamentada',
+      'Análise comparada de posições filosóficas (tabela ou esquema)'
+    ];
+
+    const PREC = [
+      'Sistema Aristóteles (lições e exercícios)',
+      'Texto primário impresso ou projetado',
+      'Quadro ou lousa para sistematização coletiva',
+      'Folha de registro individual de argumento',
+      'Computadores ou tablets (um por aluno ou grupo)',
+      'Projetor para projeção coletiva do sistema',
+      'Fichas de conceito (glossário impresso)',
+      'Linha do tempo filosófica (impressa ou digital)'
+    ];
+
+    const PAVA = [
+      'Participação qualitativa no debate: capacidade de argumentar e responder objeções',
+      'Produção escrita: qualidade do argumento (estrutura, premissas, conclusão)',
+      'Exercícios do sistema Aristóteles (reconstruct / classify / comparison)',
+      'Autoavaliação: ficha de reflexão sobre o processo de aprendizagem',
+      'Avaliação por pares: análise do argumento escrito do colega',
+      'Prova escrita com análise de texto filosófico',
+      'Portfólio de registros filosóficos ao longo da unidade',
+      'Apresentação oral de posição filosófica fundamentada'
+    ];
+
+    /* ================================================================
+     * Renderização de checkboxes
+     * ============================================================== */
+    function rc(boxId, items, pfx, hasId = false) {
+      const b = document.getElementById(boxId);
+      if (!items || !items.length) {
+        b.innerHTML = '<div class="pe2">Selecione o ano/série acima...</div>';
+        return;
+      }
+      b.innerHTML = items.map((item, i) => {
+        const txt = hasId ? item.t  : item;
+        const lbl = hasId
+          ? `<span class="pid">${item.id}</span>${txt}`
+          : txt;
+        return `<div class="pi">
+          <input type="checkbox" id="c-${boxId}-${i}" class="${pfx}-ck" data-text="${txt.replace(/"/g, '&quot;')}" data-id="${hasId ? item.id : ''}">
+          <label for="c-${boxId}-${i}">${lbl}</label>
+        </div>`;
+      }).join('');
+    }
+
+    function rp(boxId, items, pfx) {
+      rc(boxId, items, pfx, false);
+    }
+
+    /* ================================================================
+     * Coletar checkboxes marcados + campo livre
+     * ============================================================== */
+    function gc(pfx, xaId) {
+      const ch = [...document.querySelectorAll(`.${pfx}-ck:checked`)].map(c => ({
+        text: c.dataset.text,
+        id: c.dataset.id || ''
+      }));
+      const xa = (document.getElementById(xaId)?.value || '').trim();
+      if (xa) ch.push({ text: xa, id: '' });
+      return ch;
+    }
+
+    /* ================================================================
+     * Cálculo de carga horária
+     * ============================================================== */
+    function calcCarga() {
+      const n   = parseInt(document.getElementById('f-naulas').value) || 0;
+      const dur = document.getElementById('f-dur').value;
+      const m   = dur === '1h30' ? 90 : parseInt(dur);
+      const tot = n * m;
+      let txt = '';
+      if (tot >= 60) {
+        const h = Math.floor(tot / 60), r = tot % 60;
+        txt = r ? `${h}h${String(r).padStart(2, '0')}min` : `${h}h`;
+      } else {
+        txt = tot > 0 ? `${tot} min` : '';
+      }
+      document.getElementById('f-carga').value = txt;
+    }
+
+    /* ================================================================
+     * Mudança de ano — recarrega OBJ e BNCC
+     * ============================================================== */
+    function onAno() {
+      const a = document.getElementById('f-ano').value;
+      rc('box-obj',  OBJ[a]  || null, 'obj', false);
+      rc('box-bncc', BNCC[a] || null, 'bncc', true);
+    }
+
+    /* ================================================================
+     * Helpers de geração do documento
+     * ============================================================== */
+    function v(id) {
+      return (document.getElementById(id)?.value || '').trim();
+    }
+
+    function sec(titulo, corpo) {
+      return `<div class="ds"><span class="dst">${titulo}</span><div class="dc">${corpo}</div></div>`;
+    }
+
+    function lista(items) {
+      if (!items.length) return '';
+      return `<ul class="dl">${items.map(it => {
+        const pref = it.id ? `<span class="bncc-id">${it.id}</span>` : '';
+        return `<li>${pref}${it.text}</li>`;
+      }).join('')}</ul>`;
+    }
+
+    /* ================================================================
+     * Geração do documento
+     * ============================================================== */
+    function gerar() {
+      const escola = v('f-escola');
+      const disc   = v('f-disc') || 'Filosofia';
+      const turma  = v('f-turma');
+      const prof   = v('f-prof');
+      const data   = (() => {
+        const d = document.getElementById('f-data').value;
+        if (!d) return '';
+        const [y, m, dd] = d.split('-');
+        return `${dd}/${m}/${y}`;
+      })();
+      const ano    = document.getElementById('f-ano').options[document.getElementById('f-ano').selectedIndex]?.text || '';
+      const naulas = v('f-naulas');
+      const dur    = document.getElementById('f-dur').options[document.getElementById('f-dur').selectedIndex]?.text || '';
+      const carga  = v('f-carga');
+      const tema   = v('f-tema');
+
+      const obj  = gc('obj',  'f-obj-xa');
+      const bncc = gc('bncc', 'f-bncc-xa');
+      const obt  = gc('obt',  'f-obt-xa');
+      const met  = gc('met',  'f-met-xa');
+      const rec  = gc('rec',  'f-rec-xa');
+      const ava  = gc('ava',  'f-ava-xa');
+      const obs  = v('f-obs');
+
+      let html = '';
+
+      /* Cabeçalho do documento */
+      html += `<div class="doc-header">
+        <p class="doc-titulo">${disc}${tema ? ' — ' + tema : ''}</p>
+        ${escola ? `<p class="doc-escola">${escola}</p>` : ''}
+      </div>`;
+
+      /* Identificação */
+      html += `<div class="di">
+        ${prof   ? `<span><strong>Professor(a):</strong> ${prof}</span>` : ''}
+        ${data   ? `<span><strong>Data:</strong> ${data}</span>` : ''}
+        ${turma  ? `<span><strong>Turma:</strong> ${turma}</span>` : ''}
+        ${ano    ? `<span><strong>Ano / Série:</strong> ${ano}</span>` : ''}
+        ${naulas ? `<span><strong>N.º de Aulas:</strong> ${naulas} × ${dur}</span>` : ''}
+        ${carga  ? `<span><strong>Carga Horária:</strong> ${carga}</span>` : ''}
+      </div>`;
+
+      /* Seções condicionais */
+      if (obj.length)  html += sec('Objetos de Conhecimento', lista(obj));
+      if (bncc.length) html += sec('Habilidades BNCC', lista(bncc));
+      if (obt.length)  html += sec('Objetivos', lista(obt));
+      if (met.length)  html += sec('Metodologia', lista(met));
+      if (rec.length)  html += sec('Recursos e Materiais', lista(rec));
+      if (ava.length)  html += sec('Avaliação', lista(ava));
+      if (obs)         html += sec('Observações', `<p>${obs.replace(/\n/g, '<br>')}</p>`);
+
+      if (!html.includes('class="ds"')) {
+        html += '<div class="vazio">Preencha pelo menos um campo para gerar o plano.</div>';
+      }
+
+      document.getElementById('doc').innerHTML = html;
+    }
+
+    /* ================================================================
+     * Inicialização
+     * ============================================================== */
+    document.addEventListener('DOMContentLoaded', () => {
+      document.getElementById('f-data').valueAsDate = new Date();
+      calcCarga();
+      rp('box-obt', POBJ, 'obt');
+      rp('box-met', PMET, 'met');
+      rp('box-rec', PREC, 'rec');
+      rp('box-ava', PAVA, 'ava');
+    });
+  </script>
+
+</body>
+</html>

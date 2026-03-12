@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre — Aristóteles</title>
+  <meta name="description" content="Sobre o projecto Aristóteles — sistema educacional de filosofia para leitura, análise e debate de textos filosóficos.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <style>
+    /* ── Variáveis locais (mapeamento semântico para esta página) ────── */
+    :root {
+      --lapis:      #2b4b7e;   /* azul lápis-lazúli — dados, info */
+      --lapis-bg:   rgba(43, 75, 126, 0.07);
+      --lapis-bd:   rgba(43, 75, 126, 0.22);
+      --rust-bg:    rgba(139, 58, 42, 0.07);
+      --rust-bd:    rgba(139, 58, 42, 0.22);
+      --gold-bg:    rgba(201, 162, 39, 0.07);
+      --gold-bd:    rgba(201, 162, 39, 0.30);
+    }
+
+    /* ── Layout ──────────────────────────────────────────────────────── */
+    .page-wrapper {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem 3.5rem;
+    }
+
+    /* ── Card de conteúdo ────────────────────────────────────────────── */
+    .content-card {
+      background: rgba(245, 239, 227, 0.92);
+      border: 1px solid var(--border-medium);
+      border-radius: var(--radius-md);
+      box-shadow: 2px 4px 18px var(--color-shadow-strong);
+      padding: 2.5rem 3rem;
+    }
+
+    .content-card h1 {
+      font-family: var(--font-display);
+      font-size: var(--text-2xl);
+      font-weight: 400;
+      color: var(--text-primary);
+      margin: 0 0 0.35rem 0;
+      letter-spacing: 0.02em;
+    }
+
+    .content-card .subtitulo {
+      font-family: var(--font-serif);
+      font-style: italic;
+      font-size: 1.05rem;
+      color: var(--text-secondary);
+      margin: 0 0 1.8rem 0;
+    }
+
+    /* Separadores de seção */
+    .content-card h2 {
+      font-family: var(--font-display);
+      font-size: 1.15rem;
+      font-weight: 400;
+      font-variant: small-caps;
+      letter-spacing: 0.07em;
+      color: var(--color-rust);
+      border-bottom: 1px solid var(--border-light);
+      padding-bottom: 0.4rem;
+      margin: 2rem 0 1rem;
+      scroll-margin-top: 1.5rem;
+    }
+
+    .content-card p {
+      font-family: var(--font-serif);
+      font-size: 1.05rem;
+      line-height: 1.75;
+      color: var(--text-primary);
+      margin: 0 0 1rem 0;
+    }
+
+    /* ── Epígrafe ─────────────────────────────────────────────────────── */
+    .epigraph {
+      font-family: var(--font-serif);
+      font-style: italic;
+      font-size: 1rem;
+      color: var(--text-secondary);
+      border-left: 3px solid var(--border-medium);
+      padding: 0.6rem 1.2rem;
+      margin: 0 0 2rem 0;
+    }
+
+    .epigraph cite {
+      display: block;
+      font-style: normal;
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      margin-top: 0.4rem;
+    }
+
+    /* ── Métricas ─────────────────────────────────────────────────────── */
+    .metricas {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(155px, 1fr));
+      gap: 0.9rem;
+      margin: 1.2rem 0 1.5rem;
+    }
+
+    .metrica-card {
+      background: rgba(245, 239, 227, 0.96);
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius-md);
+      padding: 0.9rem 1rem;
+      text-align: center;
+    }
+
+    .metrica-valor {
+      font-family: var(--font-display);
+      font-size: 1.7rem;
+      font-weight: 400;
+      color: var(--lapis);
+      display: block;
+      line-height: 1.1;
+      margin-bottom: 0.3rem;
+    }
+
+    .metrica-label {
+      font-family: var(--font-serif);
+      font-size: 0.83rem;
+      color: var(--text-secondary);
+    }
+
+    /* Badge de versão inline em h2 */
+    .versao-badge {
+      display: inline-block;
+      background: var(--text-primary);
+      color: var(--bg-surface);
+      font-family: var(--font-serif);
+      font-size: 0.78rem;
+      font-variant: small-caps;
+      padding: 0.15rem 0.6rem;
+      border-radius: 2px;
+      vertical-align: middle;
+      margin-left: 0.5rem;
+      font-style: normal;
+      letter-spacing: 0.04em;
+    }
+
+    /* ── Callout aviso/nota/info ─────────────────────────────────────── */
+    .aviso {
+      background: var(--rust-bg);
+      border-left: 4px solid var(--color-rust);
+      padding: 0.8rem 1.2rem;
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+      margin: 1rem 0;
+    }
+
+    .nota {
+      background: var(--gold-bg);
+      border-left: 3px solid var(--color-gold);
+      padding: 0.8rem 1.2rem;
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+      margin: 1rem 0;
+    }
+
+    .info {
+      background: var(--lapis-bg);
+      border-left: 3px solid var(--lapis);
+      padding: 0.8rem 1.2rem;
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+      margin: 1rem 0;
+    }
+
+    .aviso p, .nota p, .info p {
+      margin: 0;
+      font-size: 0.95rem;
+    }
+
+    /* ── Secção do ecossistema ────────────────────────────────────────── */
+    .ecossistema-section {
+      background: #2a1f14;
+      border-top: 1px solid rgba(180, 150, 100, 0.2);
+      padding: 3rem 2rem 2.5rem;
+    }
+
+    .ecossistema-section h2 {
+      font-family: var(--font-display);
+      font-size: 1.1rem;
+      font-weight: 400;
+      font-variant: small-caps;
+      letter-spacing: 0.08em;
+      color: rgba(245, 239, 227, 0.65);
+      text-align: center;
+      margin: 0 0 0.5rem;
+      border: none;
+    }
+
+    .ecossistema-section .eco-subtitulo {
+      font-family: var(--font-serif);
+      font-style: italic;
+      font-size: 0.88rem;
+      color: rgba(180, 150, 100, 0.55);
+      text-align: center;
+      display: block;
+      margin: 0 0 2rem;
+    }
+
+    .eco-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 1rem;
+      max-width: 860px;
+      margin: 0 auto;
+    }
+
+    .eco-card {
+      border: 1px solid rgba(180, 150, 100, 0.2);
+      background: rgba(255, 255, 255, 0.02);
+      border-radius: var(--radius-md);
+      padding: 1.1rem 1.2rem;
+      text-decoration: none;
+      transition: border-color 0.2s, background 0.2s;
+      display: block;
+    }
+
+    .eco-card:hover {
+      border-color: rgba(180, 150, 100, 0.45);
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    .eco-card--active {
+      border-color: rgba(180, 150, 100, 0.5);
+      background: rgba(201, 162, 39, 0.06);
+      cursor: default;
+      pointer-events: none;
+    }
+
+    .eco-nome {
+      font-family: var(--font-display);
+      font-size: 1.05rem;
+      font-weight: 400;
+      color: rgba(245, 239, 227, 0.85);
+      display: block;
+      margin-bottom: 0.2rem;
+      letter-spacing: 0.03em;
+    }
+
+    .eco-card--active .eco-nome {
+      color: rgba(201, 162, 39, 0.9);
+    }
+
+    .eco-disciplina {
+      font-family: var(--font-serif);
+      font-size: 0.82rem;
+      color: rgba(180, 150, 100, 0.5);
+    }
+
+    .eco-card--active .eco-disciplina {
+      color: rgba(201, 162, 39, 0.55);
+    }
+
+    /* ── Responsive ──────────────────────────────────────────────────── */
+    @media (max-width: 768px) {
+      .content-card { padding: 1.5rem 1.25rem; }
+      .metricas { grid-template-columns: repeat(2, 1fr); }
+      .eco-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    @media (max-width: 480px) {
+      .page-wrapper { padding: 1.2rem 0.75rem 2rem; }
+      .metricas { grid-template-columns: repeat(2, 1fr); }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Cabeçalho ======================================================= -->
+  <header class="site-header" role="banner">
+    <div class="header-inner">
+      <div class="header-brand">
+        <a href="index.html" class="header-title">Aristóteles</a>
+        <span class="header-subtitle">Sistema de Filosofia</span>
+      </div>
+      <nav class="header-nav" aria-label="Navegação principal">
+        <a href="index.html"             class="header-nav-link">Início</a>
+        <a href="guia-professor.html"    class="header-nav-link">Guia do Professor</a>
+        <a href="plano-aula.html"        class="header-nav-link">Plano de Aula</a>
+        <a href="sobre.html"             class="header-nav-link active">Sobre</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Conteúdo ========================================================= -->
+  <div class="page-wrapper">
+    <div class="content-card">
+
+      <h1>Aristóteles</h1>
+      <p class="subtitulo">Sistema educacional de filosofia — leitura, análise e debate de textos filosóficos</p>
+
+      <blockquote class="epigraph">
+        «Todos os homens desejam por natureza o saber.»
+        <cite>— Aristóteles, <em>Metafísica</em>, Livro I, c. 340 a.C.</cite>
+      </blockquote>
+
+      <!-- Sobre o projecto ============================================ -->
+      <h2>O que é o Aristóteles</h2>
+
+      <p>O Aristóteles é um sistema educacional de filosofia desenvolvido para o ensino médio e os primeiros anos do ensino superior. Não é um enciclopédia filosófica nem um curso expositivo — é um ambiente de <em>prática filosófica</em>: os alunos lêem textos primários com anotações, reconstroem argumentos, classificam posições e debatem com rigor.</p>
+
+      <p>O nome vem do filósofo de Estagira que inventou a lógica formal, sistematizou a biologia, fundou a tradição da ética das virtudes e escreveu sobre política, poética e metafísica — um pensador de amplitude enciclopédica que é também o modelo do que significa filosofar com rigor e com curiosidade ao mesmo tempo.</p>
+
+      <!-- Por que o nome ============================================== -->
+      <h2>Por que o nome Aristóteles</h2>
+
+      <p>Cada projecto do ecossistema leva o nome de um pensador que define a sua disciplina. Heródoto fundou a historiografia. Euclides sistematizou a matemática dedutiva. Aristóteles fundou a lógica, a biologia como ciência sistemática, a ética como disciplina filosófica autónoma, e a teoria literária ocidental.</p>
+
+      <p>Mas há uma razão adicional. Aristóteles recusou o modelo platónico do filósofo que se retira do mundo para contemplar as Formas eternas. Para Aristóteles, o conhecimento começa na observação do mundo concreto — nos animais, nas cidades, nas acções humanas. O sistema que leva o seu nome herda essa orientação: a filosofia não é separada da vida; é o instrumento mais rigoroso para examiná-la.</p>
+
+      <!-- Filosofia do projecto ======================================= -->
+      <h2>Filosofia do projecto</h2>
+
+      <p>O objectivo do Aristóteles não é transmitir informação sobre o que os filósofos pensaram. É desenvolver a capacidade de <strong>ler filosofia</strong> — identificar a questão que um texto está a responder, reconstruir o argumento, avaliar as premissas, articular objecções. A diferença é fundamental: um curso sobre «o que Kant pensou» pode ser memorizado sem compreensão. Um curso que treina «como reconstruir o argumento de Kant e identificar onde ele pode estar errado» exige compreensão genuína.</p>
+
+      <p>Todo o conteúdo vive em ficheiros JSON estáticos. Não há servidor, não há conta, não há telemetria. O projecto funciona offline, pode ser hospedado em qualquer servidor HTTP estático, e o código é completamente auditável.</p>
+
+      <div class="nota">
+        <p>O Aristóteles é código aberto, hospedado no GitHub Pages, e faz parte de um ecossistema de ferramentas educacionais que inclui projectos para história, matemática, ciências e retórica.</p>
+      </div>
+
+      <!-- Números ===================================================== -->
+      <h2>Números actuais <span class="versao-badge">v1.10.0</span></h2>
+
+      <div class="metricas">
+        <div class="metrica-card">
+          <span class="metrica-valor">9</span>
+          <span class="metrica-label">Módulos activos</span>
+        </div>
+        <div class="metrica-card">
+          <span class="metrica-valor">42</span>
+          <span class="metrica-label">Lições completas</span>
+        </div>
+        <div class="metrica-card">
+          <span class="metrica-valor">37</span>
+          <span class="metrica-label">Textos primários</span>
+        </div>
+        <div class="metrica-card">
+          <span class="metrica-valor">53</span>
+          <span class="metrica-label">Exercícios</span>
+        </div>
+        <div class="metrica-card">
+          <span class="metrica-valor">25</span>
+          <span class="metrica-label">Autores</span>
+        </div>
+        <div class="metrica-card">
+          <span class="metrica-valor">52</span>
+          <span class="metrica-label">Conceitos</span>
+        </div>
+      </div>
+
+      <!-- Conteúdo cobert ============================================= -->
+      <h2>O que o sistema cobre</h2>
+
+      <p>Nove módulos percorrem a filosofia ocidental da Grécia Clássica ao século XX. A progressão é pedagógica, não cronológica: começa pelo que é filosofia e o que é um argumento, avança para a lógica e os grandes gregos, e depois ramifica para ética, epistemologia, filosofia medieval e filosofia moderna e contemporânea. Um percurso completo representa entre 70 e 90 horas de conteúdo.</p>
+
+      <p>Cada lição contém um parágrafo introdutório, uma questão filosófica central, uma situação concreta que torna a questão urgente, quatro a cinco secções de prosa argumentativa, textos primários anotados e exercícios de reconstrução e análise. Os exercícios não testam memorização: testam a capacidade de classificar posições filosóficas, reconstruir argumentos passo a passo e identificar onde teorias concordam e divergem.</p>
+
+      <!-- Limitações ================================================== -->
+      <h2>O que o sistema não faz</h2>
+
+      <div class="aviso">
+        <p><strong>O sistema não dá respostas definitivas</strong> a questões filosóficas abertas. Apresenta posições, argumentos e objecções — a conclusão é do aluno. Um sistema que fornecesse «a resposta certa» sobre o livre-arbítrio ou a existência de Deus seria filosoficamente desonesto.</p>
+      </div>
+
+      <p>O sistema também não substitui a leitura dos originais. Os excertos em textos são introduções — o aluno que quiser compreender genuinamente Kant precisará de ler a Crítica da Razão Pura. O progresso é local, em memória, sem servidor: o objectivo é a compreensão, não a certificação.</p>
+
+    </div><!-- /.content-card -->
+  </div><!-- /.page-wrapper -->
+
+  <!-- Ecossistema ====================================================== -->
+  <section class="ecossistema-section" aria-label="Ecossistema educacional">
+    <h2>Ecossistema educacional</h2>
+    <span class="eco-subtitulo">Ferramentas de ensino disciplinar com a mesma filosofia de design</span>
+    <div class="eco-grid">
+      <a href="https://luddevergard3n.github.io/humboldt/" class="eco-card" target="_blank" rel="noopener">
+        <span class="eco-nome">Humboldt</span>
+        <span class="eco-disciplina">Geografia</span>
+      </a>
+      <a href="https://luddevergard3n.github.io/johnson-english/" class="eco-card" target="_blank" rel="noopener">
+        <span class="eco-nome">Johnson</span>
+        <span class="eco-disciplina">Inglês</span>
+      </a>
+      <div class="eco-card eco-card--active" aria-current="page">
+        <span class="eco-nome">Aristóteles</span>
+        <span class="eco-disciplina">Filosofia</span>
+      </div>
+      <a href="#" class="eco-card">
+        <span class="eco-nome">Heródoto</span>
+        <span class="eco-disciplina">História</span>
+      </a>
+      <a href="#" class="eco-card">
+        <span class="eco-nome">Euclides</span>
+        <span class="eco-disciplina">Matemática</span>
+      </a>
+      <a href="#" class="eco-card">
+        <span class="eco-nome">Lavoisier</span>
+        <span class="eco-disciplina">Química</span>
+      </a>
+      <a href="#" class="eco-card">
+        <span class="eco-nome">Archimedes</span>
+        <span class="eco-disciplina">Física</span>
+      </a>
+      <a href="#" class="eco-card">
+        <span class="eco-nome">Darwin</span>
+        <span class="eco-disciplina">Biologia</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Rodapé =========================================================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <p class="footer-credits">Aristóteles &mdash; Sistema de Filosofia &mdash; v1.10.0</p>
+    </div>
+  </footer>
+
+</body>
+</html>
