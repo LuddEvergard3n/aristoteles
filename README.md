@@ -2,7 +2,7 @@
 
 Sistema educacional de filosofia para leitura, análise e debate de textos filosóficos. Parte do ecossistema de projectos educacionais sob o handle [@LuddEvergard3n](https://github.com/LuddEvergard3n).
 
-**Versão:** v1.10.0  
+**Versão:** v1.14.0  
 **Motor:** JavaScript ES2022 modular, sem frameworks  
 **Deploy:** GitHub Pages (site estático)
 
@@ -66,10 +66,10 @@ aristoteles/
 │   ├── lessons.json        # 42 lições com sections completas
 │   ├── texts.json          # 37 textos filosóficos primários
 │   ├── exercises.json      # 53 exercícios (classify/reconstruct/compare)
-│   ├── authors.json        # 25 autores com biografia e obras
+│   ├── authors.json        # 25 autores com biografia (~196w), método (~74w) e obras
 │   ├── schools.json        # 12 escolas filosóficas
-│   ├── concepts.json       # 52 conceitos com etimologia e exemplos
-│   ├── essays.json         # 42 ensaios explicativos
+│   ├── concepts.json       # 52 conceitos com etimologia, extended (~144w) e related_concepts
+│   ├── essays.json         # 42 ensaios explicativos (~29.335 palavras, 5 secções cada)
 │   ├── timeline.json       # 56 entradas cronológicas
 │   └── arguments.json      # Argumentos formalizados
 ├── tests/
@@ -111,7 +111,7 @@ Cada lição contém:
 - `introduction` — parágrafo introdutório (~200 palavras)
 - `question` — pergunta filosófica central
 - `problem` — situação concreta que motiva a questão
-- `sections[]` — 4–5 seções de conteúdo (~300–500 palavras cada)
+- `sections[]` — 4–5 seções de conteúdo (~300–500 palavras cada, média 698w/lição)
 - `text_ids[]` — textos primários associados (de `texts.json`)
 - `exercise_ids[]` — exercícios associados (de `exercises.json`)
 - `authors[]` — autores relevantes

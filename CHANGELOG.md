@@ -437,26 +437,90 @@ Adicionado sistema de textos explicativos para todas as entidades do projeto. 34
 
 ---
 
+## [1.14.0] — 2026-03-12
+
+### Expansão de autores — biografias e método completos
+
+**25/25 autores com biografia e método expandidos:**
+
+- `biography`: expandido de 31–81 palavras (média 51w) para 177–209 palavras (média 196w). Cada biografia cobre origem e formação, trajectória de vida, contexto histórico, relações pessoais e filosóficas relevantes, e circunstâncias da morte.
+- `method`: expandido de 25–56 palavras (média 33w) para 55–97 palavras (média 74w). Cada campo descreve o procedimento filosófico específico do autor — não o tema, mas o modo de filosofar.
+
+**Autores cobertos:**
+- Pré-socráticos: Tales, Anaximandro, Anaxímenes, Heráclito, Parmênides
+- Sofistas: Protágoras, Górgias
+- Clássicos: Sócrates, Platão, Aristóteles
+- Helenísticos: Epicuro, Zenão de Cítio, Epicteto, Marco Aurélio
+- Medievais: Agostinho, Anselmo, Tomás de Aquino
+- Modernos: Descartes, Hume, Kant, Mill, Hegel, Marx, Nietzsche, Wittgenstein
+
+**Total de testes: 82/82**
+
+---
+
+## [1.13.0] — 2026-03-12
+
+### Expansão de conceitos — extended e related_concepts
+
+**52/52 conceitos expandidos:**
+
+- `extended`: expandido de 31–117 palavras (média 61w) para 108–175 palavras (média 144w). Cada campo cobre: contexto histórico, distinções relevantes, debate activo e aplicação contemporânea.
+- `related_concepts`: preenchido em todos os 52 conceitos (antes: 3 sem o campo). Cada conceito referencia 3–7 conceitos relacionados, activando a navegação temática do motor.
+
+**Métricas:**
+- Total de palavras nos conceitos: ~3.200 → ~7.500
+- Conceitos abaixo de 100 palavras em `extended`: 50 → 0
+- Conceitos sem `related_concepts`: 3 → 0
+
+**Total de testes: 82/82**
+
+---
+
+## [1.12.0] — 2026-03-12
+
+### Expansão de ensaios — todos os 42 com conteúdo completo
+
+**42/42 ensaios expandidos com prosa argumentativa real:**
+
+- Total de palavras: ~22 → 29.335
+- Média por ensaio: ~1 palavra (placeholders) → 698 palavras
+- Ensaios abaixo de 600 palavras: 29 → 0
+- Estrutura uniforme: 5 secções × ~140 palavras cada
+
+**Grupos cobertos:**
+- 12 ensaios de escolas: pré-socrática, sofistas, socrática, platonismo, aristotelismo, estoicismo, epicurismo, ceticismo, escolástica, racionalismo, empirismo, existencialismo
+- 25 ensaios de autores: todos os 25 autores do projecto
+- 4 ensaios de correntes: idealismo, materialismo, existencialismo-corrente, analítica/continental, racionalismo-empirismo
+
+**Schema:** `id, entity_type, entity_id, title, subtitle, era, reading_time_minutes, key_figures[], key_concepts[], sections[{heading, content}], bibliography[]`
+
+**Total de testes: 82/82**
+
+---
+
+## [1.11.0] — 2026-03-12
+
+### Expansão de textos primários
+
+**37/37 textos expandidos:**
+
+- Total de palavras: ~9.420
+- Segmentos de leitura guiada por texto: 4–6
+- Perguntas por texto: 5
+
+**Schema:** `id, title, source, author, period, language, type, text, guided_reading[{segment, note, highlight}], key_terms[], questions[]`
+
+**Total de testes: 82/82**
+
+---
+
 ## [Próximas versões — planejado]
 
-### [1.1.0]
-- Módulo Escolas Filosóficas: pré-socrática, sofistas, helenismo
-- Exercícios de mapeamento conceitual visual (SVG)
-- Exercícios de identificação de falácias em textos contemporâneos
-- Mapa de argumentos interativo
+### Conteúdo pendente
+- Exercícios: adicionar `explanation` a 45 dos 53 exercícios (actualmente 8/53 com explanation)
+- Autores: adicionar `related_authors` onde ausente
 
-### [1.2.0]
-- Módulo Filosofia Medieval (Agostinho, Tomás de Aquino)
-- Exercícios de comparação entre escolas com tabela interativa
-- Busca full-text em conceitos, autores e textos
-
-### [1.3.0]
-- Módulo Ética (eudaimonismo, deontologia, utilitarismo)
-- Módulo Epistemologia (ceticismo, justificação, problema de Gettier)
-- Modo de revisão: percurso por conceitos visitados
-
-### [2.0.0]
-- Módulos medievais e contemporâneos completos
-- Modo de leitura de texto completo (não apenas excertos)
+### Funcionalidades
 - Mapa visual de relações entre filósofos (Canvas 2D ou SVG)
 - Sistema de progresso persistente via IndexedDB (opcional)
+- Busca full-text em conceitos, autores e textos
