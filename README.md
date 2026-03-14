@@ -2,7 +2,7 @@
 
 Sistema educacional de filosofia para leitura, análise e debate de textos filosóficos. Parte do ecossistema de projectos educacionais sob o handle [@LuddEvergard3n](https://github.com/LuddEvergard3n).
 
-**Versão:** v1.14.0  
+**Versão:** v1.19.0  
 **Motor:** JavaScript ES2022 modular, sem frameworks  
 **Deploy:** GitHub Pages (site estático)
 
@@ -200,6 +200,7 @@ Requer Node.js ≥ 18. Sem dependências externas. Saída: `N passou, M falhou`.
 | `Alt+H` | Ir para a página inicial |
 | `Alt+G` | Abrir o glossário |
 | `Alt+T` | Abrir a linha do tempo |
+| `Alt+R` | Abrir o mapa de relações |
 | `Alt+P` | Activar/desactivar modo professor |
 | `Alt++` | Aumentar tamanho de fonte |
 | `Alt+-` | Diminuir tamanho de fonte |

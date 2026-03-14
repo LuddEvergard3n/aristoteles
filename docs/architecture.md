@@ -27,6 +27,7 @@ Roteamento hash (`#/route/param`). O `router.js` lê `window.location.hash` e de
 #/concept/:id               → renderConcept({ conceptId })
 #/timeline                  → renderTimeline()
 #/glossary                  → renderGlossary()
+#/graph                     → renderGraph()
 ```
 
 Cada rota é registada com `Router.on(name, handler)`. O handler recebe os parâmetros extraídos do hash. A navegação ocorre por `<a href="#/...">` — sem `pushState`, para compatibilidade com GitHub Pages sem configuração de rewrites.
@@ -82,6 +83,7 @@ Os motores em `engine/` são módulos com responsabilidade única:
 | `feedback-engine.js` | Comparações tabulares entre autores |
 | `timeline-engine.js` | Renderizar linha do tempo cronológica |
 | `hint-system.js` | Dicas progressivas (afecta pontuação) |
+| `graph-engine.js` | Mapa de relações entre filósofos — grafo force-directed Canvas 2D (Fruchterman-Reingold) |
 
 Cada motor exporta um objecto com `init(container)` e métodos específicos. Não dependem de `State` directamente — recebem os dados como argumentos. Isso torna-os testáveis de forma independente.
 
@@ -107,6 +109,7 @@ As folhas de estilo são ordenadas por especificidade crescente:
 - Breadcrumb com `aria-label="Navegação estrutural"`.
 - Todos os ícones decorativos têm `aria-hidden="true"`.
 - Atalhos de teclado via `Alt+key` (não conflitam com atalhos de browser em Windows/Linux).
+  - `Alt+H` — Início, `Alt+G` — Glossário, `Alt+T` — Linha do Tempo, `Alt+R` — Mapa de Relações, `Alt+P` — Modo Professor, `Alt++`/`Alt+-` — tamanho de fonte.
 - Contraste mínimo 4.5:1 para texto normal, 3:1 para texto grande.
 - Modo de alto contraste (`ui.highContrast`) inverte para fundo escuro com texto claro.
 

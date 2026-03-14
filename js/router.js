@@ -22,7 +22,8 @@ const ROUTES = [
   { pattern: /^\/timeline$/,                         view: 'timeline'  },
   { pattern: /^\/glossary$/,                         view: 'glossary'  },
   { pattern: /^\/problem\/([^/]+)$/,                 view: 'problem',  param: 'problemId' },
-  { pattern: /^\/search\?q=(.+)$/,                   view: 'search',   param: 'query'     }
+  { pattern: /^\/search\?q=(.+)$/,                   view: 'search',   param: 'query'     },
+  { pattern: /^\/graph$/,                            view: 'graph'     }
 ];
 
 /* ------------------------------------------------------------------

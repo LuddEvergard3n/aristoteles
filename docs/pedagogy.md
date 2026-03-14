@@ -20,9 +20,13 @@ Cada lição segue uma progressão deliberada:
 
 **4. Secções** — Quatro a cinco secções de conteúdo substantivo. Cada secção avança a compreensão: apresenta uma posição, analisa os seus fundamentos, expõe as dificuldades, conecta com outras posições. Não é lista de factos — é prosa argumentativa.
 
-**5. Textos primários** — Excertos dos filósofos originais, com anotações e perguntas intercaladas. O texto primário não é decoração: é o objecto de análise. O aluno deve praticar ler o filósofo, não apenas ler sobre ele.
+Cada secção termina com **três perguntas de discussão** (`discussion_questions`). As perguntas são abertas, sem resposta única, cobrindo os 6Ws: o quê (conceito), por quê (fundamento), quem (caso concreto), quando/onde (contexto histórico), como (aplicação), e se (contra-factual). Destinam-se a debate oral em aula ou reflexão escrita individual.
 
-**6. Exercícios** — Aplicação activa. Os exercícios não testam memorização: testam a capacidade de classificar posições, reconstruir argumentos, identificar onde teorias concordam e divergem.
+**5. Aplicação contemporânea** (`contemporary_application`) — Parágrafo que responde directamente "onde é que este problema reaparece hoje?" — em IA, direito, medicina, política ou ciências sociais. Âncora o conteúdo histórico no presente sem o distorcer.
+
+**6. Textos primários** — Excertos dos filósofos originais, com anotações e perguntas intercaladas. O texto primário não é decoração: é o objecto de análise. O aluno deve praticar ler o filósofo, não apenas ler sobre ele.
+
+**7. Exercícios** — Aplicação activa. Os exercícios não testam memorização: testam a capacidade de classificar posições, reconstruir argumentos, identificar onde teorias concordam e divergem.
 
 ---
 
@@ -67,6 +71,12 @@ O modo professor destina-se a docentes que usam o projecto em contexto de aula. 
 Os ensaios em `data/essays.json` são textos de fundo — não lições, mas recursos de referência. Cada ensaio cobre um autor, uma escola ou uma corrente filosófica em prosa contínua, com mais profundidade histórica e contextual do que as lições.
 
 São destinados a: (a) alunos que querem aprofundar após a lição; (b) leitores que chegam ao projecto por interesse num autor específico antes de fazer o percurso estruturado; (c) docentes que querem material de referência.
+
+---
+
+## Relevância contemporânea dos conceitos
+
+Cada conceito no glossário tem um campo `relevance`: um parágrafo de 2–4 frases que responde directamente "por que este conceito importa fora da sala de aula?". A relevância não é forçada — é filosófica: mostra como o problema técnico (indução, universais, livre-arbítrio) reaparece em debates actuais de IA, direito, neurociência ou política. É apresentada na view do conceito como "Por que isto importa hoje" e pode ser usada como ponto de entrada para alunos que chegam ao glossário sem contexto.
 
 ---
 

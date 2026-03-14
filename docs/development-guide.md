@@ -41,7 +41,15 @@ Todos os 82 testes devem passar antes de qualquer commit.
   "exercise_ids": [],
   "introduction": "Parágrafo introdutório.",
   "sections": [
-    { "heading": "Primeira secção", "content": "Conteúdo..." }
+    {
+      "heading": "Primeira secção",
+      "content": "Conteúdo substantivo da secção (~300–500 palavras).",
+      "discussion_questions": [
+        "Pergunta aberta 1 — o quê / por quê?",
+        "Pergunta aberta 2 — como / quem?",
+        "Pergunta aberta 3 — e se...?"
+      ]
+    }
   ]
 }
 ```
@@ -160,7 +168,7 @@ Adicionar também entradas na `timeline.json` para nascimento, morte e obras pri
 
 - [ ] `node tests/test-runner.js` — 0 falhas
 - [ ] Verificar visualmente no browser (abrir pelo servidor HTTP)
-- [ ] Todas as lições novas têm `introduction`, `sections` e `problem`
+- [ ] Todas as lições novas têm `introduction`, `sections` (com `discussion_questions`) e `problem`
 - [ ] Todos os exercícios `reconstruct` têm `correct_order`
 - [ ] Todos os `related_concepts` em `concepts.json` referenciam ids existentes
 - [ ] `CHANGELOG.md` actualizado com a versão e as alterações

@@ -74,6 +74,12 @@ export const Accessibility = {
         window.location.hash = '/timeline';
       }
 
+      // Alt+R — mapa de relações
+      if (e.altKey && e.key === 'r') {
+        e.preventDefault();
+        window.location.hash = '/graph';
+      }
+
       // Alt+P — modo professor
       if (e.altKey && e.key === 'p') {
         e.preventDefault();

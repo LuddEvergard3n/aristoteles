@@ -51,7 +51,10 @@ Array de lições. Cada lição:
   "sections": [
     {
       "heading": "string",
-      "content": "string"           // prosa longa (~300–500 palavras)
+      "content": "string",          // prosa longa (~300–500 palavras)
+      "discussion_questions": [    // 3 perguntas abertas para debate (6Ws: o quê, por quê, quem, como, e se)
+        "string"
+      ]
     }
   ],
   "learning_objectives": ["string"],
@@ -221,7 +224,8 @@ Array de conceitos. Cada conceito:
   "related_concepts": ["concept_id"],
   "authors": ["author_id"],
   "category": "string",             // "lógica" | "metafísica" | "epistemologia" | "ética" | etc.
-  "examples": ["string"]
+  "examples": ["string"],
+  "relevance": "string"             // parágrafo sobre por que o conceito importa fora da filosofia académica
 }
 ```
 
@@ -298,8 +302,8 @@ O `tests/data-tests.js` verifica que todos os ids referenciados existem nos seus
 
 | Ficheiro | Campos obrigatórios |
 |----------|---------------------|
-| `lessons.json` | `id`, `module`, `title`, `question`, `problem`, `sections` |
+| `lessons.json` | `id`, `module`, `title`, `question`, `problem`, `sections` (cada secção com `discussion_questions`) |
 | `exercises.json` | `id`, `type`, `title`, `instruction` |
 | `texts.json` | `id`, `title`, `author_id`, `paragraphs` |
 | `authors.json` | `id`, `name`, `birth`, `school` |
-| `concepts.json` | `id`, `term`, `definition`, `category` |
+| `concepts.json` | `id`, `term`, `definition`, `category`, `relevance` |

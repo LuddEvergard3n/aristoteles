@@ -16,6 +16,7 @@ import { ReadingEngine }    from '../engine/reading-engine.js';
 import { LogicEngine }      from '../engine/logic-engine.js';
 import { ArgumentEngine }   from '../engine/argument-engine.js';
 import { ComparisonEngine, TimelineEngine } from '../engine/feedback-engine.js';
+import { GraphEngine }                     from '../engine/graph-engine.js';
 
 /* ------------------------------------------------------------------
  * Contêiners DOM
@@ -354,6 +355,49 @@ function renderLesson({ moduleId, lessonId }) {
   }
 
   // Exercícios
+  // Secções da lição (heading + content + discussion_questions)
+  if (lesson.sections && lesson.sections.length > 0) {
+    const sectionsEl = document.createElement('div');
+    sectionsEl.className = 'lesson-sections';
+
+    lesson.sections.forEach((sec, idx) => {
+      const secEl = document.createElement('section');
+      secEl.className = 'lesson-section';
+
+      const h = document.createElement('h2');
+      h.className   = 'lesson-section-heading';
+      h.textContent = sec.heading || '';
+      secEl.appendChild(h);
+
+      if (sec.content) {
+        const p = document.createElement('p');
+        p.className   = 'lesson-section-content';
+        p.textContent = sec.content;
+        secEl.appendChild(p);
+      }
+
+      if (sec.discussion_questions && sec.discussion_questions.length > 0) {
+        const dqEl = document.createElement('div');
+        dqEl.className = 'discussion-questions';
+        dqEl.innerHTML = '<h3 class="discussion-questions-title">Para discussão</h3>';
+        const ol = document.createElement('ol');
+        ol.className = 'discussion-questions-list';
+        sec.discussion_questions.forEach(q => {
+          const li = document.createElement('li');
+          li.className   = 'discussion-question-item';
+          li.textContent = q;
+          ol.appendChild(li);
+        });
+        dqEl.appendChild(ol);
+        secEl.appendChild(dqEl);
+      }
+
+      sectionsEl.appendChild(secEl);
+    });
+
+    $main.appendChild(sectionsEl);
+  }
+
   if (lesson.exercise_ids && lesson.exercise_ids.length > 0) {
     const exSection = document.createElement('section');
     exSection.className = 'lesson-exercises';
@@ -700,6 +744,17 @@ function renderConcept({ conceptId }) {
     relDiv.appendChild(tags);
     $main.appendChild(relDiv);
   }
+
+  // Por que este conceito importa hoje
+  if (concept.relevance) {
+    const relSection = document.createElement('section');
+    relSection.className = 'concept-relevance';
+    relSection.innerHTML = `
+      <h3 class="section-title section-title--minor">Por que isto importa hoje</h3>
+      <p class="concept-relevance-text">${UI.escape(concept.relevance)}</p>
+    `;
+    $main.appendChild(relSection);
+  }
 }
 
 function renderTimeline() {
@@ -720,6 +775,126 @@ function renderTimeline() {
   $main.appendChild(container);
 
   TimelineEngine.render(container, State.getData('timeline') || []);
+}
+
+function renderGraph() {
+  const authors = State.getData('authors') || [];
+
+  UI.renderBreadcrumb([
+    { label: 'Início', href: '#/' },
+    { label: 'Mapa de Relações' }
+  ], $breadcrumb);
+
+  $main.innerHTML = '';
+  $main.className = 'graph-view';
+
+  // Painel lateral de informação
+  const sidebar = document.createElement('aside');
+  sidebar.className = 'graph-sidebar';
+  sidebar.innerHTML = `
+    <div class="graph-sidebar-inner">
+      <h2 class="graph-sidebar-title">Mapa de Relações</h2>
+      <p class="graph-sidebar-desc">Filósofos ligados por relações de influência, oposição e pertença a tradições comuns. Clique num nó para mais detalhes. Arraste para reposicionar. Scroll para zoom.</p>
+      <div class="graph-legend" id="graph-legend"></div>
+      <div class="graph-filter-label">Filtrar por período</div>
+      <div class="graph-filters" id="graph-filters"></div>
+      <button class="graph-reset-btn" id="graph-reset">Centrar vista</button>
+      <div class="graph-detail" id="graph-detail" hidden></div>
+    </div>
+  `;
+  $main.appendChild(sidebar);
+
+  // Canvas container
+  const canvasWrap = document.createElement('div');
+  canvasWrap.className = 'graph-canvas-wrap';
+  $main.appendChild(canvasWrap);
+
+  // Legenda de períodos com cores
+  const PERIOD_COLORS = {
+    'Pré-Socrática':                '#6b5a3e',
+    'Filosofia Antiga':             '#8b3a2a',
+    'Helenístico':                  '#5a7a5a',
+    'Filosofia Medieval':           '#5a4a7a',
+    'Filosofia Moderna':            '#2b4b7e',
+    'Contemporâneo / Século XX':    '#3a6a6a',
+  };
+
+  // Períodos únicos presentes nos dados
+  const periods = [...new Set(authors.map(a => a.period || '').filter(Boolean))];
+  const legend  = sidebar.querySelector('#graph-legend');
+  periods.forEach(p => {
+    const color = _periodColor(p);
+    const item  = document.createElement('div');
+    item.className   = 'graph-legend-item';
+    item.innerHTML   = `<span class="graph-legend-dot" style="background:${color}"></span><span>${p}</span>`;
+    legend.appendChild(item);
+  });
+
+  // Botões de filtro
+  const filtersEl = sidebar.querySelector('#graph-filters');
+  const allBtn = document.createElement('button');
+  allBtn.className = 'graph-filter-btn active';
+  allBtn.textContent = 'Todos';
+  allBtn.addEventListener('click', () => {
+    filtersEl.querySelectorAll('.graph-filter-btn').forEach(b => b.classList.remove('active'));
+    allBtn.classList.add('active');
+    GraphEngine.setFilter(null);
+  });
+  filtersEl.appendChild(allBtn);
+
+  // Escolas presentes
+  const schools = [...new Set(authors.map(a => a.school || '').filter(Boolean))];
+  const schoolData = State.getData('schools') || [];
+  schools.forEach(schoolId => {
+    const schoolObj = schoolData.find(s => s.id === schoolId);
+    const label = schoolObj ? schoolObj.name : schoolId;
+    const btn = document.createElement('button');
+    btn.className   = 'graph-filter-btn';
+    btn.textContent = label;
+    btn.addEventListener('click', () => {
+      filtersEl.querySelectorAll('.graph-filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      GraphEngine.setFilter(schoolId);
+    });
+    filtersEl.appendChild(btn);
+  });
+
+  // Reset view
+  sidebar.querySelector('#graph-reset').addEventListener('click', () => GraphEngine.resetView());
+
+  // Painel de detalhes do autor
+  const detailEl = sidebar.querySelector('#graph-detail');
+
+  // Inicializa grafo
+  GraphEngine.render(canvasWrap, authors, {
+    onSelect(author) {
+      if (!author) { detailEl.hidden = true; return; }
+
+      const schoolObj = (State.getData('schools') || []).find(s => s.id === author.school);
+      const schoolName = schoolObj ? schoolObj.name : (author.school || '—');
+      const related = (author.related_authors || [])
+        .map(id => authors.find(a => a.id === id))
+        .filter(Boolean)
+        .map(a => `<a href="#/author/${a.id}" class="graph-detail-link">${UI.escape(a.name)}</a>`)
+        .join(', ') || '—';
+
+      detailEl.hidden = false;
+      detailEl.innerHTML = `
+        <hr class="graph-detail-divider">
+        <h3 class="graph-detail-name">${UI.escape(author.name)}</h3>
+        <div class="graph-detail-meta">
+          <span>${UI.escape(author.period || '')}</span>
+          ${author.birth ? `<span>${_formatYears(author.birth, author.death)}</span>` : ''}
+        </div>
+        <p class="graph-detail-school">${UI.escape(schoolName)}</p>
+        <p class="graph-detail-summary">${UI.escape(author.summary || '')}</p>
+        <div class="graph-detail-related">
+          <span class="graph-detail-label">Relacionados:</span> ${related}
+        </div>
+        <a href="#/author/${author.id}" class="graph-detail-cta">Ver perfil completo →</a>
+      `;
+    }
+  });
 }
 
 function renderGlossary() {
@@ -817,6 +992,20 @@ function _formatYears(birth, death) {
   return `${fmt(birth)} — ${fmt(death)}`;
 }
 
+function _periodColor(period) {
+  const MAP = {
+    'Pré-Socrática': '#6b5a3e', 'Pré-Socrático': '#6b5a3e',
+    'Clássico': '#8b3a2a', 'Filosofia Antiga': '#8b3a2a',
+    'Helenístico': '#5a7a5a', 'Imperial Romano': '#5a7a5a',
+    'Imperial Romano / Helenístico': '#5a7a5a',
+    'Filosofia Medieval': '#5a4a7a', 'Medieval': '#5a4a7a',
+    'Filosofia Moderna': '#2b4b7e', 'Moderno / Idealismo Alemão': '#2b4b7e',
+    'Moderno / Século XIX': '#2b4b7e', 'Moderno / Contemporâneo': '#2b4b7e',
+    'Contemporâneo / Século XX': '#3a6a6a',
+  };
+  return MAP[period] || '#8b6e45';
+}
+
 /* ------------------------------------------------------------------
  * Inicialização
  * ------------------------------------------------------------------ */
@@ -834,6 +1023,7 @@ async function init() {
   Router.on('concept',  renderConcept);
   Router.on('timeline', renderTimeline);
   Router.on('glossary', renderGlossary);
+  Router.on('graph',    renderGraph);
 
   // Carrega dados
   const ok = await loadAllData();

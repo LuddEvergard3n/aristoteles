@@ -6,7 +6,7 @@
     "title": "A Filosofia Pré-Socrática",
     "subtitle": "A primeira pergunta: o que há na raiz de tudo?",
     "era": "Séc. VII–V a.C.",
-    "reading_time_minutes": 7,
+    "reading_time_minutes": 4,
     "key_figures": [
       "thales",
       "anaximander",
@@ -69,7 +69,7 @@
     "title": "Os Sofistas",
     "subtitle": "A verdade é relativa? A virtude pode ser ensinada?",
     "era": "Séc. V a.C.",
-    "reading_time_minutes": 7,
+    "reading_time_minutes": 4,
     "key_figures": [
       "protagoras",
       "gorgias"
@@ -129,7 +129,7 @@
     "title": "A Escola Socrática",
     "subtitle": "O método da ignorância: saber que não se sabe",
     "era": "Séc. V–IV a.C.",
-    "reading_time_minutes": 6,
+    "reading_time_minutes": 4,
     "key_figures": [
       "socrates"
     ],
@@ -188,7 +188,7 @@
     "title": "O Platonismo",
     "subtitle": "O que vemos é sombra — a realidade verdadeira é invisível",
     "era": "Séc. IV a.C. em diante",
-    "reading_time_minutes": 8,
+    "reading_time_minutes": 4,
     "key_figures": [
       "plato"
     ],
@@ -248,7 +248,7 @@
     "title": "O Aristotelismo",
     "subtitle": "A realidade está nas coisas — não num mundo separado",
     "era": "Séc. IV a.C. / Medieval",
-    "reading_time_minutes": 8,
+    "reading_time_minutes": 4,
     "key_figures": [
       "aristotle",
       "thomas-aquinas"
@@ -309,7 +309,7 @@
     "title": "O Estoicismo",
     "subtitle": "A liberdade está no interior — em qualquer circunstância",
     "era": "Séc. III a.C.–II d.C.",
-    "reading_time_minutes": 7,
+    "reading_time_minutes": 4,
     "key_figures": [
       "zeno-of-citium",
       "epictetus",
@@ -371,7 +371,7 @@
     "title": "O Epicurismo",
     "subtitle": "A vida boa é simples, livre de medo e rica em amizade",
     "era": "Séc. III a.C.–I d.C.",
-    "reading_time_minutes": 7,
+    "reading_time_minutes": 4,
     "key_figures": [
       "epicurus"
     ],
@@ -430,7 +430,7 @@
     "title": "O Ceticismo Antigo",
     "subtitle": "Suspender o julgamento — e encontrar paz na incerteza",
     "era": "Séc. IV a.C.–II d.C.",
-    "reading_time_minutes": 8,
+    "reading_time_minutes": 4,
     "key_figures": [
       "protagoras"
     ],
@@ -490,7 +490,7 @@
     "title": "A Escolástica",
     "subtitle": "A razão a serviço da fé — nas universidades medievais",
     "era": "Sécs. IX–XV",
-    "reading_time_minutes": 7,
+    "reading_time_minutes": 4,
     "key_figures": [
       "anselm",
       "thomas-aquinas"
@@ -551,7 +551,7 @@
     "title": "O Racionalismo",
     "subtitle": "A razão, e não os sentidos, é a fonte do conhecimento verdadeiro",
     "era": "Sécs. XVII–XVIII",
-    "reading_time_minutes": 8,
+    "reading_time_minutes": 4,
     "key_figures": [
       "descartes",
       "kant"
@@ -612,7 +612,7 @@
     "title": "O Empirismo",
     "subtitle": "Nada está na mente que não estivesse antes nos sentidos",
     "era": "Sécs. XVII–XVIII",
-    "reading_time_minutes": 8,
+    "reading_time_minutes": 4,
     "key_figures": [
       "hume",
       "mill"
@@ -673,7 +673,7 @@
     "title": "O Existencialismo",
     "subtitle": "A existência precede a essência — você se torna o que você escolhe",
     "era": "Sécs. XIX–XX",
-    "reading_time_minutes": 7,
+    "reading_time_minutes": 4,
     "key_figures": [],
     "key_concepts": [
       "ser",
@@ -731,7 +731,7 @@
     "title": "Racionalismo versus Empirismo",
     "subtitle": "O grande debate sobre a origem do conhecimento humano",
     "era": "Sécs. XVII–XVIII",
-    "reading_time_minutes": 8,
+    "reading_time_minutes": 4,
     "key_figures": [
       "descartes",
       "hume",
@@ -794,7 +794,7 @@
     "title": "Tales de Mileto",
     "subtitle": "O primeiro filósofo",
     "era": "c. 624–546 a.C.",
-    "reading_time_minutes": 5,
+    "reading_time_minutes": 4,
     "key_concepts": [
       "arche",
       "physis"
@@ -843,7 +843,7 @@
     "title": "Anaximandro",
     "subtitle": "O princípio não pode ser nenhuma coisa determinada",
     "era": "c. 610–546 a.C.",
-    "reading_time_minutes": 5,
+    "reading_time_minutes": 3,
     "key_concepts": [
       "arche",
       "physis"
@@ -892,7 +892,7 @@
     "title": "Anaxímenes",
     "subtitle": "O ar e o mecanismo da transformação",
     "era": "c. 585–525 a.C.",
-    "reading_time_minutes": 6,
+    "reading_time_minutes": 3,
     "key_concepts": [
       "arche",
       "physis"
@@ -941,7 +941,7 @@
     "title": "Heráclito de Éfeso",
     "subtitle": "Tudo flui — e os opostos são um",
     "era": "c. 535–475 a.C.",
-    "reading_time_minutes": 6,
+    "reading_time_minutes": 3,
     "key_concepts": [
       "logos",
       "physis",
@@ -991,7 +991,7 @@
     "title": "Parmênides de Eleia",
     "subtitle": "O ser é. O não-ser não é. A mudança é ilusão.",
     "era": "c. 515–450 a.C.",
-    "reading_time_minutes": 8,
+    "reading_time_minutes": 3,
     "key_concepts": [
       "ser",
       "verdade",
@@ -1041,7 +1041,7 @@
     "title": "Protágoras de Abdera",
     "subtitle": "O homem é a medida de todas as coisas",
     "era": "c. 490–420 a.C.",
-    "reading_time_minutes": 5,
+    "reading_time_minutes": 3,
     "key_concepts": [
       "relativismo",
       "verdade",
@@ -1091,7 +1091,7 @@
     "title": "Górgias de Leontinos",
     "subtitle": "A retórica como arte suprema — e a impossibilidade do conhecimento",
     "era": "c. 483–375 a.C.",
-    "reading_time_minutes": 5,
+    "reading_time_minutes": 3,
     "key_concepts": [
       "logos",
       "verdade",
@@ -1141,7 +1141,7 @@
     "title": "Sócrates",
     "subtitle": "A vida não examinada não vale a pena ser vivida",
     "era": "470–399 a.C.",
-    "reading_time_minutes": 7,
+    "reading_time_minutes": 3,
     "key_concepts": [
       "conhecimento",
       "virtude",
@@ -1197,7 +1197,7 @@
     "title": "Platão",
     "subtitle": "O mundo visível é sombra do mundo inteligível",
     "era": "428–348 a.C.",
-    "reading_time_minutes": 8,
+    "reading_time_minutes": 4,
     "key_concepts": [
       "ideia",
       "alma",
@@ -1255,7 +1255,7 @@
     "title": "Aristóteles",
     "subtitle": "A realidade está nas coisas — e pode ser investigada",
     "era": "384–322 a.C.",
-    "reading_time_minutes": 9,
+    "reading_time_minutes": 3,
     "key_concepts": [
       "substância",
       "virtude",
@@ -1317,7 +1317,7 @@
     "title": "Epicuro de Samos",
     "subtitle": "A filosofia que não cura a alma não vale nada",
     "era": "341–270 a.C.",
-    "reading_time_minutes": 7,
+    "reading_time_minutes": 3,
     "key_concepts": [
       "ataraxia",
       "felicidade",
@@ -1373,7 +1373,7 @@
     "title": "Zenão de Cítio",
     "subtitle": "O fundador do estoicismo",
     "era": "334–262 a.C.",
-    "reading_time_minutes": 8,
+    "reading_time_minutes": 3,
     "key_concepts": [
       "virtude",
       "logos",
@@ -1423,7 +1423,7 @@
     "title": "Epicteto",
     "subtitle": "A liberdade está na mente — não no corpo nem na fortuna",
     "era": "55–135 d.C.",
-    "reading_time_minutes": 6,
+    "reading_time_minutes": 3,
     "key_concepts": [
       "virtude",
       "logos",
@@ -1474,7 +1474,7 @@
     "title": "Marco Aurélio",
     "subtitle": "Um imperador que lutava contra si mesmo — em diário",
     "era": "121–180 d.C.",
-    "reading_time_minutes": 8,
+    "reading_time_minutes": 3,
     "key_concepts": [
       "virtude",
       "logos",
@@ -1524,7 +1524,7 @@
     "title": "Agostinho de Hipona",
     "subtitle": "Nosso coração está inquieto enquanto não repousa em Ti",
     "era": "354–430 d.C.",
-    "reading_time_minutes": 7,
+    "reading_time_minutes": 4,
     "key_concepts": [
       "iluminacao",
       "alma",
@@ -1581,7 +1581,7 @@
     "title": "Anselmo de Cantuária",
     "subtitle": "Fides quaerens intellectum — a fé em busca de compreensão",
     "era": "1033–1109",
-    "reading_time_minutes": 6,
+    "reading_time_minutes": 3,
     "key_concepts": [
       "argumento-ontologico",
       "ser",
@@ -1637,7 +1637,7 @@
     "title": "Tomás de Aquino",
     "subtitle": "A síntese de Atenas e Jerusalém",
     "era": "1225–1274",
-    "reading_time_minutes": 8,
+    "reading_time_minutes": 4,
     "key_concepts": [
       "lei-natural",
       "ser",
@@ -1694,7 +1694,7 @@
     "title": "René Descartes",
     "subtitle": "Penso, logo existo — o ponto de partida da filosofia moderna",
     "era": "1596–1650",
-    "reading_time_minutes": 7,
+    "reading_time_minutes": 3,
     "key_concepts": [
       "razão",
       "conhecimento",
@@ -1751,7 +1751,7 @@
     "title": "David Hume",
     "subtitle": "O ceticismo mais rigoroso da filosofia moderna",
     "era": "1711–1776",
-    "reading_time_minutes": 7,
+    "reading_time_minutes": 3,
     "key_concepts": [
       "ceticismo",
       "conhecimento",
@@ -1808,7 +1808,7 @@
     "title": "Immanuel Kant",
     "subtitle": "A revolução copernicana da filosofia",
     "era": "1724–1804",
-    "reading_time_minutes": 9,
+    "reading_time_minutes": 4,
     "key_concepts": [
       "razão",
       "conhecimento",
@@ -1866,7 +1866,7 @@
     "title": "John Stuart Mill",
     "subtitle": "Melhor ser Sócrates insatisfeito que um tolo satisfeito",
     "era": "1806–1873",
-    "reading_time_minutes": 8,
+    "reading_time_minutes": 3,
     "key_concepts": [
       "utilidade",
       "felicidade",
@@ -1922,7 +1922,7 @@
     "title": "Georg Wilhelm Friedrich Hegel",
     "subtitle": "O real é racional — e o racional é real",
     "era": "1770–1831",
-    "reading_time_minutes": 8,
+    "reading_time_minutes": 3,
     "key_concepts": [
       "dialética",
       "geist",
@@ -1979,7 +1979,7 @@
     "title": "Karl Marx",
     "subtitle": "A filosofia que quis transformar o mundo",
     "era": "1818–1883",
-    "reading_time_minutes": 8,
+    "reading_time_minutes": 3,
     "key_concepts": [
       "dialética",
       "ideologia",
@@ -2036,7 +2036,7 @@
     "title": "Friedrich Nietzsche",
     "subtitle": "Filosofar com o martelo",
     "era": "1844–1900",
-    "reading_time_minutes": 8,
+    "reading_time_minutes": 3,
     "key_concepts": [
       "vontade-de-potência",
       "verdade",
@@ -2093,7 +2093,7 @@
     "title": "Ludwig Wittgenstein",
     "subtitle": "O filósofo que transformou a filosofia duas vezes",
     "era": "1889–1951",
-    "reading_time_minutes": 8,
+    "reading_time_minutes": 4,
     "key_concepts": [
       "jogos-de-linguagem",
       "logos",
@@ -2150,7 +2150,7 @@
     "title": "Idealismo",
     "subtitle": "Da mente como filtro ao Absoluto como processo",
     "era": "Sécs. XVII–XIX",
-    "reading_time_minutes": 8,
+    "reading_time_minutes": 4,
     "key_figures": [
       "plato",
       "kant",
@@ -2214,7 +2214,7 @@
     "title": "Materialismo",
     "subtitle": "A primazia do real sobre o pensado",
     "era": "Sécs. XVIII–XX",
-    "reading_time_minutes": 7,
+    "reading_time_minutes": 3,
     "key_figures": [
       "marx"
     ],
@@ -2274,7 +2274,7 @@
     "title": "Existencialismo",
     "subtitle": "A existência singular que os sistemas não conseguem capturar",
     "era": "Sécs. XIX–XX",
-    "reading_time_minutes": 8,
+    "reading_time_minutes": 4,
     "key_figures": [
       "nietzsche"
     ],
@@ -2334,7 +2334,7 @@
     "title": "Analítica versus Continental",
     "subtitle": "O maior cisma da filosofia do século XX",
     "era": "Séc. XX",
-    "reading_time_minutes": 9,
+    "reading_time_minutes": 3,
     "key_figures": [
       "wittgenstein",
       "nietzsche",

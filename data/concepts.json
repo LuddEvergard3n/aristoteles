@@ -19,7 +19,8 @@
     "examples": [
       "Quando alguém pergunta 'o que é justo?' e exige razões, não aceita a resposta 'é o que manda a lei', está fazendo filosofia.",
       "Quando a ciência questiona seus próprios fundamentos — o que é uma explicação científica? — faz filosofia da ciência."
-    ]
+    ],
+    "relevance": "A prática filosófica é o antídoto ao pensamento reflexo: em tempos de desinformação e polarização, a capacidade de distinguir argumento de retórica, avaliar premissas e suspender o julgamento provisório é uma competência cívica elementar — não um luxo académico."
   },
   {
     "id": "mito",
@@ -39,7 +40,8 @@
     "examples": [
       "O mito de Prometeu explica a origem do fogo e a relação entre homens e deuses.",
       "O Mito da Caverna, em Platão, é um mito filosófico: usa imagem narrativa para ilustrar argumento racional."
-    ]
+    ],
+    "relevance": "O mito não é apenas história antiga: é um modo de organizar e legitimar a experiência humana que persiste nas narrativas nacionais, nas ideologias políticas e na publicidade. Compreender a estrutura do mito — como ele cria identidade, naturaliza o poder e resiste à refutação racional — é indispensável para a crítica cultural contemporânea."
   },
   {
     "id": "razão",
@@ -65,7 +67,8 @@
     "examples": [
       "Usar a razão é dar razões para o que se afirma, não apenas expressar preferências.",
       "Quando Kant diz que a moral se funda na razão, significa que seus princípios devem ser universais e necessários, não contingentes."
-    ]
+    ],
+    "relevance": "A razão não é apenas uma faculdade: é o projecto da modernidade. Desde o Iluminismo, a razão foi apresentada como emancipação (Kant), como motor da história (Hegel), como instrumento de dominação (Adorno/Horkheimer) e como jogo de linguagem entre outros (Wittgenstein). O que conta como razoável num debate é sempre já uma decisão política e filosófica."
   },
   {
     "id": "argumento",
@@ -89,7 +92,8 @@
     "examples": [
       "Todo homem é mortal. Sócrates é homem. Portanto, Sócrates é mortal. (argumento válido)",
       "'Acho que a democracia é melhor' é uma opinião. 'A democracia é melhor porque distribui o poder e evita a tirania' começa a ser um argumento."
-    ]
+    ],
+    "relevance": "Toda decisão colectiva — jurídica, política, científica — depende de argumentos explícitos que possam ser avaliados e contestados. Sem a capacidade de identificar premissas e avaliar inferências, não há deliberação democrática genuína: há apenas pressão social e poder."
   },
   {
     "id": "premissa",
@@ -111,7 +115,8 @@
     "examples": [
       "No argumento 'Todo homem é mortal; Sócrates é homem; logo, Sócrates é mortal', as premissas são as duas primeiras proposições.",
       "Às vezes as premissas ficam implícitas: 'Sócrates é mortal porque é homem' — premissa oculta: todo homem é mortal."
-    ]
+    ],
+    "relevance": "Tornar as premissas explícitas é o acto filosófico por excelência. Em debates públicos, as premissas mais controversas são as mais escondidas. Identificá-las não é um gesto técnico — é um gesto político: quem controla as premissas de uma discussão controla o espaço do debate."
   },
   {
     "id": "conclusão",
@@ -133,7 +138,8 @@
     "examples": [
       "No argumento aristotélico sobre Sócrates, a conclusão é: Sócrates é mortal.",
       "Indicadores de conclusão em textos: 'portanto', 'logo', 'assim', 'conclui-se que', 'segue-se que'."
-    ]
+    ],
+    "relevance": "A conclusão é a tese que um argumento pretende estabelecer — mas ela frequentemente permanece implícita no discurso público. Identificar a conclusão real de um argumento (e não a aparente) é o primeiro passo para avaliar se as premissas a suportam. No jornalismo, na política e na lei, a confusão entre premissa e conclusão é uma das fontes mais comuns de erro argumentativo."
   },
   {
     "id": "lógica",
@@ -156,7 +162,8 @@
     "examples": [
       "A lógica não diz se uma premissa é verdadeira, apenas se a conclusão se segue das premissas.",
       "Um argumento pode ser logicamente válido e ter conclusão falsa: 'Todos os pássaros voam; o pinguim é pássaro; logo o pinguim voa'. Válido mas com premissa falsa."
-    ]
+    ],
+    "relevance": "A lógica formal é a gramática do raciocínio correcto. Está na base da computação (álgebra de Boole), da matemática (prova formal), do direito (argumentação jurídica) e da ciência (inferência estatística). Saber o que é uma falácia formal é saber reconhecer quando um argumento parece sólido mas estruturalmente não é."
   },
   {
     "id": "etica",
@@ -183,7 +190,8 @@
     "examples": [
       "A pergunta 'devo mentir para salvar uma vida?' é uma questão ética.",
       "Aristóteles responde: age como agiria o homem virtuoso nestas circunstâncias."
-    ]
+    ],
+    "relevance": "A ética não é apenas teoria: estrutura o que se pode e não se pode fazer profissionalmente em medicina, direito, engenharia e jornalismo. Os códigos deontológicos profissionais são filosofia moral aplicada. Quando esses códigos entram em conflito — o médico e a confidencialidade, o engenheiro e a segurança pública — a formação ética filosófica é o que permite raciocinar além da regra."
   },
   {
     "id": "politica",
@@ -208,7 +216,8 @@
     "examples": [
       "A pergunta 'o que justifica a obediência à lei?' é filosofia política.",
       "Aristóteles analisou 158 constituições de cidades gregas antes de escrever a Política."
-    ]
+    ],
+    "relevance": "A filosofia política não descreve o poder: pergunta como ele se justifica. As questões de Platão (quem deve governar?), Hobbes (por que obedecer?), Locke (quais os limites do poder?), Rawls (que distribuição é justa?) e Arendt (o que é a acção política?) são as questões por baixo de toda a decisão constitucional, electoral e de política pública."
   },
   {
     "id": "metafísica",
@@ -234,7 +243,8 @@
     "examples": [
       "'O que existe, além das coisas físicas?' é uma questão metafísica.",
       "A pergunta 'Deus existe?' é metafísica; a pergunta 'posso provar que Deus existe?' é epistemológica e metafísica."
-    ]
+    ],
+    "relevance": "A metafísica pergunta pelo que existe fundamentalmente — e essa pergunta afecta tudo o resto. Quando um tribunal decide se uma empresa tem 'personalidade jurídica', quando um médico decide se um embrião tem 'estatuto moral', quando um físico decide se as partículas subatómicas 'existem' — estão a fazer metafísica aplicada sem o saber."
   },
   {
     "id": "epistemologia",
@@ -262,7 +272,8 @@
     "examples": [
       "'Posso confiar nos meus sentidos?' é uma questão epistemológica.",
       "A distinção de Platão entre episteme (saber) e doxa (opinião) inaugura a epistemologia ocidental."
-    ]
+    ],
+    "relevance": "A epistemologia é a autoavaliação da razão: como sabemos o que sabemos, com que segurança, e quais são os limites. Numa época de crises de replicação científica, de falsos peritos e de algoritmos opacos que tomam decisões, a epistemologia passou de disciplina académica a competência de sobrevivência intelectual."
   },
   {
     "id": "verdade",
@@ -289,7 +300,8 @@
     "examples": [
       "'A neve é branca' é verdadeiro se e somente se a neve é branca. (teoria da correspondência)",
       "Para Platão, a verdade plena pertence ao mundo das Ideias; o mundo sensível oferece apenas opiniões."
-    ]
+    ],
+    "relevance": "A questão sobre o que é a verdade não é ociosa: dela dependem como avaliamos notícias, testemunhos, teorias científicas e sistemas judiciais. A distinção entre verdade correspondencial (corresponde aos factos), coerentista (coerente com o sistema) e pragmática (funciona) tem consequências directas para como se pensa a objectividade."
   },
   {
     "id": "justica",
@@ -315,7 +327,8 @@
     "examples": [
       "Platão pergunta: uma cidade justa é aquela em que cada parte cumpre sua função própria.",
       "Aristóteles distingue justiça distributiva (proporção) de justiça corretiva (restaurar a igualdade)."
-    ]
+    ],
+    "relevance": "A justiça é o conceito filosófico com maior impacto directo sobre as instituições: sistema penal, direito civil, política fiscal e redistribuição. Platão (harmonia das partes), Aristóteles (a cada um segundo o mérito), Kant (respeito universal) e Rawls (maximizar a posição do pior situado) oferecem critérios incompatíveis — e os debates legislativos actuais são frequentemente disputas entre eles."
   },
   {
     "id": "ser",
@@ -341,7 +354,8 @@
     "examples": [
       "A diferença entre 'o que é o ser?' e 'o que existe?' é o ponto de partida da ontologia.",
       "Quando Aristóteles diz que 'o ser se diz de muitas maneiras', abre a questão da analogia do ser."
-    ]
+    ],
+    "relevance": "A questão do ser — por que há algo em vez de nada? — é a pergunta metafísica mais radical. Mais do que resolver, ela serve para calibrar a humildade intelectual: os limites do que a razão humana pode alcançar são revelados precisamente onde a pergunta mais fundamental não encontra resposta satisfatória."
   },
   {
     "id": "alma",
@@ -366,7 +380,8 @@
     "examples": [
       "Para Platão, o corpo é a prisão da alma; a morte liberta a alma para retornar ao mundo das ideias.",
       "Para Aristóteles, perguntar se a alma e o corpo são distintos é como perguntar se a cera e a forma de cera são distintas."
-    ]
+    ],
+    "relevance": "O debate sobre a alma é hoje o debate sobre consciência, identidade pessoal e mente. A questão 'o que sou eu para além do meu corpo?' é o problema difícil da consciência de Chalmers, o problema do que é ser X de Nagel, e o debate sobre o estatuto moral dos animais e das IAs."
   },
   {
     "id": "virtude",
@@ -390,7 +405,8 @@
     "examples": [
       "A coragem é virtude porque é o meio-termo entre a covardia (falta) e a temeridade (excesso).",
       "Para Aristóteles, a virtude não se aprende apenas lendo: exige prática, como aprender a tocar um instrumento."
-    ]
+    ],
+    "relevance": "A ética das virtudes responde à questão que nenhuma regra resolve: que tipo de pessoa devo ser? Na formação médica, jurídica e pedagógica, o problema não é só ensinar regras mas cultivar disposições estáveis de julgamento. A ideia de virtude como hábito treinável — e não como traço fixo de personalidade — é pedagogicamente central."
   },
   {
     "id": "felicidade",
@@ -414,7 +430,8 @@
     "examples": [
       "Para Aristóteles, a felicidade não é sentir-se bem, mas viver bem e agir bem.",
       "Um homem rico e saudável mas sem virtude não é eudaimon para Aristóteles."
-    ]
+    ],
+    "relevance": "Nos últimos trinta anos, a psicologia positiva produziu uma literatura imensa sobre bem-estar. O diálogo com a filosofia revela tensões: a felicidade hedonista (prazer), a eudaimónica (florescimento), a de vida significativa (Frankl) e a de satisfação reflectida (Rawls) são conceptualmente distintas — e cada uma implica políticas e intervenções diferentes."
   },
   {
     "id": "conhecimento",
@@ -442,7 +459,8 @@
     "examples": [
       "Platão distingue: ver um objeto é opinião (doxa); compreender a Ideia do objeto é conhecimento (episteme).",
       "Posso ter crença verdadeira sem conhecimento: acertar na loteria 'porque tinha certeza' — creio, é verdade, mas não sabia."
-    ]
+    ],
+    "relevance": "A distinção entre conhecimento, crença e opinião é o fundamento da literacia epistémica. Numa era de desinformação, saber quando alguém tem direito a afirmar que 'sabe' algo — e não apenas que 'acredita' — é uma competência defensiva essencial."
   },
   {
     "id": "opinião",
@@ -466,7 +484,8 @@
     "examples": [
       "Parmenides distingue a Via da Verdade (ser) da Via da Opinião (aparências sensíveis).",
       "Dizer 'acho que a vida tem sentido' é opinião. Dizer por que razão tem sentido, examinando objeções, é argumento filosófico."
-    ]
+    ],
+    "relevance": "A distinção filosófica entre opinião (doxa) e conhecimento (episteme) não é pedantismo: é a base da literacia epistémica. Numa época em que qualquer afirmação circula com a mesma aparência de qualquer outra, saber exigir justificação antes de dar crédito a uma posição — e distinguir entre intensidade de convicção e qualidade do argumento — é uma competência democrática elementar."
   },
   {
     "id": "silogismo",
@@ -489,7 +508,8 @@
     "examples": [
       "Todo homem é mortal (P1). Sócrates é homem (P2). Portanto, Sócrates é mortal (C).",
       "A validade do silogismo é formal: independe de os homens serem ou não mortais."
-    ]
+    ],
+    "relevance": "O silogismo é o ancestral directo de toda a programação lógica e da prova matemática. A estrutura premissa→premissa→conclusão aparece em contratos, sentenças judiciais e raciocínios médicos. Saber verificar a validade de um silogismo é saber verificar se uma conclusão decorre realmente das suas bases."
   },
   {
     "id": "phronesis",
@@ -511,7 +531,8 @@
     "examples": [
       "Saber que a coragem é o meio-termo é sophia; saber agir com coragem nesta situação concreta é phronesis.",
       "O juiz que aplica a lei com sabedoria, atendendo ao espírito além da letra, exerce phronesis."
-    ]
+    ],
+    "relevance": "A phronesis (sabedoria prática) é a virtude que nenhum algoritmo possui: a capacidade de identificar o que a situação exige, sem uma regra que o determine. Nos debates sobre inteligência artificial, a phronesis é o nome filosófico para o que as máquinas não conseguem fazer — e por isso é o que os humanos precisam de cultivar com mais urgência."
   },
   {
     "id": "logos",
@@ -536,7 +557,8 @@
     "examples": [
       "Heráclito: 'embora o logos governe tudo, a maioria vive como se tivesse inteligência própria'.",
       "Aristóteles define o humano como 'zôon logikon': animal racional/linguístico."
-    ]
+    ],
+    "relevance": "O logos é simultaneamente razão, linguagem e princípio de ordem — e essa ambiguidade é filosoficamente produtiva. Nas ciências cognitivas contemporâneas, a questão de se o pensamento é linguístico ou pode ser não-verbal é o logos em nova roupagem. Na política, a exigência de que o poder se justifique com razões públicas (Habermas) é logos aplicado."
   },
   {
     "id": "arche",
@@ -562,7 +584,8 @@
       "Para Tales: a água é o arché de todas as coisas",
       "Para Anaximandro: o ápeiron (ilimitado/indefinido) é o arché",
       "Para Anaxímenes: o ar é o arché, transformando-se por rarefação e condensação"
-    ]
+    ],
+    "relevance": "A pergunta pelo arché — o princípio fundamental de tudo — é a pergunta pela explicação última. Ela ressurge em física (o que são as partículas elementares?), em biologia (o que é a vida?) e em cosmologia (qual o estado inicial do universo?). A disposição de procurar princípios unificadores em vez de aceitar a pluralidade irreductível é a herança pré-socrática que ainda anima a ciência."
   },
   {
     "id": "physis",
@@ -588,7 +611,8 @@
       "A physis do fogo é subir — é seu movimento natural",
       "A distinção physis/nomos nos sofistas: a lei natural versus a lei convencional",
       "'Filosofia natural' (natural philosophy) é a precursora da ciência moderna"
-    ]
+    ],
+    "relevance": "O conceito grego de physis — a natureza como processo de crescimento e auto-organização — é o ancestral dos conceitos científicos de sistema, emergência e evolução. A oposição physis/nomos (natureza/convenção) inaugurou o debate sobre o que é natural versus o que é construído socialmente — debate que continua central em ética, política e ciências sociais."
   },
   {
     "id": "ataraxia",
@@ -611,7 +635,8 @@
       "O sábio epicurista vive em ataraxia porque eliminou desejos supérfluos e o medo da morte",
       "O estóico alcança equanimidade distinguindo o que depende e o que não depende de si",
       "'Perturbação zero' não como apatia, mas como ausência de perturbação irracional"
-    ]
+    ],
+    "relevance": "A ataraxia (ausência de perturbação) como ideal de bem-estar ressurge na psicologia clínica como regulação emocional e tolerância à incerteza. A tradição estoico-epicurista que a desenvolveu antecipa as terapias cognitivo-comportamentais: o sofrimento resulta frequentemente de julgamentos errados sobre o que está em nosso poder, não dos eventos em si."
   },
   {
     "id": "relativismo",
@@ -635,7 +660,8 @@
       "Protágoras: 'O vento é frio para mim e quente para você — ambos estamos certos'",
       "Relativismo moral: 'A poligamia é errada em nossa cultura, mas está certa em outra'",
       "Objeção: se toda verdade é relativa, também o é a tese do relativismo"
-    ]
+    ],
+    "relevance": "O relativismo moral e cultural não é defensável em toda a sua extensão — a tortura não é certa para algumas culturas. Mas o relativismo moderado — reconhecer que muitas práticas morais têm contexto histórico e que a superioridade cultural não é auto-evidente — é uma posição epistemicamente responsável numa sociedade multicultural."
   },
   {
     "id": "justificacao",
@@ -659,7 +685,8 @@
       "Tenho justificação para crer que chove porque vejo chuva pela janela",
       "O júri tem crença verdadeira mas justificação inadequada (persuasão retórica, não evidência)",
       "No caso Gettier, há justificação — mas ela não conecta corretamente à verdade"
-    ]
+    ],
+    "relevance": "A justificação epistémica é o que separa a crença do conhecimento. Em ciência, direito e democracia, a exigência de justificação pública — que as razões sejam articuláveis e avaliáveis por outros — é o mecanismo que distingue saber de autoridade. A questão de quanto e que tipo de justificação é necessária está no centro da filosofia da ciência e do direito."
   },
   {
     "id": "ceticismo",
@@ -685,7 +712,8 @@
       "Descartes: 'E se tudo que percebo é sonho ou ilusão de um gênio maligno?'",
       "Hume: não podemos justificar racionalmente a indução nem a causalidade",
       "Pirro: suspensão do julgamento leva à paz de espírito"
-    ]
+    ],
+    "relevance": "O ceticismo filosófico não é niilismo: é a prática de exigir justificação antes de aceitar uma crença. Em saúde pública, jornalismo e política, um grau calibrado de ceticismo — nem demasiado nem demasiado pouco — é a condição de um cidadão informado que não é manipulável."
   },
   {
     "id": "fenomeno",
@@ -709,7 +737,8 @@
       "A maçã que percebo — com sua cor, forma e peso no espaço — é um fenômeno",
       "A temperatura que sinto no termômetro é um fenômeno; o calor em si (seja lá o que for) é noumenon",
       "A física descreve fenômenos com precisão extraordinária — mas não a realidade última"
-    ]
+    ],
+    "relevance": "O fenómeno kantiano — o objecto tal como aparece ao sujeito estruturado pelas formas a priori — é hoje central na filosofia da percepção e da ciência. A questão de se a física descreve fenómenos ou a realidade em si não é apenas filosófica: tem implicações para como se interpreta a mecânica quântica, onde o observador afecta o observado."
   },
   {
     "id": "noumenon",
@@ -732,7 +761,8 @@
       "Deus, a alma imortal e o universo como totalidade são noumena — objetos da razão, não do conhecimento",
       "A coisa-em-si por trás de cada fenômeno é noumenon — existe, mas está além do alcance",
       "Para Kant, a moral pressupõe o noumenon: a liberdade da vontade não pode ser conhecida, apenas postulada"
-    ]
+    ],
+    "relevance": "O nóumeno — a coisa-em-si incognoscível — é o limite do conhecimento humano para Kant. Hoje, esse limite reaparece em contextos inesperados: o problema difícil da consciência (nunca poderemos saber o que é ser outra pessoa), a opacidade dos algoritmos de deep learning e os limites da interpretação quântica."
   },
   {
     "id": "a-priori",
@@ -755,7 +785,8 @@
       "A priori: 'todo evento tem uma causa' (universal e necessário, independe de observação)",
       "A posteriori: 'a água ferve a 100°C' (aprendido pela experiência, contingente)",
       "Sintético a priori (Kant): '7 + 5 = 12' (amplia conhecimento, mas independe de experiência)"
-    ]
+    ],
+    "relevance": "A distinção a priori/a posteriori está no centro do debate sobre o estatuto da matemática, da lógica e dos princípios éticos. Quando alguém afirma que 'é óbvio que a tortura é errada' sem precisar de dados empíricos, está a invocar um julgamento a priori — cujo estatuto é filosoficamente controverso."
   },
   {
     "id": "inducao",
@@ -780,7 +811,8 @@
       "'Observei mil cisnes brancos, logo todos os cisnes são brancos' — indução falseada em 1697 na Austrália",
       "A ciência empírica usa indução para formular leis gerais a partir de experimentos",
       "Hume: não há justificação racional para acreditar que o passado prediz o futuro"
-    ]
+    ],
+    "relevance": "A indução é o motor da ciência empírica e da aprendizagem automática. O problema de Hume — que a indução não tem fundamento lógico — é hoje central no debate sobre a fiabilidade da inteligência artificial: um modelo treinado em dados passados não garante desempenho futuro pela mesma razão que Hume identifica."
   },
   {
     "id": "dever",
@@ -804,7 +836,8 @@
       "Pagar impostos por medo da multa: ação conforme o dever",
       "Pagar impostos porque é obrigação de cidadão racional: ação por dever",
       "Dizer a verdade quando é dolorosa porque a honestidade é imperativo racional: dever"
-    ]
+    ],
+    "relevance": "A noção de dever deontológico estrutura o direito internacional, os direitos humanos e a ética médica: há coisas que não se podem fazer a uma pessoa independentemente das consequências — torturar, usar como cobaia sem consentimento, discriminar por origem. Sem essa estrutura deontológica, os direitos humanos reduzem-se a cálculos de utilidade."
   },
   {
     "id": "imperativo-categorico",
@@ -827,7 +860,8 @@
       "Testar uma máxima: 'posso prometer sem intenção de cumprir?' Universalizado, destrói a instituição da promessa",
       "Fórmula da humanidade: explorar trabalhadores como mero meio de lucro viola o imperativo",
       "O mentiroso usa o ouvinte como meio — trata sua racionalidade como obstáculo, não como fim"
-    ]
+    ],
+    "relevance": "O imperativo categórico de Kant é a formulação filosófica mais rigorosa da intuição por trás dos direitos humanos: certos actos são proibidos universalmente, independentemente dos resultados. Toda a arquitectura dos direitos humanos modernos é implicitamente kantiana."
   },
   {
     "id": "deontologia",
@@ -851,7 +885,8 @@
       "Deontológico: 'não devo mentir mesmo que salve uma vida — a mentira é proibida'",
       "Direitos como restrições deontológicas: tortura é proibida mesmo se salvaria cem pessoas",
       "Contraste: 'o fim justifica os meios' é a tese oposta à deontologia"
-    ]
+    ],
+    "relevance": "A deontologia — ética do dever e das regras universais — é o fundamento filosófico dos direitos humanos, do direito penal e da bioética. A proibição de tortura, os requisitos de consentimento informado e a igualdade perante a lei são princípios deontológicos: aplicam-se independentemente das consequências. Sem esses constrangimentos, o cálculo de utilidade justifica qualquer violação de direitos."
   },
   {
     "id": "consequencialismo",
@@ -875,7 +910,8 @@
       "'Cinco vidas valem mais que uma' — raciocínio consequencialista no dilema do bonde",
       "Pena de morte: consequencialista pró se a deterrência supera os custos; anti se não supera",
       "Mentira piedosa: consequencialismo pode justificá-la se os resultados forem melhores"
-    ]
+    ],
+    "relevance": "O consequencialismo — avaliar acções pelos seus resultados — é a ética implícita das políticas públicas: análise custo-benefício, saúde pública (salvar o maior número), economia do bem-estar. O movimento do altruísmo efetivo aplica-o sistematicamente à filantropia. O problema filosófico é que, sem constrangimentos deontológicos, o consequencialismo pode justificar atrocidades se os números forem suficientemente favoráveis."
   },
   {
     "id": "utilidade",
@@ -896,7 +932,8 @@
       "Bentham: medir utilidade pela intensidade e duração do prazer",
       "Mill: um poema de Shakespeare tem mais utilidade que mil horas de jogos frívolos — se avaliado por quem experienciou ambos",
       "Análise de custo-benefício em políticas públicas: forma contemporânea de cálculo utilitarista"
-    ]
+    ],
+    "relevance": "O princípio da utilidade — maximizar o bem-estar agregado — estrutura silenciosamente a análise de políticas públicas em todo o mundo. Cada vez que se pergunta 'qual o custo e qual o benefício?' está-se a fazer filosofia utilitarista aplicada. Os seus limites — que não protege minorias, que é difícil de calcular, que pode justificar injustiças distributivas — são problemas filosóficos com consequências práticas enormes."
   },
   {
     "id": "universais",
@@ -919,7 +956,8 @@
       "Realismo: a humanidade de Sócrates e de Platão é a mesma humanidade real presente em ambos",
       "Nominalismo: 'humanidade' é apenas o nome que damos ao conjunto de indivíduos que se parecem",
       "Conceitualismo: a humanidade existe como conceito abstrato formado pela mente a partir de casos particulares"
-    ]
+    ],
+    "relevance": "O debate dos universais não é uma curiosidade medieval. Ele reaparece em: realismo matemático (os números existem independentemente das mentes?), ética (há valores universais ou apenas culturais?), linguística (há categorias conceptuais universais?) e IA (os conceitos que as redes neurais formam são universais ou idiossincráticos?)."
   },
   {
     "id": "argumento-ontologico",
@@ -944,7 +982,8 @@
       "Anselmo: aquilo do qual nada maior pode ser pensado deve existir na realidade — senão seria menor do que algo que existe",
       "Descartes: a existência é parte do conceito de ser sumamente perfeito, como ter três ângulos é parte de triângulo",
       "Kant: cem táleres reais e cem táleres possíveis têm as mesmas propriedades — existência não acrescenta propriedade"
-    ]
+    ],
+    "relevance": "O argumento ontológico — provar existência a partir de conceito — parece uma curiosidade histórica, mas o seu núcleo filosófico (a relação entre possibilidade e existência) é central na lógica modal contemporânea e nos debates sobre o estatuto dos objectos matemáticos e das possibilidades contrafactuais. A versão modal de Plantinga é discutida seriamente em filosofia analítica da religião."
   },
   {
     "id": "iluminacao",
@@ -966,7 +1005,8 @@
       "As verdades matemáticas são eternas e necessárias — não podem vir dos sentidos, que só mostram o contingente",
       "Quando entendo que 7+5=12, não 'invento' essa verdade — reconheço algo que Deus me permite ver",
       "Contraste: Tomás diz que a razão natural extrai universais das coisas sem iluminação especial a cada ato"
-    ]
+    ],
+    "relevance": "A teoria da iluminação de Agostinho — que o conhecimento das verdades eternas requer uma luz divina — é a versão medieval do problema da justificação do conhecimento a priori. A questão filosófica que ela levanta — o que garante que as nossas faculdades cognitivas captam a verdade? — reaparece em Descartes (o Deus que garante a razão) e em Plantinga (epistemologia reformada)."
   },
   {
     "id": "lei-natural",
@@ -990,7 +1030,8 @@
       "Proibição do homicídio: cognoscível pela razão como violação da lei natural (fim natural da vida)",
       "Direitos naturais (Locke, Grotius): construídos sobre o conceito tomista de lei natural",
       "Debate contemporâneo: os princípios de bioética (não-maleficência, beneficência) têm estrutura de lei natural"
-    ]
+    ],
+    "relevance": "A lei natural — princípios morais deriváveis pela razão a partir da natureza humana — é o fundamento filosófico dos direitos humanos na sua versão clássica. Os debates sobre bioética, eutanásia, contracepção e direitos dos animais frequentemente opõem a lei natural (o que a natureza prescreve) ao contratualismo (o que os agentes racionais acordariam). Compreender a estrutura do argumento da lei natural é indispensável para participar nestes debates."
   },
   {
     "id": "validade",
@@ -1014,7 +1055,8 @@
       "Válido: 'Todos os X são Y; Z é X; logo Z é Y' — independentemente do que X, Y, Z sejam",
       "Sólido: o silogismo 'Todo mamífero tem sangue quente; baleias são mamíferos; logo baleias têm sangue quente'",
       "Inválido: 'A maioria dos políticos é corrupta; João é político; logo João é corrupto' — premissa probabilística não garante conclusão"
-    ]
+    ],
+    "relevance": "Distinguir validade de solidez é crucial em qualquer debate público: um político pode apresentar um argumento formalmente válido com premissas falsas e concluir algo errado. Identificar essa estrutura é o primeiro passo para não ser enganado por raciocínios aparentemente impecáveis."
   },
   {
     "id": "falacia",
@@ -1037,7 +1079,8 @@
       "Ad hominem: 'Você está errado porque é desonesto' — ataca a pessoa, não o argumento",
       "Post hoc: 'Tomei vitamina C e melhorei — a vitamina curou minha gripe'",
       "Afirmação do consequente: 'Se chove, a rua molha; a rua está molhada; logo choveu' — inválido (pode ter sido regador)"
-    ]
+    ],
+    "relevance": "Falácias são as ferramentas favoritas da má-fé argumentativa. Em debates políticos, publicidade e redes sociais, ad hominem, espantalho e apelo à autoridade ocorrem centenas de vezes por dia. Reconhecê-las não encerra o debate — mas impede que o encerrem de forma ilegítima."
   },
   {
     "id": "proposicao",
@@ -1060,7 +1103,8 @@
       "'A Terra orbita o Sol' — proposição verdadeira",
       "'Todo número par é divisível por 2' — proposição necessariamente verdadeira",
       "'Você deveria ajudá-la' — ordem, não proposição; sem valor de verdade lógico"
-    ]
+    ],
+    "relevance": "A proposição — unidade mínima de significado com valor de verdade — é o átomo da lógica e da linguagem filosófica. A distinção entre proposição (conteúdo) e enunciado (forma linguística) é necessária para entender quando duas frases diferentes dizem a mesma coisa e quando a mesma frase diz coisas diferentes em contextos diferentes. Em direito e em ciência, esta distinção tem consequências imediatas."
   },
   {
     "id": "inferencia",
@@ -1084,7 +1128,8 @@
       "Dedutiva: 'Todos os metais conduzem calor; o ferro é metal; logo o ferro conduz calor'",
       "Indutiva: 'Observei cem cisnes brancos; provavelmente todos os cisnes são brancos'",
       "Abdutiva: 'A grama está molhada; a melhor explicação é que choveu' — inferência ao cotidiano"
-    ]
+    ],
+    "relevance": "A inferência — o passo de premissas para conclusão — é o movimento central do pensamento racional. Compreender os tipos de inferência (dedutiva, indutiva, abdutiva) e os seus graus de força permite avaliar a que distância uma conclusão está das suas bases. A inferência abdutiva (a melhor explicação disponível) é o método dominante na medicina de diagnóstico e na investigação criminal."
   },
   {
     "id": "dialética",
@@ -1110,7 +1155,8 @@
       "Hegel: ser puro (tese) e nada (antítese) suprassumidos no devir (síntese)",
       "Dialética do senhor e do escravo: dominação gera dependência que inverte a relação",
       "Marx: capitalismo gera proletariado que suprassume o capitalismo"
-    ]
+    ],
+    "relevance": "A dialética — argumentação por contradição e superação — é o método da filosofia crítica. Seja na versão platónica (diálogo que examina contradições), hegeliana (contradição como motor do Espírito) ou marxista (contradição como motor da história), a dialética é o antídoto ao pensamento linear que ignora tensões e conflitos."
   },
   {
     "id": "geist",
@@ -1134,7 +1180,8 @@
       "A Revolução Francesa como momento do Geist compreendendo a liberdade",
       "O Estado moderno como objetivação do Espírito ético",
       "A filosofia de Hegel como o Espírito chegando ao autoconhecimento"
-    ]
+    ],
+    "relevance": "O Geist (Espírito) hegeliano parece uma abstracção metafísica obscura — mas é a tentativa filosófica mais ambiciosa de pensar o que é colectivo e histórico: como as ideias, as instituições e as culturas têm uma lógica que transcende os indivíduos que as habitam. A sociologia (Durkheim, Weber), a teoria das instituições e os estudos culturais são hegelianismos sem Geist — mas com os mesmos problemas."
   },
   {
     "id": "ideologia",
@@ -1158,7 +1205,8 @@
       "A 'mão invisível' do mercado: ideologia que apresenta o capitalismo como ordem natural",
       "Os direitos naturais liberais: Marx os via como ideologia da burguesia apresentada como universal",
       "A religião como 'ópio do povo': promessa de compensação celeste que justifica sofrimento terreno"
-    ]
+    ],
+    "relevance": "O conceito marxista de ideologia — sistema de ideias que serve interesses de dominação apresentando o particular como universal — é um instrumento crítico indispensável. Permite perguntar de qualquer discurso: quem beneficia deste quadro conceptual? Que alternativas torna invisíveis?"
   },
   {
     "id": "vontade-de-potência",
@@ -1180,7 +1228,8 @@
       "O artista que se supera em cada obra — expressão de vontade de potência criadora",
       "O ressentimento como vontade de potência bloqueada: não podendo crescer, diminui o outro",
       "O asceta que nega o corpo: para Nietzsche, vontade de potência espiritual disfarçada de negação"
-    ]
+    ],
+    "relevance": "A vontade de potência não é vontade de dominar outros — é impulso de autocriação e superação. Na psicologia positiva, o conceito de agência e auto-eficácia de Bandura é uma versão laica e empiricamente testada do mesmo impulso que Nietzsche descrevia. A vontade de potência como projecto de si mesmo é a leitura mais produtiva de Nietzsche."
   },
   {
     "id": "jogos-de-linguagem",
@@ -1203,7 +1252,8 @@
       "'Dor': no jogo de linguagem médico, descreve sintoma; no literário, pode ser metáfora; no religioso, oferenda",
       "O problema filosófico do livre-arbítrio como confusão entre jogos de linguagem: 'livre' funciona diferente em contextos diferentes",
       "Regras do xadrez: só existem dentro do jogo — 'o rei move-se uma casa por vez' é sem sentido fora do jogo"
-    ]
+    ],
+    "relevance": "Os jogos de linguagem de Wittgenstein são hoje um instrumento indispensável de análise: mostram que a mesma palavra tem gramáticas diferentes em contextos diferentes. Usar dor em contexto médico, em contexto legal e em contexto poético segue regras distintas — confundi-los gera pseudo-problemas filosóficos e erros práticos em medicina, direito e ética."
   },
   {
     "id": "idealismo",
@@ -1231,7 +1281,8 @@
       "Berkeley: a árvore no jardim não existe quando nenhuma mente a percebe",
       "Kant: o espaço e o tempo não são propriedades das coisas-em-si — são formas da intuição do sujeito",
       "Hegel: a história universal é o processo de autoconhecimento do Espírito absoluto"
-    ]
+    ],
+    "relevance": "O idealismo filosófico — a tese de que a realidade depende de alguma forma da mente — ressurge inesperadamente na interpretação da mecânica quântica (o papel do observador), na filosofia da matemática (os objectos matemáticos são construções mentais?), e nos estudos de construção social da realidade. O idealismo não é uma posição morta: é o nome de uma tensão persistente em toda a filosofia do conhecimento."
   },
   {
     "id": "fenomenologia",
@@ -1257,6 +1308,466 @@
       "A percepção de uma cadeira: não pergunto 'a cadeira existe?' mas 'como a cadeira se dá à minha percepção?'",
       "A experiência do tempo: Husserl analisa retenção (passado imediato), impressão primal (agora) e protensão (futuro imediato)",
       "Heidegger: o martelo em uso não é objeto de contemplação — é meio transparente de fazer algo; só se torna objeto quando quebra"
-    ]
+    ],
+    "relevance": "A fenomenologia — estudo da estrutura da experiência tal como vivida — é hoje aplicada em design de interfaces, psicologia clínica, ciências de enfermagem e teoria organizacional. Perguntar 'qual é a experiência vivida de X?' em vez de apenas 'o que mede X?' é um gesto fenomenológico que complementa a abordagem quantitativa nas ciências humanas e sociais."
+  },
+  {
+    "id": "maiêutica",
+    "term": "Maiêutica",
+    "etymology": "Do grego maieutike — arte de fazer parir. Sócrates comparava o seu método ao da sua mãe, parteira de corpos.",
+    "definition": "Método socrático de conduzir o interlocutor a dar à luz o conhecimento que já possui latente, através de perguntas progressivas que revelam o saber implícito.",
+    "extended": "A maiêutica é a segunda etapa do método socrático, sucedendo à ironia. Enquanto a ironia destrói as falsas certezas — mostrando que o interlocutor não sabe o que pensa que sabe — a maiêutica é construtiva: conduz o interlocutor a articular o conhecimento que estava presente na sua mente sem que o soubesse. No Ménon, Sócrates demonstra a maiêutica ao fazer um escravo sem instrução matemática derivar o teorema de duplicação do quadrado apenas respondendo a perguntas. A conclusão é de cariz platónico: o escravo 'sabia' sem saber que sabia — o que sugere que a alma possui o conhecimento das verdades eternas por reminiscência de uma existência anterior. Aristóteles criticou esta conclusão mas reconheceu o poder pedagógico do método: colocar o aluno em posição activa de descoberta em vez de recepção passiva é mais eficaz. A maiêutica é o ancestral de toda a pedagogia socrática moderna — o método de questionamento como instrumento de ensino.",
+    "related_concepts": [
+      "filosofia",
+      "logos",
+      "conhecimento",
+      "dialética",
+      "opinião"
+    ],
+    "authors": [
+      "socrates"
+    ],
+    "category": "método",
+    "examples": [
+      "No Ménon, Sócrates faz um escravo derivar a duplicação do quadrado apenas por perguntas — sem ensino directo.",
+      "No Teeteto, Sócrates 'examina' as definições de conhecimento que Teeteto propõe, ajudando-o a perceber as suas insuficiências."
+    ],
+    "relevance": "A maiêutica — método de questionar para extrair conhecimento latente — é o modelo pedagógico mais influente da história do Ocidente. A educação socrática parte da premissa de que o aluno não é um recipiente vazio mas um interlocutor com intuições que precisam de ser clarificadas. Hoje, o método maiêutico estrutura a pedagogia activa, o questionamento socrático em direito e a entrevista motivacional em psicologia clínica."
+  },
+  {
+    "id": "ironia-socrática",
+    "term": "Ironia Socrática",
+    "etymology": "Do grego eironeia — dissimulação, fingimento de ignorância. Eirón era o personagem que fingia ser tolo para vencer o alazón (o fanfarrão).",
+    "definition": "Estratégia socrática de fingir ignorância para convidar o interlocutor a ensinar, expondo assim as contradições e lacunas no que o interlocutor afirmava saber.",
+    "extended": "A ironia socrática é a primeira etapa do elenchos — o exame filosófico socrático. Sócrates finge não saber e pede ao interlocutor (político, poeta, artesão) que o ensine sobre temas como a coragem, a piedade ou a justiça. O interlocutor aceita de bom grado — crê saber. À medida que Sócrates interroga, as definições do interlocutor entram em contradição entre si ou com casos óbvios. O resultado é a aporia: o interlocutor percebe que não sabe o que pensava saber. Para Sócrates, a aporia é o primeiro passo genuíno da filosofia — reconhecer a própria ignorância. A ironia tem um elemento de provocação deliberada: Sócrates sabia que o que fazia irritava os seus interlocutores. Na Apologia, descreve esta actividade como uma missão divina — o deus Apolo mandou-o examinar os que reputam de sábios e mostrar que não o são. A ironia socrática distingue-se da ironia retórica moderna: não é sarcasmo nem dissimulação de opinião, mas um instrumento epistémico de des-construção de certezas falsas.",
+    "related_concepts": [
+      "maiêutica",
+      "conhecimento",
+      "opinião",
+      "logos",
+      "dialética"
+    ],
+    "authors": [
+      "socrates"
+    ],
+    "category": "método",
+    "examples": [
+      "Na Apologia, Sócrates descreve como foi ter com políticos reputados por sábios e descobriu que nenhum sabia justificar o que afirmava.",
+      "No Eutífron, Sócrates pergunta 'inocentemente' a Eutífron o que é a piedade, como se precisasse de aprender — e desmonta sistematicamente as definições propostas."
+    ],
+    "relevance": "A ironia socrática — fingir ignorância para desestabilizar a certeza do interlocutor — é uma técnica pedagógica e uma postura epistémica. Pedagogicamente, o professor que finge não saber convida o aluno a pensar em vez de receber. Epistemicamente, a ironia reflecte a convicção de que a consciência da própria ignorância é mais filosófica do que a ilusão de saber."
+  },
+  {
+    "id": "autoconhecimento",
+    "term": "Autoconhecimento",
+    "etymology": "Do grego gnothi seauton — conhece-te a ti mesmo. Inscrição no templo de Apolo em Delfos, adoptada por Sócrates como divisa filosófica.",
+    "definition": "Conhecimento reflexivo que a mente tem de si mesma — das suas capacidades, limites, crenças, motivações e estado moral — considerado por Sócrates como condição de toda a sabedoria genuína.",
+    "extended": "O autoconhecimento é o imperativo central da filosofia socrática. 'Conhece-te a ti mesmo' não é apenas um convite à introspecção psicológica — é a exigência de examinar criticamente as próprias crenças, valores e supostos conhecimentos. Sócrates vivia este imperativo pelo elenchos: questionar as próprias opiniões antes de as afirmar como conhecimento. O autoconhecimento socrático tem uma dimensão moral específica: conhecer-se é saber o que se é como agente moral — quais são os próprios valores, se são coerentes, se a vida que se vive está de acordo com eles. 'Uma vida sem exame não vale a pena ser vivida.' Platão desenvolveu o autoconhecimento numa direcção metafísica: conhecer a própria alma é conhecer a sua natureza imortal e o seu parentesco com as Formas. Agostinho transpôs o imperativo délfico para o contexto cristão: 'Conhece-te e conhecerás a Deus' — a introspecção é o caminho para a verdade divina interior. Na modernidade, Descartes encontrou no cogito a certeza de que o autoconhecimento é o ponto de partida indubitável de todo o saber.",
+    "related_concepts": [
+      "maiêutica",
+      "ironia-socrática",
+      "conhecimento",
+      "alma",
+      "episteme"
+    ],
+    "authors": [
+      "socrates",
+      "plato",
+      "descartes"
+    ],
+    "category": "ética",
+    "examples": [
+      "Sócrates na Apologia descreve a sua missão como o exame da própria sabedoria e da dos outros — o autoconhecimento como tarefa filosófica pública.",
+      "O imperativo délfico 'Conhece-te a ti mesmo' é adoptado por Sócrates não como curiosidade psicológica mas como condição da vida moral."
+    ],
+    "relevance": "Conhece-te a ti mesmo (gnothi seauton) é o imperativo délfico que Sócrates colocou no centro da filosofia. A psicologia contemporânea confirma que o autoconhecimento é sistematicamente deficiente: o viés de ponto cego, o efeito Dunning-Kruger, a racionalização retroactiva mostram que sabemos menos sobre nós mesmos do que pensamos. O projecto socrático de autoconhecimento é mais urgente do que nunca."
+  },
+  {
+    "id": "ideia",
+    "term": "Ideia (Forma)",
+    "etymology": "Do grego idea e eidos — aspecto, forma visível, tipo. Em Platão, adquire o sentido técnico de essência inteligível, paradigma eterno dos particulares.",
+    "definition": "Na filosofia de Platão, as Ideias (ou Formas) são entidades eternas, imutáveis e universais que constituem a realidade verdadeira, da qual os objectos sensíveis são cópias imperfeitas.",
+    "extended": "A teoria das Ideias é o núcleo da metafísica platónica e o que mais radicalmente distingue Platão dos seus predecessores. Os particulares sensíveis — esta cadeira, este homem belo, esta acção justa — são temporários, mutáveis e acessíveis pelos sentidos. As Ideias — a Cadeira, o Belo, a Justiça — são eternas, imutáveis e acessíveis apenas pela razão. Os particulares participam nas Ideias e é por essa participação que são o que são: esta coisa é bela porque participa na Ideia de Beleza. A hierarquia das Ideias culmina na Ideia do Bem, que está para as outras Ideias como o sol para as coisas visíveis — torna-as cognoscíveis e dá-lhes o ser. O argumento do Terceiro Homem (formulado pelo próprio Platão no diálogo Parmênides e retomado por Aristóteles) é a crítica clássica: se os homens particulares se assemelham por participarem na Ideia de Homem, então entre os homens e a Ideia de Homem é preciso postular uma outra Ideia — e assim ad infinitum. Aristóteles rejeitou as Ideias separadas: as formas existem nas coisas, não numa esfera transcendente.",
+    "related_concepts": [
+      "ser",
+      "metafísica",
+      "universais",
+      "episteme",
+      "alma",
+      "reminiscência"
+    ],
+    "authors": [
+      "plato",
+      "aristotle"
+    ],
+    "category": "metafísica",
+    "examples": [
+      "No Fédon, Platão argumenta que os objectos iguais sensíveis são iguais por participação na Igualdade em si — que nunca é imperfeita nem relativa.",
+      "Na República, a Ideia do Bem ilumina as outras Ideias como o sol ilumina os objectos visíveis — é o princípio supremo da realidade e do conhecimento."
+    ],
+    "relevance": "A teoria platónica das Ideias é a primeira grande teoria da representação e do significado universal. O problema dos universais que ela gera ainda estrutura a filosofia da linguagem e da matemática: os objectos matemáticos existem platonicamente ou são construções? O platonismo matemático é a posição de muitos matemáticos profissionais."
+  },
+  {
+    "id": "reminiscência",
+    "term": "Reminiscência",
+    "etymology": "Do grego anamnesis — recordação, acto de trazer à memória. Em Platão, designa o processo de recuperação do saber que a alma possuía antes de encarnar.",
+    "definition": "Teoria platónica segundo a qual o conhecimento das verdades eternas (matemáticas, morais, metafísicas) é uma recordação do que a alma aprendeu antes do nascimento, numa existência anterior em contacto com as Formas.",
+    "extended": "A teoria da reminiscência resolve, para Platão, o paradoxo de Ménon: como podemos aprender o que não sabemos? Se não sabemos o que procuramos, não o reconhecemos quando o encontramos; se já o sabemos, não há nada para aprender. A resposta platónica: o aprendizado não é aquisição de novo conhecimento mas recordação do que a alma já sabia e esqueceu ao encarnar. A demonstração canónica está no diálogo Ménon: Sócrates conduz um escravo sem instrução matemática a derivar o teorema de duplicação do quadrado apenas por perguntas. O escravo 'sabe' — embora nunca tenha aprendido. Isto implica, para Platão, que a alma é imortal e pré-existente: o que chamamos aprender é recollectar. A reminiscência está ligada à teoria das Ideias — o que a alma 'recorda' são as Ideias que contemplou na existência pré-natal. Aristóteles rejeitou a reminiscência: o conhecimento universal não é recollecção mas abstracção — é extraído da experiência pelos sentidos e pelo intelecto agente, sem necessidade de pré-existência da alma.",
+    "related_concepts": [
+      "ideia",
+      "alma",
+      "conhecimento",
+      "episteme",
+      "maiêutica"
+    ],
+    "authors": [
+      "plato"
+    ],
+    "category": "epistemologia",
+    "examples": [
+      "No Ménon, o escravo de Ménon deriva o teorema de duplicação do quadrado sem ter aprendido matemática — evidência, para Sócrates, de que a alma já sabia.",
+      "No Fédon, Platão argumenta que a capacidade de reconhecer a Igualdade perfeita nos objectos sensíveis pressupõe que a alma a conhecia antes de nascer."
+    ],
+    "relevance": "A teoria da reminiscência (anamnese) de Platão antecipa o debate moderno sobre conhecimento inato. A linguística chomskyana — que postula uma gramática universal inata que não pode ser derivada da experiência da criança — é reminiscência em roupagem científica. O debate natureza versus cultura em cognição é este debate."
+  },
+  {
+    "id": "episteme",
+    "term": "Episteme",
+    "etymology": "Do grego episteme — conhecimento científico, saber fundado. Derivado de epistasthai — conhecer com segurança, dominar um campo.",
+    "definition": "Em Platão, o conhecimento genuíno e indubitável das Formas eternas — oposto à doxa (opinião) sobre os particulares sensíveis. Em Aristóteles, o saber demonstrativo a partir de causas necessárias.",
+    "extended": "Episteme designa o nível mais alto da cognição na epistemologia grega. Em Platão, a distinção episteme/doxa corresponde à distinção Formas/particulares: a episteme é das realidades eternas e imutáveis — matemáticas e filosóficas — e é alcançada pela razão pura; a doxa é dos objectos sensíveis — contingentes e mutáveis — e é alcançada pelos sentidos e pela percepção. Na Linha Dividida da República, a episteme subdivide-se em dianoia (raciocínio matemático, que ainda parte de hipóteses) e noesis (dialéctica pura, que parte de hipóteses para alcançar o Bem sem hipóteses). Em Aristóteles, a episteme é o saber científico demonstrativo: conhecer cientificamente um facto é conhecer as suas causas necessárias, de modo que não poderia ser de outra forma. A Física, a Biologia e a Matemática são episteme; a Retórica e a Dialéctica são saberes de probabilidade. A contraposição episteme/doxa é central para a epistemologia moderna: o projecto cartesiano é construir uma episteme — um saber absolutamente certo — e o ceticismo é a ameaça de que toda a pretensa episteme seja apenas doxa bem fundamentada.",
+    "related_concepts": [
+      "conhecimento",
+      "opinião",
+      "ideia",
+      "reminiscência",
+      "a-priori",
+      "ceticismo"
+    ],
+    "authors": [
+      "plato",
+      "aristotle"
+    ],
+    "category": "epistemologia",
+    "examples": [
+      "Na República, o prisioneiro liberto da caverna que contempla as Formas tem episteme; os que vêem apenas as sombras têm doxa.",
+      "No Ménon, Platão distingue a crença verdadeira (que por acaso acerta) da episteme (que sabe a causa e não poderia errar)."
+    ],
+    "relevance": "A distinção entre episteme (conhecimento científico) e doxa (opinião) inaugurou o projecto de uma cultura do conhecimento rigoroso. Hoje, a questão de o que conta como episteme — e quem tem autoridade para o afirmar — está no centro das crises de confiança na ciência: negação climática, hesitância vacinal e desinformação médica são, em parte, crises de epistemologia aplicada."
+  },
+  {
+    "id": "eudaimonia",
+    "term": "Eudaimonia",
+    "etymology": "Do grego eu (bem) + daimon (espírito, destino). Literalmente 'ter um bom daimon' — estar em boa fortuna espiritual.",
+    "definition": "Florescimento humano ou vida boa: o bem supremo na ética grega, especialmente aristotélica — não um sentimento de prazer mas uma forma de vida activa excelente em conformidade com a virtude.",
+    "extended": "Eudaimonia é frequentemente traduzida como 'felicidade', mas a tradução é enganadora: a eudaimonia aristotélica não é um estado subjectivo de prazer ou satisfação — é uma qualidade objectiva da vida vivida com excelência. Para Aristóteles, todo o ser tem uma função (ergon) que lhe é própria. A função própria do ser humano, como ser racional, é a actividade da alma em conformidade com a virtude ao longo de uma vida completa. Eudaimonia é o exercício excelente dessa função. Aristóteles distingue a vida da eudaimonia do hedonismo (Aristipo, Epicuro) — que identifica o bem com o prazer — e do intellectualismo puro — que identifica o bem apenas com a contemplação (theoria). A eudaimonia requer também bens externos: saúde, amizades, recursos mínimos, ausência de desgraças extremas. O infeliz de Príamo — rei de Troia que viu a família destruída na velhice — não pode ser chamado eudaimon mesmo que tenha vivido virtuosamente. A ética das virtudes contemporânea (Anscombe, MacIntyre, Nussbaum) recuperou a eudaimonia como alternativa às éticas de dever e de utilidade.",
+    "related_concepts": [
+      "virtude",
+      "felicidade",
+      "phronesis",
+      "ataraxia",
+      "etica"
+    ],
+    "authors": [
+      "aristotle",
+      "socrates",
+      "plato"
+    ],
+    "category": "ética",
+    "examples": [
+      "Aristóteles, Ética a Nicômaco I: 'A eudaimonia é o bem supremo, desejado por si mesmo e nunca como meio para outra coisa.'",
+      "O carpinteiro que trabalha com excelência, cuida dos seus, tem amizades genuínas e mantém o carácter sob pressão vive a eudaimonia — independentemente de ser famoso."
+    ],
+    "relevance": "Traduzida como felicidade, eudaimonia significa florescimento: viver bem e agir bem realizando o potencial humano. Num tempo em que felicidade se reduziu a bem-estar subjectivo mensurável, a eudaimonia aristotélica lembra que uma boa vida envolve virtude, relações, contemplação e participação política — não apenas ausência de dor."
+  },
+  {
+    "id": "meio-termo",
+    "term": "Meio-Termo (Mesotes)",
+    "etymology": "Do grego meson — meio, centro. Em Aristóteles, mesotes designa o ponto de equilíbrio entre dois extremos viciosos.",
+    "definition": "Na ética de Aristóteles, a virtude moral como disposição de agir no ponto médio entre dois excessos opostos — o excesso por excesso e o excesso por falta — determinado pela razão e pelo homem prudente.",
+    "extended": "O meio-termo aristotélico não é a mediocridade nem a média aritmética — é o ponto óptimo relativo a cada pessoa e cada situação. A coragem é o meio-termo entre a cobardia (falta) e a temeridade (excesso); a generosidade é o meio-termo entre a avareza (falta) e a prodigalidade (excesso); a temperança é o meio-termo entre a insensibilidade (falta) e a intemperança (excesso). Cada virtude tem assim dois vícios correspondentes. O meio-termo é relativo: o que é o meio-termo para um atleta profissional em termos de alimentação não é o mesmo que para um sedentário. É a phronesis — a sabedoria prática — que permite ao agente virtuoso identificar o meio-termo correcto em cada situação concreta, sem regra fixa. Esta relatividade distingue a teoria aristotélica das éticas de regras: não há um imperativo universal que especifique quanto comer, quanto gastar, quanto arriscar — há um princípio (o meio-termo) e uma faculdade (a phronesis) que o aplica situacionalmente.",
+    "related_concepts": [
+      "virtude",
+      "phronesis",
+      "eudaimonia",
+      "etica",
+      "logos"
+    ],
+    "authors": [
+      "aristotle"
+    ],
+    "category": "ética",
+    "examples": [
+      "A coragem é o meio-termo entre a covardia (menos do que o exigido) e a temeridade (mais do que o situação pede).",
+      "A generosidade como meio-termo: o avarento não gasta o suficiente; o pródigo gasta mais do que tem e do que a situação justifica."
+    ],
+    "relevance": "O meio-termo aristotélico não é mediocridade: é excelência situacional, o ponto de equilíbrio entre dois erros opostos. Na gestão de conflitos, na liderança e na educação, a ideia de que toda virtude tem dois vícios flanqueantes é um instrumento de auto-diagnóstico: estou a errar por excesso ou por defeito?"
+  },
+  {
+    "id": "hábito",
+    "term": "Hábito (Ethos)",
+    "etymology": "Do grego ethos — costume, carácter habitual. A palavra 'ética' deriva do mesmo radical: a ética é a ciência do ethos.",
+    "definition": "Disposição estável de agir ou reagir de certa forma, adquirida pela repetição de actos. Na ética de Aristóteles, as virtudes morais são hábitos — não instintos naturais nem regras aprendidas, mas disposições formadas pela prática.",
+    "extended": "O conceito de hábito é central à ética aristotélica porque resolve uma dificuldade: se a virtude é boa e todos queremos o bem, por que não somos todos virtuosos? Aristóteles responde que a virtude não é dada pela natureza nem adquirida só pelo conhecimento — é formada pelo hábito. 'Tornamo-nos corajosos praticando actos corajosos, justos praticando actos justos, temperantes praticando actos temperantes.' A natureza dá-nos a capacidade de adquirir virtudes; o hábito actualiza essa capacidade. Um hábito virtuoso não é uma compulsão mecânica — é uma disposição do carácter que torna o agente apto a perceber o que a situação exige e a agir bem sem esforço excessivo. O virtuoso habituado age bem e sente prazer em agir bem; o continente age bem mas com luta interior; o vicioso age mal sem resistência. A importância do hábito tem implicações pedagógicas directas: a educação moral das crianças deve começar por fazê-las agir virtuosamente — mesmo antes de compreenderem por que — para que a disposição se forme pelo hábito e o raciocínio moral venha depois.",
+    "related_concepts": [
+      "virtude",
+      "eudaimonia",
+      "phronesis",
+      "etica",
+      "meio-termo"
+    ],
+    "authors": [
+      "aristotle"
+    ],
+    "category": "ética",
+    "examples": [
+      "Aristóteles: 'Não é por ter visto muitas vezes casas que o arquitecto tem a sua arte — é pela prática repetida. O mesmo com as virtudes.'",
+      "A criança que é habituada a partilhar brinquedos adquire o hábito da generosidade; anos depois, partilha naturalmente, sem esforço."
+    ],
+    "relevance": "A ciência comportamental confirma o que Aristóteles já sabia: o carácter é construído por repetição, não por intenção. Hábitos formam-se sem deliberação consciente e resistem a ela. A implicação pedagógica é radical: ensinar ética é sobretudo criar ambientes e práticas que formam disposições — não apenas transmitir princípios."
+  },
+  {
+    "id": "certeza",
+    "term": "Certeza",
+    "etymology": "Do latim certus — decidido, fixo, seguro. Derivado de cernere — separar, discernir. A certeza é o estado cognitivo em que a dúvida está excluída.",
+    "definition": "Estado epistémico em que uma crença é mantida como indubitável — não apenas como provavelmente verdadeira, mas como impossível de ser falsa. Para Descartes, a certeza é o critério e o objectivo da filosofia.",
+    "extended": "A certeza é o ideal epistémico central da filosofia moderna iniciada por Descartes. O projecto das Meditações é encontrar pelo menos uma verdade absolutamente certa — que resista à dúvida hiperbólica — e a partir daí reconstruir o edifício do conhecimento em bases indubitáveis. O cogito ('Penso, logo existo') é a primeira certeza: posso duvidar de tudo, mas não posso duvidar de que estou a duvidar, e portanto de que existo como ser pensante. Descartes distingue a certeza psicológica (sentir-se seguro) da certeza epistémica (impossibilidade lógica de erro): só a segunda interessa filosoficamente. O critério cartesiano de certeza é a clareza e distinção: uma ideia é certa quando é percebida pela razão de forma tão clara e distinta que não pode ser posta em dúvida. Hume destruiu o projecto cartesiano: mostrou que as crenças mais fundamentais (causalidade, mundo externo) não têm certeza epistémica — são hábitos naturais. Kant respondeu distinguindo certeza empírica (impossível) de certeza transcendental: a estrutura da experiência possível é necessária e certa, embora as verdades sobre o noumenon não o sejam.",
+    "related_concepts": [
+      "conhecimento",
+      "ceticismo",
+      "justificacao",
+      "a-priori",
+      "epistemologia"
+    ],
+    "authors": [
+      "descartes",
+      "hume",
+      "kant"
+    ],
+    "category": "epistemologia",
+    "examples": [
+      "Descartes, Meditações I: mesmo que um génio maligno me engane sobre tudo o que percepciono, não pode enganar-me quanto ao facto de que estou a ser enganado — e portanto existo.",
+      "A geometria euclidiana foi durante séculos o modelo de certeza: as suas verdades pareciam necessárias e universais, inatingíveis pela dúvida."
+    ],
+    "relevance": "A busca cartesiana de certeza — fundamento indubitável do conhecimento — moldou a epistemologia moderna. A viragem pragmatista (Peirce, Dewey) e a viragem pós-positivista (Kuhn, Lakatos) abandonaram a busca da certeza em favor da revisabilidade e da robustez. O que resta de Descartes é a questão: de quanta certeza precisamos antes de agir?"
+  },
+  {
+    "id": "empirismo",
+    "term": "Empirismo",
+    "etymology": "Do grego empeiria — experiência, prática. O empirismo é a posição de que a experiência sensorial é a fonte primária e fundamento do conhecimento.",
+    "definition": "Corrente epistemológica que defende que todo o conhecimento genuíno deriva da experiência — da percepção sensorial e da observação — e que a mente não possui ideias inatas independentes da experiência.",
+    "extended": "O empirismo moderno nasce com John Locke, que propôs a tabula rasa: a mente é uma folha em branco antes da experiência — não há ideias inatas. Todo o conhecimento começa nos sentidos e na reflexão sobre as operações da mente. George Berkeley radicalizou: ser é ser percebido — os objectos materiais só existem enquanto percebidos por uma mente. David Hume levou o empirismo às suas consequências mais rigorosas e mais perturbadoras: se todo o conhecimento vem da experiência, não há justificação racional para a causalidade (apenas regularidade observada), para a identidade pessoal (apenas um feixe de percepções), para o mundo externo (apenas impressões) ou para a indução. O empirismo opõe-se ao racionalismo (que defende que a razão pode, independentemente da experiência, conhecer verdades substantivas sobre o mundo). Kant tentou a síntese: o conhecimento começa na experiência mas não se reduz a ela — a razão contribui com formas a priori (espaço, tempo, categorias) que estruturam os dados da experiência.",
+    "related_concepts": [
+      "racionalismo",
+      "conhecimento",
+      "a-priori",
+      "inducao",
+      "ceticismo",
+      "epistemologia"
+    ],
+    "authors": [
+      "hume",
+      "kant"
+    ],
+    "category": "epistemologia",
+    "examples": [
+      "Locke: 'Não há nada no intelecto que não tenha estado primeiro nos sentidos' — a fonte de toda a ideia é a experiência.",
+      "Hume: a ideia de causalidade não vem dos sentidos — vemos uma bola bater noutra e esta mover-se, mas nunca vemos a necessidade que une os dois eventos."
+    ],
+    "relevance": "O empirismo é a epistemologia implícita da ciência moderna e do senso comum educado: creio no que posso observar, testar e repetir. As suas limitações — o problema da indução, a theory-ladenness da observação, os casos Gettier — mostram que a experiência não é um fundamento tão sólido quanto parece."
+  },
+  {
+    "id": "racionalismo",
+    "term": "Racionalismo",
+    "etymology": "Do latim ratio — razão, cálculo, fundamento. O racionalismo é a posição de que a razão é a fonte primária e fundamento do conhecimento, independentemente da experiência.",
+    "definition": "Corrente epistemológica que defende que a razão, independentemente da experiência sensorial, pode conhecer verdades necessárias e universais sobre a realidade — e que a mente possui ideias inatas ou capacidades a priori.",
+    "extended": "O racionalismo moderno nasce com Descartes, que defendeu que as ideias mais claras e distintas — cogito, Deus, extensão — são inatas e conhecidas pela razão independentemente dos sentidos. Spinoza sistematizou o racionalismo de modo mais rigoroso: a realidade toda pode ser deduzida de definições e axiomas como a geometria. Leibniz propôs as verdades de razão (necessárias — a negação é contraditória) versus verdades de facto (contingentes — a negação é possível). O princípio de razão suficiente — tudo tem uma razão que explica por que é assim e não de outra forma — é o instrumento racional supremo. O racionalismo opõe-se ao empirismo: enquanto os empiristas derivam todo o conhecimento da experiência, os racionalistas defendem que a razão fornece conhecimento substantivo sobre o mundo independentemente dos sentidos. Kant tentou a síntese transcendental: há elementos a priori que a razão contribui para a experiência (formas da intuição, categorias do entendimento) mas a razão sozinha, sem dados empíricos, não produz conhecimento — apenas ilusões metafísicas.",
+    "related_concepts": [
+      "empirismo",
+      "a-priori",
+      "conhecimento",
+      "ceticismo",
+      "razão",
+      "epistemologia"
+    ],
+    "authors": [
+      "descartes",
+      "kant"
+    ],
+    "category": "epistemologia",
+    "examples": [
+      "Descartes: a ideia de Deus como ser perfectíssimo não pode vir da experiência — nada na experiência é perfeito. Logo é inata.",
+      "Spinoza, Ética: demonstra geometricamente, a partir de definições de substância e atributo, que só existe uma substância — Deus ou a Natureza."
+    ],
+    "relevance": "O racionalismo ressurge sempre que a observação parece insuficiente: na matemática, na lógica, em partes da ética e na linguística chomskyana. A questão 'há estruturas inatas no espírito humano?' — central em neurociência cognitiva e em filosofia da linguagem — é o debate racionalismo/empirismo em nova roupagem."
+  },
+  {
+    "id": "a-posteriori",
+    "term": "A Posteriori",
+    "etymology": "Do latim: a partir do posterior, do que vem depois. Designa o conhecimento que depende da experiência — que vem depois da observação do mundo.",
+    "definition": "Conhecimento ou verdades que dependem da experiência sensorial para ser estabelecidas — em contraste com o a priori, que é independente da experiência.",
+    "extended": "A distinção a priori / a posteriori foi sistematizada por Kant mas tem raízes mais antigas. O conhecimento a posteriori é contingente: o seu oposto é concebível sem contradição. 'O céu é azul' é a posteriori — poderia ser de outra cor. 'Todos os solteiros são não-casados' é a priori — a negação é contraditória. Toda a ciência natural é a posteriori: as leis da física, da biologia, da química, mesmo as mais fundamentais, são estabelecidas por observação e experimento e poderiam em princípio ser refutadas por observação contrária. O empirismo defende que todo o conhecimento substantivo sobre o mundo é a posteriori — não há conhecimento sintético a priori. Kant negou isso: há conhecimentos sintéticos (que acrescentam informação) que são a priori (independentes da experiência) — como a geometria e a aritmética, e as leis causais. Os positivistas lógicos (Viena, século XX) retomaram o empirismo: só são significativas as proposições verificáveis por experiência (a posteriori) ou analiticamente verdadeiras (a priori). Quine questionou a própria distinção: a fronteira entre analítico e sintético não é tão nítida quanto Kant e os positivistas supunham.",
+    "related_concepts": [
+      "a-priori",
+      "empirismo",
+      "racionalismo",
+      "conhecimento",
+      "epistemologia"
+    ],
+    "authors": [
+      "kant",
+      "hume"
+    ],
+    "category": "epistemologia",
+    "examples": [
+      "'A água ferve a 100°C ao nível do mar' — verdade a posteriori, estabelecida por observação e que poderia ser falsa noutras condições.",
+      "As leis de Newton são a posteriori: foram estabelecidas por observação e experimento, e foram posteriormente revisadas pela relatividade."
+    ],
+    "relevance": "O conhecimento a posteriori — derivado da experiência — é a base da ciência empírica. A questão filosófica é: toda afirmação pode ser revisada à luz de nova experiência? Quine argumentou que sim — incluindo verdades lógicas. As consequências para o que conta como facto são vastas."
+  },
+  {
+    "id": "valores",
+    "term": "Valores",
+    "etymology": "Do latim valere — ter força, ter valia. Em filosofia, designa os princípios ou propriedades que tornam algo bom, desejável ou digno de escolha.",
+    "definition": "Princípios ou critérios que orientam a avaliação de acções, pessoas, estados de coisas ou objectos como bons, maus, correctos, belos — o que é tido como importante ou digno de perseguir.",
+    "extended": "A filosofia dos valores (axiologia) investiga a natureza, origem e fundamento dos valores. As questões centrais: os valores são objectivos (existem independentemente das preferências humanas) ou subjectivos (são expressão de preferências, emoções ou acordos culturais)? Os valores morais são cognoscíveis (realismo moral) ou apenas expressões de atitude (expressivismo)? Nietzsche é o filósofo que mais radicalizou a questão dos valores: proclamou que os valores vigentes na cultura europeia — piedade, humildade, igualdade — são produto de um resentimento histórico (a moral escrava dos fracos contra os fortes) e precisam de ser reavaliados. A 'transmutação de todos os valores' é o projecto central da sua filosofia: em vez de herdar valores da tradição, o além-do-homem cria os seus próprios valores a partir da vontade de poder afirmativa. Max Scheler desenvolveu uma fenomenologia dos valores: os valores são percebidos emocionalmente numa hierarquia objectiva (valores vitais, espirituais, sagrados). O debate contemporâneo inclui o pluralismo de valores (Isaiah Berlin: há valores irredutíveis que entram genuinamente em conflito) e o relativismo de valores (os valores variam entre culturas sem que haja padrão neutro de comparação).",
+    "related_concepts": [
+      "etica",
+      "relativismo",
+      "vontade-de-potência",
+      "logos",
+      "razão"
+    ],
+    "authors": [
+      "nietzsche"
+    ],
+    "category": "ética",
+    "examples": [
+      "Nietzsche, Genealogia da Moral: 'Bom' não significa sempre o mesmo — a moral nobre chama 'bom' ao que é nobre e forte; a moral escrava chama 'bom' ao que é inofensivo e fraco.",
+      "A questão 'vale a pena salvar um estranho à custa de grande risco pessoal?' envolve a colisão de valores: a vida do estranho, a própria integridade, a solidariedade."
+    ],
+    "relevance": "Os valores não caem do céu: são históricos, culturais e contestáveis. A genealogia nietzschiana, a sociologia do conhecimento e a ética comunicativa de Habermas oferecem três formas diferentes de lidar com a pluralidade de valores. Numa democracia plural, a questão não é qual o conjunto de valores correcto, mas como deliberar quando os valores entram em conflito."
+  },
+  {
+    "id": "justiça",
+    "term": "Justiça",
+    "etymology": "Do latim iustitia — rectidão, equidade. Do grego dikaiosyne — justiça como virtude da alma e da cidade.",
+    "definition": "Virtude cardinal e princípio político que regula a distribuição de bens, direitos e deveres de forma equitativa — dar a cada um o que lhe é devido segundo um critério de mérito, necessidade ou igualdade.",
+    "extended": "A justiça é uma das virtudes cardinais da tradição filosófica ocidental e o tema central da filosofia política. Platão, na República, define a justiça como a harmonia das partes — cada parte da alma e da cidade a fazer a sua função própria. Aristóteles distingue a justiça geral (obediência à lei que promove o bem comum) da justiça particular, que se divide em distributiva (distribuição proporcional de bens e honras) e correctiva (rectificação de trocas injustas). A tradição do direito natural defende que há princípios de justiça naturais, cognoscíveis pela razão, que antecedem as leis positivas. O contratualismo moderno funda a justiça no consentimento racional: os princípios de justiça são os que pessoas racionais acordariam num contrato hipotético (Rawls: véu de ignorância). O debate contemporâneo opõe liberais igualitários (Rawls, Dworkin), libertários (Nozick) e comunitaristas (MacIntyre, Sandel).",
+    "related_concepts": [
+      "etica",
+      "virtude",
+      "politica",
+      "lei-natural",
+      "felicidade",
+      "deontologia"
+    ],
+    "authors": [
+      "plato",
+      "aristotle"
+    ],
+    "category": "ética",
+    "examples": [
+      "Platão, República: a justiça na alma é a razão a comandar o impulso e o apetite — análoga à justiça na cidade, onde os governantes filósofos dirigem os guerreiros e os artesãos.",
+      "Rawls: os princípios de justiça escolhidos por trás do véu de ignorância garantem que ninguém legisla em favor de si mesmo — a justiça como imparcialidade."
+    ],
+    "relevance": "A justiça é o conceito filosófico com maior impacto directo sobre as instituições: sistema penal, direito civil, política fiscal e redistribuição. Platão, Aristóteles, Kant e Rawls oferecem critérios incompatíveis — e os debates legislativos actuais são frequentemente disputas entre eles."
+  },
+  {
+    "id": "substância",
+    "term": "Substância",
+    "etymology": "Do latim substantia — o que está por baixo, suporte. Tradução de hypokeímenon (sujeito) e ousia (ser, essência) de Aristóteles.",
+    "definition": "O que existe por si mesmo, sem depender de outra coisa para existir — o sujeito último de predicação, portador de propriedades e perseverante através da mudança.",
+    "extended": "Substância é um dos conceitos mais centrais e mais disputados da metafísica ocidental. Em Aristóteles, há dois sentidos principais. A substância primeira (ousia prote) é o indivíduo concreto — este homem, este cavalo. A substância segunda é a espécie ou o género — homem, animal. A substância primeira é o que existe de forma mais plena; a espécie existe apenas enquanto predicada das substâncias primeiras. Cada substância é composta de matéria (hyle) e forma (morphe): a matéria é o que a coisa é feita; a forma é o que a faz ser o que é. Descartes reformulou radicalmente: há duas substâncias — a res cogitans (substância pensante, mente) e a res extensa (substância extensa, corpo). O problema da relação entre as duas é o problema mente-corpo. Spinoza concluiu que só pode existir uma substância infinita e auto-causada — Deus ou a Natureza — da qual pensamento e extensão são atributos. Leibniz propôs as mónadas como substâncias simples e indivisíveis, sem janelas para o exterior. Hume dissolveu a substância: não temos impressão alguma de substância — apenas de conjuntos de qualidades que a mente agrupa por hábito.",
+    "related_concepts": [
+      "ser",
+      "metafísica",
+      "universais",
+      "physis",
+      "fenomeno"
+    ],
+    "authors": [
+      "aristotle",
+      "descartes"
+    ],
+    "category": "metafísica",
+    "examples": [
+      "Aristóteles: este cavalo específico é substância primeira; 'cavalo' como espécie é substância segunda — a espécie só existe nos cavalos individuais.",
+      "Descartes: a mente e o corpo são substâncias completamente distintas — não há nada em comum entre pensar e ocupar espaço."
+    ],
+    "relevance": "A questão metafísica sobre substância subjaz a debates concretos: o que persiste através da mudança (identidade pessoal), o que tem existência independente (estatuto moral de embriões), o que constitui uma entidade (personalidade jurídica de corporações e IA). A metafísica da substância é direito aplicado que ainda não se reconhece como tal."
+  },
+  {
+    "id": "causa",
+    "term": "Causa (Quatro Causas)",
+    "etymology": "Do grego aitia — razão, responsável, causa. Em Aristóteles, a causa é o que responde à pergunta 'por quê?' de quatro formas distintas.",
+    "definition": "Em Aristóteles, causa designa qualquer factor que explica por que algo é ou acontece. Aristóteles identificou quatro tipos de causa: material, formal, eficiente e final.",
+    "extended": "A doutrina das quatro causas é um dos instrumentos analíticos mais influentes da tradição aristotélica. A causa material é aquilo de que algo é feito — o bronze da estátua, a madeira da cama. A causa formal é o que algo é — a forma da estátua, o padrão da cama. A causa eficiente é o que produziu algo — o escultor, o carpinteiro. A causa final é o propósito para que algo existe ou acontece — a beleza da estátua, o repouso que a cama proporciona. Para Aristóteles, uma explicação científica completa deve referir as quatro causas. A física moderna abandonou a causa final (teleologia) e a causa formal — manteve apenas a causalidade eficiente, entendida como relação entre eventos no tempo. Esta redução foi criticada por filósofos como Whitehead e, mais recentemente, pelas filosofias da biologia que argumentam que a função (causa final) é indispensável para explicar os organismos vivos. A causalidade eficiente — a relação entre causa e efeito — foi problematizada por Hume: não observamos uma necessidade causal, apenas regularidade; e não há justificação racional para generalizar do passado ao futuro.",
+    "related_concepts": [
+      "metafísica",
+      "substância",
+      "ser",
+      "physis",
+      "logos"
+    ],
+    "authors": [
+      "aristotle"
+    ],
+    "category": "metafísica",
+    "examples": [
+      "A estátua de mármore: causa material = mármore; causa formal = a forma de Hermes; causa eficiente = o escultor; causa final = a devoção religiosa.",
+      "Hume: observamos que o fogo precede sempre o calor — mas nunca observamos a 'necessidade' que liga os dois. A causalidade é um hábito da mente, não uma relação observável."
+    ],
+    "relevance": "A distinção aristotélica das quatro causas (material, formal, eficiente, final) foi rejeitada pela ciência moderna — que reteve apenas a causa eficiente. A causa final (para quê?) reaparece sempre que se pergunta pelo sentido de uma acção ou pelo design de um sistema — e reaparece com força na biologia evolutiva e no design de IA."
+  },
+  {
+    "id": "livre-arbítrio",
+    "term": "Livre-Arbítrio",
+    "etymology": "Do latim liberum arbitrium — julgamento livre, decisão não constrangida. Termo teológico e filosófico central na tradição cristã desde Agostinho.",
+    "definition": "Capacidade da vontade humana de escolher e agir de forma genuinamente autodeterminada — não completamente determinada por causas externas, hereditariedade, ou necessidade divina.",
+    "extended": "O problema do livre-arbítrio é um dos mais persistentes da filosofia. A tensão central: se tudo o que acontece tem causas suficientes anteriores (determinismo), as acções humanas são determinadas — e não há espaço para escolha genuína. Agostinho formulou a versão teológica clássica: como conciliar o livre-arbítrio humano com a presciência e predestinação divinas? Se Deus sabe de antemão o que escolherei, como posso escolher de outra forma? Agostinho manteve ambos: Deus prevê, mas a vontade é livre. Tomás de Aquino sistematizou: a liberdade humana é compatível com a providência divina porque Deus actua pela e não apesar da natureza racional do agente. O compatibilismo moderno (Hume, Mill, Frankfurt) defende que liberdade e determinismo são compatíveis: ser livre é agir segundo os próprios desejos e raciocínios, sem coerção externa — mesmo que esses desejos tenham causas. O incompatibilismo libertário (Kant na ética) defende que a liberdade genuína requer que o agente seja uma causa não-causada — o que Kant situa no domínio noumenal, fora da cadeia causal natural.",
+    "related_concepts": [
+      "dever",
+      "etica",
+      "razão",
+      "noumenon",
+      "alma"
+    ],
+    "authors": [
+      "augustine",
+      "kant"
+    ],
+    "category": "ética",
+    "examples": [
+      "Agostinho, O Livre-Arbítrio: Deus não é responsável pelo mal — os anjos e os homens escolheram livremente o mal, e Deus apenas permite a consequência.",
+      "Kant: a acção moral genuína exige liberdade — agir por dever é ser causa de si mesmo, não determinado pela inclinação ou pelas circunstâncias."
+    ],
+    "relevance": "O livre-arbítrio está no centro de três debates urgentes: responsabilidade criminal (punimos quem não podia agir de outra forma?), psicofarmacologia (alterar a personalidade pela química é diferente de alterar o carácter pela educação?) e inteligência artificial (uma IA que aprende pode ser responsável pelas suas decisões?). A filosofia do livre-arbítrio é a base teórica do sistema jurídico."
+  },
+  {
+    "id": "causalidade",
+    "term": "Causalidade",
+    "etymology": "Do latim causalitas — relação de causa e efeito. Do grego aitia — causa, responsabilidade.",
+    "definition": "Relação em que um evento (causa) produz ou determina outro evento (efeito), de forma que sem a causa o efeito não ocorreria. A natureza e fundamento desta relação são centralmente debatidos na epistemologia e na metafísica.",
+    "extended": "A causalidade foi problematizada de forma decisiva por David Hume. A análise canónica: observamos que A precede B de forma constante — mas nunca observamos a necessidade que ligaria A a B. A ideia de 'força causal' não tem impressão sensorial correspondente; apenas hábito e expectativa. Hume concluiu que a causalidade não é uma relação observada mas um hábito da mente: esperamos B depois de A porque sempre os vimos juntos, não porque há uma conexão necessária. Kant respondeu que a causalidade é uma categoria a priori do entendimento — não é derivada da experiência, mas é a condição de possibilidade da experiência: só podemos ter experiência de um mundo ordenado porque a nossa mente o estrutura causalmente. Aristóteles tinha uma concepção mais rica: há quatro tipos de causa (material, formal, eficiente, final). A física moderna reduziu a causalidade à causa eficiente — relação determinística ou probabilística entre eventos. A mecânica quântica trouxe nova complexidade: a probabilidade é intrínseca, não apenas epistemológica — o que significa que a causalidade clássica (cada evento tem causa suficiente) pode não se aplicar ao nível subatómico.",
+    "related_concepts": [
+      "causa",
+      "conhecimento",
+      "ceticismo",
+      "a-priori",
+      "inducao",
+      "epistemologia"
+    ],
+    "authors": [
+      "hume",
+      "kant",
+      "aristotle"
+    ],
+    "category": "epistemologia",
+    "examples": [
+      "Hume: 'Nunca vi a causalidade — vi bolas de bilhar a bater umas nas outras e a mover-se. A necessidade que as liga é uma projecção da minha mente.'",
+      "Kant: 'Que todo o evento tem uma causa' não é um facto observado mas uma condição a priori sem a qual nenhuma experiência seria possível."
+    ],
+    "relevance": "A causalidade é o fundamento silencioso de toda a ciência, da medicina baseada em evidências e do sistema jurídico de responsabilidade. A questão filosófica — o que é exactamente uma causa? — torna-se urgente quando os tribunais decidem responsabilidade em casos de multicausalidade (acidentes, doenças profissionais, efeitos de medicamentos)."
   }
 ]

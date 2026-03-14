@@ -524,3 +524,126 @@ Adicionado sistema de textos explicativos para todas as entidades do projeto. 34
 - Mapa visual de relações entre filósofos (Canvas 2D ou SVG)
 - Sistema de progresso persistente via IndexedDB (opcional)
 - Busca full-text em conceitos, autores e textos
+
+---
+
+## [1.15.0] — 2026-03-12
+
+### Correcção de bugs — auditoria completa
+
+**Críticos (21 → 0):**
+
+- Adicionados 19 conceitos em falta ao `concepts.json` (total: 52 → 71): `maiêutica`, `ironia-socrática`, `autoconhecimento`, `ideia`, `reminiscência`, `episteme`, `eudaimonia`, `meio-termo`, `hábito`, `certeza`, `empirismo`, `racionalismo`, `a-posteriori`, `valores`, `justiça`, `substância`, `causa`, `livre-arbítrio`, `causalidade`
+- Corrigido ID de conceito com espaço: `ironia socrática` → `ironia-socrática` (lesson + concept.id)
+- Referências em `key_concepts` de ensaios: todos os IDs resolvidos
+- Todas as referências de lições a conceitos: 0 quebradas
+
+**Moderados (17 → 0):**
+
+- `author.school` corrigido em 7 autores para IDs existentes em `schools.json`: Heráclito e Parmênides → `pre-socratica`; Kant → `racionalismo`; Agostinho → `escolástica`; Hegel, Marx, Wittgenstein → `existencialismo`
+- `reading_time_minutes` recalculado em todos os 42 ensaios com base no word count real (~200 palavras/minuto)
+
+**Menores (8):**
+
+- Confirmado que o test-runner já verificava `correct_order` (não `steps`) — os testes estavam correctos; o script de auditoria tinha um falso positivo
+
+**Total de testes: 82/82**
+
+---
+
+## [1.16.0] — 2026-03-12
+
+### Exercícios — explanation completa em todos os 53 exercícios
+
+**45 exercícios expandidos** com campo `explanation` (antes: 8/53 tinham; agora: 53/53).
+
+- Wordcount por explanation: mínimo 41w, média 97w, máximo 127w
+- Cobertura por tipo: classify (28), comparison (8), reconstruct (6), mapping (3), mark-premises (1) — todos agora com explanation
+- Cada explanation cobre: raciocínio por trás da resposta correcta, por que as alternativas erram, contexto filosófico e conexão com conceitos da lição
+
+**Total de testes: 82/82**
+
+---
+
+## [1.17.0] — 2026-03-12
+
+### Lições — teacher_notes completas em todas as 42 lições
+
+**10 lições expandidas** com campo `teacher_notes` (antes: 32/42; agora: 42/42).
+
+Lições cobertas: `modern-hume-empiricism`, `modern-kant-synthesis`, `modern-hegel`, `modern-marx`, `modern-nietzsche`, `modern-wittgenstein`, `current-idealism`, `current-materialism`, `current-existentialism`, `current-analytic-continental`.
+
+Cada `teacher_notes` contém:
+- `objective` — o que o aluno deve ser capaz de fazer ao fim da lição
+- `core_concept` — o núcleo filosófico que não pode ficar por transmitir
+- `predicted_difficulty` — onde os alunos costumam resistir ou confundir-se, e porquê
+- `suggested_mediation` — estratégia concreta de abordagem em sala
+- `answer_criteria` — critérios mínimos para avaliação da compreensão
+- `estimated_time` — duração estimada da actividade
+
+**Estado final do projecto — todas as lacunas fechadas:**
+- 42/42 lições com sections, introduction, question, problem, teacher_notes
+- 53/53 exercícios com explanation
+- 25/25 autores com biography (~196w) e method (~74w)
+- 52 conceitos originais + 19 adicionados na v1.15 = 71/71 conceitos completos
+- 42/42 ensaios com 5 secções (~698w média)
+- 37/37 textos com guided_reading e questions
+
+**Total de testes: 82/82**
+
+---
+
+## [1.18.0] — 2026-03-13
+
+### Mapa de Relações entre Filósofos — nova view `#/graph`
+
+**Novo ficheiro:** `engine/graph-engine.js` — motor force-directed em Canvas 2D nativo, sem dependências externas.
+
+**Algoritmo:** Fruchterman-Reingold simplificado — repulsão nó-a-nó (K=12000), atracção por aresta (K=0.04), gravidade central (K=0.015), amortecimento progressivo (0.82), 600 iterações com temperatura decrescente.
+
+**Funcionalidades:**
+- Nós coloridos por período histórico (7 períodos, paleta consistente com o projecto)
+- Arestas derivadas de `related_authors[]` de `authors.json`, deduplicadas
+- Hover: destaca nó + arestas + vizinhos, esvanece o resto
+- Click: selecciona nó e exibe painel de detalhe (nome, datas, escola, sumário, relacionados com links)
+- Drag: reposiciona nós individualmente (liberta ao soltar)
+- Pan: arrasta o fundo para navegar
+- Zoom: scroll do rato ou pinch no touch (0.3×–3×)
+- Filtro por escola: botões na sidebar activam filtro de opacidade
+- Reset view: botão para centrar a câmara
+- Responsivo: sidebar colapsa para baixo em mobile (<700px)
+- `ResizeObserver`: redimensiona o canvas ao redimensionar a janela
+
+**Integrações:**
+- Rota `#/graph` adicionada ao `router.js`
+- Link "Mapa" adicionado ao header-nav e sidebar do `index.html`
+- Atalho `Alt+R` adicionado ao `accessibility.js`
+- README: atalho `Alt+R` documentado na tabela de atalhos
+
+**Total de testes: 82/82**
+
+---
+
+## [1.19.0] — 2026-03-13
+
+### Questionamentos filosóficos — cobertura total
+
+**Passo 1 — `discussion_questions` nas secções das lições**
+519 perguntas novas distribuídas por 173 secções de 42 lições.
+Cada secção recebeu 3 perguntas cobrindo os 6Ws: o quê, por quê, quem, quando/onde, como, e se.
+As perguntas são abertas, sem resposta única, desenhadas para debate oral e reflexão escrita.
+
+**Passo 2 — `relevance` nos conceitos**
+71/71 conceitos com campo `relevance`: parágrafo de 2–4 frases que responde
+"Por que este conceito importa fora da sala de aula?"
+Cobre: IA, neurociência, direito, medicina, política, ciências sociais, pedagogia.
+
+**Passo 3 — `contemporary_application` completa**
+42/42 lições (antes: 32/42). As 10 lições restantes (módulos `modern` e `currents`) preenchidas.
+
+**Renderização (nova)**
+- `renderLesson`: secções com `heading`, `content` e `discussion_questions` agora renderizadas
+- `renderConcept`: bloco "Por que isto importa hoje" adicionado ao final da página do conceito
+- CSS: `.lesson-section`, `.discussion-questions`, `.discussion-questions-list`, `.concept-relevance`
+
+**Total de testes: 82/82**

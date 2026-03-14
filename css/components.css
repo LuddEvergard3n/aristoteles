@@ -1384,3 +1384,318 @@
   padding: 1px 2px;
   border-radius: 2px;
 }
+
+/* ------------------------------------------------------------------
+ * Graph view — Mapa de Relações
+ * ------------------------------------------------------------------ */
+
+/* Layout principal: sidebar + canvas */
+main.graph-view {
+  display: flex;
+  flex-direction: row;
+  height: calc(100vh - 56px); /* altura total menos header */
+  overflow: hidden;
+  padding: 0;
+  gap: 0;
+}
+
+.graph-sidebar {
+  width: 280px;
+  min-width: 240px;
+  flex-shrink: 0;
+  background: var(--bg-surface);
+  border-right: 1px solid var(--border-light);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.graph-sidebar-inner {
+  padding: var(--space-6) var(--space-5);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.graph-sidebar-title {
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  color: var(--color-rust);
+  margin: 0;
+}
+
+.graph-sidebar-desc {
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+  line-height: 1.55;
+  margin: 0;
+}
+
+/* Legenda */
+.graph-legend {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.graph-legend-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: 11px;
+  color: var(--text-secondary);
+}
+
+.graph-legend-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* Filtros */
+.graph-filter-label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.graph-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.graph-filter-btn {
+  background: transparent;
+  border: 1px solid var(--border-medium);
+  color: var(--text-secondary);
+  font-family: var(--font-serif);
+  font-size: 11px;
+  padding: 3px 8px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
+  line-height: 1.4;
+}
+
+.graph-filter-btn:hover {
+  border-color: var(--color-rust);
+  color: var(--color-rust);
+}
+
+.graph-filter-btn.active {
+  background: var(--color-rust);
+  border-color: var(--color-rust);
+  color: var(--color-parchment);
+}
+
+/* Reset */
+.graph-reset-btn {
+  background: transparent;
+  border: 1px solid var(--border-light);
+  color: var(--text-muted);
+  font-family: var(--font-serif);
+  font-size: var(--text-sm);
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  text-align: left;
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.graph-reset-btn:hover {
+  border-color: var(--border-medium);
+  color: var(--text-primary);
+}
+
+/* Painel de detalhe do autor seleccionado */
+.graph-detail {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.graph-detail-divider {
+  border: none;
+  border-top: 1px solid var(--border-light);
+  margin: 0;
+}
+
+.graph-detail-name {
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  color: var(--color-rust);
+  margin: 0;
+}
+
+.graph-detail-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+.graph-detail-school {
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+  font-style: italic;
+  margin: 0;
+}
+
+.graph-detail-summary {
+  font-size: var(--text-sm);
+  color: var(--text-primary);
+  line-height: 1.5;
+  margin: 0;
+}
+
+.graph-detail-related {
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+}
+
+.graph-detail-label {
+  font-weight: 600;
+  color: var(--text-muted);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.graph-detail-link {
+  color: var(--color-rust);
+  text-decoration: none;
+  font-size: var(--text-sm);
+}
+
+.graph-detail-link:hover { text-decoration: underline; }
+
+.graph-detail-cta {
+  display: inline-block;
+  font-size: var(--text-sm);
+  color: var(--color-rust);
+  text-decoration: none;
+  padding: var(--space-2) 0;
+  border-top: 1px solid var(--border-light);
+  margin-top: var(--space-1);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.graph-detail-cta:hover { text-decoration: underline; }
+
+/* Canvas wrapper: ocupa o espaço restante */
+.graph-canvas-wrap {
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+  background: var(--color-parchment);
+  background-image:
+    radial-gradient(circle at 20% 20%, rgba(139,110,69,0.04) 0%, transparent 60%),
+    radial-gradient(circle at 80% 80%, rgba(43,75,126,0.04) 0%, transparent 60%);
+}
+
+/* Responsivo: sidebar em baixo no mobile */
+@media (max-width: 700px) {
+  main.graph-view {
+    flex-direction: column;
+    height: auto;
+  }
+  .graph-sidebar {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid var(--border-light);
+  }
+  .graph-canvas-wrap {
+    height: 60vw;
+    min-height: 300px;
+  }
+}
+
+/* ------------------------------------------------------------------
+ * Secções das lições (heading + content + discussion_questions)
+ * ------------------------------------------------------------------ */
+
+.lesson-sections {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+  margin-bottom: var(--space-8);
+}
+
+.lesson-section {
+  border-left: 3px solid var(--border-light);
+  padding-left: var(--space-5);
+}
+
+.lesson-section-heading {
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  color: var(--color-rust);
+  margin-bottom: var(--space-3);
+  font-weight: 600;
+}
+
+.lesson-section-content {
+  font-size: var(--text-md);
+  color: var(--text-primary);
+  line-height: 1.7;
+  margin-bottom: var(--space-4);
+  max-width: 72ch;
+}
+
+/* Bloco de perguntas para discussão */
+.discussion-questions {
+  background: rgba(201, 162, 39, 0.06);
+  border: 1px solid rgba(201, 162, 39, 0.25);
+  border-radius: var(--radius-md);
+  padding: var(--space-4) var(--space-5);
+  margin-top: var(--space-3);
+}
+
+.discussion-questions-title {
+  font-family: var(--font-display);
+  font-size: var(--text-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: var(--color-gold);
+  margin-bottom: var(--space-3);
+  font-weight: 600;
+}
+
+.discussion-questions-list {
+  list-style: decimal;
+  padding-left: var(--space-5);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  margin: 0;
+}
+
+.discussion-question-item {
+  font-size: var(--text-md);
+  color: var(--text-primary);
+  line-height: 1.6;
+}
+
+/* ------------------------------------------------------------------
+ * Relevância contemporânea nos conceitos
+ * ------------------------------------------------------------------ */
+
+.concept-relevance {
+  margin-top: var(--space-6);
+  padding-top: var(--space-5);
+  border-top: 1px solid var(--border-light);
+}
+
+.concept-relevance-text {
+  font-size: var(--text-md);
+  color: var(--text-secondary);
+  line-height: 1.7;
+  max-width: 72ch;
+  font-style: italic;
+}

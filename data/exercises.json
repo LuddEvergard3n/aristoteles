@@ -46,7 +46,8 @@
       "argumento",
       "premissa",
       "conclusão"
-    ]
+    ],
+    "explanation": "Distinguir opinião de argumento é o primeiro passo da literacia filosófica. Opiniões são expressões de preferência ou sentimento sem justificação racional — podem ser verdadeiras ou falsas, mas não há razões oferecidas para avaliá-las. Argumentos apresentam premissas que sustentam uma conclusão: a sua qualidade pode ser avaliada pela verdade das premissas e pela validade da inferência. A palavra 'acho' é marcador típico de opinião; conjunções causais ('porque', 'portanto', 'dado que') são marcadores típicos de argumento. Esta distinção não implica que opiniões sejam inúteis — implica que, sem argumentos, não podem ser avaliadas racionalmente nem servir como base de decisões partilhadas."
   },
   {
     "id": "identify-premises-01",
@@ -73,7 +74,8 @@
       "conclusão",
       "silogismo",
       "argumento"
-    ]
+    ],
+    "explanation": "Identificar a estrutura de um argumento é uma competência fundamental: a mesma conclusão pode ser sustentada por premissas muito diferentes, e a qualidade do argumento depende da qualidade das premissas. Neste argumento teleológico aristotélico, a premissa maior ('todo ser vivo tem um fim') é a mais vulnerável — um darwinista negaria que a teleologia é intrínseca aos organismos. A premissa oculta mais importante é que o fim natural é também o bem para o ser em questão — Aristóteles assumia uma coincidência entre teleologia e ética que precisa de ser justificada, não apenas postulada."
   },
   {
     "id": "reconstruct-argument-01",
@@ -187,7 +189,8 @@
       "verdade",
       "episteme",
       "opinião"
-    ]
+    ],
+    "explanation": "O Mito da Caverna não é apenas uma alegoria educativa — é a exposição visual da epistemologia e da metafísica platónicas. Cada elemento corresponde a um nível de realidade e a um modo de cognição: as sombras correspondem à eikasia (imaginação e ilusão), os objectos dentro da caverna à pistis (crença perceptiva), os objectos fora da caverna à dianoia (raciocínio matemático) e o sol ao noesis (contemplação das Formas, culminando na Ideia do Bem). A caverna é o mundo sensível; o exterior é o mundo inteligível. O prisioneiro liberto que regressa representa o filósofo que tenta educar os outros — e é morto por isso: a referência é ao julgamento de Sócrates."
   },
   {
     "id": "syllogism-identify-01",
@@ -232,7 +235,8 @@
       "argumento",
       "premissa",
       "conclusão"
-    ]
+    ],
+    "explanation": "Validade e solidez são propriedades lógicas distintas que frequentemente se confundem. Um argumento válido garante que, se as premissas forem verdadeiras, a conclusão é necessariamente verdadeira — mas as premissas podem ser falsas. Um argumento sólido é válido E tem premissas verdadeiras. O primeiro exemplo é válido (a forma é correcta) mas a premissa maior ('todo metal conduz electricidade') é falsa — o mercúrio é metal mas não conduz bem no estado líquido. O segundo exemplo ilustra a falácia da afirmação do consequente: 'Se P, então Q; Q; logo P' é formalmente inválida — Q pode ser verdade por outro motivo."
   },
   {
     "id": "compare-happiness-theories-01",
@@ -273,7 +277,8 @@
       "virtude",
       "ataraxia",
       "ética"
-    ]
+    ],
+    "explanation": "As três teorias representam as respostas mais influentes à pergunta 'o que é o bem humano?'. Aristóteles define a eudaimonia como actividade virtuosa — objectiva e dependente de condições externas (saúde, amizades, recursos mínimos). Epicuro define a felicidade como ausência de perturbação (ataraxia) e dor (aponia) — mais subjectiva e mais acessível, mas restrita à dimensão de bem-estar. Estoicos como Epicteto definem a eudaimonia como virtude e conformidade com a razão — completamente interna e independente de circunstâncias externas. As três diferem crucialmente no papel dos bens externos: para Aristóteles são necessários, para Epicuro úteis, para os estoicos irrelevantes."
   },
   {
     "id": "identify-question-01",
@@ -322,7 +327,8 @@
       "epistemologia",
       "argumento",
       "questão filosófica"
-    ]
+    ],
+    "explanation": "A distinção entre questões empíricas e questões filosóficas não é sempre nítida, mas é pedagogicamente central. Questões empíricas têm respostas verificáveis por observação, experimento ou medição — o que não significa que sejam simples. Questões filosóficas perguntam sobre condições, critérios, significados e normas: não podem ser respondidas apenas pela observação, porque envolvem análise conceptual e argumentação sobre o que deveria ser o caso. A questão 'o conhecimento científico é mais confiável?' é filosófica porque pergunta sobre critérios de confiabilidade — e essa pergunta pressupõe uma epistemologia que define o que conta como 'confiável'."
   },
   {
     "id": "cogito-argument-01",
@@ -426,7 +432,8 @@
         "correct": "Heráclito",
         "explanation": "Heráclito: o fogo como princípio dinâmico. 'Este cosmos, o mesmo para todos, não foi feito por nenhum dos deuses nem dos homens, mas sempre foi, é e será fogo eternamente vivo.'"
       }
-    ]
+    ],
+    "explanation": "Os pré-socráticos partem de uma intuição comum — a diversidade do mundo sensível deve ter uma unidade subjacente — mas chegam a respostas radicalmente diferentes. Tales escolhe a água por observação (tudo o que vive precisa de humidade). Anaximandro argumenta que nenhum elemento determinado pode ser o arché porque o seu contrário o destruiria — logo o princípio deve ser ápeiron (indeterminado). Anaxímenes escolhe o ar e introduz um mecanismo: rarefação e condensação. Heráclito escolhe o fogo porque capta a mudança perpétua. Cada escolha reflecte uma intuição filosófica diferente sobre o que conta como princípio adequado."
   },
   {
     "id": "relativism-objectivism-classify-01",
@@ -480,7 +487,8 @@
         "correct": "Relativista",
         "explanation": "Relativismo moral cultural: a validade de normas morais é relativa à cultura. Posição que tem raízes nos sofistas mas é sobretudo contemporânea."
       }
-    ]
+    ],
+    "explanation": "O debate relativismo/objectivismo em ética e epistemologia é um dos mais persistentes da filosofia. Os casos relativistas partilham uma estrutura: mostrar que o mesmo objecto ou situação é avaliado de formas opostas por sujeitos ou culturas diferentes, e concluir que não há padrão neutro. Os casos objectivistas respondem distinguindo entre o que é percebido como bom/verdadeiro e o que é bom/verdadeiro — a variação no julgamento não implica que não haja facto da matéria. Aristóteles é o objectivista clássico: o fogo queima em todo o lado, independentemente das crenças sobre ele, e o mesmo se aplicaria a valores genuinamente éticos."
   },
   {
     "id": "protagoras-vs-plato-comparison-01",
@@ -515,7 +523,8 @@
         "correct_author": "Platão",
         "problem": "autocontradição do relativismo"
       }
-    ]
+    ],
+    "explanation": "O debate entre Protágoras e Platão no Teeteto é a formulação clássica do problema do relativismo epistemológico. Protágoras defende que o conhecimento é percepção — e se cada percepção é verdadeira para quem percebe, não há critério transcendente de verdade. Platão responde por auto-refutação: se tudo o que alguém pensa é verdadeiro para essa pessoa, então a crença de que 'a doutrina de Protágoras é falsa' é também verdadeira para quem a crê — logo Protágoras deveria concordar que a sua própria doutrina é falsa para muitos. Sócrates adiciona que Protágoras admite que especialistas sabem mais que não-especialistas — o que contradiz o relativismo radical."
   },
   {
     "id": "stoic-dichotomy-classify-01",
@@ -579,7 +588,8 @@
         "correct": "Não depende de nós",
         "explanation": "As circunstâncias de nascimento são paradigmaticamente externas — o ponto de partida da vida. Os estoicos não negam que isso importa; dizem que não devemos construir nossa identidade ou felicidade sobre o que não escolhemos."
       }
-    ]
+    ],
+    "explanation": "A dicotomia estoica entre o que depende e não depende de nós (to eph'hemin / to ouk eph'hemin) é o núcleo prático de toda a filosofia estoica. A lista do que não depende de nós inclui tudo o que está fora do alcance da vontade: o corpo, a reputação, a riqueza, os outros, o resultado das nossas acções no mundo. O que depende de nós são exclusivamente os actos da mente: julgamentos, impulsos, desejos, aversões. A liberdade estoica não é ausência de constrangimentos externos — é domínio completo sobre a resposta interior aos constrangimentos. Epicteto, ex-escravo, vivia esta doutrina: ninguém podia tirar-lhe a liberdade que importava."
   },
   {
     "id": "epicurus-classify-pleasures-01",
@@ -636,7 +646,8 @@
         "correct": "Natural e necessário",
         "explanation": "A philia (amizade) é, para Epicuro, natural e necessária para a felicidade. 'De tudo o que a sabedoria prepara para a felicidade de toda a vida, o maior é a posse da amizade.' O Jardim era uma comunidade de amigos."
       }
-    ]
+    ],
+    "explanation": "A taxonomia epicurista dos desejos é uma das análises mais sistemáticas do bem-estar da Antiguidade. Desejos naturais e necessários (comer para não ter fome, abrigar-se) são os únicos indispensáveis — satisfazê-los produz ataraxia. Desejos naturais mas não necessários (comer determinado prato) podem ser satisfeitos se fáceis, mas a sua não-satisfação não causa perturbação. Desejos nem naturais nem necessários (fama, riqueza ilimitada, imortalidade) nunca satisfeitos plenamente — e a sua perseguição gera perturbação perpétua. A estratégia epicurista é reduzir os desejos ao primeiro grupo, tornando a felicidade acessível e estável."
   },
   {
     "id": "reconstruct-epicurus-death-01",
@@ -736,7 +747,8 @@
         "correct": "Caso Gettier (JTB sem conhecimento)",
         "explanation": "Carlos tem justificação (celulares normalmente mostram a hora correta), crença verdadeira (são 15h30), mas a conexão entre sua justificação e a verdade é acidental. Analogia direta com o caso do relógio parado de Gettier."
       }
-    ]
+    ],
+    "explanation": "Edmund Gettier mostrou em 1963 que a definição tradicional de conhecimento como crença verdadeira justificada é insuficiente. Os seus contra-exemplos têm uma estrutura: o agente tem justificação boa para uma crença, a crença é verdadeira, mas a verdade e a justificação estão desligadas — o agente acerta por razões erradas. Ana tem JTB completo porque a sua crença, a justificação e o facto coincidem directamente. Pedro tem JTB mas não conhecimento: a ovelha vista é um penedo em forma de ovelha; a ovelha real está atrás de um morro e Pedro nunca a viu. Há verdade e justificação — mas a justificação não aponta para o facto que torna a crença verdadeira."
   },
   {
     "id": "a-priori-a-posteriori-classify-01",
@@ -799,7 +811,8 @@
         "correct": "A priori",
         "explanation": "Proposição analítica a priori: o predicado 'não casado' está contido no conceito 'solteiro'. Para Kant, diferente de 7+5=12, esta é analítica (não amplia nosso conhecimento, apenas explicita o que já está no conceito)."
       }
-    ]
+    ],
+    "explanation": "A distinção a priori/a posteriori refere-se à fonte epistémica do conhecimento, não ao seu conteúdo. A priori: válido independentemente da experiência — a negação é contraditória ou auto-refutante. A posteriori: estabelecido pela experiência — a negação é concebível. Kant complicou a distinção ao argumentar que existem juízos sintéticos a priori: acrescentam informação (sintéticos, não meramente analíticos) mas são válidos a priori (ex.: '7 + 5 = 12' para Kant não é meramente analítico — 'doze' não está contido analiticamente em 'sete mais cinco'). Os positivistas lógicos rejeitaram os sintéticos a priori; Quine questionou a distinção analítico/sintético em toda a sua extensão."
   },
   {
     "id": "induction-deduction-classify-01",
@@ -853,7 +866,8 @@
         "correct": "Indução",
         "explanation": "O argumento paradigmático de Hume sobre o problema da indução. Por mais dias que contemos, não há garantia racional de que o sol nascerá amanhã — apenas expectativa habitual baseada em regularidade passada."
       }
-    ]
+    ],
+    "explanation": "A distinção dedução/indução é estrutural, não temática. Dedução: a conclusão está garantida pelas premissas — se as premissas são verdadeiras, a conclusão é necessariamente verdadeira. A informação contida na conclusão já estava (de forma implícita) nas premissas. Indução: a conclusão vai além das premissas — generaliza do observado para o não-observado. Mesmo com mil observações favoráveis, a conclusão pode ser falsa (o próximo corvo pode ser branco). Hume formulou o problema da indução: nenhuma quantidade de observações passadas justifica logicamente uma generalização futura — a indução pressupõe a uniformidade da natureza, que é ela própria uma crença indutiva."
   },
   {
     "id": "reconstruct-hume-causation-01",
@@ -955,7 +969,8 @@
       "i2": "Noumenon",
       "i3": "Categoria pura do entendimento",
       "i4": "Ideias da razão (noumena inacessíveis)"
-    }
+    },
+    "explanation": "A distinção kantiana fenómeno/nóumeno é uma das mais influentes e controversas da filosofia moderna. Fenómeno: o objecto tal como aparece ao sujeito, estruturado pelas formas a priori da intuição (espaço e tempo) e pelas categorias do entendimento (causalidade, substância). Nóumeno: a coisa como é em si mesma, independentemente de qualquer sujeito que a perceba — incognoscível, mas pensável (não contraditória). O paradoxo: Kant afirma que a coisa-em-si existe (é o que 'afecta' a sensibilidade), mas que não podemos conhecê-la tal como é — só como aparece. A fenomenologia posterior (Husserl, Heidegger) rejeitou a coisa-em-si como resíduo dogmático."
   },
   {
     "id": "hume-kant-comparison-01",
@@ -997,7 +1012,8 @@
         "correct_author": "Kant",
         "problem": "limite do conhecimento humano"
       }
-    ]
+    ],
+    "explanation": "O debate Hume/Kant sobre causalidade é o paradigma da relação entre empirismo e idealismo transcendental. Hume: observamos sequências constantes (A sempre seguido de B) e habituamo-nos a esperar B depois de A — mas nunca observamos a necessidade que ligaria A a B. A ideia de causalidade é um hábito psicológico, não um facto lógico. Kant, 'despertado do sono dogmático' por Hume, respondeu com a revolução copernicana: a causalidade não é derivada da experiência — é uma categoria a priori que o entendimento impõe à experiência. Não vemos causalidade no mundo porque o mundo que vemos já foi estruturado causalmente pela nossa mente antes de o vermos."
   },
   {
     "id": "moral-theories-classify-01",
@@ -1057,7 +1073,8 @@
         "correct": "Ambas (posição confusa)",
         "explanation": "Este raciocínio mistura os dois: usa linguagem kantiana ('universalizável') mas chega à conclusão consequencialista ('sacrificar um para salvar cinco'). Para Kant puro, usar a pessoa como simples meio (mesmo para salvar cinco) é proibido. Para Mill, pode ser obrigatório. O dilema do bonde é exatamente este conflito."
       }
-    ]
+    ],
+    "explanation": "As três teorias morais clássicas diferem não apenas nas conclusões mas na pergunta que fazem. A deontologia pergunta: 'qual é o meu dever?' — e responde em termos de regras, direitos e obrigações independentes das consequências. O consequencialismo pergunta: 'quais serão os resultados?' — e avalia as acções pelo balanço de bem e mal que produzem. A ética das virtudes pergunta: 'que tipo de pessoa devo ser?' — e responde em termos de carácter, disposições e excelência. Nenhuma teoria captura sozinha todas as intuições morais: o valor desta classificação é detectar qual raciocínio está implícito em cada posição e avaliar os seus pontos fortes e fracos."
   },
   {
     "id": "reconstruct-categorical-imperative-01",
@@ -1147,7 +1164,8 @@
         "correct": "Utilitarismo de regra ou ética das virtudes",
         "explanation": "Esta justificativa não é puramente consequencialista (que poderia justificar matar o um) nem puramente kantiana (que proibiria por dever). É uma versão de utilitarismo de regra (a regra 'médicos não matam pacientes' produz mais utilidade a longo prazo) ou de ética das virtudes (um médico bom não faz isso — é incompatível com o caráter da medicina)."
       }
-    ]
+    ],
+    "explanation": "O problema do bonde e as suas variantes são instrumentos filosóficos para isolar intuições morais e identificar as teorias implícitas. No caso básico, a maioria das pessoas desvia o bonde (consequencialismo: salvar cinco custa um). Na variante da passarela, a maioria recusa empurrar (deontologia: usar uma pessoa como meio é errado, independentemente do resultado). O paradoxo: os dois casos têm a mesma aritmética (1 versus 5) mas provocam respostas opostas. Isto sugere que as nossas intuições morais não são puramente consequencialistas — o modo como o resultado é causado (usar activamente uma pessoa versus redireccionar uma ameaça) importa moralmente."
   },
   {
     "id": "kant-mill-comparison-01",
@@ -1190,7 +1208,8 @@
         "correct_author": "Mill",
         "problem": "regras morais como instrumentos, não absolutos"
       }
-    ]
+    ],
+    "explanation": "A contraposição Kant/Mill é a tensão central da ética normativa moderna: obrigação versus utilidade, forma versus conteúdo, universal versus resultado. Para Kant, o valor moral de uma acção depende exclusivamente da máxima que a motiva — uma acção feita por medo das consequências, mesmo que produza bem, não tem valor moral. Para Mill, o critério de correcção é sempre o balanço de felicidade produzida — a intenção conta psicologicamente mas não moralmente. O dilema do bonde testa as duas: Kant proibiria usar uma pessoa como meio mesmo para salvar cinco; Mill exigiria salvar cinco sempre que o balanço for positivo."
   },
   {
     "id": "virtue-vs-duty-classify-01",
@@ -1235,7 +1254,8 @@
         "correct": "Aristóteles (ética das virtudes)",
         "explanation": "A ética aristotélica é contextual e comunitária: a virtude se forma numa polis, numa tradição. Não há moral abstrata e universal — há formas de vida mais ou menos florescentes. Esta ênfase no contexto comunitário separa radicalmente Aristóteles de Kant."
       }
-    ]
+    ],
+    "explanation": "O debate entre ética das virtudes e deontologia concentra-se em duas questões: o que fundamenta a acção correcta (carácter ou regra?) e qual é o papel da situação (contexto particular ou imperativo universal?). A ética das virtudes (Aristóteles) defende que as regras universais são demasiado rígidas — a phronesis (sabedoria prática) é necessária para identificar o que a situação exige. A deontologia (Kant) responde que sem regras universais a ética fica sujeita a racionalizações — a sabedoria prática sem princípios torna-se uma forma sofisticada de conveniência. O debate contemporâneo (Anscombe, MacIntyre contra Ross, Korsgaard) mantém esta tensão."
   },
   {
     "id": "reconstruct-mill-happiness-01",
@@ -1324,7 +1344,8 @@
         "correct": "Nominalismo",
         "explanation": "Posição de Roscelino e, no século XIV, de Guilherme de Ockham. Os universais são apenas nomes (nomina) — convenções linguísticas, não entidades reais. A 'navalha de Ockham': não multiplique entidades sem necessidade. O nominalismo mina a metafísica realista e prepara o empirismo moderno."
       }
-    ]
+    ],
+    "explanation": "O debate dos universais foi o problema central da filosofia medieval e antecipa debates modernos sobre significado e ontologia. O realismo exagerado (Platão, Agostinho): os universais existem independentemente das coisas particulares e das mentes — são entidades reais no seu próprio domínio. O realismo moderado (Aristóteles, Tomás): os universais existem nas coisas particulares, não separados — são formas imanentes. O nominalismo (Ockham): os universais são apenas nomes — o que existe são exclusivamente os particulares; os universais são hábitos mentais de agrupamento. O conceptualismo (Abelardo): os universais são conceitos mentais com referência empírica — nem totalmente reais nem meras palavras."
   },
   {
     "id": "reconstruct-first-way-01",
@@ -1412,7 +1433,8 @@
         "correct": "Objeção forte — refuta Anselmo",
         "explanation": "Curiosamente, Tomás rejeita o argumento ontológico de Anselmo — não porque seja ateu, mas porque discorda do método a priori. Para Tomás, só Deus conhece sua própria natureza necessariamente. Humanos só podem provar a existência de Deus partindo do que observam — as suas vias a posteriori."
       }
-    ]
+    ],
+    "explanation": "O argumento ontológico de Anselmo (Proslógio II) é o único argumento filosófico que pretende provar a existência de Deus a partir do conceito de Deus, sem recorrer à experiência. A forma canónica: Deus é aquilo além do qual nada maior pode ser pensado. Aquilo além do qual nada maior pode ser pensado existe na mente. Mas se existisse apenas na mente, poderia ser pensado um ser igual mas que também existisse na realidade — e esse seria maior. Logo Deus existe na realidade. Gaunilo responde com a ilha perfeita: o argumento, se válido, provaria a existência de qualquer perfeição imaginável. Kant fornece a refutação decisiva: 'existência' não é um predicado que acrescenta perfeição — dizer 'X existe' não descreve X mas afirma que X tem instâncias reais."
   },
   {
     "id": "faith-reason-classify-01",
@@ -1458,7 +1480,8 @@
         "correct": "Averroísmo ou dupla verdade",
         "explanation": "Posição associada aos averroístas medievais (seguidores de Averrois/Ibn Rushd) como Siger de Brabante. Tomás a rejeitou energicamente: a verdade é uma, e nenhuma contradição real é possível entre fé e razão. Esta posição foi condenada em 1277 pelo bispo de Paris."
       }
-    ]
+    ],
+    "explanation": "O problema fé/razão é a questão estruturante de toda a filosofia medieval e permanece activo na filosofia da religião contemporânea. O fideísmo radical (Tertuliano, Kierkegaard) aceita ou exige a incompatibilidade — a fé é um salto que a razão não pode dar. O racionalismo teológico (Abelardo, alguns iluministas) pretende que todas as verdades da fé são também acessíveis à razão. A síntese tomista distingue os domínios: verdades de razão (Deus existe, a alma é imortal) e verdades de revelação (Trindade, Encarnação) — as primeiras acessíveis à razão natural, as segundas acima mas não contra a razão. Anselmo ocupa uma posição peculiar: não prova para convencer mas para compreender o que já crê."
   },
   {
     "id": "augustine-aquinas-comparison-01",
@@ -1501,7 +1524,8 @@
         "correct_author": "Tomás de Aquino",
         "problem": "primado do intelecto"
       }
-    ]
+    ],
+    "explanation": "Agostinho e Tomás representam os dois grandes modelos de síntese cristã-filosófica. Agostinho parte de Platão e do neoplatonismo: a verdade é interior, o caminho para Deus passa pela introspecção da alma, o conhecimento das verdades eternas requer iluminação divina directa. Tomás parte de Aristóteles: a verdade começa pelos sentidos, o caminho para Deus parte das causas observáveis no mundo (as cinco vias são argumentos a posteriori), o intelecto abstrai os universais dos particulares sem iluminação sobrenatural. A diferença não é apenas filosófica — reflecte dois modelos de espiritualidade: a viagem interior agostiniana versus a contemplação da ordem criada tomista."
   },
   {
     "id": "valid-sound-classify-01",
@@ -1558,7 +1582,8 @@
         "correct": "Válido mas não sólido",
         "explanation": "A forma é válida: o argumento é um dilema lógico bem construído. Se as premissas são verdadeiras, a conclusão se segue. A questão filosófica é se as premissas são verdadeiras — se 'onipotência' implica 'poder do logicamente impossível'. Isso é dispute sobre as premissas, não sobre a validade."
       }
-    ]
+    ],
+    "explanation": "Os quatro casos testam a compreensão da distinção validade/solidez em combinações diferentes. Válido mas não sólido: forma correcta, premissa falsa — a conclusão pode ser verdadeira ou falsa. Sólido (válido + verdadeiro): a conclusão é garantida e verdadeira. Inválido mas com conclusão verdadeira: a conclusão é verdadeira por coincidência, não pela força do argumento. Inválido e conclusão falsa: o caso mais claro. A distinção pedagógica mais importante: um argumento pode ser formalmente perfeito mas epistemicamente inútil (premissas falsas) — e pode ter conclusão verdadeira sem ser um bom argumento. Avaliar argumentos exige verificar as duas dimensões independentemente."
   },
   {
     "id": "fallacies-identify-01",
@@ -1630,7 +1655,8 @@
         "correct": "Petição de princípio (circularidade)",
         "explanation": "O argumento usa a conclusão como premissa — circularidade. Para provar que as leis devem ser obedecidas, usa o fato de serem legais; para provar que são legais, usa o processo legal que pressupõe autoridade das leis. O argumento gira em torno de si mesmo sem avançar."
       }
-    ]
+    ],
+    "explanation": "As falácias são erros de raciocínio com aparência de argumento válido — a sua identificação é uma competência de pensamento crítico aplicável a qualquer contexto. Ad hominem: atacar o carácter ou as circunstâncias do argumentante em vez de refutar o argumento — pode ser pertinente (em questões de credibilidade) mas irrelevante para a verdade do argumento. Espantalho: reformular a posição do adversário de forma mais fraca ou absurda e atacar essa versão. Post hoc: confundir sequência temporal com causalidade. Derrame: assumir que qualquer movimento numa direcção leva inevitavelmente ao extremo. Cada falácia tem uma lógica interna que a torna persuasiva — compreendê-la é o primeiro passo para não ser enganado por ela."
   },
   {
     "id": "syllogism-construct-01",
@@ -1726,7 +1752,8 @@
         "correct": "Inválido (falácia formal)",
         "explanation": "Negação do antecedente: P→Q, ¬P ⊢ ¬Q. Contra-exemplo: P=F, Q=V → P1=V (condicional V quando antecedente F), P2=V, C=¬Q=F. As premissas são V e a conclusão é F. Inválido. Q pode ser verdadeiro por outras razões além de P."
       }
-    ]
+    ],
+    "explanation": "As quatro formas de argumento condicional testadas são as mais importantes da lógica proposicional. Modus ponens (MP): P→Q, P, logo Q — válido. Modus tollens (MT): P→Q, ¬Q, logo ¬P — válido. Afirmação do consequente (AC): P→Q, Q, logo P — inválido. Negação do antecedente (NA): P→Q, ¬P, logo ¬Q — inválido. AC e NA são as falácias formais mais comuns no raciocínio quotidiano: 'Se chove, o chão está molhado; o chão está molhado; logo choveu' — o chão pode estar molhado por outras razões. A tabela-verdade confirma a invalidade: é possível ter Q verdadeiro e P falso (quando P→Q é verdadeiro por P ser falso)."
   },
   {
     "id": "argument-structure-map-01",
@@ -1764,7 +1791,8 @@
     "correct": {
       "i1": "Conclusão: devemos reduzir carne. Premissas: (1) pecuária emite muito; (2) obrigação de reduzir emissões. Premissa implícita: reduzir consumo de carne reduz emissões.",
       "i2": "Silogismo válido com premissa maior duvidosa ('todo poder corrompe') — válido mas provavelmente não sólido."
-    }
+    },
+    "explanation": "Mapear a estrutura de um argumento — identificar conclusão, premissas explícitas, premissas implícitas e relações entre eles — é a competência base da análise filosófica. No primeiro texto, a conclusão está no início (raro mas possível); as premissas são factuais (emissões da pecuária) e normativas (obrigação de reduzir emissões); a premissa implícita liga as duas (reduzir consumo de carne reduz emissões pecuárias). No segundo, a forma é silogística com premissa maior duvidosa. Premissas implícitas são frequentemente o ponto mais vulnerável de um argumento: torná-las explícitas é o primeiro passo para as avaliar criticamente."
   },
   {
     "id": "connectives-truth-values-01",
@@ -1827,7 +1855,8 @@
         "correct": "Falso",
         "explanation": "Bicondicional: V ↔ F = F. O bicondicional é verdadeiro quando ambos têm o mesmo valor de verdade (V↔V = V, F↔F = V) e falso quando têm valores diferentes. Aqui P=V e Q=F — valores diferentes — logo falso."
       }
-    ]
+    ],
+    "explanation": "Os conectivos proposicionais têm semânticas precisas que diferem do uso quotidiano. A conjunção (∧) é falsa se qualquer conjunto for falso — exige que ambos sejam verdadeiros. A disjunção inclusiva (∨) é verdadeira se pelo menos um for verdadeiro — diferente do 'ou' exclusivo quotidiano. O condicional (→) é falso apenas quando o antecedente é verdadeiro e o consequente falso — o que surpreende: 'Se a Lua é de queijo, então 2+2=4' é verdadeiro em lógica clássica porque o antecedente é falso. O bicondicional (↔) exige que ambos tenham o mesmo valor de verdade. Estas semânticas são a base das tabelas-verdade e da validade formal."
   },
   {
     "id": "hegel-dialectic-classify-01",
@@ -1862,7 +1891,8 @@
         "correct": "A=tese, B=antítese, C=síntese",
         "explanation": "A inversão dialética: a posição inicial de domínio (A) gera sua própria contradição (B) — o reconhecimento que o senhor busca é esvaziado pela subjugação do outro. A síntese (C) não é simplesmente 'o escravo ganha': é a descoberta de que a consciência livre não vem da dominação mas do trabalho que transforma o mundo."
       }
-    ]
+    ],
+    "explanation": "A dialéctica hegeliana não é um esquema mecânico de tese-antítese-síntese (Hegel raramente usa estes termos) — é a exposição do movimento interno das categorias e das formas históricas do espírito. O Aufhebung (superação) tem três momentos: suprimir (a contradição é resolvida), conservar (os momentos anteriores são mantidos de forma modificada) e elevar (a nova posição é mais rica que qualquer dos momentos anteriores). No exemplo do ser: o ser puro e indeterminado é idêntico ao nada puro; a síntese é o devir, que contém e supera ambos. Na dialéctica do senhor e do escravo: o senhor depende do reconhecimento do escravo; o escravo desenvolve consciência pelo trabalho; a síntese é uma forma de reconhecimento mútuo."
   },
   {
     "id": "marx-ideologia-classify-01",
@@ -1908,7 +1938,8 @@
         "correct": "Ideologia (no sentido marxista)",
         "explanation": "Para Marx, a propriedade privada não é 'natural' — é uma instituição histórica que surgiu com as relações de produção capitalistas. Apresentá-la como 'direito natural anterior ao Estado' (Locke) é ideologia: transforma uma convenção histórica em necessidade natural, tornando-a impermeável à crítica e à transformação."
       }
-    ]
+    ],
+    "explanation": "Para Marx, ideologia não é simplesmente 'conjunto de ideias' ou 'visão do mundo' — é a forma como as ideias dominantes de uma época reproduzem e legitimam as relações de dominação existentes, apresentando o particular como universal e o histórico como natural. A análise material contrasta: descreve as condições reais de produção, as relações de propriedade e as contradições concretas sem as mascarar com justificação normativa. A ideologia do livre mercado, por exemplo, presenta como 'natural' uma forma histórica e específica de organização económica. O teste marxista: cui bono? — a quem servem estas ideias?"
   },
   {
     "id": "nietzsche-ressentiment-classify-01",
@@ -1955,7 +1986,8 @@
         "correct": "Moral de escravo (ressentimento)",
         "explanation": "A estrutura reativa é clara: o 'bom' (virtuoso) é definido por negação do poderoso ('os ricos são corruptos'). O valor nasce da reação ao inimigo, não da afirmação positiva de si. Para Nietzsche, este raciocínio — frequente em discursos populistas e religiosos — mascara impotência como virtude."
       }
-    ]
+    ],
+    "explanation": "A genealogia da moral de Nietzsche é uma hipótese histórico-psicológica sobre a origem dos valores morais vigentes. A moral nobre começa pela autoafirmação — 'Sou excelente' — e deriva 'mau' como contrário. A moral escrava começa pela negação reactiva — 'Eles (os fortes) são maus' — e deriva 'bom' como ausência dessas qualidades. O resentimento é o motor: os fracos, não podendo vingar-se em acção, vingatem-se em imaginação e em valores, transformando as virtudes dos fortes (força, orgulho, vontade de poder) em vícios ('arrogância', 'crueldade', 'egoísmo') e as suas fraquezas em virtudes ('humildade', 'mansidão', 'pobreza de espírito'). Nietzsche não defende a crueldade — defende honestidade sobre a origem dos valores."
   },
   {
     "id": "wittgenstein-language-games-classify-01",
@@ -2002,7 +2034,8 @@
         "correct": "Confusão de jogos de linguagem",
         "explanation": "'Inocente' no direito é um status jurídico — uma posição dentro do jogo de linguagem do processo legal. 'Inocente' no sentido ordinário é uma descrição factual de não ter praticado o ato. O filósofo confunde os dois jogos: a presunção de inocência é uma regra do jogo jurídico, não uma afirmação factual sobre o mundo."
       }
-    ]
+    ],
+    "explanation": "Os jogos de linguagem são o instrumento central do segundo Wittgenstein para dissolver problemas filosóficos. A ideia: as palavras não têm um único significado essencial — funcionam de formas diferentes em contextos diferentes, e confundir essas formas é a fonte da maioria dos problemas filosóficos. 'Dor' num relato subjectivo e 'dor' numa explicação médica funcionam diferentemente; 'necessário' em matemática e 'necessário' em física têm gramáticas distintas. O filósofo confunde jogos de linguagem quando generaliza o uso de uma palavra além do seu contexto de origem. A filosofia, para o segundo Wittgenstein, não resolve problemas — mostra que os 'problemas' eram confusões gramaticais."
   },
   {
     "id": "modern-comparison-01",
@@ -2045,7 +2078,8 @@
         "correct_author": "Wittgenstein",
         "problem": "os problemas filosóficos como confusões linguísticas"
       }
-    ]
+    ],
+    "explanation": "Hegel e Marx partilham o método dialéctico mas divergem radicalmente no motor da história. Para Hegel, o motor é o Geist (Espírito) que se desenvolve dialecticamente através das suas contradições — a história é a auto-realização do Espírito na liberdade. Para Marx, o motor são as condições materiais de produção e as contradições de classe — a história é a história da luta de classes. Marx inverte Hegel: onde Hegel põe o espírito, Marx põe a matéria; onde Hegel vê a ideia a determinar as condições, Marx vê as condições a determinar as ideias. Ambos concordam que a história tem uma lógica interna — divergem sobre o que a move."
   },
   {
     "id": "kant-modern-contextualize-01",
@@ -2096,7 +2130,8 @@
         "correct": "Nietzsche",
         "explanation": "Nietzsche via Kant como o filósofo que deu à moral de escravo uma formulação filosófica sofisticada. O imperativo categórico — agir por dever, independente de inclinação — é para Nietzsche a negação da vida em nome de uma abstração. A autonomia kantiana é heteronomia disfarçada: submissão à razão universal em vez de autoafirmação criadora."
       }
-    ]
+    ],
+    "explanation": "Kant é o ponto de viragem da filosofia moderna: tanto o idealismo alemão posterior quanto o positivismo lógico do século XX podem ser lidos como respostas à sua síntese transcendental. Hegel herda a estrutura a priori do conhecimento mas rejeita a coisa-em-si como resíduo dogmático — se a razão estrutura a realidade, não faz sentido postular um domínio inacessível além dessa estrutura. Marx herda o método crítico — a desmistificação das pretensões absolutas da razão — mas inverte a aplicação: critica não a metafísica mas as ideologias que justificam a exploração. Nietzsche herda a genealogia (Kant perguntou pelas condições de possibilidade do conhecimento; Nietzsche pelas condições históricas dos valores). Wittgenstein herda a distinção entre o que pode ser dito e o que só pode ser mostrado."
   },
   {
     "id": "current-rv-sources-classify-01",
@@ -2144,7 +2179,8 @@
         "correct": "(A) A priori — racionalista",
         "explanation": "O princípio de não-contradição é o candidato mais forte ao estatuto de verdade puramente racional: não parece possível nem coerente negá-lo sem usá-lo. Aristóteles o tratou como o princípio mais fundamental de toda demonstração. Racionalistas o tomam como verdade inata ou necessária da razão. Hume o classificaria entre as 'relações de ideias' — analiticamente verdadeiro. Mas o empirista radical questiona: como sabemos que o princípio se aplica a toda a realidade, e não apenas ao nosso pensamento?"
       }
-    ]
+    ],
+    "explanation": "O exercício testa a distinção entre as fontes do conhecimento (a priori vs a posteriori) e as suas propriedades lógicas (necessário vs contingente). A geometria euclidiana era o modelo clássico de conhecimento a priori: verdades necessárias derivadas de axiomas por dedução. A descoberta das geometrias não-euclidianas (Gauss, Riemann, Lobachevski) no século XIX mostrou que a geometria euclidiana é uma geometria possível entre várias — o que levantou a questão de Kant sobre o espaço. A química é a posteriori: estabelecida por experimento, poderia ser diferente em universos com diferentes leis físicas. O ponto central: a priori não significa 'não revisto' — significa 'não derivado da experiência para a sua justificação'."
   },
   {
     "id": "current-rv-kant-bridge-01",
@@ -2215,7 +2251,8 @@
       "s2",
       "s3",
       "s4"
-    ]
+    ],
+    "explanation": "O exercício mapeia a arquitectura da síntese kantiana: empirismo e racionalismo têm cada um meia verdade, e Kant procura a posição que retenha o que cada um viu correctamente. O racionalismo viu que há estruturas necessárias (causalidade, identidade) que a experiência não pode fundar — a experiência só fornece regularidades, não necessidade. O empirismo viu que sem experiência a razão pura é vazia — não há conhecimento de conteúdo por dedução de axiomas (como os racionalistas pretenderam). Kant combina: o a priori estrutura, o a posteriori fornece conteúdo. O custo é a coisa-em-si incognoscível: pagamos o acordo entre as duas tradições com um limite permanente ao conhecimento."
   },
   {
     "id": "current-idealism-positions-01",
@@ -2264,7 +2301,8 @@
         "correct": "(C) Idealismo absoluto — Hegel",
         "explanation": "A identificação do real com o racional, a noção de que a história é o automovimento do Espírito, e a eliminação do limite kantiano (a coisa-em-si) são marcas do idealismo absoluto hegeliano. Hegel não diz que o mundo é mental no sentido de Berkeley — diz que o mundo e o pensamento têm a mesma estrutura racional, e que essa estrutura se desenvolve dialeticamente. O 'absoluto' não é um sujeito separado: é a totalidade do processo de autodesenvolvimento da razão."
       }
-    ]
+    ],
+    "explanation": "As três formas de idealismo diferem no que afirmam depender da mente. O idealismo subjectivo de Berkeley: os objectos materiais só existem enquanto percebidos — esse é percipi. A matéria como substância independente é supérflua. O idealismo transcendental de Kant: não os objectos, mas a forma da experiência depende do sujeito — espaço, tempo e categorias são contribuições da mente, não propriedades das coisas em si. O idealismo absoluto de Hegel: a distinção sujeito/objecto é ela própria uma determinação do Espírito que se pensa a si mesmo através da história — não há 'coisa-em-si' independente do Geist. Cada posição tem motivações filosóficas distintas e enfrenta objecções diferentes."
   },
   {
     "id": "current-idealism-objections-01",
@@ -2301,7 +2339,8 @@
         "correct": "Visa Hegel — é inversão, não refutação",
         "explanation": "Marx não refuta Hegel — o inverte. Mantém a estrutura dialética, mas substitui o Espírito pelas relações de produção como motor. Um hegeliano poderia responder: Marx simplesmente trocou um abstrato (Espírito) por outro (modo de produção) sem mostrar que o processo dialético da história requer a primazia da matéria sobre a ideia. A questão de fundo — o que é mais fundamental, mente ou matéria? — permanece aberta."
       }
-    ]
+    ],
+    "explanation": "As objecções ao idealismo testam a sua coerência interna e o seu poder explicativo. A objecção a Berkeley (objectos não percebidos) é clássica: Berkeley responde com o esse est percipi de Deus — os objectos continuam a existir porque Deus os percebe permanentemente. A objecção de Moore e Russell ao idealismo britânico invocou o realismo de senso comum: a independência dos objectos é mais certa do que qualquer argumento idealista. A objecção de Marx a Hegel é inversão, não refutação directa: Hegel estava certo que há uma lógica no real, mas errou sobre quem é o sujeito — não é o Geist, são as relações materiais de produção."
   },
   {
     "id": "current-idealism-compare-01",
@@ -2345,7 +2384,8 @@
         "correct_author": "Hegel",
         "problem": "O Absoluto como processo, não como limite"
       }
-    ]
+    ],
+    "explanation": "Kant e Hegel são os dois pólos do idealismo alemão e o seu debate é o mais influente da filosofia europeia do século XIX. Kant mantém a coisa-em-si: o fenómeno (o que conhecemos) e o nóumeno (o que existe em si) são distintos. Hegel elimina a coisa-em-si: é uma contradição — afirmar que existe algo que, por definição, não pode ser pensado é já pensá-lo. O Absoluto hegeliano não é uma coisa incognoscível mas o processo do Espírito que se pensa a si mesmo na história e na filosofia. A disputa tem consequências práticas: para Kant, a razão teórica tem limites necessários; para Hegel, a razão pode conhecer o Absoluto — a filosofia é o Absoluto a tomar consciência de si."
   },
   {
     "id": "current-materialism-base-super-01",
@@ -2392,7 +2432,8 @@
         "correct": "Superestrutura (formas de consciência)",
         "explanation": "A crença na mobilidade social como resultado do mérito individual é, para Marx, ideologia: uma representação que apresenta como universal (qualquer um pode vencer) o que serve aos interesses da classe dominante (os trabalhadores não devem organizar-se coletivamente — devem competir individualmente). Não significa que a crença seja completamente falsa — significa que sua função social é legitimar uma estrutura que beneficia poucos."
       }
-    ]
+    ],
+    "explanation": "A distinção base/superestrutura é o instrumento analítico central do materialismo histórico. A base são as forças de produção (tecnologia, capacidade de trabalho) e as relações de produção (propriedade, controlo). A superestrutura são as formas de consciência que emergem da base e a legitimam: direito, religião, filosofia, arte, família, Estado. A relação não é mecânica ou simplista: Marx fala de determinação 'em última instância' — a superestrutura tem alguma autonomia relativa. O exercício testa a distinção: o sistema de patentes é superestrutura jurídica; a linha de montagem é organização das relações de produção (base); a burocracia estatal é superestrutura política; o dinheiro pode ser ambos."
   },
   {
     "id": "current-materialism-alienation-reconstruct-01",
@@ -2447,7 +2488,8 @@
       "s1",
       "s2",
       "s3"
-    ]
+    ],
+    "explanation": "A teoria da alienação é a análise psicológica e filosófica do que o capitalismo faz ao ser humano, não apenas à economia. As quatro dimensões formam um argumento coerente: a alienação do produto (o que faço pertence-me como inimigo), do processo (o acto de trabalhar é penoso, não realizador), do ser genérico (trabalho como animal, não como ser livre e criativo), e dos outros (a relação com os outros trabalhadores é mediada pela competição e pelo produto-mercadoria). A solução implícita: trabalho não alienado seria trabalho onde o trabalhador se reconhece no produto, controla o processo, exercita a sua criatividade e se relaciona com os outros como co-criadores."
   },
   {
     "id": "current-existentialism-authentic-01",
@@ -2495,7 +2537,8 @@
         "correct": "Existência inautêntica (má-fé / das Man)",
         "explanation": "Sartre chamaria isso de má-fé na forma de 'espírito de seriedade': tratar o papel social como a essência do que se é. 'Sou operador de torno, é o que sou' nega a transcendência — a abertura radical da existência humana. Para Sartre, o humano nunca 'é' algo da forma como uma pedra 'é' dura: está sempre além do que é, projetando-se. Identificar-se completamente com um papel social é a forma mais comum de fuga da liberdade. Note que o existencialismo não diz que o trabalhador deve abandonar o emprego — diz que deve assumir sua situação como escolha, não como destino."
       }
-    ]
+    ],
+    "explanation": "A autenticidade existencialista é uma categoria complexa: não é a simples 'expressão do eu verdadeiro' — é a aceitação da responsabilidade radical pela escolha que somos. A má-fé (Sartre) e o das Man (Heidegger) são as formas de fuga à autenticidade: viver como 'se vive', fazer o que 'se faz', ser o que os outros esperam — sem assumir que estou a escolher isso. O caso ambíguo é importante: uma escolha pode ser autêntica ou inautêntica independentemente do conteúdo — o que importa é se o agente assume a responsabilidade pela escolha ou se a recusa com 'não tinha alternativa', 'é o que se faz', 'é o meu dever'."
   },
   {
     "id": "current-existentialism-freedom-reconstruct-01",
@@ -2551,7 +2594,8 @@
       "s1",
       "s2",
       "s3"
-    ]
+    ],
+    "explanation": "O exercício reconstrói o argumento central do existencialismo sartriano e examina as suas tensões internas. 'Condenado à liberdade' é um paradoxo deliberado: a liberdade não é uma conquista optativa mas uma estrutura ontológica — somos sempre já escolhendo, mesmo quando pretendemos não escolher. As objecções ao determinismo e ao outro mostram que Sartre não ignora as condições — apenas afirma que a liberdade subsiste dentro delas. O problema político (terceira objecção, não no exercício) é onde o existencialismo mais vacila: a liberdade individual como fundamento não basta para justificar a solidariedade e a transformação colectiva — daí a aproximação tardia de Sartre ao marxismo."
   },
   {
     "id": "current-analytic-continental-classify-01",
@@ -2600,6 +2644,7 @@
         "correct": "(A) Analítica",
         "explanation": "Esse é o programa do Positivismo Lógico (Círculo de Viena: Carnap, Schlick, Ayer) — a corrente mais influente da tradição analítica nos anos 1930. O princípio de verificação: um enunciado tem sentido cognitivo apenas se é verificável empiricamente ou analiticamente verdadeiro por definição. A famosa provocação de Carnap: a frase de Heidegger 'O nada nadifica' (Das Nichts nichtet) é gramaticalmente formada mas logicamente vazia — trata 'nada' como um substantivo e 'nadar' como predicado, o que é um pseudo-problema gerado por confusão gramatical."
       }
-    ]
+    ],
+    "explanation": "O cisma analítico/continental não é geográfico nem meramente de estilo — reflecte diferenças profundas de método, problema e modelo de rigor. A tradição analítica (Frege, Russell, Moore, Wittgenstein I, Quine) privilegia a análise lógica da linguagem, a argumentação formal, a proximidade às ciências e a clareza como virtude. A tradição continental (Hegel, Husserl, Heidegger, Merleau-Ponty, Derrida) privilegia a história da filosofia, a experiência vivida, a hermenêutica e a crítica das pressuposições da modernidade. As pontes contemporâneas (filosofia da mente, ética aplicada, filosofia política) mostram que a divisão nunca foi absoluta — e que o enriquecimento mútuo é possível e necessário."
   }
 ]
