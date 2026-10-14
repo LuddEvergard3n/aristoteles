@@ -43,7 +43,7 @@
     "sections": [
       {
         "heading": "O que distingue filosofia de simples opinião",
-        "content": "Opinar é natural e universal — todos têm opiniões sobre tudo. Filosofar é diferente: exige articular as razões por trás da posição, examinar essas razões criticamente, e aceitar que a posição pode ter de mudar se as razões não sustentarem. Uma opinião resiste a perguntas com irritação ou silêncio. Uma posição filosófica as recebe como oportunidade — cada objeção é um teste, cada contra-argumento é informação. Esta diferença não é de inteligência: é de atitude. Sócrates não era mais inteligente que os políticos e poetas de Atenas — mas fazia perguntas que eles não queriam enfrentar.",
+        "content": "Opinar é natural e universal — todos têm opiniões sobre tudo. Filosofar é diferente: exige articular as razões por trás da posição, examinar essas razões criticamente, e aceitar que a posição pode ter de mudar se as razões não sustentarem. Uma opinião pode resistir a perguntas; uma posição filosófica procura recebê-las como oportunidade de teste e revisão. Esta diferença não é de inteligência: é de atitude. A tradição socrática tornou célebre uma prática de perguntas insistentes, dirigida às justificações de interlocutores e às tensões entre as suas respostas.",
         "discussion_questions": [
           "O que significa dizer que uma posição precisa de 'justificação racional' — que tipo de justificação conta?",
           "Por que ter uma opinião fortemente sustentada ainda não é filosofar?",
@@ -52,7 +52,7 @@
       },
       {
         "heading": "As três perguntas fundadoras",
-        "content": "A tradição filosófica se organiza em torno de três grandes perguntas, que correspondem às três grandes áreas da filosofia. A metafísica pergunta: o que existe? O que é real? O que é o ser? A epistemologia pergunta: o que podemos conhecer? Como sabemos que sabemos? Quais são os limites do conhecimento? A ética pergunta: como devo agir? O que é uma boa vida? O que é correto? Estas perguntas não têm respostas definitivas — e precisamente por isso permanecem filosóficas. Quando uma pergunta adquire metodologia e dados suficientes para ser respondida sistematicamente, ela se emancipa da filosofia e torna-se ciência. A física foi filosofia natural; a psicologia foi filosofia da mente. O que resta na filosofia são as perguntas que nenhuma disciplina empírica conseguiu ainda capturar.",
+        "content": "Uma organização didática frequente da tradição filosófica reúne questões metafísicas, epistemológicas e éticas. A metafísica pergunta o que existe e como descrever o ser; a epistemologia pergunta o que podemos conhecer e com que justificação; a ética pergunta como devemos agir e o que conta como boa vida. Disciplinas como física e psicologia adquiriram métodos e instituições próprios ao longo do tempo, mas continuam a levantar questões filosóficas sobre conceitos, evidência, valores e limites. A fronteira entre filosofia e ciência é histórica e debatida, não uma separação automática.",
         "discussion_questions": [
           "Das três perguntas fundadoras (o que existe, o que podemos saber, o que devemos fazer), qual te parece mais urgente hoje — e por quê?",
           "É possível responder a uma dessas perguntas sem responder às outras? Dê um exemplo.",
@@ -61,7 +61,7 @@
       },
       {
         "heading": "Do mito ao logos: a transição histórica",
-        "content": "O surgimento da filosofia na Grécia do século VI a.C. foi uma das transformações mais extraordinárias da história intelectual humana. Antes, as perguntas sobre a origem do mundo, sobre a morte, sobre o comportamento moral eram respondidas por mitos — narrativas sagradas sobre deuses e heróis, transmitidas pela tradição e aceitas pela autoridade. Os primeiros filósofos — Tales, Anaximandro, Anaxímenes — recusaram essa resposta. Não porque fossem ateus necessariamente, mas porque exigiram uma resposta diferente em tipo: uma explicação baseada em princípios naturais observáveis e racionalmente discutíveis. O logos — a razão, o discurso articulado — substituiu o mito como tribunal da verdade. Essa substituição não foi simples nem completa: Platão usou mitos deliberadamente para expressar ideias que resistiam à demonstração direta. Mas o gesto fundador — exigir razões em vez de aceitar a autoridade — mudou para sempre o que significa conhecer.",
+        "content": "Na Grécia do século VI a.C., alguns pensadores passaram a formular explicações da natureza em termos de princípios, causas e argumentos discutíveis. Narrativas míticas continuaram a circular e a exercer funções religiosas, poéticas e políticas; não foram simplesmente substituídas por uma razão única. A oposição entre mito e logos é uma síntese didática útil, mas simplifica práticas históricas variadas: Platão empregou mitos e autores posteriores releram os primeiros filósofos com categorias próprias. O legado relevante para este curso é a exigência de justificar propostas e permitir que sejam discutidas criticamente.",
         "discussion_questions": [
           "O que o mito fazia que o logos não consegue fazer? O que se perdeu com a transição?",
           "Por que essa transição aconteceu na Grécia do século VI a.C. e não em outro lugar ou época?",
@@ -102,7 +102,9 @@
       "parmenides"
     ],
     "text_ids": [],
-    "exercise_ids": [],
+    "exercise_ids": [
+      "myth-logos-comparison-01"
+    ],
     "teacher_notes": {
       "objective": "O aluno compreende a diferença estrutural entre explicação mítica e explicação racional.",
       "core_concept": "A passagem do mythos ao logos é o surgimento da exigência de princípios universais e verificáveis.",
@@ -252,7 +254,9 @@
     "text_ids": [
       "plato-apology-oracle"
     ],
-    "exercise_ids": [],
+    "exercise_ids": [
+      "socratic-questioning-01"
+    ],
     "teacher_notes": {
       "objective": "O aluno compreende a função do método socrático como exame crítico das crenças e como caminho para o autoconhecimento.",
       "core_concept": "A maiêutica não entrega o conhecimento: ajuda o interlocutor a parir o que já está potencialmente nele.",
@@ -328,7 +332,9 @@
       "socrates"
     ],
     "text_ids": [],
-    "exercise_ids": [],
+    "exercise_ids": [
+      "forms-sensible-01"
+    ],
     "teacher_notes": {
       "objective": "O aluno compreende por que Platão postulou o mundo das ideias e quais problemas filosóficos ele pretendia resolver.",
       "core_concept": "A Teoria das Ideias é resposta ao problema de Sócrates: como pode haver definições universais (ex: o belo) se as coisas belas são singulares e mutáveis?",
@@ -1361,7 +1367,9 @@
     "text_ids": [
       "descartes-meditations-1"
     ],
-    "exercise_ids": [],
+    "exercise_ids": [
+      "epistemology-limits-comparison-01"
+    ],
     "teacher_notes": {
       "objective": "Sintetizar o módulo: mostrar como Descartes, Hume e Kant respondem à mesma questão (o que podemos saber?) com estratégias radicalmente diferentes.",
       "core_concept": "Limites do conhecimento como problema filosófico central — não pessimismo, mas precisão",
@@ -1821,7 +1829,9 @@
       "augustine-confessions-time",
       "augustine-illumination"
     ],
-    "exercise_ids": [],
+    "exercise_ids": [
+      "augustine-interiority-01"
+    ],
     "teacher_notes": {
       "objective": "Apresentar Agostinho como o filósofo que sintetizou neoplatonismo com cristianismo e definiu a orientação introspectiva da filosofia cristã ocidental.",
       "core_concept": "Teoria da iluminação; interioridade como método; análise do tempo como 'distentio animi'",

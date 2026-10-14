@@ -70,6 +70,8 @@ import { runDataTests }   from './data-tests.js';
 import { runModuleTests } from './module-tests.js';
 import { runEngineTests } from './engine-tests.js';
 import { runEssayTests }  from './data-tests.js';
+import { Editorial }      from '../js/editorial.js';
+import { Router }         from '../js/router.js';
 
 /* ------------------------------------------------------------------
  * Execução
@@ -91,7 +93,8 @@ try {
     exercises: loadJSON('exercises.json'),
     arguments: loadJSON('arguments.json'),
     timeline:  loadJSON('timeline.json'),
-    essays:    loadJSON('essays.json')
+    essays:    loadJSON('essays.json'),
+    editorial: loadJSON('editorial.json')
   };
   console.log('Dados carregados com sucesso.\n');
 } catch (err) {
@@ -106,6 +109,41 @@ runDataTests(data, test, assert, assertEqual, assertArray, assertNonEmpty);
 runModuleTests(data, test, assert, assertEqual, assertArray, assertNonEmpty);
 runEngineTests(test, assert, assertEqual, assertArray, assertNonEmpty);
 runEssayTests(data, test, assert, assertEqual, assertArray, assertNonEmpty);
+
+test('PWA: manifesto, Service Worker e ícones existem', () => {
+  ['assets/manifest.json', 'assets/icons/icon.svg', 'assets/icons/maskable.svg', 'sw.js', 'js/pwa.js'].forEach(file => {
+    assert(existsSync(join(ROOT, file)), `Arquivo PWA ausente: ${file}`);
+  });
+});
+
+test('Editorial: hidrata revisão e fontes para todos os tipos publicados', () => {
+  const groups = [['lessons', 'lesson'], ['authors', 'author'], ['schools', 'school'], ['concepts', 'concept'], ['timeline', 'timeline'], ['texts', 'text']];
+  groups.forEach(([key, kind]) => {
+    Editorial.enrich(data[key], kind, data.editorial).forEach(item => {
+      assertNonEmpty(item.lastReviewed, `${key}/${item.id}: sem revisão`);
+      assertNonEmpty(item.reviewStatus, `${key}/${item.id}: sem status`);
+      assertArray(item.sources, `${key}/${item.id}: sources inválido`);
+      assert(item.sources.length > 0, `${key}/${item.id}: sem fonte`);
+    });
+  });
+});
+
+test('Editorial: catálogo de fontes tem metadados verificáveis', () => {
+  data.editorial.sources.forEach(source => {
+    ['id', 'author', 'title', 'type', 'year', 'url', 'scope', 'limitations', 'accessedAt'].forEach(field => {
+      assertNonEmpty(source[field], `Fonte ${source.id}: campo ausente ${field}`);
+    });
+  });
+});
+
+test('Router real: problema e busca são rotas públicas reconhecidas', () => {
+  const previousWindow = globalThis.window;
+  globalThis.window = { location: { hash: '#/problem/what-is-philosophy' } };
+  assertEqual(Router.current().view, 'problem');
+  globalThis.window.location.hash = '#/search?q=virtude';
+  assertEqual(Router.current().view, 'search');
+  globalThis.window = previousWindow;
+});
 
 // Relatório
 console.log('\n\n' + '='.repeat(50));

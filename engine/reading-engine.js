@@ -147,7 +147,8 @@ export const ReadingEngine = (() => {
     meta.innerHTML =
       `<span class="reading-source">${UI.escape(_currentText.source)}</span>` +
       ` &mdash; ` +
-      `<span class="reading-period">${UI.escape(_currentText.period)}</span>`;
+      `<span class="reading-period">${UI.escape(_currentText.period)}</span>` +
+      ` &mdash; <span>${UI.escape(_currentText.citationNature || 'excerto')}</span>`;
 
     header.appendChild(title);
     header.appendChild(meta);

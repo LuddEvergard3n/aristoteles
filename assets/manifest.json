@@ -1,0 +1,14 @@
+{
+  "name": "Aristóteles — Filosofia",
+  "short_name": "Aristóteles",
+  "description": "Laboratório de pensamento filosófico.",
+  "start_url": "./index.html#/",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5efe3",
+  "theme_color": "#1a1410",
+  "icons": [
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icons/maskable.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ]
+}

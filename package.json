@@ -1,6 +1,6 @@
 {
   "name": "aristoteles",
-  "version": "1.0.0",
+  "version": "1.20.0",
   "description": "Sistema educacional de Filosofia — laboratório de pensamento filosófico",
   "type": "module",
   "scripts": {

@@ -1699,3 +1699,33 @@ main.graph-view {
   max-width: 72ch;
   font-style: italic;
 }
+
+/* Metadados e leituras complementares preservam a largura editorial da lição. */
+.lesson-editorial,
+.lesson-essays,
+.problem-related,
+.search-results {
+  margin-top: var(--space-6);
+  max-width: 72ch;
+}
+
+.lesson-editorial {
+  border-top: 1px solid var(--border-light);
+  padding-top: var(--space-4);
+  color: var(--text-secondary);
+}
+
+.lesson-editorial summary,
+.graph-accessible-list summary {
+  cursor: pointer;
+  color: var(--color-rust);
+  font-weight: 600;
+}
+
+.lesson-editorial li { margin: var(--space-2) 0; }
+.lesson-editorial a { color: var(--color-rust); }
+.essay-link { display: block; margin: var(--space-2) 0; text-align: left; }
+.essay-reading { max-width: 70ch; line-height: 1.7; }
+.essay-reading h3 { margin-top: var(--space-5); color: var(--color-rust); }
+.graph-accessible-list { margin-top: var(--space-4); }
+.graph-accessible-list #graph-list { display: flex; flex-direction: column; gap: var(--space-1); margin-top: var(--space-3); }

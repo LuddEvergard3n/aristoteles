@@ -2646,5 +2646,69 @@
       }
     ],
     "explanation": "O cisma analítico/continental não é geográfico nem meramente de estilo — reflecte diferenças profundas de método, problema e modelo de rigor. A tradição analítica (Frege, Russell, Moore, Wittgenstein I, Quine) privilegia a análise lógica da linguagem, a argumentação formal, a proximidade às ciências e a clareza como virtude. A tradição continental (Hegel, Husserl, Heidegger, Merleau-Ponty, Derrida) privilegia a história da filosofia, a experiência vivida, a hermenêutica e a crítica das pressuposições da modernidade. As pontes contemporâneas (filosofia da mente, ética aplicada, filosofia política) mostram que a divisão nunca foi absoluta — e que o enriquecimento mútuo é possível e necessário."
+  },
+  {
+    "id": "myth-logos-comparison-01",
+    "type": "comparison",
+    "title": "Explicações, autoridade e debate",
+    "instruction": "Compare duas formas de explicar um fenômeno. Identifique o que pode ser discutido publicamente em cada formulação e o que a comparação deixa de fora.",
+    "difficulty": 2,
+    "concepts": ["mito", "logos", "razão"],
+    "explanation": "A atividade não trata mito e razão como etapas de inteligência. Ela ajuda a distinguir funções narrativas, religiosas e argumentativas, reconhecendo que tradições filosóficas também usam mitos e imagens.",
+    "positions": [
+      { "id": "a", "text": "Uma narrativa associa uma tempestade à ação de uma divindade.", "author_hint": "Explique sua função antes de julgá-la como hipótese científica.", "correct": "narrativa" },
+      { "id": "b", "text": "Uma explicação propõe causas naturais e indica por que podem ser discutidas.", "author_hint": "Procure razões submetidas a crítica pública.", "correct": "argumentativa" }
+    ]
+  },
+  {
+    "id": "socratic-questioning-01",
+    "type": "reconstruct",
+    "title": "Uma investigação socrática",
+    "instruction": "Organize as etapas de uma investigação que testa uma definição, sem confundir pergunta com refutação pessoal.",
+    "difficulty": 2,
+    "concepts": ["dialética", "argumento", "virtude"],
+    "items": [
+      { "id": "definir", "text": "Pedir uma definição inicial do conceito." },
+      { "id": "examinar", "text": "Testar a definição com casos e consequências." },
+      { "id": "revisar", "text": "Identificar a dificuldade e reformular a proposta." }
+    ],
+    "correct_order": ["definir", "examinar", "revisar"],
+    "explanation": "O elenchus socrático procura expor tensões entre respostas e incentivar revisão, não vencer uma disputa pessoal."
+  },
+  {
+    "id": "forms-sensible-01",
+    "type": "mapping",
+    "title": "Forma, sensível e conhecimento",
+    "instruction": "Associe cada descrição ao papel que ela desempenha na explicação platônica apresentada na lição.",
+    "difficulty": 3,
+    "concepts": ["ideia", "conhecimento", "alma"],
+    "items": [
+      { "id": "formas", "symbol": "Aquilo que é inteligível e relativamente estável na teoria.", "options": ["Formas", "Coisas sensíveis"], "correct": "Formas" },
+      { "id": "sensivel", "symbol": "Aquilo que muda e é percebido pelos sentidos.", "options": ["Formas", "Coisas sensíveis"], "correct": "Coisas sensíveis" }
+    ],
+    "explanation": "O exercício resume uma leitura introdutória de Platão; diferentes diálogos e intérpretes qualificam essa oposição de maneiras diversas."
+  },
+  {
+    "id": "epistemology-limits-comparison-01",
+    "type": "comparison",
+    "title": "Limites do conhecimento",
+    "instruction": "Compare como Hume e Kant localizam limites ou condições do conhecimento. Use as diferenças de método antes de escolher uma posição.",
+    "difficulty": 4,
+    "concepts": ["ceticismo", "indução", "fenômeno"],
+    "positions": [
+      { "id": "hume", "text": "Questiona a justificação racional de inferências indutivas.", "author_hint": "Empirismo e hábito.", "correct": "Hume" },
+      { "id": "kant", "text": "Investiga condições pelas quais a experiência pode ser conhecida.", "author_hint": "Condições da experiência.", "correct": "Kant" }
+    ],
+    "explanation": "A comparação evita tratar Hume e Kant como respostas finais: ambos delimitam problemas distintos e permanecem objeto de debate."
+  },
+  {
+    "id": "augustine-interiority-01",
+    "type": "mark-premises",
+    "title": "Interioridade e conhecimento",
+    "instruction": "Marque as afirmações que funcionam como razões na reconstrução simplificada de uma tese agostiniana sobre o conhecimento.",
+    "difficulty": 3,
+    "concepts": ["conhecimento", "verdade", "alma"],
+    "argument": "Podemos reconhecer verdades que não dependem apenas de objetos mutáveis percebidos pelos sentidos. A investigação interior é uma via importante para compreender essa experiência de verdade. Portanto, a interioridade tem papel central em uma leitura introdutória de Agostinho.",
+    "explanation": "A formulação é uma síntese didática, não uma tradução de uma única passagem de Agostinho; ela deve ser comparada com os textos e comentários indicados."
   }
 ]

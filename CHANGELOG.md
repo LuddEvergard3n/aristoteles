@@ -5,6 +5,19 @@ Formato: [Versão] — Data — Descrição
 
 ---
 
+## [1.20.0] — 2026-10-13
+
+### Technical and editorial reliability
+
+- Added public problem and search routes, local progress persistence, a Service Worker, manifest, and local icons.
+- Added an accessible author-and-relations alternative to the Canvas graph and corrected its lifecycle and high-density coordinate handling.
+- Integrated the existing essays as optional lesson-level further reading.
+- Added a central editorial catalogue with review date, source metadata, and text provenance labels.
+- Corrected over-absolute introductory formulations about myth, logos, philosophy, and science.
+- Added five missing lesson exercises and tests for editorial metadata, routes, and PWA assets.
+
+---
+
 
 ## [1.10.0] — 2026-03-11
 

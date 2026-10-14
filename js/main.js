@@ -11,6 +11,7 @@ import { Router }        from './router.js';
 import { State }         from './state.js';
 import { UI }            from './ui.js';
 import { Accessibility } from './accessibility.js';
+import { Editorial }     from './editorial.js';
 
 import { ReadingEngine }    from '../engine/reading-engine.js';
 import { LogicEngine }      from '../engine/logic-engine.js';
@@ -30,7 +31,7 @@ const $breadcrumb = document.getElementById('breadcrumb');
 
 const DATA_FILES = [
   'modules', 'authors', 'schools', 'concepts',
-  'texts',   'lessons', 'exercises', 'arguments', 'timeline'
+  'texts',   'lessons', 'exercises', 'arguments', 'timeline', 'essays', 'editorial'
 ];
 
 async function loadAllData() {
@@ -49,6 +50,11 @@ async function loadAllData() {
     );
 
     results.forEach(({ name, data }) => State.cacheData(name, data));
+    const editorial = State.getData('editorial');
+    const dataKinds = { lessons: 'lesson', authors: 'author', schools: 'school', concepts: 'concept', timeline: 'timeline', texts: 'text' };
+    Object.entries(dataKinds).forEach(([name, kind]) => {
+      State.cacheData(name, Editorial.enrich(State.getData(name), kind, editorial));
+    });
     UI.hideLoading($main);
     return true;
 
@@ -93,7 +99,7 @@ function renderHome() {
   navSection.innerHTML = `<h2 class="section-title">Entrar por</h2>`;
 
   const entryPoints = [
-    { label: 'Problema filosófico', href: '#/problem/o-que-e-verdade',    icon: '?' },
+    { label: 'Problema filosófico', href: '#/problem/what-is-philosophy', icon: '?' },
     { label: 'Autor',               href: '#/author/aristotle',            icon: 'A' },
     { label: 'Escola',              href: '#/school/platonismo',           icon: 'E' },
     { label: 'Época',               href: '#/timeline',                   icon: 'T' },
@@ -426,6 +432,9 @@ function renderLesson({ moduleId, lessonId }) {
     $main.appendChild(appDiv);
   }
 
+  _appendLessonEditorial(lesson);
+  _appendLessonEssays(lesson);
+
   // Modo professor
   const isTeacher = State.get('ui.teacherMode');
   if (isTeacher && lesson.teacher_notes) {
@@ -434,6 +443,151 @@ function renderLesson({ moduleId, lessonId }) {
 
   // Navegação entre lições
   $main.appendChild(_buildLessonNav(moduleId, lessonId));
+}
+
+function _appendLessonEditorial(lesson) {
+  const section = document.createElement('details');
+  section.className = 'lesson-editorial';
+  const summary = document.createElement('summary');
+  summary.textContent = `Fontes e revisão — ${lesson.lastReviewed || 'sem data'}`;
+  section.appendChild(summary);
+
+  const status = document.createElement('p');
+  status.textContent = `Situação editorial: ${lesson.reviewStatus || 'pendente'}. As fontes abaixo orientam a leitura; interpretações filosóficas permanecem discutíveis.`;
+  section.appendChild(status);
+  if (lesson.textAbsenceRationale) {
+    const note = document.createElement('p');
+    note.textContent = `Nota sobre fonte primária: ${lesson.textAbsenceRationale}`;
+    section.appendChild(note);
+  }
+
+  const list = document.createElement('ul');
+  (lesson.sources || []).forEach(source => {
+    const item = document.createElement('li');
+    const link = document.createElement('a');
+    link.href = source.url || '#';
+    link.textContent = Editorial.sourceLabel(source);
+    if (source.url) { link.target = '_blank'; link.rel = 'noopener'; }
+    item.appendChild(link);
+    list.appendChild(item);
+  });
+  section.appendChild(list);
+  $main.appendChild(section);
+}
+
+function _appendLessonEssays(lesson) {
+  const essays = (State.getData('essays') || []).filter(essay =>
+    (essay.entity_type === 'author' && (lesson.authors || []).includes(essay.entity_id)) ||
+    (essay.entity_type === 'current' && (essay.key_concepts || []).some(id => (lesson.concepts || []).includes(id))) ||
+    (essay.key_concepts || []).some(id => (lesson.concepts || []).includes(id))
+  );
+  if (!essays.length) return;
+
+  const section = document.createElement('section');
+  section.className = 'lesson-essays';
+  section.innerHTML = '<h2 class="section-title">Aprofundar</h2>';
+  essays.slice(0, 4).forEach(essay => {
+    const button = document.createElement('button');
+    button.className = 'essay-link btn btn--secondary';
+    button.textContent = `${essay.title} · ${essay.reading_time_minutes} min`;
+    button.addEventListener('click', () => _openEssay(essay));
+    section.appendChild(button);
+  });
+  $main.appendChild(section);
+}
+
+function _openEssay(essay) {
+  const content = document.createElement('article');
+  content.className = 'essay-reading';
+  const subtitle = document.createElement('p');
+  subtitle.textContent = essay.subtitle || '';
+  content.appendChild(subtitle);
+  (essay.sections || []).forEach(section => {
+    const heading = document.createElement('h3');
+    heading.textContent = section.heading;
+    const paragraph = document.createElement('p');
+    paragraph.textContent = section.content;
+    content.append(heading, paragraph);
+  });
+  const bibliography = document.createElement('details');
+  bibliography.innerHTML = '<summary>Bibliografia</summary>';
+  const list = document.createElement('ul');
+  (essay.bibliography || []).forEach(reference => {
+    const item = document.createElement('li');
+    item.textContent = `${reference.author}. ${reference.title} (${reference.year}). ${reference.note || ''}`;
+    list.appendChild(item);
+  });
+  bibliography.appendChild(list);
+  content.appendChild(bibliography);
+  UI.openModal(essay.title, content, { width: '760px' });
+}
+
+function renderProblem({ problemId }) {
+  const lessons = State.getData('lessons') || [];
+  const selected = lessons.find(lesson => lesson.id === problemId) || lessons.find(lesson =>
+    `${lesson.question} ${lesson.problem}`.toLowerCase().includes(String(problemId).replaceAll('-', ' ').toLowerCase())
+  ) || lessons[0];
+  if (!selected) return renderHome();
+
+  UI.renderBreadcrumb([{ label: 'Início', href: '#/' }, { label: 'Problema filosófico' }], $breadcrumb);
+  $main.innerHTML = '';
+  const header = document.createElement('header');
+  header.className = 'view-header';
+  header.innerHTML = `<h1 class="view-title">${UI.escape(selected.question)}</h1><p>${UI.escape(selected.problem)}</p>`;
+  $main.appendChild(header);
+
+  const related = lessons.filter(lesson => lesson.id !== selected.id && (lesson.concepts || []).some(concept => (selected.concepts || []).includes(concept)));
+  const section = document.createElement('section');
+  section.className = 'problem-related';
+  section.innerHTML = '<h2 class="section-title">Caminhos para investigar</h2>';
+  [selected, ...related].slice(0, 6).forEach(lesson => {
+    const link = document.createElement('a');
+    link.className = 'lesson-item';
+    link.href = Router.lessonHref(lesson.module, lesson.id);
+    link.innerHTML = `<strong>${UI.escape(lesson.title)}</strong><span>${UI.escape(lesson.question)}</span>`;
+    section.appendChild(link);
+  });
+  $main.appendChild(section);
+  _appendLessonEssays(selected);
+}
+
+function renderSearch({ query }) {
+  const term = decodeURIComponent(query || '').trim().toLowerCase();
+  UI.renderBreadcrumb([{ label: 'Início', href: '#/' }, { label: 'Busca' }], $breadcrumb);
+  $main.innerHTML = '';
+  const form = document.createElement('form');
+  form.className = 'glossary-search';
+  const input = document.createElement('input');
+  input.type = 'search'; input.className = 'glossary-search-input'; input.value = term; input.placeholder = 'Buscar no Aristóteles';
+  const submit = document.createElement('button'); submit.className = 'btn btn--primary'; submit.textContent = 'Buscar';
+  form.append(input, submit);
+  form.addEventListener('submit', event => { event.preventDefault(); Router.navigate(`/search?q=${encodeURIComponent(input.value.trim())}`); });
+  $main.appendChild(form);
+  if (!term) return;
+
+  const types = [
+    ['Lições', State.getData('lessons') || [], item => Router.lessonHref(item.module, item.id), item => `${item.title} ${item.question}`],
+    ['Autores', State.getData('authors') || [], item => Router.authorHref(item.id), item => `${item.name} ${item.summary}`],
+    ['Conceitos', State.getData('concepts') || [], item => Router.conceptHref(item.id), item => `${item.term} ${item.definition}`],
+    ['Ensaios', State.getData('essays') || [], null, item => `${item.title} ${item.subtitle} ${(item.key_concepts || []).join(' ')}`]
+  ];
+  let total = 0;
+  types.forEach(([label, entries, href, haystack]) => {
+    const matches = entries.filter(entry => haystack(entry).toLowerCase().includes(term)).slice(0, 12);
+    if (!matches.length) return;
+    total += matches.length;
+    const section = document.createElement('section'); section.className = 'search-results'; section.innerHTML = `<h2 class="section-title">${label}</h2>`;
+    matches.forEach(entry => {
+      const row = document.createElement(href ? 'a' : 'button');
+      row.className = 'lesson-item';
+      if (href) row.href = href(entry); else row.type = 'button';
+      row.textContent = entry.title || entry.name || entry.term;
+      if (!href) row.addEventListener('click', () => _openEssay(entry));
+      section.appendChild(row);
+    });
+    $main.appendChild(section);
+  });
+  if (!total) $main.insertAdjacentHTML('beforeend', '<p class="error-state">Nenhum resultado encontrado. Tente outro termo.</p>');
 }
 
 function _buildTeacherPanel(notes) {
@@ -606,6 +760,7 @@ function renderAuthor({ authorId }) {
 
     $main.appendChild(relSection);
   }
+  _appendEntityEditorial(author);
 }
 
 function renderSchool({ schoolId }) {
@@ -676,6 +831,7 @@ function renderSchool({ schoolId }) {
     thinkersSection.appendChild(chips);
     $main.appendChild(thinkersSection);
   }
+  _appendEntityEditorial(school);
 }
 
 function renderConcept({ conceptId }) {
@@ -755,6 +911,30 @@ function renderConcept({ conceptId }) {
     `;
     $main.appendChild(relSection);
   }
+  _appendEntityEditorial(concept);
+}
+
+function _appendEntityEditorial(entity) {
+  const details = document.createElement('details');
+  details.className = 'lesson-editorial';
+  const summary = document.createElement('summary');
+  summary.textContent = `Fontes e revisão — ${entity.lastReviewed || 'sem data'}`;
+  details.appendChild(summary);
+  const status = document.createElement('p');
+  status.textContent = `Situação editorial: ${entity.reviewStatus || 'pendente'}.`;
+  details.appendChild(status);
+  const list = document.createElement('ul');
+  (entity.sources || []).forEach(source => {
+    const item = document.createElement('li');
+    const link = document.createElement('a');
+    link.textContent = Editorial.sourceLabel(source);
+    link.href = source.url || '#';
+    if (source.url) { link.target = '_blank'; link.rel = 'noopener'; }
+    item.appendChild(link);
+    list.appendChild(item);
+  });
+  details.appendChild(list);
+  $main.appendChild(details);
 }
 
 function renderTimeline() {
@@ -773,6 +953,12 @@ function renderTimeline() {
   const container = document.createElement('div');
   container.className = 'timeline-container';
   $main.appendChild(container);
+
+  _appendEntityEditorial({
+    lastReviewed: (State.getData('timeline') || [])[0]?.lastReviewed,
+    reviewStatus: 'revisado',
+    sources: (State.getData('timeline') || [])[0]?.sources || []
+  });
 
   TimelineEngine.render(container, State.getData('timeline') || []);
 }
@@ -800,6 +986,7 @@ function renderGraph() {
       <div class="graph-filters" id="graph-filters"></div>
       <button class="graph-reset-btn" id="graph-reset">Centrar vista</button>
       <div class="graph-detail" id="graph-detail" hidden></div>
+      <details class="graph-accessible-list"><summary>Lista acessível de filósofos e relações</summary><div id="graph-list"></div></details>
     </div>
   `;
   $main.appendChild(sidebar);
@@ -864,36 +1051,44 @@ function renderGraph() {
 
   // Painel de detalhes do autor
   const detailEl = sidebar.querySelector('#graph-detail');
+  const showAuthor = author => {
+    if (!author) { detailEl.hidden = true; return; }
+
+    const schoolObj = (State.getData('schools') || []).find(s => s.id === author.school);
+    const schoolName = schoolObj ? schoolObj.name : (author.school || '—');
+    const related = (author.related_authors || [])
+      .map(id => authors.find(a => a.id === id))
+      .filter(Boolean)
+      .map(a => `<a href="#/author/${a.id}" class="graph-detail-link">${UI.escape(a.name)}</a>`)
+      .join(', ') || '—';
+
+    detailEl.hidden = false;
+    detailEl.innerHTML = `
+      <hr class="graph-detail-divider">
+      <h3 class="graph-detail-name">${UI.escape(author.name)}</h3>
+      <div class="graph-detail-meta">
+        <span>${UI.escape(author.period || '')}</span>
+        ${author.birth ? `<span>${_formatYears(author.birth, author.death)}</span>` : ''}
+      </div>
+      <p class="graph-detail-school">${UI.escape(schoolName)}</p>
+      <p class="graph-detail-summary">${UI.escape(author.summary || '')}</p>
+      <div class="graph-detail-related"><span class="graph-detail-label">Relacionados:</span> ${related}</div>
+      <a href="#/author/${author.id}" class="graph-detail-cta">Ver perfil completo →</a>
+    `;
+  };
+
+  const list = sidebar.querySelector('#graph-list');
+  authors.forEach(author => {
+    const button = document.createElement('button');
+    button.className = 'graph-filter-btn';
+    button.textContent = `${author.name} — ${author.period || 'sem período'}`;
+    button.addEventListener('click', () => showAuthor(author));
+    list.appendChild(button);
+  });
 
   // Inicializa grafo
   GraphEngine.render(canvasWrap, authors, {
-    onSelect(author) {
-      if (!author) { detailEl.hidden = true; return; }
-
-      const schoolObj = (State.getData('schools') || []).find(s => s.id === author.school);
-      const schoolName = schoolObj ? schoolObj.name : (author.school || '—');
-      const related = (author.related_authors || [])
-        .map(id => authors.find(a => a.id === id))
-        .filter(Boolean)
-        .map(a => `<a href="#/author/${a.id}" class="graph-detail-link">${UI.escape(a.name)}</a>`)
-        .join(', ') || '—';
-
-      detailEl.hidden = false;
-      detailEl.innerHTML = `
-        <hr class="graph-detail-divider">
-        <h3 class="graph-detail-name">${UI.escape(author.name)}</h3>
-        <div class="graph-detail-meta">
-          <span>${UI.escape(author.period || '')}</span>
-          ${author.birth ? `<span>${_formatYears(author.birth, author.death)}</span>` : ''}
-        </div>
-        <p class="graph-detail-school">${UI.escape(schoolName)}</p>
-        <p class="graph-detail-summary">${UI.escape(author.summary || '')}</p>
-        <div class="graph-detail-related">
-          <span class="graph-detail-label">Relacionados:</span> ${related}
-        </div>
-        <a href="#/author/${author.id}" class="graph-detail-cta">Ver perfil completo →</a>
-      `;
-    }
+    onSelect: showAuthor
   });
 }
 
@@ -1012,18 +1207,17 @@ function _periodColor(period) {
 
 async function init() {
   // Acessibilidade primeiro
+  State.restore();
   Accessibility.init();
 
   // Registra rotas antes de carregar dados
-  Router.on('home',     renderHome);
-  Router.on('module',   renderModule);
-  Router.on('lesson',   renderLesson);
-  Router.on('author',   renderAuthor);
-  Router.on('school',   renderSchool);
-  Router.on('concept',  renderConcept);
-  Router.on('timeline', renderTimeline);
-  Router.on('glossary', renderGlossary);
-  Router.on('graph',    renderGraph);
+  const routes = { home: renderHome, module: renderModule, lesson: renderLesson, author: renderAuthor, school: renderSchool, concept: renderConcept, timeline: renderTimeline, glossary: renderGlossary, graph: renderGraph, problem: renderProblem, search: renderSearch };
+  Object.entries(routes).forEach(([view, render]) => Router.on(view, params => {
+    GraphEngine.destroy();
+    $main.className = '';
+    State.set('ui.lastRoute', window.location.hash || '#/');
+    render(params);
+  }));
 
   // Carrega dados
   const ok = await loadAllData();

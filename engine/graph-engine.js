@@ -89,7 +89,7 @@ export const GraphEngine = (() => {
       // Canvas
       _canvas = document.createElement('canvas');
       _canvas.className = 'graph-canvas';
-      _canvas.style.cssText = 'display:block;width:100%;height:100%;cursor:grab;touch-action:none;';
+      _canvas.style.cssText = 'display:block;width:100%;height:100%;cursor:grab;touch-action:pan-y;';
       container.appendChild(_canvas);
       _ctx = _canvas.getContext('2d');
 
@@ -144,8 +144,8 @@ export const GraphEngine = (() => {
    * ------------------------------------------------------------------ */
 
   function _buildGraph(authors) {
-    const W = _canvas.width;
-    const H = _canvas.height;
+    const W = _canvas.clientWidth;
+    const H = _canvas.clientHeight;
     const cx = W / 2, cy = H / 2;
 
     // Nós: posição inicial aleatória ao redor do centro
@@ -192,8 +192,8 @@ export const GraphEngine = (() => {
       _simulate();
       _draw();
       _iter++;
-      // Continua sempre (para suportar drag e hover sem parar)
-      _rafId = requestAnimationFrame(step);
+      if (_iter < ITERATIONS || _dragging !== null) _rafId = requestAnimationFrame(step);
+      else _rafId = null;
     }
     _rafId = requestAnimationFrame(step);
   }
@@ -201,8 +201,8 @@ export const GraphEngine = (() => {
   function _simulate() {
     if (_iter >= ITERATIONS && _dragging === null) return;
 
-    const W = _canvas.width;
-    const H = _canvas.height;
+    const W = _canvas.clientWidth;
+    const H = _canvas.clientHeight;
     const cx = W / 2, cy = H / 2;
     const n = _nodes.length;
 
@@ -260,10 +260,8 @@ export const GraphEngine = (() => {
 
   function _draw() {
     if (!_ctx || !_canvas) return;
-    const W = _canvas.width;
-    const H = _canvas.height;
-    const dpr = window.devicePixelRatio || 1;
-
+    const W = _canvas.clientWidth;
+    const H = _canvas.clientHeight;
     _ctx.clearRect(0, 0, W, H);
     _ctx.save();
 
@@ -389,7 +387,7 @@ export const GraphEngine = (() => {
     const rect = _canvas.parentElement.getBoundingClientRect();
     _canvas.width  = rect.width  * dpr;
     _canvas.height = rect.height * dpr;
-    _ctx.scale(dpr, dpr);
+    _ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
     _canvas.style.width  = rect.width  + 'px';
     _canvas.style.height = rect.height + 'px';
     _draw();
@@ -400,8 +398,8 @@ export const GraphEngine = (() => {
    * ------------------------------------------------------------------ */
 
   function _screenToGraph(x, y) {
-    const W = _canvas.offsetWidth;
-    const H = _canvas.offsetHeight;
+    const W = _canvas.clientWidth;
+    const H = _canvas.clientHeight;
     return {
       x: (x - _transform.x - W / 2) / _transform.scale + W / 2,
       y: (y - _transform.y - H / 2) / _transform.scale + H / 2,
@@ -427,7 +425,7 @@ export const GraphEngine = (() => {
     _canvas.addEventListener('mouseup',   _onMouseUp);
     _canvas.addEventListener('mouseleave', () => { _hovered = null; });
     _canvas.addEventListener('wheel',     _onWheel, { passive: false });
-    _canvas.addEventListener('touchstart',_onTouchStart, { passive: false });
+    _canvas.addEventListener('touchstart',_onTouchStart, { passive: true });
     _canvas.addEventListener('touchmove', _onTouchMove,  { passive: false });
     _canvas.addEventListener('touchend',  _onTouchEnd);
   }
@@ -507,7 +505,6 @@ export const GraphEngine = (() => {
     const { x, y } = _clientXY(e);
     const delta  = e.deltaY > 0 ? 0.9 : 1.1;
     const newScale = Math.max(0.3, Math.min(3, _transform.scale * delta));
-    const W = _canvas.offsetWidth, H = _canvas.offsetHeight;
     // Zoom centrado no cursor
     _transform.x = x - (x - _transform.x) * (newScale / _transform.scale);
     _transform.y = y - (y - _transform.y) * (newScale / _transform.scale);
@@ -517,9 +514,10 @@ export const GraphEngine = (() => {
 
   // Touch: pan de um dedo, zoom de dois
   let _lastTouches = null;
+  let _touchOrigin = null;
   function _onTouchStart(e) {
-    e.preventDefault();
     _lastTouches = Array.from(e.touches).map(t => ({ x: t.clientX, y: t.clientY }));
+    _touchOrigin = _lastTouches[0] || null;
     if (e.touches.length === 1) {
       const rect = _canvas.getBoundingClientRect();
       const x = e.touches[0].clientX - rect.left;
@@ -530,15 +528,16 @@ export const GraphEngine = (() => {
         _dragging = hit;
         _dragOff = { x: _nodes[hit].x - gp.x, y: _nodes[hit].y - gp.y };
       } else {
-        _panStart = { x, y };
+        _panStart = null;
+        _dragOff = { x, y };
       }
     }
   }
 
   function _onTouchMove(e) {
-    e.preventDefault();
     const touches = Array.from(e.touches).map(t => ({ x: t.clientX, y: t.clientY }));
     if (touches.length === 2 && _lastTouches && _lastTouches.length === 2) {
+      e.preventDefault();
       const d0 = Math.hypot(_lastTouches[1].x - _lastTouches[0].x, _lastTouches[1].y - _lastTouches[0].y);
       const d1 = Math.hypot(touches[1].x - touches[0].x, touches[1].y - touches[0].y);
       const delta = d1 / Math.max(d0, 1);
@@ -548,10 +547,15 @@ export const GraphEngine = (() => {
       const rect = _canvas.getBoundingClientRect();
       const x = touches[0].x - rect.left, y = touches[0].y - rect.top;
       if (_dragging !== null) {
+        e.preventDefault();
         const gp = _screenToGraph(x, y);
         _nodes[_dragging].x = gp.x + _dragOff.x;
         _nodes[_dragging].y = gp.y + _dragOff.y;
+      } else if (!_panStart && _touchOrigin && Math.abs(touches[0].x - _touchOrigin.x) > 8) {
+        _panStart = { x, y };
+        e.preventDefault();
       } else if (_panStart) {
+        e.preventDefault();
         _transform.x += x - _panStart.x;
         _transform.y += y - _panStart.y;
         _panStart = { x, y };
@@ -568,6 +572,7 @@ export const GraphEngine = (() => {
     }
     _panStart = null;
     _lastTouches = null;
+    _touchOrigin = null;
   }
 
 })();

@@ -3,11 +3,13 @@
  * Gerenciamento de estado global da aplicação.
  * Padrão: módulo singleton com EventTarget para notificações.
  *
- * Não usa localStorage — estado em memória por sessão.
+ * Persiste progresso e preferências locais; dados curriculares permanecem em memória.
  * Dependências: nenhuma.
  */
 
 const _bus = new EventTarget();
+const STORAGE_KEY = 'aristoteles_state_v1';
+const STORAGE_VERSION = 1;
 
 const _state = {
   // Módulo e lição ativos
@@ -26,7 +28,9 @@ const _state = {
     exercises: null,
     arguments: null,
     timeline:  null,
-    currents:  null
+    currents:  null,
+    essays:    null,
+    editorial: null
   },
 
   // Progresso do usuário (em memória)
@@ -42,9 +46,32 @@ const _state = {
     fontSize:         'medium',  // 'small' | 'medium' | 'large'
     highContrast:     false,
     teacherMode:      false,
-    lastQuery:        ''         // última busca no glossário
+    lastQuery:        '',        // última busca no glossário
+    lastRoute:        '#/'
   }
 };
+
+function _storage() {
+  try { return window.localStorage; } catch { return null; }
+}
+
+function _persist() {
+  const storage = _storage();
+  if (!storage) return;
+  const saved = { version: STORAGE_VERSION, progress: _state.progress, ui: _state.ui };
+  try { storage.setItem(STORAGE_KEY, JSON.stringify(saved)); } catch { /* armazenamento é opcional */ }
+}
+
+function _restore() {
+  const storage = _storage();
+  if (!storage) return;
+  try {
+    const saved = JSON.parse(storage.getItem(STORAGE_KEY) || 'null');
+    if (!saved || saved.version !== STORAGE_VERSION) return;
+    if (saved.progress && typeof saved.progress === 'object') Object.assign(_state.progress, saved.progress);
+    if (saved.ui && typeof saved.ui === 'object') Object.assign(_state.ui, saved.ui);
+  } catch { /* JSON inválido deve iniciar em estado seguro */ }
+}
 
 /* ------------------------------------------------------------------
  * API pública
@@ -73,6 +100,7 @@ export const State = {
     _bus.dispatchEvent(
       Object.assign(new Event('state:change'), { detail: { path, value, prev } })
     );
+    if (path.startsWith('progress.') || path.startsWith('ui.')) _persist();
   },
 
   /**
@@ -126,6 +154,7 @@ export const State = {
     if (!_state.progress.completedLessons.includes(lessonId)) {
       _state.progress.completedLessons.push(lessonId);
       this.set('currentLesson', lessonId);
+      _persist();
     }
   },
 
@@ -139,6 +168,7 @@ export const State = {
       ...result,
       date: new Date().toISOString()
     };
+    _persist();
   },
 
   /**
@@ -148,6 +178,15 @@ export const State = {
     const current = _state.ui.teacherMode;
     this.set('ui.teacherMode', !current);
     return !current;
+  },
+
+  /** Inicializa preferências e progresso salvos, uma única vez na abertura. */
+  restore() { _restore(); },
+
+  /** Limpa somente o progresso, preservando escolhas de acessibilidade. */
+  resetProgress() {
+    _state.progress = { completedLessons: [], completedExercises: {}, visitedAuthors: [], visitedSchools: [] };
+    _persist();
   },
 
   /**

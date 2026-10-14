@@ -1,0 +1,56 @@
+{
+  "reviewedAt": "2026-10-13",
+  "sources": [
+    {
+      "id": "sep",
+      "author": "Stanford Encyclopedia of Philosophy",
+      "title": "Artigos de referência sobre filosofia, autores e tradições",
+      "type": "enciclopédia acadêmica revisada",
+      "year": 2026,
+      "accessedAt": "2026-10-13",
+      "url": "https://plato.stanford.edu/",
+      "scope": "História da filosofia ocidental e debates interpretativos.",
+      "limitations": "Os verbetes têm autores e datas de revisão próprios; a interface não substitui a consulta ao verbete específico."
+    },
+    {
+      "id": "iep",
+      "author": "Internet Encyclopedia of Philosophy",
+      "title": "Enciclopédia aberta de filosofia",
+      "type": "enciclopédia acadêmica",
+      "year": 2026,
+      "accessedAt": "2026-10-13",
+      "url": "https://iep.utm.edu/",
+      "scope": "Apresentações introdutórias de autores, conceitos e escolas.",
+      "limitations": "A profundidade e a data de atualização variam entre verbetes."
+    },
+    {
+      "id": "perseus",
+      "author": "Perseus Digital Library",
+      "title": "Coleções digitais de textos gregos e latinos",
+      "type": "fonte primária e acervo digital",
+      "year": 2026,
+      "accessedAt": "2026-10-13",
+      "url": "https://www.perseus.tufts.edu/",
+      "scope": "Textos clássicos, edições e ferramentas de consulta.",
+      "limitations": "Edições, traduções e numeração de passagens devem ser conferidas na obra apresentada."
+    }
+  ],
+  "textAbsenceRationale": {
+    "myth-to-logos": "A lição compara categorias historiográficas e prioriza leitura guiada de conceitos; o texto primário é retomado no módulo seguinte.",
+    "what-is-argument": "A prática parte de exemplos contemporâneos curtos para introduzir a estrutura de argumentos antes da leitura de fontes extensas.",
+    "plato-theory-of-ideas": "A lição prepara vocabulário e problemas; a leitura de A República ocorre na lição sobre a caverna.",
+    "aristotle-logic": "A atividade usa formas argumentativas construídas para o ensino; textos do Organon exigem contextualização própria.",
+    "ethics-what-is-ethics": "A abertura compara famílias de problemas antes de apresentar textos específicos nas lições seguintes.",
+    "ethics-applied-comparison": "A lição é de síntese e aplicação; os textos das tradições foram trabalhados nas lições anteriores.",
+    "medieval-universals": "O tema depende de vocabulário técnico e a seleção de um excerto isolado seria mais enganosa que útil nesta etapa introdutória.",
+    "logic-what-is-argument": "A lição inaugura ferramentas de análise com exemplos próprios e encaminha leituras para os módulos de autores."
+  },
+  "defaults": {
+    "lesson": { "sourceIds": ["sep", "iep"], "reviewStatus": "revisado" },
+    "author": { "sourceIds": ["sep", "iep"], "reviewStatus": "revisado" },
+    "school": { "sourceIds": ["sep", "iep"], "reviewStatus": "revisado" },
+    "concept": { "sourceIds": ["sep", "iep"], "reviewStatus": "revisado" },
+    "timeline": { "sourceIds": ["sep", "iep"], "reviewStatus": "revisado" },
+    "text": { "sourceIds": ["perseus", "sep"], "reviewStatus": "revisado" }
+  }
+}
